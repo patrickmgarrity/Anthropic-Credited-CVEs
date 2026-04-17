@@ -1,8 +1,7 @@
 # Anthropic-Credited-CVEs
 Tracking vulnerabilities that Credit the Anthropic research team and are possibly discovered by Project Glasswing.
 
-**This is maintained on a best effort basis. Hopefully Anthropic will setup an advisories page so there will not be a need for this.**
-
+**This project maintained on a best effort basis. Hopefully Anthropic will setup an advisories page so there will not be a need for this.**
 
 If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
 
