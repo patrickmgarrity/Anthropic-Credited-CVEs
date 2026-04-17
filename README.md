@@ -1,5 +1,5 @@
 # Anthropic-Credited-CVEs
-Tracking Vulnerabilities That Appear to be Credited to the Anthropic Research Team and possibly discovered by Project Glasswing.
+Tracking vulnerabilities that Credit the Anthropic research team and are possibly discovered by Project Glasswing.
 
 **This is maintained on a best effort basis. Hopefully Anthropic will setup an advisories page so there will not be a need for this.**
 
