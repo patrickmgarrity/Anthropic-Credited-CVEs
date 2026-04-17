@@ -1,15 +1,19 @@
 # Anthropic-Credited-CVEs
 
-## OVERVIEW
+## Overview
 Tracking vulnerabilities that Credit the Anthropic research team and are possibly discovered by Project Glasswing
 
-## INITIAL RESEARCH
+## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
 
-## REPORT A CVE CREDITED TO ANTHROPIC RESEARCHERS
+## Add a Vulnerability
 If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
 
+## Considerations
+
 This project is maintained on a best effort basis.
+
+## The List
 
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
