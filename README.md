@@ -46,3 +46,4 @@ If you find an Anthropic credited vulnerability, please open a Pull Request or S
 | CVE-2026-5500 | 2026-04-10 | wolfSSL | wolfSSL | 8.7 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5501 | 2026-04-10 | wolfSSL | wolfSSL | 8.6 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5588 | 2026-04-15 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.3 | Nicholas Carlini using Claude, Anthropic |
+| [CVE-2026-5747](https://aws.amazon.com/security/security-bulletins/2026-015-aws/) | 2026-04-07 | AWS | FireCracker | 8.7 | We thank Anthropic for reporting this concern to the AWS Vulnerability Disclosure Program. |
