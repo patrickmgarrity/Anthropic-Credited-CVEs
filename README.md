@@ -1,7 +1,7 @@
 # Anthropic-Credited-CVEs
 
 ## Overview
-Tracking vulnerabilities that Credit the Anthropic research team and are possibly discovered by Project Glasswing
+Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by Project Glasswing
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
