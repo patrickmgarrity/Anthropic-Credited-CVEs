@@ -17,7 +17,7 @@ This project is maintained on a best effort basis.
 
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
-| CVE-2026-26980 | 2026-02-24 | Ghost | Ghost | 9.4 | We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly. |
+| CVE-2026-26980 | 2026-02-19 | Ghost | Ghost | 9.4 | We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly. |
 | CVE-2026-2763 | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-2764 | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-2765 | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
