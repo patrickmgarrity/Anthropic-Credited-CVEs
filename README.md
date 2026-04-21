@@ -60,3 +60,6 @@ This project is maintained on a best effort basis.
 | CVE-2026-5500 | 2026-04-10 | wolfSSL | wolfSSL | 8.7 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5501 | 2026-04-10 | wolfSSL | wolfSSL | 8.6 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5588 | 2026-04-15 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.3 | Nicholas Carlini using Claude, Anthropic |
+| CVE-2026-6746 | 2026-04-21 | Mozilla | Firefox | 7.5 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
+| CVE-2026-6757 | 2026-04-21 | Mozilla | Firefox | 7.5 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
+| CVE-2026-6758 | 2026-04-21 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
