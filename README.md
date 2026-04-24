@@ -1,4 +1,4 @@
-# Anthropic-Credited-CVEs
+# ANTHROPIC CVE TRACKER
 
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
