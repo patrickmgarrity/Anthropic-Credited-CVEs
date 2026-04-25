@@ -69,4 +69,3 @@ This project is maintained on a best effort basis.
 | CVE-2026-6758 | 2026-04-21 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-6386 | 2026-04-22 | FreeBSD | FreeBSD | 6.2 | Nicholas Carlini using Claude, Anthropic |
 | CVE-2026-5398 | 2026-04-22 | FreeBSD | FreeBSD | 8.4 | Nicholas Carlini using Claude, Anthropic |
-reported by Koda Reef, Nicholas Carlini and @Kr0emer |
