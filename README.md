@@ -42,6 +42,7 @@ This project is maintained on a best effort basis.
 | CVE-2026-2799 | 2026-02-24 | Mozilla | Firefox | 8.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-2804 | 2026-02-24 | Mozilla | Firefox | 5.4 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-2805 | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
+| CVE-2026-4600 | 2026-03-23 | jsrsasign | jsrsasign | 9.1 | [reported by Koda Reef, Nicholas Carlini and @Kr0emer](https://github.com/kjur/jsrsasign/blob/5d677193b72a3d67b387b6fe2d070a22ff4e7876/ChangeLog.txt#L24) |
 | CVE-2026-4702 | 2026-03-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-4704 | 2026-03-24 | Mozilla | Firefox | 7.5 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-4705 | 2026-03-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
@@ -68,6 +69,4 @@ This project is maintained on a best effort basis.
 | CVE-2026-6758 | 2026-04-21 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-6386 | 2026-04-22 | FreeBSD | FreeBSD | 6.2 | Nicholas Carlini using Claude, Anthropic |
 | CVE-2026-5398 | 2026-04-22 | FreeBSD | FreeBSD | 8.4 | Nicholas Carlini using Claude, Anthropic |
-
-## NO CVE ASSIGNED
-https://github.com/kjur/jsrsasign/blob/5d677193b72a3d67b387b6fe2d070a22ff4e7876/ChangeLog.txt#L24
+reported by Koda Reef, Nicholas Carlini and @Kr0emer |
