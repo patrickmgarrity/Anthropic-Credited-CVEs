@@ -54,6 +54,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-5747](https://aws.amazon.com/security/security-bulletins/2026-015-aws/) | 2026-04-07 | AWS | FireCracker | 8.7 | We thank Anthropic for reporting this concern to the AWS Vulnerability Disclosure Program. |
 | CVE-2026-31402 | 2026-04-03 | Linux | Linux | - | Reported-by: Nicholas Carlini <npc@anthropic.com> |
 | CVE-2026-28386 | 2026-04-07 | OpenSSL | OpenSSL | 9.1 | Stanislav Fort (Aisle Research); Pavel Kohout (Aisle Research); Alex Gaynor (Anthropic) |
+| CVE-2026-34580 | 2026-04-07 | Botan | Botan | 7.5 | Nicholas Carlini with Claude, Anthropic |
 | CVE-2026-5194 | 2026-04-09 | wolfSSL | wolfSSL | 9.3 | Nicholas Carlini from Anthropic |
 | CVE-2026-5446 | 2026-04-09 | wolfSSL | wolfSSL | 6.0 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5503 | 2026-04-09 | wolfSSL | wolfSSL | 6.9 | Calif.io in collaboration with Claude and Anthropic Research |
