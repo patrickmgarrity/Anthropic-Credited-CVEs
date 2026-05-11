@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 54**
+**CURRENT CVE COUNT: 55**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -73,7 +73,9 @@ This project is maintained on a best effort basis.
 | CVE-2026-5398 | 2026-04-22 | FreeBSD | FreeBSD | 8.4 | Nicholas Carlini using Claude, Anthropic |
 | CVE-2026-41990 | 2026-04-23 | gnupg | Libgcrypt | 4.0 | Reported by Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-31554 | 2026-04-24 | Linux | Linux |  7.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
+| CVE-2026-28942 | |2026-05-11 | Apple | Webkit | TBD | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
 | [TBD](https://www.anthropic.com/news/mozilla-firefox-security) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
+
 
 ## Research Links
 https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/
