@@ -73,8 +73,7 @@ This project is maintained on a best effort basis.
 | CVE-2026-5398 | 2026-04-22 | FreeBSD | FreeBSD | 8.4 | Nicholas Carlini using Claude, Anthropic |
 | CVE-2026-41990 | 2026-04-23 | gnupg | Libgcrypt | 4.0 | Reported by Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-31554 | 2026-04-24 | Linux | Linux |  7.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
-
+| [TBD](https://www.anthropic.com/news/mozilla-firefox-security) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
 ## Research Links
-
-https://www.anthropic.com/news/mozilla-firefox-security
+https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/
