@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 55**
+**CURRENT CVE COUNT: 59**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -74,8 +74,12 @@ This project is maintained on a best effort basis.
 | CVE-2026-41990 | 2026-04-23 | gnupg | Libgcrypt | 4.0 | Reported by Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-31554 | 2026-04-24 | Linux | Linux |  7.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
 | CVE-2026-28942 | 2026-05-11 | Apple | Webkit | TBD | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
-| [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
+| CVE-2026-40380 | 2026-06-12 | Microsoft | Windows | 6.2 | Calif.io in collaboration with Claude and Anthropic Research |
+| CVE-2026-40369 | 2026-06-12 | Microsoft | Windows | 7.8 | Calif.io in collaboration with Claude and Anthropic Research Adrian Denkiewicz at Doyensec in collaboration with Anthropic Research https://doyensec.com/ Len Sadowski (lytnc) https://sec-fault.com/ and Oguz Bektas (_ozb_) https://ozbsec.com/ |
+| CVE-2026-40398 | 2026-06-12 | Microsoft | Windows | 8.0 | Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic |
+| CVE-2026-40403| 2026-06-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 
+| [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
 ## Research Links
 https://www.anthropic.com/news/mozilla-firefox-security
