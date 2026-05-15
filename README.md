@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 59**
+**CURRENT CVE COUNT: 60**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -78,6 +78,7 @@ This project is maintained on a best effort basis.
 | CVE-2026-40369 | 2026-06-12 | Microsoft | Windows | 7.8 | Calif.io in collaboration with Claude and Anthropic Research Adrian Denkiewicz at Doyensec in collaboration with Anthropic Research https://doyensec.com/ Len Sadowski (lytnc) https://sec-fault.com/ and Oguz Bektas (_ozb_) https://ozbsec.com/ |
 | CVE-2026-40398 | 2026-06-12 | Microsoft | Windows | 8.0 | Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic |
 | CVE-2026-40403| 2026-06-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
+| CVE-2026-6479 |
 
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
