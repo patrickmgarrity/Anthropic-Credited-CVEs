@@ -79,6 +79,7 @@ This project is maintained on a best effort basis.
 | CVE-2026-40398 | 2026-06-12 | Microsoft | Windows | 8.0 | Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic |
 | CVE-2026-40403| 2026-06-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-6479 |
+| CVE-2026-7474 |
 
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
