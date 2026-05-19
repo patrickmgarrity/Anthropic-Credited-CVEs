@@ -88,3 +88,4 @@ This project is maintained on a best effort basis.
 ## Research Links
 https://www.anthropic.com/news/mozilla-firefox-security
 https://www.paloaltonetworks.com/blog/2026/05/defenders-guide-frontier-ai-impact-cybersecurity-may-2026-update/
+https://blog.cloudflare.com/cyber-frontier-models/
