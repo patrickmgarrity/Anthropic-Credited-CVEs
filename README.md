@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 65**
+**CURRENT CVE COUNT: 70**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -61,6 +61,7 @@ This project is maintained on a best effort basis.
 | CVE-2026-5446 | 2026-04-09 | wolfSSL | wolfSSL | 6.0 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5503 | 2026-04-09 | wolfSSL | wolfSSL | 6.9 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5447 | 2026-04-09 | wolfSSL | wolfSSL | 6.3 | Calif.io in collaboration with Claude and Anthropic Research |
+| CVE-2026-5448 | 2026-04-09 | wolfSSL | wolfSSL | 2.3 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6615Y595) |
 | CVE-2026-5466 | 2026-04-10 | wolfSSL | wolfSSL | 7.6 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5477 | 2026-04-10 | wolfSSL | wolfSSL | 8.2 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5479 | 2026-04-10 | wolfSSL | wolfSSL | 7.6 | Calif.io in collaboration with Claude and Anthropic Research |
@@ -84,9 +85,16 @@ This project is maintained on a best effort basis.
 | CVE-2026-40403| 2026-05-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-7474 | 2026-05-12 | HashiCorp | Nomad | 8.8 | This issue was reported to HashiCorp by Adrian Denkiewicz at Doyensec in collaboration with Claude and Anthropic Research |
 | CVE-2026-6479 | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
-| CVE-2026-32267 |
+| CVE-2026-32267 | 2026-03-16 | craftcms | cms | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZQ8AY22X) |
+| CVE-2026-46349 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) |
+| CVE-2026-46348 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |
+| CVE-2026-28208 | 2026-02-26 | junrar | junrar | 5.9 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP) |
 
+## No CVE Yet
+https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E.html
+https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP
 
+## Waiting Disclosure
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
 ## Research Links
