@@ -69,7 +69,7 @@ This project is maintained on a best effort basis.
 | CVE-2026-5479 | 2026-04-10 | wolfSSL | wolfSSL | 7.6 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5500 | 2026-04-10 | wolfSSL | wolfSSL | 8.7 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5501 | 2026-04-10 | wolfSSL | wolfSSL | 8.6 | Calif.io in collaboration with Claude and Anthropic Research |
-| CVE-2026-32316 | 2026-04-13 jqlang | JQ| 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH) |
+| CVE-2026-32316 | 2026-04-13 | jqlang | JQ| 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH) |
 | CVE-2026-33901 | 2026-04-13 | ImageMagick | ImageMagick | 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684) |
 | CVE-2026-33096 | 2026-04-14 | Microsoft | Windows | 7.5 | Milad Nasr (Anthropic) and Calif.io with Claude |
 | CVE-2026-5588 | 2026-04-15 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.3 | Nicholas Carlini using Claude, Anthropic |
