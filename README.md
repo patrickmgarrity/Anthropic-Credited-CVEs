@@ -81,11 +81,13 @@ This project is maintained on a best effort basis.
 | CVE-2026-40403| 2026-05-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-7474 | 2026-05-12 | HashiCorp | Nomad | 8.8 | This issue was reported to HashiCorp by Adrian Denkiewicz at Doyensec in collaboration with Claude and Anthropic Research |
 | CVE-2026-6479 | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
+| CVE-2026-32267 |
 
 
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
 ## Research Links
+https://red.anthropic.com/2026/cvd/ledger/
 https://www.anthropic.com/news/mozilla-firefox-security
 https://www.paloaltonetworks.com/blog/2026/05/defenders-guide-frontier-ai-impact-cybersecurity-may-2026-update/
 https://blog.cloudflare.com/cyber-frontier-models/
