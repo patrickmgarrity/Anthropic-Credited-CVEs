@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 70**
+**CURRENT CVE COUNT: 74**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -89,10 +89,16 @@ This project is maintained on a best effort basis.
 | CVE-2026-46349 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) |
 | CVE-2026-46348 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |
 | CVE-2026-28208 | 2026-02-26 | junrar | junrar | 5.9 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP) |
+| CVE-2026-45700 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) |
+| CVE-2026-44420 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) |
+| CVE-2026-33901 | 2026-04-13 | ImageMagick | ImageMagick | 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684) |
+| CVE-2026-42600 | 2026-05-11 | minio | minio | 6.9 | [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ) |
+
 
 ## No CVE Yet
 https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E.html
 https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP
+https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-p6r2-4hgm-m6ff
 
 ## Waiting Disclosure
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
