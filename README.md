@@ -42,6 +42,8 @@ This project is maintained on a best effort basis.
 | CVE-2026-2799 | 2026-02-24 | Mozilla | Firefox | 8.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-2804 | 2026-02-24 | Mozilla | Firefox | 5.4 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-2805 | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
+| CVE-2026-28208 | 2026-02-26 | junrar | junrar | 5.9 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP) |
+| CVE-2026-32267 | 2026-03-16 | craftcms | cms | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZQ8AY22X) |
 | CVE-2026-4600 | 2026-03-23 | jsrsasign | jsrsasign | 9.1 | [reported by Koda Reef, Nicholas Carlini and @Kr0emer](https://github.com/kjur/jsrsasign/blob/5d677193b72a3d67b387b6fe2d070a22ff4e7876/ChangeLog.txt#L24) |
 | CVE-2026-4702 | 2026-03-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | CVE-2026-4704 | 2026-03-24 | Mozilla | Firefox | 7.5 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
@@ -67,7 +69,8 @@ This project is maintained on a best effort basis.
 | CVE-2026-5479 | 2026-04-10 | wolfSSL | wolfSSL | 7.6 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5500 | 2026-04-10 | wolfSSL | wolfSSL | 8.7 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-5501 | 2026-04-10 | wolfSSL | wolfSSL | 8.6 | Calif.io in collaboration with Claude and Anthropic Research |
-| CVE-2026-32316 | 2026-04-13 jqlang | JQ| 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH) | 
+| CVE-2026-32316 | 2026-04-13 jqlang | JQ| 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH) |
+| CVE-2026-33901 | 2026-04-13 | ImageMagick | ImageMagick | 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684) |
 | CVE-2026-33096 | 2026-04-14 | Microsoft | Windows | 7.5 | Milad Nasr (Anthropic) and Calif.io with Claude |
 | CVE-2026-5588 | 2026-04-15 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.3 | Nicholas Carlini using Claude, Anthropic |
 | CVE-2026-6746 | 2026-04-21 | Mozilla | Firefox | 7.5 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
@@ -77,22 +80,19 @@ This project is maintained on a best effort basis.
 | CVE-2026-5398 | 2026-04-22 | FreeBSD | FreeBSD | 8.4 | Nicholas Carlini using Claude, Anthropic |
 | CVE-2026-41990 | 2026-04-23 | gnupg | Libgcrypt | 4.0 | Reported by Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-31554 | 2026-04-24 | Linux | Linux |  7.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
-| CVE-2026-28952 | 2026-05-11| Apple | Iphone/Ipad | 7.5 | Calif.io in collaboration with Claude and Anthropic Research |
+| CVE-2026-28952 | 2026-05-11 | Apple | Iphone/Ipad | 7.5 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-28942 | 2026-05-11 | Apple | Webkit | 6.5 | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
+| CVE-2026-42600 | 2026-05-11 | minio | minio | 6.9 | [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ) |
 | CVE-2026-40380 | 2026-05-12 | Microsoft | Windows | 6.2 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-40369 | 2026-05-12 | Microsoft | Windows | 7.8 | Calif.io in collaboration with Claude and Anthropic Research Adrian Denkiewicz at Doyensec in collaboration with Anthropic Research https://doyensec.com/ Len Sadowski (lytnc) https://sec-fault.com/ and Oguz Bektas (_ozb_) https://ozbsec.com/ |
 | CVE-2026-40398 | 2026-05-12 | Microsoft | Windows | 8.0 | Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic |
 | CVE-2026-40403| 2026-05-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-7474 | 2026-05-12 | HashiCorp | Nomad | 8.8 | This issue was reported to HashiCorp by Adrian Denkiewicz at Doyensec in collaboration with Claude and Anthropic Research |
 | CVE-2026-6479 | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
-| CVE-2026-32267 | 2026-03-16 | craftcms | cms | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZQ8AY22X) |
 | CVE-2026-46349 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) |
 | CVE-2026-46348 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |
-| CVE-2026-28208 | 2026-02-26 | junrar | junrar | 5.9 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP) |
 | CVE-2026-45700 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) |
 | CVE-2026-44420 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) |
-| CVE-2026-33901 | 2026-04-13 | ImageMagick | ImageMagick | 7.5 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684) |
-| CVE-2026-42600 | 2026-05-11 | minio | minio | 6.9 | [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ) |
 
 
 ## No CVE Yet
