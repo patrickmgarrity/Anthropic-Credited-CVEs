@@ -87,6 +87,7 @@ This project is maintained on a best effort basis.
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
 ## Research Links
+https://red.anthropic.com/2026/cvd/
 https://red.anthropic.com/2026/cvd/ledger/
 https://www.anthropic.com/news/mozilla-firefox-security
 https://www.paloaltonetworks.com/blog/2026/05/defenders-guide-frontier-ai-impact-cybersecurity-may-2026-update/
