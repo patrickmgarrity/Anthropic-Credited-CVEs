@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 77**
+**CURRENT CVE COUNT: 80**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -96,6 +96,10 @@ This project is maintained on a best effort basis.
 | CVE-2026-40033 | 2016-05-26 | FreeRDP | FreeRDP | 8.6 | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
 | CVE-2026-41401 | 2016-05-26 | libyang | libyang | 6.9 |  https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
 | CVE-2026-40034 | 2016-05-26 | gitoxide | gitoxide | 7.3 | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
+| CVE-2026-40383 | 2016-05-26 | Joomla! | Joomla! CMS | 7.5 | Doyensec in collaboration with Claude and Anthropic Research |
+| CVE-2026-48896 | 2016-05-26 | Joomla! | Joomla! CMS | 8.2 | Doyensec in collaboration with Claude and Anthropic Research |
+| CVE-2026-40384 | 2016-05-26 | Joomla! | Joomla! CMS | 5.9 | Doyensec in collaboration with Claude and Anthropic Research |
+
 
 ## Waiting Disclosure
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
