@@ -97,12 +97,6 @@ This project is maintained on a best effort basis.
 | CVE-2026-41401 | 2016-05-26 | libyang | libyang | 6.9 |  https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
 | CVE-2026-40034 | 2016-05-26 | gitoxide | gitoxide | 7.3 | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
 
-
-## No CVE Yet
-https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E.html
-https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP
-
-
 ## Waiting Disclosure
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
 
