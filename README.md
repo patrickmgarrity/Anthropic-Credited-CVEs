@@ -93,12 +93,15 @@ This project is maintained on a best effort basis.
 | CVE-2026-46348 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | CVE-2026-45700 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | CVE-2026-44420 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
+| CVE-2026-40033 | 2016-05-26 | FreeRDP | FreeRDP | 8.6 | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
+| CVE-2026-41401 | 2016-05-26 | libyang | libyang | 6.9 |  https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
+| CVE-2026-40034 | 2016-05-26 | gitoxide | gitoxide | 7.3 | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
 
 
 ## No CVE Yet
 https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E.html
 https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP
-https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-p6r2-4hgm-m6ff
+
 
 ## Waiting Disclosure
 | [TBD](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) | TBD | Curl | Curl | TBD | Thanks to Anthropic and Alpha Omega for providing the model |
