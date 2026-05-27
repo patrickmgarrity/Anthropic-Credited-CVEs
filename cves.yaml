@@ -1,3 +1,13 @@
+- cve: CVE-2026-46639
+  date: '2016-05-20'
+  vendor: twig
+  product: twig
+  cvss: 8.7
+  credit: Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue.
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
+  notes: null
+  auto_discovered: false
 - cve: CVE-2026-48896
   date: '2016-05-26'
   vendor: Joomla!
