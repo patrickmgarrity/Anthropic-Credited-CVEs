@@ -74,7 +74,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46639
-  ghsa: null
+  ghsa: GHSA-mm6w-gr99-p3jj
   date: '2026-05-20'
   vendor: twig
   product: twig
@@ -84,7 +84,7 @@
     and fixing the issue.
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46639
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-mm6w-gr99-p3jj
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46633
