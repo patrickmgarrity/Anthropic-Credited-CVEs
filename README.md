@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 83**
+**CURRENT CVE COUNT: 86**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -20,7 +20,9 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-44212](https://www.cve.org/CVERecord?id=CVE-2026-44212) | 2026-05-14 | PrestaShop | PrestaShop | 7.8 | Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research. |
 | CVE-2026-6479 | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
+| [CVE-2026-44471](https://www.cve.org/CVERecord?id=CVE-2026-44471) | 2026-05-13 | gitoxide | gitoxide | 7.8 | This vulnerability was found by AI (specifically, Claude Mythos) as part of Project Glasswing. I have verified this and most of this advisory has been written by my probably-inferior human brain. |
 | CVE-2026-40403 | 2026-05-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 | CVE-2026-40398 | 2026-05-12 | Microsoft | Windows | 8.0 | Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic |
 | CVE-2026-40380 | 2026-05-12 | Microsoft | Windows | 6.2 | Calif.io in collaboration with Claude and Anthropic Research |
@@ -98,9 +100,10 @@ This project is maintained on a best effort basis.
 | CVE-2026-40033 | 2016-05-26 | FreeRDP | FreeRDP | 8.6 | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
 | [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | Reserved | twig | twig | 8.7 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-46633](https://www.cve.org/CVERecord?id=CVE-2026-46633) | Reserved | twig | twig | 9.3 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
-| [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46633) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
+| [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46354) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
 | CVE-2026-46349 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
 | CVE-2026-46348 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
+| [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
 | CVE-2026-45700 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | CVE-2026-44420 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 <!-- END_CVE_TABLE -->
