@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 86**
+**CURRENT CVE COUNT: 87**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -31,6 +31,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-44212](https://www.cve.org/CVERecord?id=CVE-2026-44212) | 2026-05-14 | PrestaShop | PrestaShop | 7.8 | Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research. |
 | [CVE-2026-6479](https://www.cve.org/CVERecord?id=CVE-2026-6479) | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
 | [CVE-2026-44471](https://www.cve.org/CVERecord?id=CVE-2026-44471) | 2026-05-13 | gitoxide | gitoxide | 7.8 | This vulnerability was found by AI (specifically, Claude Mythos) as part of Project Glasswing. I have verified this and most of this advisory has been written by my probably-inferior human brain. |
+| [CVE-2026-42074](https://www.cve.org/CVERecord?id=CVE-2026-42074) | 2026-05-12 | npm | openclaude |  | @Rosayxy (reporter) |
 | [CVE-2026-40403](https://www.cve.org/CVERecord?id=CVE-2026-40403) | 2026-05-12 | Microsoft | Windows | 8.8 | Calif.io in collaboration with Claude and Anthropic Research |
 | [CVE-2026-40398](https://www.cve.org/CVERecord?id=CVE-2026-40398) | 2026-05-12 | Microsoft | Windows | 8.0 | Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic |
 | [CVE-2026-40380](https://www.cve.org/CVERecord?id=CVE-2026-40380) | 2026-05-12 | Microsoft | Windows | 6.2 | Calif.io in collaboration with Claude and Anthropic Research |

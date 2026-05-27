@@ -141,6 +141,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-42074
+  ghsa: GHSA-m77w-p5jj-xmhg
+  date: '2026-05-12'
+  vendor: npm
+  product: openclaude
+  cvss: null
+  credit: '@Rosayxy (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42074
+  ghsa_link: https://github.com/advisories/GHSA-m77w-p5jj-xmhg
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-40403
   ghsa: null
   date: '2026-05-12'
