@@ -1,3 +1,31 @@
+- cve: CVE-2026-44212
+  date: '2026-05-14'
+  vendor: PrestaShop
+  product: PrestaShop
+  cvss: 7.8
+  credit: Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44212
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-44471
+  date: '2026-05-13'
+  vendor: gitoxide
+  product: gitoxide
+  cvss: 7.8
+  credit: This vulnerability was found by AI (specifically, Claude Mythos) as part of Project Glasswing. I have verified this and most of this advisory has been written by my probably-inferior human brain.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44471
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-45796
+  date: null
+  vendor: coder
+  product: coder
+  cvss: 9.1
+  credit: We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue!
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
 - cve: CVE-2026-46354
   date: null
   vendor: coder
@@ -5,7 +33,7 @@
   cvss: 9.1
   credit: We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue!
   status: reserved
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46354
   notes: null
 - cve: CVE-2026-46633
   date: '2016-05-20'
