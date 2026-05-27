@@ -1,4 +1,4 @@
-name: Scan cvelistV5 for Anthropic-mentioned CVEs
+name: Scan cvelistV5 and GHSAs for Anthropic-mentioned vulnerabilities
 
 on:
   schedule:
@@ -59,3 +59,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python .github/scripts/recheck_reserved.py
+
+      - name: Scan GHSAs (and recheck GHSA-only entries for CVE assignment)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python .github/scripts/scan_ghsas.py
+
+      - name: Commit GHSA state changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git add state/
+            git commit -m "chore(state): update GHSA scan state [skip ci]"
+            git push
+          else
+            echo "No GHSA state changes to commit."
+          fi

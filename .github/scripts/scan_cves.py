@@ -194,6 +194,7 @@ def extract_summary(record: dict) -> dict:
     cve_id = meta.get("cveId", "UNKNOWN")
     return {
         "cve": cve_id,
+        "ghsa": None,
         "date": date_only,
         "vendor": vendor or "",
         "product": product or "",
@@ -202,6 +203,7 @@ def extract_summary(record: dict) -> dict:
         "status": "published" if meta.get("state") == "PUBLISHED" else "reserved",
         "description": description,
         "cve_link": f"https://www.cve.org/CVERecord?id={cve_id}",
+        "ghsa_link": None,
         "notes": None,
         "auto_discovered": True,
     }
@@ -503,8 +505,9 @@ def main() -> int:
 
         summary = extract_summary(record)
         entry = {k: summary[k] for k in
-                 ("cve", "date", "vendor", "product", "cvss",
-                  "credit", "status", "cve_link", "notes", "auto_discovered")}
+                 ("cve", "ghsa", "date", "vendor", "product", "cvss",
+                  "credit", "status", "cve_link", "ghsa_link",
+                  "notes", "auto_discovered")}
 
         ok = create_pr_for_entry(repo, entry, summary, matches, record_url)
         if ok:

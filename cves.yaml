@@ -1,4 +1,5 @@
 - cve: CVE-2026-48896
+  ghsa: null
   date: '2026-05-26'
   vendor: Joomla!
   product: Joomla! CMS
@@ -6,9 +7,11 @@
   credit: Doyensec in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-48896
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-41401
+  ghsa: null
   date: '2026-05-26'
   vendor: libyang
   product: libyang
@@ -17,9 +20,11 @@
     https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41401
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40384
+  ghsa: null
   date: '2026-05-26'
   vendor: Joomla!
   product: Joomla! CMS
@@ -27,9 +32,11 @@
   credit: Doyensec in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40384
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40383
+  ghsa: null
   date: '2026-05-26'
   vendor: Joomla!
   product: Joomla! CMS
@@ -37,9 +44,11 @@
   credit: Doyensec in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40383
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40034
+  ghsa: null
   date: '2026-05-26'
   vendor: gitoxide
   product: gitoxide
@@ -48,9 +57,11 @@
     https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40034
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40033
+  ghsa: null
   date: '2026-05-26'
   vendor: FreeRDP
   product: FreeRDP
@@ -59,9 +70,11 @@
     https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40033
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46639
+  ghsa: null
   date: '2026-05-20'
   vendor: twig
   product: twig
@@ -71,9 +84,11 @@
     and fixing the issue.
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46639
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46633
+  ghsa: null
   date: '2026-05-20'
   vendor: twig
   product: twig
@@ -83,8 +98,10 @@
     and fixing the issue.
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
+  ghsa_link: null
   notes: null
 - cve: CVE-2026-44212
+  ghsa: null
   date: '2026-05-14'
   vendor: PrestaShop
   product: PrestaShop
@@ -93,9 +110,11 @@
     Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44212
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6479
+  ghsa: null
   date: '2026-05-14'
   vendor: PostgreSQL
   product: PostgreSQL
@@ -105,9 +124,11 @@
     this problem.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6479
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-44471
+  ghsa: null
   date: '2026-05-13'
   vendor: gitoxide
   product: gitoxide
@@ -117,9 +138,11 @@
     verified this and most of this advisory has been written by my probably-inferior human brain.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44471
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40403
+  ghsa: null
   date: '2026-05-12'
   vendor: Microsoft
   product: Windows
@@ -127,9 +150,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40403
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40398
+  ghsa: null
   date: '2026-05-12'
   vendor: Microsoft
   product: Windows
@@ -137,9 +162,11 @@
   credit: Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40398
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40380
+  ghsa: null
   date: '2026-05-12'
   vendor: Microsoft
   product: Windows
@@ -147,9 +174,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40380
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40369
+  ghsa: null
   date: '2026-05-12'
   vendor: Microsoft
   product: Windows
@@ -160,9 +189,11 @@
     Bektas (_ozb_) https://ozbsec.com/
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40369
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-7474
+  ghsa: null
   date: '2026-05-12'
   vendor: HashiCorp
   product: Nomad
@@ -172,9 +203,11 @@
     and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-7474
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-42600
+  ghsa: null
   date: '2026-05-11'
   vendor: minio
   product: minio
@@ -183,9 +216,11 @@
     [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42600
+  ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-28952
+  ghsa: null
   date: '2026-05-11'
   vendor: Apple
   product: Iphone/Ipad
@@ -193,9 +228,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-28952
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-28942
+  ghsa: null
   date: '2026-05-11'
   vendor: Apple
   product: Webkit
@@ -203,9 +240,11 @@
   credit: Milad Nasr and Nicholas Carlini with Claude, Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-28942
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-31554
+  ghsa: null
   date: '2026-04-24'
   vendor: Linux
   product: Linux
@@ -213,9 +252,11 @@
   credit: 'Reported-by: Nicholas Carlini <npc@anthropic.com>'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-31554
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-41990
+  ghsa: null
   date: '2026-04-23'
   vendor: gnupg
   product: Libgcrypt
@@ -223,9 +264,11 @@
   credit: Reported by Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41990
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6386
+  ghsa: null
   date: '2026-04-22'
   vendor: FreeBSD
   product: FreeBSD
@@ -233,9 +276,11 @@
   credit: Nicholas Carlini using Claude, Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6386
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5398
+  ghsa: null
   date: '2026-04-22'
   vendor: FreeBSD
   product: FreeBSD
@@ -243,9 +288,11 @@
   credit: Nicholas Carlini using Claude, Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5398
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6758
+  ghsa: null
   date: '2026-04-21'
   vendor: Mozilla
   product: Firefox
@@ -255,9 +302,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6758
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6757
+  ghsa: null
   date: '2026-04-21'
   vendor: Mozilla
   product: Firefox
@@ -267,9 +316,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6757
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6746
+  ghsa: null
   date: '2026-04-21'
   vendor: Mozilla
   product: Firefox
@@ -279,9 +330,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6746
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5588
+  ghsa: null
   date: '2026-04-15'
   vendor: Legion of the Bouncy Castle Inc.
   product: BC-JAVA
@@ -289,9 +342,11 @@
   credit: Nicholas Carlini using Claude, Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5588
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-33096
+  ghsa: null
   date: '2026-04-14'
   vendor: Microsoft
   product: Windows
@@ -299,9 +354,11 @@
   credit: Milad Nasr (Anthropic) and Calif.io with Claude
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-33096
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-33901
+  ghsa: null
   date: '2026-04-13'
   vendor: ImageMagick
   product: ImageMagick
@@ -310,9 +367,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-33901
+  ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-32316
+  ghsa: null
   date: '2026-04-13'
   vendor: jqlang
   product: JQ
@@ -321,9 +380,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-32316
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5501
+  ghsa: null
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -331,9 +392,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5501
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5500
+  ghsa: null
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -341,9 +404,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5500
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5479
+  ghsa: null
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -351,9 +416,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5479
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5477
+  ghsa: null
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -361,9 +428,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5477
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5466
+  ghsa: null
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -371,9 +440,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5466
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5503
+  ghsa: null
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -381,9 +452,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5503
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5448
+  ghsa: null
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -392,9 +465,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6615Y595)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5448
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5447
+  ghsa: null
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -402,9 +477,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5447
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5446
+  ghsa: null
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -412,9 +489,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5446
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5194
+  ghsa: null
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -422,9 +501,11 @@
   credit: Nicholas Carlini from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5194
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-34580
+  ghsa: null
   date: '2026-04-07'
   vendor: Botan
   product: Botan
@@ -432,9 +513,11 @@
   credit: Nicholas Carlini with Claude, Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-34580
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-28386
+  ghsa: null
   date: '2026-04-07'
   vendor: OpenSSL
   product: OpenSSL
@@ -443,9 +526,11 @@
     Stanislav Fort (Aisle Research); Pavel Kohout (Aisle Research); Alex Gaynor (Anthropic)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-28386
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5747
+  ghsa: null
   date: '2026-04-07'
   vendor: AWS
   product: FireCracker
@@ -454,9 +539,11 @@
     We thank Anthropic for reporting this concern to the AWS Vulnerability Disclosure Program.
   status: published
   cve_link: https://aws.amazon.com/security/security-bulletins/2026-015-aws/
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-31402
+  ghsa: null
   date: '2026-04-03'
   vendor: Linux
   product: Linux
@@ -464,9 +551,11 @@
   credit: 'Reported-by: Nicholas Carlini <npc@anthropic.com>'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-31402
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5199
+  ghsa: null
   date: '2026-04-01'
   vendor: temporalio
   product: temporal
@@ -475,9 +564,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5199
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-33721
+  ghsa: null
   date: '2026-03-26'
   vendor: MapServer
   product: MapServer
@@ -486,9 +577,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-33721
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4747
+  ghsa: null
   date: '2026-03-26'
   vendor: FreeBSD
   product: FreeBSD
@@ -496,9 +589,11 @@
   credit: Nicholas Carlini using Claude, Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4747
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-27654
+  ghsa: null
   date: '2026-03-24'
   vendor: F5
   product: NGINX Plus
@@ -506,9 +601,11 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-27654
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4724
+  ghsa: null
   date: '2026-03-24'
   vendor: Mozilla
   product: Firefox
@@ -518,9 +615,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4724
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4723
+  ghsa: null
   date: '2026-03-24'
   vendor: Mozilla
   product: Firefox
@@ -530,9 +629,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4723
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4718
+  ghsa: null
   date: '2026-03-24'
   vendor: Mozilla
   product: Firefox
@@ -542,9 +643,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4718
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4705
+  ghsa: null
   date: '2026-03-24'
   vendor: Mozilla
   product: Firefox
@@ -554,9 +657,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4705
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4704
+  ghsa: null
   date: '2026-03-24'
   vendor: Mozilla
   product: Firefox
@@ -566,9 +671,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4704
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4702
+  ghsa: null
   date: '2026-03-24'
   vendor: Mozilla
   product: Firefox
@@ -578,9 +685,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4702
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4600
+  ghsa: null
   date: '2026-03-23'
   vendor: jsrsasign
   product: jsrsasign
@@ -589,9 +698,11 @@
     [reported by Koda Reef, Nicholas Carlini and @Kr0emer](https://github.com/kjur/jsrsasign/blob/5d677193b72a3d67b387b6fe2d070a22ff4e7876/ChangeLog.txt#L24)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4600
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-32267
+  ghsa: null
   date: '2026-03-16'
   vendor: craftcms
   product: cms
@@ -600,9 +711,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZQ8AY22X)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-32267
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-28208
+  ghsa: null
   date: '2026-02-26'
   vendor: junrar
   product: junrar
@@ -611,9 +724,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-28208
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2805
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -623,9 +738,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2805
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2804
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -635,9 +752,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2804
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2799
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -647,9 +766,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2799
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2797
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -659,9 +780,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2797
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2796
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -671,9 +794,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2796
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2791
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -683,9 +808,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2791
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2789
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -695,9 +822,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2789
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2788
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -707,9 +836,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2788
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2787
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -719,9 +850,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2787
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2786
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -731,9 +864,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2786
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2785
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -743,9 +878,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2785
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2775
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -755,9 +892,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2775
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2774
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -767,9 +906,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2774
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2773
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -779,9 +920,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2773
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2772
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -791,9 +934,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2772
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2771
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -803,9 +948,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2771
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2770
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -815,9 +962,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2770
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2769
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -827,9 +976,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2769
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2766
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -839,9 +990,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2766
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2765
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -851,9 +1004,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2765
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2764
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -863,9 +1018,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2764
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2763
+  ghsa: null
   date: '2026-02-24'
   vendor: Mozilla
   product: Firefox
@@ -875,9 +1032,11 @@
     Weinberger using Claude from Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-2763
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-26980
+  ghsa: null
   date: '2026-02-19'
   vendor: Ghost
   product: Ghost
@@ -886,9 +1045,11 @@
     We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-26980
+  ghsa_link: null
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46354
+  ghsa: null
   date: null
   vendor: coder
   product: coder
@@ -898,8 +1059,10 @@
     disclosing this issue!
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46354
+  ghsa_link: null
   notes: null
 - cve: CVE-2026-46349
+  ghsa: null
   date: null
   vendor: mastadon
   product: mastadon
@@ -908,9 +1071,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK)
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46349
+  ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-46348
+  ghsa: null
   date: null
   vendor: mastadon
   product: mastadon
@@ -919,9 +1084,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8)
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46348
+  ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-45796
+  ghsa: null
   date: null
   vendor: coder
   product: coder
@@ -931,7 +1098,9 @@
     disclosing this issue!
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
+  ghsa_link: null
 - cve: CVE-2026-45700
+  ghsa: null
   date: null
   vendor: FreeRDP
   product: FreeRDP
@@ -940,9 +1109,11 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45700
+  ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-44420
+  ghsa: null
   date: null
   vendor: FreeRDP
   product: FreeRDP
@@ -951,5 +1122,6 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
+  ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false

@@ -61,9 +61,20 @@ MARKER_END = "<!-- END_CVE_TABLE -->"
 
 
 def render_cve_cell(entry: dict) -> str:
-    if entry.get("cve_link"):
-        return f"[{entry['cve']}]({entry['cve_link']})"
-    return entry["cve"]
+    """Render the ID column.
+
+    Prefer the CVE ID when present; otherwise fall back to the GHSA ID. The
+    cell is linked when a corresponding *_link is set.
+    """
+    cve = entry.get("cve")
+    if cve:
+        link = entry.get("cve_link")
+        return f"[{cve}]({link})" if link else cve
+    ghsa = entry.get("ghsa")
+    if ghsa:
+        link = entry.get("ghsa_link") or f"https://github.com/advisories/{ghsa}"
+        return f"[{ghsa}]({link})"
+    return "—"
 
 
 def render_date_cell(entry: dict) -> str:
@@ -89,9 +100,11 @@ def render_credit_cell(entry: dict) -> str:
 
 
 def sort_key(entry: dict):
-    """Newest first by date, then by CVE number. Reserved entries float to the top of their CVE-number bucket."""
+    """Newest first by date, then by CVE number (or GHSA ID when no CVE).
+    Reserved entries float to the top of their CVE-number bucket."""
     date = entry.get("date") or ""
-    m = re.match(r"CVE-(\d+)-(\d+)", entry["cve"])
+    ident = entry.get("cve") or entry.get("ghsa") or ""
+    m = re.match(r"CVE-(\d+)-(\d+)", ident)
     cve_year = int(m.group(1)) if m else 0
     cve_seq = int(m.group(2)) if m else 0
     # Sort by (date desc, year desc, seq desc)

@@ -26,3 +26,13 @@ keywords:
   - Daniel Freeman
   - Joel Weinberger
   - Milad Nasr
+
+# GitHub usernames for matching against a GHSA's structured `credits[*].user.login`.
+#
+# When the GHSA scanner encounters a structured credit pointing at one of
+# these accounts, it treats the advisory as a hit even if the prose body
+# never mentions "Anthropic". The full handle should be listed (no
+# wildcards). Matching is case-insensitive. Leave the list empty to disable
+# username-based matching and rely solely on the text-keyword scan above.
+github_usernames:
+  # - agaynor
