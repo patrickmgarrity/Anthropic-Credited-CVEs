@@ -243,6 +243,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-41686
+  ghsa: GHSA-p7fg-763f-g4gf
+  date: '2026-04-29'
+  vendor: '@anthropic-ai'
+  product: sdk
+  cvss: null
+  credit: '@gn00295120 (finder)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41686
+  ghsa_link: https://github.com/advisories/GHSA-p7fg-763f-g4gf
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-31554
   ghsa: null
   date: '2026-04-24'
