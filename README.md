@@ -3,15 +3,15 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 80**
-
-[Anthropic Ledger](https://red.anthropic.com/2026/cvd/ledger/)
+**CURRENT CVE COUNT: 83**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
 
 ## Add a Vulnerability
 If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
+
+## Considerations
 
 This project is maintained on a best effort basis.
 
@@ -96,6 +96,9 @@ This project is maintained on a best effort basis.
 | CVE-2026-40383 | 2016-05-26 | Joomla! | Joomla! CMS | 7.5 | Doyensec in collaboration with Claude and Anthropic Research |
 | CVE-2026-40034 | 2016-05-26 | gitoxide | gitoxide | 7.3 | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
 | CVE-2026-40033 | 2016-05-26 | FreeRDP | FreeRDP | 8.6 | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
+| [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | Reserved | twig | twig | 8.7 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
+| [CVE-2026-46633](https://www.cve.org/CVERecord?id=CVE-2026-46633) | Reserved | twig | twig | 9.3 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
+| [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46633) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
 | CVE-2026-46349 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
 | CVE-2026-46348 | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | CVE-2026-45700 | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
