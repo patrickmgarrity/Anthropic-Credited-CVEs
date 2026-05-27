@@ -191,8 +191,9 @@ def extract_summary(record: dict) -> dict:
     date_published = meta.get("datePublished") or ""
     date_only = date_published[:10] if date_published else None
 
+    cve_id = meta.get("cveId", "UNKNOWN")
     return {
-        "cve": meta.get("cveId", "UNKNOWN"),
+        "cve": cve_id,
         "date": date_only,
         "vendor": vendor or "",
         "product": product or "",
@@ -200,7 +201,7 @@ def extract_summary(record: dict) -> dict:
         "credit": credit_joined,
         "status": "published" if meta.get("state") == "PUBLISHED" else "reserved",
         "description": description,
-        "cve_link": None,
+        "cve_link": f"https://www.cve.org/CVERecord?id={cve_id}",
         "notes": None,
         "auto_discovered": True,
     }
