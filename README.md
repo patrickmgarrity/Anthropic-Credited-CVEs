@@ -5,13 +5,13 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: 80**
 
+[Anthropic Ledger](https://red.anthropic.com/2026/cvd/ledger/)
+
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
 
 ## Add a Vulnerability
 If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
-
-## Considerations
 
 This project is maintained on a best effort basis.
 
