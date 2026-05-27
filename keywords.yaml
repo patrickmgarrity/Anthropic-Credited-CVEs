@@ -1,0 +1,26 @@
+# Keywords that trigger a candidate PR when found anywhere in a cvelistV5 record.
+#
+# Matching is case-insensitive substring. Edit this file to add or remove names.
+# The scanner reads it on every run, so changes take effect on the next scheduled scan.
+#
+# Tip: keep names specific. "Smith" alone would match thousands of CVEs.
+# "Jane Smith" is fine. Single-word names should be rare and distinctive
+# (e.g. "Calif.io").
+
+keywords:
+  # Organizations
+  - Anthropic
+  - Calif.io
+
+  # Email domains (catches credits formatted as "<user@anthropic.com>")
+  - anthropic.com
+
+  # Researchers
+  - Nicholas Carlini
+  - Alex Gaynor
+  - Evyatar Ben Asher
+  - Keane Lucas
+  - Newton Cheng
+  - Daniel Freeman
+  - Joel Weinberger
+  - Milad Nasr

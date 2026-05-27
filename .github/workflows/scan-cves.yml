@@ -1,0 +1,54 @@
+name: Scan cvelistV5 for Anthropic-mentioned CVEs
+
+on:
+  schedule:
+    # Every 2 hours
+    - cron: "17 */2 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: scan-cves
+  cancel-in-progress: false
+
+permissions:
+  contents: write       # commit state, push branches
+  pull-requests: write  # open PRs
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # need full history to create branches off main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Configure git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run scanner
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python .github/scripts/scan_cves.py
+
+      - name: Commit state changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git add state/
+            git commit -m "chore(state): update seen.json [skip ci]"
+            git push
+          else
+            echo "No state changes to commit."
+          fi

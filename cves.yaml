@@ -1,0 +1,888 @@
+- cve: CVE-2026-48896
+  date: '2016-05-26'
+  vendor: Joomla!
+  product: Joomla! CMS
+  cvss: 8.2
+  credit: Doyensec in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-46349
+  date: null
+  vendor: mastadon
+  product: mastadon
+  cvss: null
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK)
+  status: reserved
+  cve_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-46348
+  date: null
+  vendor: mastadon
+  product: mastadon
+  cvss: null
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8)
+  status: reserved
+  cve_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-45700
+  date: null
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: null
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
+  status: reserved
+  cve_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-44420
+  date: null
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: null
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
+  status: reserved
+  cve_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-42600
+  date: '2026-05-11'
+  vendor: minio
+  product: minio
+  cvss: 6.9
+  credit: >-
+    [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ)
+  status: published
+  cve_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-41990
+  date: '2026-04-23'
+  vendor: gnupg
+  product: Libgcrypt
+  cvss: 4.0
+  credit: Reported by Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-41401
+  date: '2016-05-26'
+  vendor: libyang
+  product: libyang
+  cvss: 6.9
+  credit: >-
+    https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40403
+  date: '2026-05-12'
+  vendor: Microsoft
+  product: Windows
+  cvss: 8.8
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40398
+  date: '2026-05-12'
+  vendor: Microsoft
+  product: Windows
+  cvss: 8.0
+  credit: Calif.io and Milad Nasr (Anthropic) with Claude with Calif.io and Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40384
+  date: '2016-05-26'
+  vendor: Joomla!
+  product: Joomla! CMS
+  cvss: 5.9
+  credit: Doyensec in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40383
+  date: '2016-05-26'
+  vendor: Joomla!
+  product: Joomla! CMS
+  cvss: 7.5
+  credit: Doyensec in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40380
+  date: '2026-05-12'
+  vendor: Microsoft
+  product: Windows
+  cvss: 6.2
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40369
+  date: '2026-05-12'
+  vendor: Microsoft
+  product: Windows
+  cvss: 7.8
+  credit: >-
+    Calif.io in collaboration with Claude and Anthropic Research Adrian Denkiewicz at Doyensec in collaboration
+    with Anthropic Research https://doyensec.com/ Len Sadowski (lytnc) https://sec-fault.com/ and Oguz
+    Bektas (_ozb_) https://ozbsec.com/
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40034
+  date: '2016-05-26'
+  vendor: gitoxide
+  product: gitoxide
+  cvss: 7.3
+  credit: >-
+    https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-40033
+  date: '2016-05-26'
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: 8.6
+  credit: >-
+    https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-34580
+  date: '2026-04-07'
+  vendor: Botan
+  product: Botan
+  cvss: 7.5
+  credit: Nicholas Carlini with Claude, Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-33901
+  date: '2026-04-13'
+  vendor: ImageMagick
+  product: ImageMagick
+  cvss: 7.5
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684)
+  status: published
+  cve_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-33721
+  date: '2026-03-26'
+  vendor: MapServer
+  product: MapServer
+  cvss: 5.3
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-33096
+  date: '2026-04-14'
+  vendor: Microsoft
+  product: Windows
+  cvss: 7.5
+  credit: Milad Nasr (Anthropic) and Calif.io with Claude
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-32316
+  date: '2026-04-13'
+  vendor: jqlang
+  product: JQ
+  cvss: 7.5
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-32267
+  date: '2026-03-16'
+  vendor: craftcms
+  product: cms
+  cvss: 7.7
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZQ8AY22X)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-31554
+  date: '2026-04-24'
+  vendor: Linux
+  product: Linux
+  cvss: 7.8
+  credit: 'Reported-by: Nicholas Carlini <npc@anthropic.com>'
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-31402
+  date: '2026-04-03'
+  vendor: Linux
+  product: Linux
+  cvss: 9.8
+  credit: 'Reported-by: Nicholas Carlini <npc@anthropic.com>'
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-28952
+  date: '2026-05-11'
+  vendor: Apple
+  product: Iphone/Ipad
+  cvss: 7.5
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-28942
+  date: '2026-05-11'
+  vendor: Apple
+  product: Webkit
+  cvss: 6.5
+  credit: Milad Nasr and Nicholas Carlini with Claude, Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-28386
+  date: '2026-04-07'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: 9.1
+  credit: >-
+    Stanislav Fort (Aisle Research); Pavel Kohout (Aisle Research); Alex Gaynor (Anthropic)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-28208
+  date: '2026-02-26'
+  vendor: junrar
+  product: junrar
+  cvss: 5.9
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-27654
+  date: '2026-03-24'
+  vendor: F5
+  product: NGINX Plus
+  cvss: 8.2
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-26980
+  date: '2026-02-19'
+  vendor: Ghost
+  product: Ghost
+  cvss: 9.4
+  credit: >-
+    We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly.
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-7474
+  date: '2026-05-12'
+  vendor: HashiCorp
+  product: Nomad
+  cvss: 8.8
+  credit: >-
+    This issue was reported to HashiCorp by Adrian Denkiewicz at Doyensec in collaboration with Claude
+    and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-6758
+  date: '2026-04-21'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-6757
+  date: '2026-04-21'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 7.5
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-6746
+  date: '2026-04-21'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 7.5
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-6479
+  date: '2026-05-14'
+  vendor: PostgreSQL
+  product: PostgreSQL
+  cvss: 7.5
+  credit: >-
+    The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting
+    this problem.
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-6386
+  date: '2026-04-22'
+  vendor: FreeBSD
+  product: FreeBSD
+  cvss: 6.2
+  credit: Nicholas Carlini using Claude, Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5747
+  date: '2026-04-07'
+  vendor: AWS
+  product: FireCracker
+  cvss: 8.7
+  credit: >-
+    We thank Anthropic for reporting this concern to the AWS Vulnerability Disclosure Program.
+  status: published
+  cve_link: https://aws.amazon.com/security/security-bulletins/2026-015-aws/
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5588
+  date: '2026-04-15'
+  vendor: Legion of the Bouncy Castle Inc.
+  product: BC-JAVA
+  cvss: 6.3
+  credit: Nicholas Carlini using Claude, Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5503
+  date: '2026-04-09'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 6.9
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5501
+  date: '2026-04-10'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 8.6
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5500
+  date: '2026-04-10'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 8.7
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5479
+  date: '2026-04-10'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 7.6
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5477
+  date: '2026-04-10'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 8.2
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5466
+  date: '2026-04-10'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 7.6
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5448
+  date: '2026-04-09'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 2.3
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6615Y595)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5447
+  date: '2026-04-09'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 6.3
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5446
+  date: '2026-04-09'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 6.0
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5398
+  date: '2026-04-22'
+  vendor: FreeBSD
+  product: FreeBSD
+  cvss: 8.4
+  credit: Nicholas Carlini using Claude, Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5199
+  date: '2026-04-01'
+  vendor: temporalio
+  product: temporal
+  cvss: 2.3
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-5194
+  date: '2026-04-09'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 9.3
+  credit: Nicholas Carlini from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4747
+  date: '2026-03-26'
+  vendor: FreeBSD
+  product: FreeBSD
+  cvss: 8.8
+  credit: Nicholas Carlini using Claude, Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4724
+  date: '2026-03-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.1
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4723
+  date: '2026-03-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4718
+  date: '2026-03-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.1
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4705
+  date: '2026-03-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4704
+  date: '2026-03-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 7.5
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4702
+  date: '2026-03-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-4600
+  date: '2026-03-23'
+  vendor: jsrsasign
+  product: jsrsasign
+  cvss: 9.1
+  credit: >-
+    [reported by Koda Reef, Nicholas Carlini and @Kr0emer](https://github.com/kjur/jsrsasign/blob/5d677193b72a3d67b387b6fe2d070a22ff4e7876/ChangeLog.txt#L24)
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2805
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2804
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 5.4
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2799
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2797
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2796
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2791
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2789
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2788
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2787
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2786
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2785
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2775
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2774
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2773
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2772
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2771
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2770
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2769
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 8.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2766
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2765
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2764
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-2763
+  date: '2026-02-24'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 9.8
+  credit: >-
+    Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel
+    Weinberger using Claude from Anthropic
+  status: published
+  cve_link: null
+  notes: null
+  auto_discovered: false
