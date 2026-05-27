@@ -10,6 +10,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-41863
+  ghsa: GHSA-cc4m-mp48-x7qg
+  date: '2026-05-26'
+  vendor: ''
+  product: ''
+  cvss: 6.5
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41863
+  ghsa_link: https://github.com/advisories/GHSA-cc4m-mp48-x7qg
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-41401
   ghsa: null
   date: '2026-05-26'
