@@ -48,7 +48,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40034
-  ghsa: null
+  ghsa: GHSA-m4f9-c775-wg56
   date: '2026-05-26'
   vendor: gitoxide
   product: gitoxide
@@ -57,7 +57,7 @@
     https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40034
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-m4f9-c775-wg56
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40033
