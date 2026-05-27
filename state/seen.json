@@ -1,4 +1,6 @@
 {
-  "last_fetch_timestamp": "2026-05-27T00:04:15.422Z",
-  "seen_cve_ids": []
+  "last_fetch_timestamp": "2026-05-27T06:28:29.933Z",
+  "seen_cve_ids": [
+    "CVE-2026-40033"
+  ]
 }
