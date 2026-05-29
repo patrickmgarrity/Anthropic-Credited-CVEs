@@ -1,3 +1,15 @@
+- cve: CVE-2026-40528
+  ghsa: null
+  date: '2026-05-29'
+  vendor: OpenSC
+  product: OpenSC
+  cvss: 1.0
+  credit: Nicholas Carlini of Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40528
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-48896
   ghsa: null
   date: '2026-05-26'
