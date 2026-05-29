@@ -1,24 +1,38 @@
-- cve: CVE-2026-44420
-  ghsa: null
+- cve: CVE-2026-47391
+  ghsa: GHSA-vg22-4gmj-prxw
   date: '2026-05-29'
-  vendor: FreeRDP
-  product: FreeRDP
-  cvss: 8.8
-  credit: '[Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)'
+  vendor: pip
+  product: PraisonAI
+  cvss: 9.8
+  credit: '@foxirain (reporter)'
   status: published
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
-  ghsa_link: null
-  notes: NOT IN CVE TABLE
-  auto_discovered: false
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47391
+  ghsa_link: https://github.com/advisories/GHSA-vg22-4gmj-prxw
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-45700
   ghsa: null
   date: '2026-05-29'
   vendor: FreeRDP
   product: FreeRDP
   cvss: 7.7
-  credit: '[Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)'
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45700
+  ghsa_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-44420
+  ghsa: null
+  date: '2026-05-29'
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: 8.8
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
   ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
