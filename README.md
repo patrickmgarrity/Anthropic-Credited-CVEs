@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 86**
+**CURRENT CVE COUNT: 87**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-41401](https://www.cve.org/CVERecord?id=CVE-2026-41401) | 2026-05-26 | libyang | libyang | 6.9 | https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
 | [CVE-2026-40384](https://www.cve.org/CVERecord?id=CVE-2026-40384) | 2026-05-26 | Joomla! | Joomla! CMS | 5.9 | Doyensec in collaboration with Claude and Anthropic Research |
