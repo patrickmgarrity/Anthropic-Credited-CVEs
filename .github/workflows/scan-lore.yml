@@ -1,0 +1,58 @@
+name: Scan lore.kernel.org for Anthropic-credited kernel work
+
+on:
+  schedule:
+    # Every 6 hours (lore volume for these terms is low; no need to run often)
+    - cron: "37 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      first_run_days:
+        description: "Backfill window in days (only used when state is empty)"
+        required: false
+        default: "14"
+
+concurrency:
+  group: scan-lore
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # commit state/lore_seen.json
+  issues: write     # open candidate issues
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Configure git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run lore scanner
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          FIRST_RUN_DAYS: ${{ github.event.inputs.first_run_days || '14' }}
+        run: python .github/scripts/scan_lore.py
+
+      - name: Commit state changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git add state/
+            git commit -m "chore(state): update lore_seen.json [skip ci]"
+            git push
+          else
+            echo "No state changes to commit."
+          fi
