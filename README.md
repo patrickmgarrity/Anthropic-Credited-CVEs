@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
 | [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-41401](https://www.cve.org/CVERecord?id=CVE-2026-41401) | 2026-05-26 | libyang | libyang | 6.9 | https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
