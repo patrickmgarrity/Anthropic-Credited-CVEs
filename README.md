@@ -13,7 +13,7 @@ If you find an Anthropic credited vulnerability, please open a Pull Request or S
 
 ## Considerations
 
-This project is maintained on a best effort basis.
+This project now automates collection from CVE.org, GHSA and Kernel Advisories and triggers matches based on keywords in keywords.yaml which are manually reviewed and approved by patrickmgarrity. Other discoveries are manually added in cves.yaml. The project is maintained on a best effort basis.
 
 ## The List
 
