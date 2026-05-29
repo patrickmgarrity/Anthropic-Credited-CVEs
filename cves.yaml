@@ -1,4 +1,4 @@
-  - cve: CVE-2026-44420
+- cve: CVE-2026-44420
     ghsa: null
     date: '2026-05-29'
     vendor: FreeRDP
@@ -10,7 +10,7 @@
     ghsa_link: null
     notes: NOT IN CVE TABLE
     auto_discovered: false
-  - cve: CVE-2026-45700
+- cve: CVE-2026-45700
     ghsa: null
     date: '2026-05-29'
     vendor: FreeRDP
