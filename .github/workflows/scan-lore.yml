@@ -2,8 +2,8 @@ name: Scan lore.kernel.org for Anthropic-credited kernel work
 
 on:
   schedule:
-    # Every 6 hours (lore volume for these terms is low; no need to run often)
-    - cron: "37 */6 * * *"
+    # Once daily (lore volume for these terms is low; no need to run often)
+    - cron: "37 6 * * *"
   workflow_dispatch:
     inputs:
       first_run_days:
