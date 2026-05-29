@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-45700](https://www.cve.org/CVERecord?id=CVE-2026-45700) | 2026-05-29 | FreeRDP | FreeRDP | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
 | [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 | Doyensec in collaboration with Claude and Anthropic Research |
@@ -107,6 +108,5 @@ This project is maintained on a best effort basis.
 | [CVE-2026-46349](https://www.cve.org/CVERecord?id=CVE-2026-46349) | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
 | [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
-| [CVE-2026-45700](https://www.cve.org/CVERecord?id=CVE-2026-45700) | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | Reserved | FreeRDP | FreeRDP |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 <!-- END_CVE_TABLE -->
