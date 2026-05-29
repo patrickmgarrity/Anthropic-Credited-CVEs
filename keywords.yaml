@@ -36,4 +36,5 @@ keywords:
 # wildcards). Matching is case-insensitive. Leave the list empty to disable
 # username-based matching and rely solely on the text-keyword scan above.
 github_usernames:
-  # - agaynor
+  - agaynor
+  - carlini
