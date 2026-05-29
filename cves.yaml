@@ -578,6 +578,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-35022
+  ghsa: null
+  date: '2026-04-06'
+  vendor: ''
+  product: ''
+  cvss: null
+  credit: ''
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-35022
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-31402
   ghsa: null
   date: '2026-04-03'

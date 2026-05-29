@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 89**
+**CURRENT CVE COUNT: 90**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -66,6 +66,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-34580](https://www.cve.org/CVERecord?id=CVE-2026-34580) | 2026-04-07 | Botan | Botan | 7.5 | Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-28386](https://www.cve.org/CVERecord?id=CVE-2026-28386) | 2026-04-07 | OpenSSL | OpenSSL | 9.1 | Stanislav Fort (Aisle Research); Pavel Kohout (Aisle Research); Alex Gaynor (Anthropic) |
 | [CVE-2026-5747](https://aws.amazon.com/security/security-bulletins/2026-015-aws/) | 2026-04-07 | AWS | FireCracker | 8.7 | We thank Anthropic for reporting this concern to the AWS Vulnerability Disclosure Program. |
+| [CVE-2026-35022](https://www.cve.org/CVERecord?id=CVE-2026-35022) | Reserved |  |  |  |  |
 | [CVE-2026-31402](https://www.cve.org/CVERecord?id=CVE-2026-31402) | 2026-04-03 | Linux | Linux | 9.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-5199](https://www.cve.org/CVERecord?id=CVE-2026-5199) | 2026-04-01 | temporalio | temporal | 2.3 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE) |
 | [CVE-2026-33721](https://www.cve.org/CVERecord?id=CVE-2026-33721) | 2026-03-26 | MapServer | MapServer | 5.3 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41) |
