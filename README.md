@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 88**
+**CURRENT CVE COUNT: 89**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -41,6 +41,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-42600](https://www.cve.org/CVERecord?id=CVE-2026-42600) | 2026-05-11 | minio | minio | 6.9 | [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ) NOT IN CVE TABLE |
 | [CVE-2026-28952](https://www.cve.org/CVERecord?id=CVE-2026-28952) | 2026-05-11 | Apple | Iphone/Ipad | 7.5 | Calif.io in collaboration with Claude and Anthropic Research |
 | [CVE-2026-28942](https://www.cve.org/CVERecord?id=CVE-2026-28942) | 2026-05-11 | Apple | Webkit | 6.5 | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
+| [CVE-2026-43185](https://www.cve.org/CVERecord?id=CVE-2026-43185) | 2026-05-06 | Linux | Linux | 9.8 | Signed-off-by: Nicholas Carlini <nicholas@carlini.com> |
 | [CVE-2026-31554](https://www.cve.org/CVERecord?id=CVE-2026-31554) | 2026-04-24 | Linux | Linux | 7.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-41990](https://www.cve.org/CVERecord?id=CVE-2026-41990) | 2026-04-23 | gnupg | Libgcrypt | 4.0 | Reported by Calif.io in collaboration with Claude and Anthropic Research |
 | [CVE-2026-6386](https://www.cve.org/CVERecord?id=CVE-2026-6386) | 2026-04-22 | FreeBSD | FreeBSD | 6.2 | Nicholas Carlini using Claude, Anthropic |
