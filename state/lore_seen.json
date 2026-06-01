@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260531",
+  "last_run_date": "20260601",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
