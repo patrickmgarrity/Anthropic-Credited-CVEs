@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 89**
+**CURRENT CVE COUNT: 90**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -13,13 +13,14 @@ If you find an Anthropic credited vulnerability, please open a Pull Request or S
 
 ## Considerations
 
-This project now automates collection from CVE.org, GHSA and Kernel Advisories and triggers matches based on keywords in keywords.yaml which are manually reviewed and approved by patrickmgarrity. Other discoveries are manually added in cves.yaml. The project is maintained on a best effort basis.
+This project is maintained on a best effort basis.
 
 ## The List
 
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-10548](https://www.cve.org/CVERecord?id=CVE-2026-10548) | 2026-06-02 | NousResearch | hermes-agent | 4.8 | Eric-j (VulDB User) | VulDB CNA Team |
 | [CVE-2026-45700](https://www.cve.org/CVERecord?id=CVE-2026-45700) | 2026-05-29 | FreeRDP | FreeRDP | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | 2026-05-29 | FreeRDP | FreeRDP | 8.8 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
