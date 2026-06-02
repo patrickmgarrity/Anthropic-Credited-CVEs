@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260601",
+  "last_run_date": "20260602",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -187,7 +187,13 @@
     "https://lore.kernel.org/all/20260530160312.024226059@linuxfoundation.org",
     "https://lore.kernel.org/all/20260530160323.565337954@linuxfoundation.org",
     "https://lore.kernel.org/all/20260530160327.539304944@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260601132053.186064-1-heinrich.schuchardt@canonical.com",
+    "https://lore.kernel.org/all/2026060127-improper-both-c91d@gregkh",
+    "https://lore.kernel.org/all/2026060133-province-amid-048a@gregkh",
+    "https://lore.kernel.org/all/2026060139-demotion-likeness-bb81@gregkh",
+    "https://lore.kernel.org/all/20260602043652.2380163-1-cui.tao@linux.dev",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
+    "https://lore.kernel.org/all/39c542a0-bf0f-408c-a9ff-17b4c629bd36@linux.dev",
     "https://lore.kernel.org/all/3b3cd41d-a71c-434f-9438-8637bbdc0496@pengutronix.de",
     "https://lore.kernel.org/all/3fa7080b029562aa687ebac6c60e0a01f3f7e65d.1779805943.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/4a67d330-a2a7-47f4-a43a-a2e444c47f55@pengutronix.de",
