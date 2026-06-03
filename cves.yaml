@@ -1,24 +1,38 @@
-- cve: CVE-2026-44420
+- cve: CVE-2026-31942
   ghsa: null
-  date: '2026-05-29'
-  vendor: FreeRDP
-  product: FreeRDP
-  cvss: 8.8
-  credit: '[Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)'
+  date: '2026-06-02'
+  vendor: danny-avila
+  product: LibreChat
+  cvss: 7.1
+  credit: ''
   status: published
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-31942
   ghsa_link: null
-  notes: NOT IN CVE TABLE
-  auto_discovered: false
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-45700
   ghsa: null
   date: '2026-05-29'
   vendor: FreeRDP
   product: FreeRDP
   cvss: 7.7
-  credit: '[Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)'
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45700
+  ghsa_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-44420
+  ghsa: null
+  date: '2026-05-29'
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: 8.8
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
   ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
