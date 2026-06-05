@@ -1,24 +1,38 @@
-- cve: CVE-2026-44420
-  ghsa: null
-  date: '2026-05-29'
-  vendor: FreeRDP
-  product: FreeRDP
-  cvss: 8.8
-  credit: '[Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)'
+- cve: CVE-2026-47250
+  ghsa: GHSA-6mx4-4h42-r8vh
+  date: '2026-06-05'
+  vendor: npm
+  product: mcp-server-kubernetes
+  cvss: 6.1
+  credit: '@yotampe-pluto (reporter)'
   status: published
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
-  ghsa_link: null
-  notes: NOT IN CVE TABLE
-  auto_discovered: false
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47250
+  ghsa_link: https://github.com/advisories/GHSA-6mx4-4h42-r8vh
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-45700
   ghsa: null
   date: '2026-05-29'
   vendor: FreeRDP
   product: FreeRDP
   cvss: 7.7
-  credit: '[Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)'
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45700
+  ghsa_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
+- cve: CVE-2026-44420
+  ghsa: null
+  date: '2026-05-29'
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: 8.8
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
   ghsa_link: null
   notes: NOT IN CVE TABLE
   auto_discovered: false
