@@ -269,7 +269,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-42600
-  ghsa: null
+  ghsa: GHSA-xh8f-g2qw-gcm7
   date: '2026-05-11'
   vendor: minio
   product: minio
@@ -278,7 +278,7 @@
     [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42600
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-xh8f-g2qw-gcm7
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-28952
