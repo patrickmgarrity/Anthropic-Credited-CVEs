@@ -1110,7 +1110,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-26980
-  ghsa: null
+  ghsa: GHSA-w52v-v783-gw97
   date: '2026-02-19'
   vendor: Ghost
   product: Ghost
@@ -1119,7 +1119,7 @@
     We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-26980
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-w52v-v783-gw97
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46354
