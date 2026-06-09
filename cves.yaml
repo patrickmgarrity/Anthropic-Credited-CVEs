@@ -1,3 +1,16 @@
+- cve: CVE-2026-34182
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: >-
+    Asim Viladi Oglu Manizada | Alex Gaynor (Anthropic) | Ying Dong | Haiyang Huang | Neil Horman
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-34182
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-47345
   ghsa: null
   date: '2026-06-08'
