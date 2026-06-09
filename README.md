@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 90**
+**CURRENT CVE COUNT: 91**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-45447](https://www.cve.org/CVERecord?id=CVE-2026-45447) | 2026-06-09 | OpenSSL | OpenSSL |  | Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov |
 | [CVE-2026-47345](https://www.cve.org/CVERecord?id=CVE-2026-47345) | 2026-06-08 | TYPO3 | HTML Sanitizer | 5.1 | Doyensec in collaboration with Claude and Anthropic Research | Benjamin Franzke |
 | [CVE-2026-45700](https://www.cve.org/CVERecord?id=CVE-2026-45700) | 2026-05-29 | FreeRDP | FreeRDP | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | 2026-05-29 | FreeRDP | FreeRDP | 8.8 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
