@@ -1,0 +1,7 @@
+# cves.yaml is an append-only list: each auto-PR adds one entry at the end.
+# The `union` merge driver keeps lines from BOTH sides on a conflicting hunk
+# instead of raising a conflict, so parallel auto-PRs merge cleanly. The scanner
+# no longer re-sorts the file (see save_cves_yaml), and render_readme.py sorts
+# for display and de-dupes by CVE, so a rare duplicate from a union merge is
+# harmless. Honored by local git merges and by GitHub's merge button.
+cves.yaml merge=union
