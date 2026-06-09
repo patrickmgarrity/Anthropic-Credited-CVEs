@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 91**
+**CURRENT CVE COUNT: 105**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -20,8 +20,21 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-45447](https://www.cve.org/CVERecord?id=CVE-2026-45447) | 2026-06-09 | OpenSSL | OpenSSL |  | Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov |
+| [CVE-2026-45446](https://www.cve.org/CVERecord?id=CVE-2026-45446) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) |
+| [CVE-2026-45445](https://www.cve.org/CVERecord?id=CVE-2026-45445) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Viktor Dukhovni |
+| [CVE-2026-42770](https://www.cve.org/CVERecord?id=CVE-2026-42770) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Viktor Dukhovni | Norbert Pócs |
+| [CVE-2026-42769](https://www.cve.org/CVERecord?id=CVE-2026-42769) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Bob Beck |
+| [CVE-2026-42768](https://www.cve.org/CVERecord?id=CVE-2026-42768) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) | Alicja Kario (Red Hat) |
+| [CVE-2026-34182](https://www.cve.org/CVERecord?id=CVE-2026-34182) | 2026-06-09 | OpenSSL | OpenSSL |  | Asim Viladi Oglu Manizada | Alex Gaynor (Anthropic) | Ying Dong | Haiyang Huang | Neil Horman |
 | [CVE-2026-34181](https://www.cve.org/CVERecord?id=CVE-2026-34181) | 2026-06-09 | OpenSSL | OpenSSL |  | Pavol Žáčik (Red Hat) | Alex Gaynor (Anthropic) | Alicja Kario (Red Hat) |
+| [CVE-2026-49975](https://www.cve.org/CVERecord?id=CVE-2026-49975) | 2026-06-08 | Apache Software Foundation | Apache HTTP Server |  | Quang Luong of Calif.IO in collaboration with OpenAI Codex |
 | [CVE-2026-47345](https://www.cve.org/CVERecord?id=CVE-2026-47345) | 2026-06-08 | TYPO3 | HTML Sanitizer | 5.1 | Doyensec in collaboration with Claude and Anthropic Research | Benjamin Franzke |
+| [CVE-2026-47732](https://www.cve.org/CVERecord?id=CVE-2026-47732) | 2026-06-05 | twig | twig |  | @fabpot (remediation_developer) |
+| [CVE-2026-47250](https://www.cve.org/CVERecord?id=CVE-2026-47250) | 2026-06-05 | npm | mcp-server-kubernetes | 6.1 | @yotampe-pluto (reporter) |
+| [CVE-2026-8462](https://www.cve.org/CVERecord?id=CVE-2026-8462) | 2026-06-04 | github.com | openmeterio/openmeter |  |  |
+| [CVE-2026-47429](https://www.cve.org/CVERecord?id=CVE-2026-47429) | 2026-06-01 | npm | vitest | 9.8 | @sapphi-red (reporter) | @qispark (analyst) | @joevin-slq-docto (analyst) | @koteswar-k (analyst) | @SaronGrave (analyst) | @jason-anthropic (analyst) |
+| [CVE-2026-47391](https://www.cve.org/CVERecord?id=CVE-2026-47391) | 2026-05-29 | pip | PraisonAI | 9.8 | @foxirain (reporter) |
 | [CVE-2026-45700](https://www.cve.org/CVERecord?id=CVE-2026-45700) | 2026-05-29 | FreeRDP | FreeRDP | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | 2026-05-29 | FreeRDP | FreeRDP | 8.8 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | Nicholas Carlini of Anthropic |
@@ -70,6 +83,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-34580](https://www.cve.org/CVERecord?id=CVE-2026-34580) | 2026-04-07 | Botan | Botan | 7.5 | Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-28386](https://www.cve.org/CVERecord?id=CVE-2026-28386) | 2026-04-07 | OpenSSL | OpenSSL | 9.1 | Stanislav Fort (Aisle Research); Pavel Kohout (Aisle Research); Alex Gaynor (Anthropic) |
 | [CVE-2026-5747](https://aws.amazon.com/security/security-bulletins/2026-015-aws/) | 2026-04-07 | AWS | FireCracker | 8.7 | We thank Anthropic for reporting this concern to the AWS Vulnerability Disclosure Program. |
+| [CVE-2026-35022](https://www.cve.org/CVERecord?id=CVE-2026-35022) | Reserved |  |  |  |  |
 | [CVE-2026-31402](https://www.cve.org/CVERecord?id=CVE-2026-31402) | 2026-04-03 | Linux | Linux | 9.8 | Reported-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-5199](https://www.cve.org/CVERecord?id=CVE-2026-5199) | 2026-04-01 | temporalio | temporal | 2.3 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE) |
 | [CVE-2026-33721](https://www.cve.org/CVERecord?id=CVE-2026-33721) | 2026-03-26 | MapServer | MapServer | 5.3 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41) |

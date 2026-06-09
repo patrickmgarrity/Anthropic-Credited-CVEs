@@ -1,3 +1,90 @@
+- cve: CVE-2026-45447
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: >-
+    Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45447
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-45446
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45446
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-45445
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: Alex Gaynor (Anthropic) | Viktor Dukhovni
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45445
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-42770
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: >-
+    Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Viktor Dukhovni | Norbert Pócs
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42770
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-42769
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Bob Beck
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42769
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-42768
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) | Alicja Kario (Red Hat)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42768
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-34182
+  ghsa: null
+  date: '2026-06-09'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: null
+  credit: >-
+    Asim Viladi Oglu Manizada | Alex Gaynor (Anthropic) | Ying Dong | Haiyang Huang | Neil Horman
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-34182
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-34181
   ghsa: null
   date: '2026-06-09'
@@ -7,6 +94,18 @@
   credit: Pavol Žáčik (Red Hat) | Alex Gaynor (Anthropic) | Alicja Kario (Red Hat)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-34181
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-49975
+  ghsa: null
+  date: '2026-06-08'
+  vendor: Apache Software Foundation
+  product: Apache HTTP Server
+  cvss: null
+  credit: Quang Luong of Calif.IO in collaboration with OpenAI Codex
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-49975
   ghsa_link: null
   notes: null
   auto_discovered: true
@@ -20,6 +119,68 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47345
   ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-47732
+  ghsa: GHSA-pr2w-4gpj-cpq4
+  date: '2026-06-05'
+  vendor: twig
+  product: twig
+  cvss: null
+  credit: '@fabpot (remediation_developer)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47732
+  ghsa_link: https://github.com/advisories/GHSA-pr2w-4gpj-cpq4
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-47250
+  ghsa: GHSA-6mx4-4h42-r8vh
+  date: '2026-06-05'
+  vendor: npm
+  product: mcp-server-kubernetes
+  cvss: 6.1
+  credit: '@yotampe-pluto (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47250
+  ghsa_link: https://github.com/advisories/GHSA-6mx4-4h42-r8vh
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-8462
+  ghsa: GHSA-wc3v-3457-c8cm
+  date: '2026-06-04'
+  vendor: github.com
+  product: openmeterio/openmeter
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8462
+  ghsa_link: https://github.com/advisories/GHSA-wc3v-3457-c8cm
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-47429
+  ghsa: GHSA-5xrq-8626-4rwp
+  date: '2026-06-01'
+  vendor: npm
+  product: vitest
+  cvss: 9.8
+  credit: >-
+    @sapphi-red (reporter) | @qispark (analyst) | @joevin-slq-docto (analyst) | @koteswar-k (analyst)
+    | @SaronGrave (analyst) | @jason-anthropic (analyst)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47429
+  ghsa_link: https://github.com/advisories/GHSA-5xrq-8626-4rwp
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-47391
+  ghsa: GHSA-vg22-4gmj-prxw
+  date: '2026-05-29'
+  vendor: pip
+  product: PraisonAI
+  cvss: 9.8
+  credit: '@foxirain (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47391
+  ghsa_link: https://github.com/advisories/GHSA-vg22-4gmj-prxw
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45700
@@ -85,7 +246,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-41401
-  ghsa: null
+  ghsa: GHSA-v7jp-vmx6-5429
   date: '2026-05-26'
   vendor: libyang
   product: libyang
@@ -94,7 +255,7 @@
     https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41401
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-v7jp-vmx6-5429
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40384
@@ -122,7 +283,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40034
-  ghsa: null
+  ghsa: GHSA-m4f9-c775-wg56
   date: '2026-05-26'
   vendor: gitoxide
   product: gitoxide
@@ -131,7 +292,7 @@
     https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40034
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-m4f9-c775-wg56
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40033
@@ -148,7 +309,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46639
-  ghsa: null
+  ghsa: GHSA-mm6w-gr99-p3jj
   date: '2026-05-20'
   vendor: twig
   product: twig
@@ -158,11 +319,11 @@
     and fixing the issue.
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46639
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-mm6w-gr99-p3jj
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46633
-  ghsa: null
+  ghsa: GHSA-7p85-w9px-jpjp
   date: '2026-05-20'
   vendor: twig
   product: twig
@@ -172,7 +333,7 @@
     and fixing the issue.
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-7p85-w9px-jpjp
   notes: null
 - cve: CVE-2026-44212
   ghsa: null
@@ -281,7 +442,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-42600
-  ghsa: null
+  ghsa: GHSA-xh8f-g2qw-gcm7
   date: '2026-05-11'
   vendor: minio
   product: minio
@@ -290,7 +451,7 @@
     [Anthropic Advisory ](https://red.anthropic.com/2026/cvd/findings/ANT-2026-BRQZSDGZ)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42600
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-xh8f-g2qw-gcm7
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-28952
@@ -628,6 +789,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-35022
+  ghsa: null
+  date: '2026-04-06'
+  vendor: ''
+  product: ''
+  cvss: null
+  credit: ''
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-35022
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-31402
   ghsa: null
   date: '2026-04-03'
@@ -1122,7 +1295,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-26980
-  ghsa: null
+  ghsa: GHSA-w52v-v783-gw97
   date: '2026-02-19'
   vendor: Ghost
   product: Ghost
@@ -1131,7 +1304,7 @@
     We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-26980
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-w52v-v783-gw97
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46354
