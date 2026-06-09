@@ -111,6 +111,30 @@ def sort_key(entry: dict):
     return (date, cve_year, cve_seq)
 
 
+def dedupe_entries(entries: list[dict]) -> list[dict]:
+    """Collapse entries that share a CVE/GHSA identifier, keeping the most
+    complete record (most non-empty fields; `published` wins ties). Since
+    cves.yaml is union-merged (see .gitattributes), a parallel merge could in
+    theory leave two rows for the same CVE; this keeps the table and count
+    correct. First-seen order is otherwise preserved."""
+    def completeness(e: dict) -> tuple[int, int]:
+        nonnull = sum(1 for v in e.values() if v not in (None, "", "null"))
+        return (nonnull, 1 if e.get("status") == "published" else 0)
+
+    best: dict[str, dict] = {}
+    order: list[str] = []
+    for e in entries:
+        ident = e.get("cve") or e.get("ghsa")
+        if not ident:
+            ident = id(e)  # keep identifier-less rows as-is
+        if ident not in best:
+            best[ident] = e
+            order.append(ident)
+        elif completeness(e) > completeness(best[ident]):
+            best[ident] = e
+    return [best[i] for i in order]
+
+
 def render_table(entries: list[dict]) -> str:
     header = "| CVE | Date | Vendor | Product | CVSS | Credit |\n"
     header += "| --- | --- | --- | --- | --- | --- |\n"
@@ -156,6 +180,7 @@ def main() -> int:
         return 1
 
     entries = yaml.safe_load(cves_path.read_text(encoding="utf-8")) or []
+    entries = dedupe_entries(entries)
 
     if template_path.exists():
         template = template_path.read_text(encoding="utf-8")

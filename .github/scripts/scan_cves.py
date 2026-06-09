@@ -231,14 +231,15 @@ def load_cves_yaml() -> list[dict]:
 
 
 def save_cves_yaml(entries: list[dict]) -> None:
-    def sort_key(e: dict):
-        m = re.match(r"CVE-(\d+)-(\d+)", e.get("cve", ""))
-        year = int(m.group(1)) if m else 0
-        seq = int(m.group(2)) if m else 0
-        return (e.get("date") or "", year, seq)
-    entries_sorted = sorted(entries, key=sort_key, reverse=True)
+    # Append-only: preserve existing on-disk order and let new entries land at
+    # the end (callers append to `entries`). We deliberately do NOT re-sort here.
+    # Re-sorting reshuffled the whole file on every run, so two parallel auto-PRs
+    # each adding one CVE produced large, conflicting diffs. Stable order plus the
+    # `cves.yaml merge=union` rule in .gitattributes lets independent appends
+    # auto-merge with no conflict. Display order is handled by render_readme.py,
+    # which sorts at render time, so file order here is purely cosmetic.
     CVES_YAML_PATH.write_text(
-        yaml.dump(entries_sorted, Dumper=_YamlDumper, sort_keys=False,
+        yaml.dump(entries, Dumper=_YamlDumper, sort_keys=False,
                   allow_unicode=True, width=100),
         encoding="utf-8",
     )
