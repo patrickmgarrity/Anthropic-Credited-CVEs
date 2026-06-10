@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260609",
+  "last_run_date": "20260610",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -295,6 +295,8 @@
     "https://lore.kernel.org/all/20260609010526.1998472-7-acme@kernel.org",
     "https://lore.kernel.org/all/20260609010526.1998472-8-acme@kernel.org",
     "https://lore.kernel.org/all/20260609010526.1998472-9-acme@kernel.org",
+    "https://lore.kernel.org/all/20260609164349.3008084-1-peter@korsgaard.com",
+    "https://lore.kernel.org/all/20260609210440.D72AD87EC1@busybox.osuosl.org",
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
     "https://lore.kernel.org/all/39c542a0-bf0f-408c-a9ff-17b4c629bd36@linux.dev",
@@ -312,6 +314,7 @@
     "https://lore.kernel.org/all/88c88a04-9511-4317-9e6a-f38d532a02d5@pengutronix.de",
     "https://lore.kernel.org/all/8d364049-78d5-4788-9cb2-feb58f41306f@pengutronix.de",
     "https://lore.kernel.org/all/93347e4eac42588a9533b37e09c28b4b53a55413.1780498019.git.bcodding@hammerspace.com",
+    "https://lore.kernel.org/all/96f75bf8-6aac-4fd1-b272-c29e726aead8@intel.com",
     "https://lore.kernel.org/all/9ec2de4c-9404-4c9b-9d86-c5aad9cde721@arm.com",
     "https://lore.kernel.org/all/CA+J-LAz5dYfDAOovThwQZM9u6Yk+0m6m_pAE_UH=U6EMBXw5bw@mail.gmail.com",
     "https://lore.kernel.org/all/CAC_iWj+KNaUsyYRZ8-awtaVZpGjUs21na3MgEhYoroUzeVCKaA@mail.gmail.com",
