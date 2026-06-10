@@ -1358,3 +1358,15 @@
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
   ghsa_link: null
+- cve: CVE-2026-47751
+  ghsa: GHSA-8q5r-mmjf-575q
+  date: '2026-06-10'
+  vendor: anthropics
+  product: claude-code-action
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47751
+  ghsa_link: https://github.com/advisories/GHSA-8q5r-mmjf-575q
+  notes: null
+  auto_discovered: true
