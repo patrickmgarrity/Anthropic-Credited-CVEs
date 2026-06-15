@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 105**
+**CURRENT CVE COUNT: 106**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-6045](https://www.cve.org/CVERecord?id=CVE-2026-6045) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation) |
 | [CVE-2026-45447](https://www.cve.org/CVERecord?id=CVE-2026-45447) | 2026-06-09 | OpenSSL | OpenSSL |  | Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov |
 | [CVE-2026-45446](https://www.cve.org/CVERecord?id=CVE-2026-45446) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) |
 | [CVE-2026-45445](https://www.cve.org/CVERecord?id=CVE-2026-45445) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Viktor Dukhovni |
