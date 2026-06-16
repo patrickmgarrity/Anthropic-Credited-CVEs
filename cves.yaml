@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: null
+  ghsa: GHSA-gr75-jv2w-4656
+  date: '2026-06-16'
+  vendor: pip
+  product: langchain
+  cvss: 5.1
+  credit: '@Mistz1 (reporter) | @deprrous (reporter)'
+  status: published
+  cve_link: null
+  ghsa_link: https://github.com/advisories/GHSA-gr75-jv2w-4656
+  notes: null
+  auto_discovered: true
