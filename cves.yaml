@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: null
+  ghsa: GHSA-c9cv-mq2m-ppp3
+  date: '2026-06-16'
+  vendor: npm
+  product: nuxt
+  cvss: null
+  credit: '@alcls01111 (reporter)'
+  status: published
+  cve_link: null
+  ghsa_link: https://github.com/advisories/GHSA-c9cv-mq2m-ppp3
+  notes: null
+  auto_discovered: true
