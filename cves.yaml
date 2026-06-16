@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: null
+  ghsa: GHSA-534h-c3cw-v3h9
+  date: '2026-06-16'
+  vendor: npm
+  product: nuxt
+  cvss: 5.5
+  credit: '@alcls01111 (reporter)'
+  status: published
+  cve_link: null
+  ghsa_link: https://github.com/advisories/GHSA-534h-c3cw-v3h9
+  notes: null
+  auto_discovered: true
