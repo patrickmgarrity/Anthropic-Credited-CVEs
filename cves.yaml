@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-53721
+  ghsa: GHSA-mm7m-92g8-7m47
+  date: '2026-06-16'
+  vendor: npm
+  product: nuxt
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-53721
+  ghsa_link: https://github.com/advisories/GHSA-mm7m-92g8-7m47
+  notes: null
+  auto_discovered: true
