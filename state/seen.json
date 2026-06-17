@@ -1,6 +1,6 @@
 {
   "last_fetch_timestamp": "2026-06-17T15:00:54.538Z",
-  "last_ghsa_modified": "2026-06-16T23:43:15Z",
+  "last_ghsa_modified": "2026-06-17T14:31:17Z",
   "seen_cve_ids": [
     "CVE-2026-10548",
     "CVE-2026-31942",
@@ -48,6 +48,7 @@
     "GHSA-cc4m-mp48-x7qg",
     "GHSA-g28j-ffjc-vcrh",
     "GHSA-gr75-jv2w-4656",
+    "GHSA-hgg8-fqqc-vfmw",
     "GHSA-m3q2-p4fw-w38m",
     "GHSA-m4f9-c775-wg56",
     "GHSA-m77w-p5jj-xmhg",
