@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-54236
+  ghsa: GHSA-hgg8-fqqc-vfmw
+  date: '2026-06-17'
+  vendor: pip
+  product: vllm
+  cvss: null
+  credit: '@SnailSploit (reporter) | @jperezdealgaba (coordinator)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-54236
+  ghsa_link: https://github.com/advisories/GHSA-hgg8-fqqc-vfmw
+  notes: null
+  auto_discovered: true
