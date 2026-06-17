@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-54316
+  ghsa: GHSA-fg94-h982-f3mm
+  date: '2026-06-17'
+  vendor: '@anthropic-ai'
+  product: claude-code
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-54316
+  ghsa_link: https://github.com/advisories/GHSA-fg94-h982-f3mm
+  notes: null
+  auto_discovered: true
