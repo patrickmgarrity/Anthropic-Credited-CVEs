@@ -1,10 +1,10 @@
-name: Render README from cves.yaml
+name: Render README + cves.yaml from cves/
 
 on:
   push:
     branches: [main]
     paths:
-      - "cves.yaml"
+      - "cves/**"
       - ".github/templates/README.template.md"
       - ".github/scripts/render_readme.py"
   workflow_dispatch: {}
@@ -29,12 +29,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if [[ -n "$(git status --porcelain README.md)" ]]; then
+          if [[ -n "$(git status --porcelain README.md cves.yaml)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "docs: regenerate README from cves.yaml [skip ci]"
+            git add README.md cves.yaml
+            git commit -m "docs: regenerate README + cves.yaml from cves/ [skip ci]"
             git push
           else
-            echo "README already in sync."
+            echo "README and cves.yaml already in sync."
           fi

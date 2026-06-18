@@ -1,3 +1,94 @@
+- cve: CVE-2026-8358
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Arthur Chan of Ada Logics (validation and reporting)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8358
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-8357
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Arthur Chan of Ada Logics (validation and reporting)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8357
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-8356
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Arthur Chan of Ada Logics (validation and reporting)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8356
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-6047
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6047
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-6045
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6045
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-6040
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6040
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-6039
+  ghsa: null
+  date: '2026-06-15'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6039
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-45447
   ghsa: null
   date: '2026-06-09'
@@ -1358,16 +1449,3 @@
   status: reserved
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
   ghsa_link: null
-- cve: CVE-2026-6039
-  ghsa: null
-  date: '2026-06-15'
-  vendor: The Document Foundation
-  product: LibreOffice
-  cvss: 5.4
-  credit: >-
-    Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation)
-  status: published
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6039
-  ghsa_link: null
-  notes: null
-  auto_discovered: true

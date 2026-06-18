@@ -40,7 +40,8 @@ import yaml
 KEYWORDS_PATH = Path("keywords.yaml")
 DELTA_LOG_URL = "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/deltaLog.json"
 STATE_PATH = Path("state/seen.json")
-CVES_YAML_PATH = Path("cves.yaml")
+CVES_YAML_PATH = Path("cves.yaml")  # generated aggregate (rendered on main)
+CVES_DIR = Path("cves")             # source of truth: one file per CVE/GHSA
 USER_AGENT = "anthropic-cve-tracker (+github actions)"
 FETCH_SLEEP_SECONDS = 0.1
 RENDER_SCRIPT = Path(".github/scripts/render_readme.py")
@@ -224,25 +225,51 @@ def _str_repr(dumper, data):
 _YamlDumper.add_representer(str, _str_repr)
 
 
-def load_cves_yaml() -> list[dict]:
-    if not CVES_YAML_PATH.exists():
-        return []
-    return yaml.safe_load(CVES_YAML_PATH.read_text(encoding="utf-8")) or []
+def entry_ident(entry: dict) -> str:
+    """Stable identifier used as the per-entry filename: CVE id when present,
+    otherwise the GHSA id (for advisories that have no CVE assigned yet)."""
+    return entry.get("cve") or entry.get("ghsa") or ""
 
 
-def save_cves_yaml(entries: list[dict]) -> None:
-    # Append-only: preserve existing on-disk order and let new entries land at
-    # the end (callers append to `entries`). We deliberately do NOT re-sort here.
-    # Re-sorting reshuffled the whole file on every run, so two parallel auto-PRs
-    # each adding one CVE produced large, conflicting diffs. Stable order plus the
-    # `cves.yaml merge=union` rule in .gitattributes lets independent appends
-    # auto-merge with no conflict. Display order is handled by render_readme.py,
-    # which sorts at render time, so file order here is purely cosmetic.
-    CVES_YAML_PATH.write_text(
-        yaml.dump(entries, Dumper=_YamlDumper, sort_keys=False,
+def cve_file_path(ident: str) -> Path:
+    return CVES_DIR / f"{ident}.yaml"
+
+
+def write_cve_entry(entry: dict) -> Path:
+    """Write a single entry to cves/<id>.yaml. This is what auto-PRs touch — one
+    file per PR, so independent additions never collide. README.md and the flat
+    cves.yaml aggregate are regenerated from cves/ on main by render_readme.py."""
+    CVES_DIR.mkdir(exist_ok=True)
+    path = cve_file_path(entry_ident(entry))
+    path.write_text(
+        yaml.dump(entry, Dumper=_YamlDumper, sort_keys=False,
                   allow_unicode=True, width=100),
         encoding="utf-8",
     )
+    return path
+
+
+def load_cves_yaml() -> list[dict]:
+    """Load every entry from cves/. Falls back to the legacy flat cves.yaml if
+    the directory does not exist (e.g. before migration)."""
+    if CVES_DIR.is_dir():
+        out = []
+        for path in sorted(CVES_DIR.glob("*.yaml")):
+            doc = yaml.safe_load(path.read_text(encoding="utf-8"))
+            if isinstance(doc, dict):
+                out.append(doc)
+        return out
+    if CVES_YAML_PATH.exists():
+        return yaml.safe_load(CVES_YAML_PATH.read_text(encoding="utf-8")) or []
+    return []
+
+
+def save_cves_yaml(entries: list[dict]) -> None:
+    """Write each entry to its own file under cves/. Unchanged entries produce
+    byte-identical files (no git churn). Single-entry callers should prefer
+    write_cve_entry() so a PR touches exactly one file."""
+    for entry in entries:
+        write_cve_entry(entry)
 
 
 # ---------- Git / PR ----------
@@ -296,7 +323,7 @@ def render_pr_body(entry: dict, summary: dict, matches: dict[str, list[str]],
 
     return f"""## Auto-detected: {entry['cve']}
 
-This PR proposes adding `{entry['cve']}` to `cves.yaml` and regenerates `README.md`.
+This PR proposes adding `{entry['cve']}` as `cves/{entry['cve']}.yaml`. `README.md` and the `cves.yaml` aggregate regenerate automatically on merge.
 
 ### Where the match came from
 {match_block}
@@ -320,7 +347,7 @@ This PR proposes adding `{entry['cve']}` to `cves.yaml` and regenerates `README.
 - NVD: https://nvd.nist.gov/vuln/detail/{entry['cve']}
 
 ---
-**To accept:** merge this PR. The entry lands in `cves.yaml` and `README.md` reflects it.
+**To accept:** merge this PR. `README.md` and the `cves.yaml` aggregate regenerate on merge.
 **To reject:** close this PR. The CVE will be remembered as "seen" and not re-proposed.
 **To tweak before merging:** edit the YAML in the PR; README re-renders on merge.
 
@@ -346,21 +373,15 @@ def create_pr_for_entry(repo: str, entry: dict, summary: dict,
     run(["git", "checkout", "-b", branch])
 
     try:
-        # Mutate cves.yaml
-        existing = load_cves_yaml()
-        if any(e.get("cve") == cve_id for e in existing):
-            print(f"  {cve_id} already in cves.yaml; skipping PR")
+        # One file per CVE: the PR adds exactly cves/<cve_id>.yaml. README.md and
+        # the flat cves.yaml aggregate are regenerated from cves/ on main, so the
+        # PR carries no shared file and never conflicts with other auto-PRs.
+        if cve_file_path(cve_id).exists():
+            print(f"  {cve_id} already in cves/; skipping PR")
             return False
-        existing.append(entry)
-        save_cves_yaml(existing)
+        path = write_cve_entry(entry)
 
-        # Re-render README
-        render_result = run(["python3", str(RENDER_SCRIPT)], check=False)
-        if render_result.returncode != 0:
-            print(f"  render failed: {render_result.stderr.strip()}", file=sys.stderr)
-            return False
-
-        run(["git", "add", "cves.yaml", "README.md"])
+        run(["git", "add", str(path)])
         # Build a short commit message describing the match
         match_summary = ", ".join(sorted(matches.keys())) or "record"
         commit_msg = f"auto: add {cve_id} (matched in {match_summary})"

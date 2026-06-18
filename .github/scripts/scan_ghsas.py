@@ -42,9 +42,12 @@ from scan_cves import (  # noqa: E402
     RENDER_SCRIPT,
     STATE_PATH,
     USER_AGENT,
+    cve_file_path,
+    entry_ident,
     load_cves_yaml,
     run,
     save_cves_yaml,
+    write_cve_entry,
 )
 import yaml  # noqa: E402
 
@@ -333,7 +336,7 @@ def render_candidate_body(entry: dict, advisory: dict,
 
     return f"""## Auto-detected (via GHSA): {ghsa_id}
 
-This PR proposes adding a new entry to `cves.yaml` and regenerates `README.md`.
+This PR proposes adding a new entry as a file under `cves/`. `README.md` and the `cves.yaml` aggregate regenerate automatically on merge.
 
 **CVE:** {cve_id}
 **GHSA:** {ghsa_id}
@@ -360,7 +363,7 @@ This PR proposes adding a new entry to `cves.yaml` and regenerates `README.md`.
 - Source API: {ADVISORY_URL.format(ghsa_id=ghsa_id)}
 
 ---
-**To accept:** merge this PR. The entry lands in `cves.yaml`; `README.md` regenerates on merge.
+**To accept:** merge this PR. `README.md` and the `cves.yaml` aggregate regenerate on merge.
 **To reject:** close this PR. The GHSA is recorded as seen and won't be re-proposed.
 **To tweak:** edit the YAML on this branch before merging.
 
@@ -380,21 +383,14 @@ def create_candidate_pr(repo: str, entry: dict, advisory: dict,
         run(["git", "branch", "-D", branch], check=False)
         run(["git", "checkout", "-b", branch])
 
-        existing = load_cves_yaml()
         # Defensive dedup -- recheck within the working tree
-        for e in existing:
+        for e in load_cves_yaml():
             if (cve_id and e.get("cve") == cve_id) or e.get("ghsa") == ghsa_id:
-                print(f"  {ghsa_id}: already in cves.yaml at PR-creation time; skipping")
+                print(f"  {ghsa_id}: already tracked at PR-creation time; skipping")
                 return False
-        existing.append(entry)
-        save_cves_yaml(existing)
+        path = write_cve_entry(entry)  # one file per entry; no shared-file conflict
 
-        render_result = run(["python3", str(RENDER_SCRIPT)], check=False)
-        if render_result.returncode != 0:
-            print(f"  render failed: {render_result.stderr.strip()}", file=sys.stderr)
-            return False
-
-        run(["git", "add", "cves.yaml", "README.md"])
+        run(["git", "add", str(path)])
         commit_msg = (
             f"auto: add {cve_id} (via {ghsa_id})" if cve_id
             else f"auto: add {ghsa_id} (no CVE assigned yet)"
@@ -491,20 +487,14 @@ def create_enrichment_pr(repo: str, cve_id: str, ghsa_id: str,
     run(["git", "branch", "-D", branch], check=False)
     run(["git", "checkout", "-b", branch])
     try:
-        entries = load_cves_yaml()
-        target = next((e for e in entries if e.get("cve") == cve_id), None)
+        target = next((e for e in load_cves_yaml() if e.get("cve") == cve_id), None)
         if target is None:
             print(f"  {cve_id} not found at PR-creation time; skipping", file=sys.stderr)
             return False
         target.update(updates)
-        save_cves_yaml(entries)
+        path = write_cve_entry(target)  # rewrite only this entry's file
 
-        render_result = run(["python3", str(RENDER_SCRIPT)], check=False)
-        if render_result.returncode != 0:
-            print(f"  render failed: {render_result.stderr.strip()}", file=sys.stderr)
-            return False
-
-        run(["git", "add", "cves.yaml", "README.md"])
+        run(["git", "add", str(path)])
         run(["git", "commit", "-m", f"auto: enrich {cve_id} from {ghsa_id}"])
 
         title = f"[update] {cve_id} - GHSA enrichment ({ghsa_id})"
@@ -548,21 +538,17 @@ def create_assignment_pr(repo: str, ghsa_id: str, cve_id: str,
     run(["git", "branch", "-D", branch], check=False)
     run(["git", "checkout", "-b", branch])
     try:
-        entries = load_cves_yaml()
-        target = next((e for e in entries if e.get("ghsa") == ghsa_id), None)
+        target = next((e for e in load_cves_yaml() if e.get("ghsa") == ghsa_id), None)
         if target is None:
             print(f"  {ghsa_id} not found at PR-creation time; skipping", file=sys.stderr)
             return False
+        old_path = cve_file_path(entry_ident(target))  # was GHSA-named
         target["cve"] = cve_id
         target["cve_link"] = f"https://www.cve.org/CVERecord?id={cve_id}"
-        save_cves_yaml(entries)
-
-        render_result = run(["python3", str(RENDER_SCRIPT)], check=False)
-        if render_result.returncode != 0:
-            print(f"  render failed: {render_result.stderr.strip()}", file=sys.stderr)
-            return False
-
-        run(["git", "add", "cves.yaml", "README.md"])
+        new_path = write_cve_entry(target)  # now CVE-named
+        if old_path != new_path and old_path.exists():
+            run(["git", "rm", "-q", str(old_path)], check=False)
+        run(["git", "add", str(new_path)])
         run(["git", "commit", "-m", f"auto: assign {cve_id} to {ghsa_id}"])
 
         title = f"[update] {ghsa_id} -> {cve_id} (CVE assigned)"

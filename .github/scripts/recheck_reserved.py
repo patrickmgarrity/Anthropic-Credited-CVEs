@@ -30,6 +30,7 @@ from scan_cves import (  # noqa: E402
     load_cves_yaml,
     run,
     save_cves_yaml,
+    write_cve_entry,
 )
 
 MITRE_API = "https://cveawg.mitre.org/api/cve/{cve_id}"
@@ -136,8 +137,8 @@ def render_update_body(cve_id: str, current: dict, fresh: dict,
         f"- MITRE API: https://cveawg.mitre.org/api/cve/{cve_id}",
         "",
         "---",
-        "**To accept:** merge this PR. `cves.yaml` is updated and `README.md` "
-        "regenerates on merge.",
+        "**To accept:** merge this PR. `README.md` and the `cves.yaml` aggregate "
+        "regenerate on merge.",
         "**To reject:** close this PR. The entry stays as-is; the recheck will "
         "propose again on the next run if MITRE keeps the new state.",
         "**To tweak:** edit the YAML on this branch before merging.",
@@ -157,20 +158,14 @@ def create_update_pr(repo: str, cve_id: str, current: dict, fresh: dict,
     run(["git", "checkout", "-b", branch])
 
     try:
-        entries = load_cves_yaml()
-        target = next((e for e in entries if e.get("cve") == cve_id), None)
+        target = next((e for e in load_cves_yaml() if e.get("cve") == cve_id), None)
         if target is None:
-            print(f"  {cve_id} no longer in cves.yaml; skipping", file=sys.stderr)
+            print(f"  {cve_id} no longer tracked; skipping", file=sys.stderr)
             return False
         target.update(updates)
-        save_cves_yaml(entries)
+        path = write_cve_entry(target)  # rewrite only this entry's file
 
-        render_result = run(["python3", str(RENDER_SCRIPT)], check=False)
-        if render_result.returncode != 0:
-            print(f"  render failed: {render_result.stderr.strip()}", file=sys.stderr)
-            return False
-
-        run(["git", "add", "cves.yaml", "README.md"])
+        run(["git", "add", str(path)])
         field_summary = ", ".join(updates.keys())
         commit_msg = f"auto: update {cve_id} ({field_summary})"
         run(["git", "commit", "-m", commit_msg])

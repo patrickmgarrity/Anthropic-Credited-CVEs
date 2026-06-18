@@ -169,18 +169,59 @@ def render_readme(template: str, entries: list[dict]) -> str:
     return template.rstrip() + "\n\n" + body_block + "\n"
 
 
+class _YamlDumper(yaml.SafeDumper):
+    pass
+
+
+def _str_repr(dumper, data):
+    if "\n" in data or len(data) > 80:
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data, style=">")
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data)
+
+
+_YamlDumper.add_representer(str, _str_repr)
+
+
+def load_entries(repo_root: Path) -> list[dict]:
+    """Entries live one-per-file under cves/. Each file is a single mapping.
+    Falls back to the legacy single cves.yaml list if the directory is absent."""
+    cves_dir = repo_root / "cves"
+    if cves_dir.is_dir():
+        out = []
+        for path in sorted(cves_dir.glob("*.yaml")):
+            doc = yaml.safe_load(path.read_text(encoding="utf-8"))
+            if isinstance(doc, dict):
+                out.append(doc)
+            elif isinstance(doc, list):  # tolerate a multi-entry file
+                out.extend(d for d in doc if isinstance(d, dict))
+        return out
+    legacy = repo_root / "cves.yaml"
+    if legacy.exists():
+        return yaml.safe_load(legacy.read_text(encoding="utf-8")) or []
+    return []
+
+
+def write_aggregate(repo_root: Path, entries: list[dict]) -> None:
+    """Regenerate the flat cves.yaml aggregate from the per-CVE files, so any
+    external consumer of the single file keeps working. This file is generated
+    on main (like README.md) and must not be hand-edited in contributor PRs."""
+    ordered = sorted(entries, key=sort_key, reverse=True)
+    (repo_root / "cves.yaml").write_text(
+        yaml.dump(ordered, Dumper=_YamlDumper, sort_keys=False,
+                  allow_unicode=True, width=100),
+        encoding="utf-8",
+    )
+
+
 def main() -> int:
     repo_root = Path(__file__).resolve().parents[2]
-    cves_path = repo_root / "cves.yaml"
     readme_path = repo_root / "README.md"
     template_path = repo_root / ".github" / "templates" / "README.template.md"
 
-    if not cves_path.exists():
-        print(f"missing {cves_path}", file=sys.stderr)
+    entries = dedupe_entries(load_entries(repo_root))
+    if not entries:
+        print("no CVE entries found (cves/ or cves.yaml)", file=sys.stderr)
         return 1
-
-    entries = yaml.safe_load(cves_path.read_text(encoding="utf-8")) or []
-    entries = dedupe_entries(entries)
 
     if template_path.exists():
         template = template_path.read_text(encoding="utf-8")
@@ -189,7 +230,8 @@ def main() -> int:
 
     rendered = render_readme(template, entries)
     readme_path.write_text(rendered, encoding="utf-8")
-    print(f"Rendered {readme_path} from {len(entries)} entries.")
+    write_aggregate(repo_root, entries)
+    print(f"Rendered {readme_path} and cves.yaml from {len(entries)} entries.")
     return 0
 
 
