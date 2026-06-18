@@ -1371,3 +1371,15 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: null
+  ghsa: GHSA-fq2m-6wqh-x44g
+  date: '2026-06-18'
+  vendor: pip
+  product: praisonai
+  cvss: 9.8
+  credit: '@SnailSploit (reporter)'
+  status: published
+  cve_link: null
+  ghsa_link: https://github.com/advisories/GHSA-fq2m-6wqh-x44g
+  notes: null
+  auto_discovered: true
