@@ -201,7 +201,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-47345
-  ghsa: null
+  ghsa: GHSA-p5j5-4j3q-8mq8
   date: '2026-06-08'
   vendor: TYPO3
   product: HTML Sanitizer
@@ -209,7 +209,7 @@
   credit: Doyensec in collaboration with Claude and Anthropic Research | Benjamin Franzke
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47345
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-p5j5-4j3q-8mq8
   notes: null
   auto_discovered: true
 - cve: CVE-2026-47732
