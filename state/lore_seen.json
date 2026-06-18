@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260617",
+  "last_run_date": "20260618",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -439,6 +439,9 @@
     "https://lore.kernel.org/all/20260616194706.382817-1-jkacur@redhat.com",
     "https://lore.kernel.org/all/20260616194706.382817-2-jkacur@redhat.com",
     "https://lore.kernel.org/all/2026061626-ladder-unwired-2bd4@gregkh",
+    "https://lore.kernel.org/all/20260617164344.62a36a94@fedora-2.home",
+    "https://lore.kernel.org/all/20260617202059.217693-2-jkacur@redhat.com",
+    "https://lore.kernel.org/all/20260617202059.217693-3-jkacur@redhat.com",
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/2abf26e7551a8a306d6aaabc9653f655f66b15a1.1781682189.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
