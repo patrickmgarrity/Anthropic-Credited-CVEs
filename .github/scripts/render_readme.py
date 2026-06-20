@@ -135,6 +135,14 @@ def dedupe_entries(entries: list[dict]) -> list[dict]:
     return [best[i] for i in order]
 
 
+def _cell(value: str) -> str:
+    """Make a string safe to drop into a Markdown table cell. An unescaped `|`
+    starts a new column, so a multi-credit value like "A | B | C" would spill
+    past the Credit column and the extra parts get dropped by the renderer.
+    Escape pipes and flatten any newlines so the whole value stays in one cell."""
+    return value.replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
+
+
 def render_table(entries: list[dict]) -> str:
     header = "| CVE | Date | Vendor | Product | CVSS | Credit |\n"
     header += "| --- | --- | --- | --- | --- | --- |\n"
@@ -148,7 +156,7 @@ def render_table(entries: list[dict]) -> str:
             render_cvss_cell(e),
             render_credit_cell(e),
         ]
-        rows.append("| " + " | ".join(cells) + " |")
+        rows.append("| " + " | ".join(_cell(c) for c in cells) + " |")
     return header + "\n".join(rows) + "\n"
 
 
