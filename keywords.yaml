@@ -12,6 +12,9 @@ keywords:
   - Anthropic
   - Calif.io
   - Doyensec
+  - Ada Logics
+  - Trail of Bits
+  - Ophion Security
 
   # Email domains (catches credits formatted as "<user@anthropic.com>")
   - anthropic.com
@@ -29,6 +32,7 @@ keywords:
   - Adrian Denkiewicz
   - Ben Morris
   - Ziyuan Chen
+  - Arthur Chan
 
 # GitHub usernames for matching against a GHSA's structured `credits[*].user.login`.
 #

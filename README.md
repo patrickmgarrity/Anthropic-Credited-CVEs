@@ -20,27 +20,27 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
-| [CVE-2026-8358](https://www.cve.org/CVERecord?id=CVE-2026-8358) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Arthur Chan of Ada Logics (validation and reporting) |
-| [CVE-2026-8357](https://www.cve.org/CVERecord?id=CVE-2026-8357) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Arthur Chan of Ada Logics (validation and reporting) |
-| [CVE-2026-8356](https://www.cve.org/CVERecord?id=CVE-2026-8356) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Arthur Chan of Ada Logics (validation and reporting) |
-| [CVE-2026-6047](https://www.cve.org/CVERecord?id=CVE-2026-6047) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation) |
-| [CVE-2026-6045](https://www.cve.org/CVERecord?id=CVE-2026-6045) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation) |
-| [CVE-2026-6040](https://www.cve.org/CVERecord?id=CVE-2026-6040) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation) |
-| [CVE-2026-6039](https://www.cve.org/CVERecord?id=CVE-2026-6039) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) | Trail of Bits (triage and validation) |
-| [CVE-2026-45447](https://www.cve.org/CVERecord?id=CVE-2026-45447) | 2026-06-09 | OpenSSL | OpenSSL |  | Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov |
-| [CVE-2026-45446](https://www.cve.org/CVERecord?id=CVE-2026-45446) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) |
-| [CVE-2026-45445](https://www.cve.org/CVERecord?id=CVE-2026-45445) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Viktor Dukhovni |
-| [CVE-2026-42770](https://www.cve.org/CVERecord?id=CVE-2026-42770) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Viktor Dukhovni | Norbert Pócs |
-| [CVE-2026-42769](https://www.cve.org/CVERecord?id=CVE-2026-42769) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Bob Beck |
-| [CVE-2026-42768](https://www.cve.org/CVERecord?id=CVE-2026-42768) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) | Alicja Kario (Red Hat) |
-| [CVE-2026-34182](https://www.cve.org/CVERecord?id=CVE-2026-34182) | 2026-06-09 | OpenSSL | OpenSSL |  | Asim Viladi Oglu Manizada | Alex Gaynor (Anthropic) | Ying Dong | Haiyang Huang | Neil Horman |
-| [CVE-2026-34181](https://www.cve.org/CVERecord?id=CVE-2026-34181) | 2026-06-09 | OpenSSL | OpenSSL |  | Pavol Žáčik (Red Hat) | Alex Gaynor (Anthropic) | Alicja Kario (Red Hat) |
+| [CVE-2026-8358](https://www.cve.org/CVERecord?id=CVE-2026-8358) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
+| [CVE-2026-8357](https://www.cve.org/CVERecord?id=CVE-2026-8357) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
+| [CVE-2026-8356](https://www.cve.org/CVERecord?id=CVE-2026-8356) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
+| [CVE-2026-6047](https://www.cve.org/CVERecord?id=CVE-2026-6047) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Trail of Bits (triage and validation) |
+| [CVE-2026-6045](https://www.cve.org/CVERecord?id=CVE-2026-6045) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Trail of Bits (triage and validation) |
+| [CVE-2026-6040](https://www.cve.org/CVERecord?id=CVE-2026-6040) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Trail of Bits (triage and validation) |
+| [CVE-2026-6039](https://www.cve.org/CVERecord?id=CVE-2026-6039) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Trail of Bits (triage and validation) |
+| [CVE-2026-45447](https://www.cve.org/CVERecord?id=CVE-2026-45447) | 2026-06-09 | OpenSSL | OpenSSL |  | Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) \| Igor Ustinov |
+| [CVE-2026-45446](https://www.cve.org/CVERecord?id=CVE-2026-45446) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) \| Dmitry Belyavskiy (Red Hat) |
+| [CVE-2026-45445](https://www.cve.org/CVERecord?id=CVE-2026-45445) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) \| Viktor Dukhovni |
+| [CVE-2026-42770](https://www.cve.org/CVERecord?id=CVE-2026-42770) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) \| Alex Gaynor (Anthropic) \| Viktor Dukhovni \| Norbert Pócs |
+| [CVE-2026-42769](https://www.cve.org/CVERecord?id=CVE-2026-42769) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) \| Alex Gaynor (Anthropic) \| Bob Beck |
+| [CVE-2026-42768](https://www.cve.org/CVERecord?id=CVE-2026-42768) | 2026-06-09 | OpenSSL | OpenSSL |  | Alex Gaynor (Anthropic) \| Dmitry Belyavskiy (Red Hat) \| Alicja Kario (Red Hat) |
+| [CVE-2026-34182](https://www.cve.org/CVERecord?id=CVE-2026-34182) | 2026-06-09 | OpenSSL | OpenSSL |  | Asim Viladi Oglu Manizada \| Alex Gaynor (Anthropic) \| Ying Dong \| Haiyang Huang \| Neil Horman |
+| [CVE-2026-34181](https://www.cve.org/CVERecord?id=CVE-2026-34181) | 2026-06-09 | OpenSSL | OpenSSL |  | Pavol Žáčik (Red Hat) \| Alex Gaynor (Anthropic) \| Alicja Kario (Red Hat) |
 | [CVE-2026-49975](https://www.cve.org/CVERecord?id=CVE-2026-49975) | 2026-06-08 | Apache Software Foundation | Apache HTTP Server |  | Quang Luong of Calif.IO in collaboration with OpenAI Codex |
-| [CVE-2026-47345](https://www.cve.org/CVERecord?id=CVE-2026-47345) | 2026-06-08 | TYPO3 | HTML Sanitizer | 5.1 | Doyensec in collaboration with Claude and Anthropic Research | Benjamin Franzke |
+| [CVE-2026-47345](https://www.cve.org/CVERecord?id=CVE-2026-47345) | 2026-06-08 | TYPO3 | HTML Sanitizer | 5.1 | Doyensec in collaboration with Claude and Anthropic Research \| Benjamin Franzke |
 | [CVE-2026-47732](https://www.cve.org/CVERecord?id=CVE-2026-47732) | 2026-06-05 | twig | twig |  | @fabpot (remediation_developer) |
 | [CVE-2026-47250](https://www.cve.org/CVERecord?id=CVE-2026-47250) | 2026-06-05 | npm | mcp-server-kubernetes | 6.1 | @yotampe-pluto (reporter) |
 | [CVE-2026-8462](https://www.cve.org/CVERecord?id=CVE-2026-8462) | 2026-06-04 | github.com | openmeterio/openmeter |  |  |
-| [CVE-2026-47429](https://www.cve.org/CVERecord?id=CVE-2026-47429) | 2026-06-01 | npm | vitest | 9.8 | @sapphi-red (reporter) | @qispark (analyst) | @joevin-slq-docto (analyst) | @koteswar-k (analyst) | @SaronGrave (analyst) | @jason-anthropic (analyst) |
+| [CVE-2026-47429](https://www.cve.org/CVERecord?id=CVE-2026-47429) | 2026-06-01 | npm | vitest | 9.8 | @sapphi-red (reporter) \| @qispark (analyst) \| @joevin-slq-docto (analyst) \| @koteswar-k (analyst) \| @SaronGrave (analyst) \| @jason-anthropic (analyst) |
 | [CVE-2026-47391](https://www.cve.org/CVERecord?id=CVE-2026-47391) | 2026-05-29 | pip | PraisonAI | 9.8 | @foxirain (reporter) |
 | [CVE-2026-45700](https://www.cve.org/CVERecord?id=CVE-2026-45700) | 2026-05-29 | FreeRDP | FreeRDP | 7.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | 2026-05-29 | FreeRDP | FreeRDP | 8.8 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
