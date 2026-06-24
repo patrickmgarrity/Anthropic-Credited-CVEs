@@ -1,3 +1,16 @@
+- cve: CVE-2026-46349
+  ghsa: null
+  date: '2026-06-24'
+  vendor: mastodon
+  product: mastodon
+  cvss: 5.3
+  credit: >-
+    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46349
+  ghsa_link: null
+  notes: NOT IN CVE TABLE
+  auto_discovered: false
 - cve: CVE-2026-46348
   ghsa: null
   date: '2026-06-24'
@@ -1424,19 +1437,6 @@
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46354
   ghsa_link: null
   notes: null
-- cve: CVE-2026-46349
-  ghsa: null
-  date: null
-  vendor: mastadon
-  product: mastadon
-  cvss: null
-  credit: >-
-    [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK)
-  status: reserved
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46349
-  ghsa_link: null
-  notes: NOT IN CVE TABLE
-  auto_discovered: false
 - cve: CVE-2026-45796
   ghsa: null
   date: null
