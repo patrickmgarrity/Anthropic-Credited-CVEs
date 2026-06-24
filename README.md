@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | 2026-06-24 | mastodon | mastodon | 8.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-8358](https://www.cve.org/CVERecord?id=CVE-2026-8358) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
 | [CVE-2026-8357](https://www.cve.org/CVERecord?id=CVE-2026-8357) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
 | [CVE-2026-8356](https://www.cve.org/CVERecord?id=CVE-2026-8356) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
@@ -130,6 +131,5 @@ This project is maintained on a best effort basis.
 | [CVE-2026-26980](https://www.cve.org/CVERecord?id=CVE-2026-26980) | 2026-02-19 | Ghost | Ghost | 9.4 | We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly. |
 | [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46354) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
 | [CVE-2026-46349](https://www.cve.org/CVERecord?id=CVE-2026-46349) | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
-| [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | Reserved | mastadon | mastadon |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
 <!-- END_CVE_TABLE -->
