@@ -1,3 +1,15 @@
+- cve: CVE-2026-7531
+  ghsa: null
+  date: '2026-06-25'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 2.3
+  credit: Thai Duong (Calif.io / Anthropic)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-7531
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-46349
   ghsa: null
   date: '2026-06-24'

@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 112**
+**CURRENT CVE COUNT: 113**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -20,6 +20,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-7531](https://www.cve.org/CVERecord?id=CVE-2026-7531) | 2026-06-25 | wolfSSL | wolfSSL | 2.3 | Thai Duong (Calif.io / Anthropic) |
 | [CVE-2026-46349](https://www.cve.org/CVERecord?id=CVE-2026-46349) | 2026-06-24 | mastodon | mastodon | 5.3 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
 | [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | 2026-06-24 | mastodon | mastodon | 8.7 | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-8358](https://www.cve.org/CVERecord?id=CVE-2026-8358) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
