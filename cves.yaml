@@ -1,3 +1,15 @@
+- cve: CVE-2026-12340
+  ghsa: null
+  date: '2026-06-25'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 6.3
+  credit: David Pokora, Trail of Bits (in collaboration with Anthropic)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-12340
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-7531
   ghsa: null
   date: '2026-06-25'
