@@ -50,6 +50,10 @@ If you find an Anthropic credited vulnerability, please open a Pull Request or S
 
 This project is maintained on a best effort basis.
 
+## CVSS Severity Distribution
+
+![CVSS severity distribution](assets/cvss-severity.svg)
+
 ## The List
 
 <!-- BEGIN_CVE_TABLE -->
@@ -58,6 +62,102 @@ This project is maintained on a best effort basis.
 
 MARKER_BEGIN = "<!-- BEGIN_CVE_TABLE -->"
 MARKER_END = "<!-- END_CVE_TABLE -->"
+
+# CVSS v3.x / v4.0 qualitative severity bands and their chart colors.
+# Order matters: it sets the pie slice and legend order.
+SEVERITY_BANDS = [
+    ("Critical", 9.0, "#d32f2f"),  # red
+    ("High",     7.0, "#f57c00"),  # orange
+    ("Medium",   4.0, "#f9c80e"),  # yellow
+    ("Low",      0.1, "#2e7d32"),  # green
+]
+UNSCORED_LABEL = "Unscored"
+UNSCORED_COLOR = "#9e9e9e"  # gray — entries with no CVSS (or 0.0)
+
+
+def severity_of(score):
+    """Map a CVSS base score to its qualitative band, or None if unscored."""
+    if score is None:
+        return None
+    try:
+        score = float(score)
+    except (TypeError, ValueError):
+        return None
+    for name, floor, _ in SEVERITY_BANDS:
+        if score >= floor:
+            return name
+    return None  # 0.0 / negative -> no severity
+
+
+def severity_counts(entries: list[dict]) -> dict[str, int]:
+    counts = {name: 0 for name, _, _ in SEVERITY_BANDS}
+    for e in entries:
+        band = severity_of(e.get("cvss"))
+        if band:
+            counts[band] += 1
+    return counts
+
+
+def _arc_point(cx: float, cy: float, r: float, angle_deg: float) -> tuple[float, float]:
+    import math
+    a = math.radians(angle_deg)
+    return cx + r * math.cos(a), cy + r * math.sin(a)
+
+
+def render_severity_svg(entries: list[dict]) -> str:
+    """Build a standalone SVG pie of the CVSS severity distribution. Colors are
+    pinned per category (red/orange/yellow/green, plus gray for unscored), unlike
+    Mermaid which assigns palette colors by slice size."""
+    counts = severity_counts(entries)
+    unscored = len(entries) - sum(counts.values())  # null or 0.0 CVSS
+    # ordered (label, count, color) including the gray Unscored slice
+    segments = [(name, counts[name], color) for name, _, color in SEVERITY_BANDS]
+    if unscored:
+        segments.append((UNSCORED_LABEL, unscored, UNSCORED_COLOR))
+    total = sum(n for _, n, _ in segments)
+
+    cx, cy, r = 130.0, 130.0, 110.0
+    slices = []
+    angle = -90.0  # start at 12 o'clock
+    for _, n, color in segments:
+        if n == 0:
+            continue
+        sweep = 360.0 * n / total if total else 0.0
+        if n == total:  # single full-circle slice: <path> arc would degenerate
+            slices.append(
+                f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}"/>')
+        else:
+            x1, y1 = _arc_point(cx, cy, r, angle)
+            x2, y2 = _arc_point(cx, cy, r, angle + sweep)
+            large = 1 if sweep > 180 else 0
+            slices.append(
+                f'<path d="M{cx:.2f},{cy:.2f} L{x1:.2f},{y1:.2f} '
+                f'A{r},{r} 0 {large} 1 {x2:.2f},{y2:.2f} Z" fill="{color}"/>')
+        angle += sweep
+
+    # legend (one row per category, vertically centered next to the pie)
+    lx = 270.0
+    ly = cy - (len(segments) * 30) / 2 + 8
+    legend = []
+    for i, (name, n, color) in enumerate(segments):
+        pct = (100.0 * n / total) if total else 0.0
+        y = ly + i * 30
+        legend.append(
+            f'<rect x="{lx}" y="{y}" width="16" height="16" rx="3" fill="{color}"/>'
+            f'<text x="{lx + 24}" y="{y + 13}" font-size="14" fill="#24292f">'
+            f'{name}: {n} ({pct:.0f}%)</text>')
+
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="470" height="270" '
+        'viewBox="0 0 470 270" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
+        f'  <text x="130" y="24" font-size="16" font-weight="600" '
+        f'text-anchor="middle" fill="#24292f">CVSS Severity</text>\n'
+        '  ' + '\n  '.join(slices) + '\n'
+        f'  <text x="130" y="256" font-size="12" text-anchor="middle" '
+        f'fill="#57606a">{total} CVEs</text>\n'
+        '  ' + '\n  '.join(legend) + '\n'
+        '</svg>\n'
+    )
 
 
 def render_cve_cell(entry: dict) -> str:
@@ -239,7 +339,13 @@ def main() -> int:
     rendered = render_readme(template, entries)
     readme_path.write_text(rendered, encoding="utf-8")
     write_aggregate(repo_root, entries)
-    print(f"Rendered {readme_path} and cves.yaml from {len(entries)} entries.")
+
+    chart_path = repo_root / "assets" / "cvss-severity.svg"
+    chart_path.parent.mkdir(exist_ok=True)
+    chart_path.write_text(render_severity_svg(entries), encoding="utf-8")
+
+    print(f"Rendered {readme_path}, cves.yaml and {chart_path.name} "
+          f"from {len(entries)} entries.")
     return 0
 
 

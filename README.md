@@ -15,6 +15,10 @@ If you find an Anthropic credited vulnerability, please open a Pull Request or S
 
 This project is maintained on a best effort basis.
 
+## CVSS Severity Distribution
+
+![CVSS severity distribution](assets/cvss-severity.svg)
+
 ## The List
 
 <!-- BEGIN_CVE_TABLE -->
