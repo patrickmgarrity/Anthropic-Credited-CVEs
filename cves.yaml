@@ -34,6 +34,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-6681
+  ghsa: null
+  date: '2026-06-25'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 1.0
+  credit: Nicholas Carlini from Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6681
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-6331
   ghsa: null
   date: '2026-06-25'
