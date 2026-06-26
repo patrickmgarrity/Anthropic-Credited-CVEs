@@ -76,3 +76,18 @@ jobs:
           else
             echo "No GHSA state changes to commit."
           fi
+
+      - name: Backfill missing CVSS from NVD
+        run: python .github/scripts/backfill_cvss.py
+
+      - name: Commit CVSS backfill (if any)
+        # No [skip ci]: this touches cves/, so render-readme.yml must run to
+        # regenerate README.md + the cves.yaml aggregate from the new scores.
+        run: |
+          if [[ -n "$(git status --porcelain cves/)" ]]; then
+            git add cves/
+            git commit -m "chore: backfill CVSS scores from NVD"
+            git push
+          else
+            echo "No CVSS backfill needed."
+          fi

@@ -44,6 +44,8 @@ CVES_YAML_PATH = Path("cves.yaml")  # generated aggregate (rendered on main)
 CVES_DIR = Path("cves")             # source of truth: one file per CVE/GHSA
 USER_AGENT = "anthropic-cve-tracker (+github actions)"
 FETCH_SLEEP_SECONDS = 0.1
+NVD_API = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+NVD_SLEEP_SECONDS = 7  # NVD throttles anonymous clients to 5 requests / 30s
 RENDER_SCRIPT = Path(".github/scripts/render_readme.py")
 # Hard cap on records we'll fetch in a single run. Protects against pathological
 # catch-up runs (e.g. first run on a brand-new repo would otherwise try to fetch
@@ -154,6 +156,36 @@ def record_matches(record: dict, keywords: list[str]) -> dict[str, list[str]]:
 
 # ---------- Record summary ----------
 
+def fetch_nvd_cvss(cve_id: str) -> float | None:
+    """Look up a CVSS base score from NVD (NIST). Used as a fallback when the
+    CNA's own CVE record carries no CVSS — NVD frequently enriches records the
+    CNA left blank. Prefers v4.0, then v3.1, then v3.0. Best-effort: returns
+    None on any error or if NVD has no score yet.
+
+    NVD throttles anonymous clients to 5 requests / 30s, so callers that loop
+    over many CVEs should space requests out (see NVD_SLEEP_SECONDS)."""
+    try:
+        req = Request(f"{NVD_API}?cveId={cve_id}",
+                      headers={"User-Agent": USER_AGENT})
+        with urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except (HTTPError, URLError, TimeoutError, ValueError, OSError) as exc:
+        print(f"  NVD CVSS lookup failed for {cve_id}: {exc}", file=sys.stderr)
+        return None
+    for vuln in data.get("vulnerabilities", []):
+        metrics = vuln.get("cve", {}).get("metrics", {})
+        for key in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30"):
+            arr = metrics.get(key)
+            if arr:
+                score = arr[0].get("cvssData", {}).get("baseScore")
+                if score is not None:
+                    try:
+                        return float(score)
+                    except (TypeError, ValueError):
+                        return None
+    return None
+
+
 def extract_summary(record: dict) -> dict:
     meta = record.get("cveMetadata", {})
     cna = record.get("containers", {}).get("cna", {}) or {}
@@ -193,6 +225,9 @@ def extract_summary(record: dict) -> dict:
     date_only = date_published[:10] if date_published else None
 
     cve_id = meta.get("cveId", "UNKNOWN")
+    # Fall back to NVD when the CNA record has no CVSS (common for published CVEs).
+    if cvss is None and meta.get("state") == "PUBLISHED":
+        cvss = fetch_nvd_cvss(cve_id)
     return {
         "cve": cve_id,
         "ghsa": None,

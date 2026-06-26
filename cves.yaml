@@ -216,7 +216,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 8.8
   credit: >-
     Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov
   status: published
@@ -229,7 +229,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 4.8
   credit: Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45446
@@ -241,7 +241,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 7.5
   credit: Alex Gaynor (Anthropic) | Viktor Dukhovni
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45445
@@ -253,7 +253,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 3.7
   credit: >-
     Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Viktor Dukhovni | Norbert Pócs
   status: published
@@ -266,7 +266,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 5.3
   credit: Alex Gaynor (Anthropic) | Alex Gaynor (Anthropic) | Bob Beck
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42769
@@ -278,7 +278,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 3.7
   credit: Alex Gaynor (Anthropic) | Dmitry Belyavskiy (Red Hat) | Alicja Kario (Red Hat)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42768
@@ -290,7 +290,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 9.1
   credit: >-
     Asim Viladi Oglu Manizada | Alex Gaynor (Anthropic) | Ying Dong | Haiyang Huang | Neil Horman
   status: published
@@ -303,7 +303,7 @@
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
-  cvss: null
+  cvss: 7.4
   credit: Pavol Žáčik (Red Hat) | Alex Gaynor (Anthropic) | Alicja Kario (Red Hat)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-34181
@@ -315,7 +315,7 @@
   date: '2026-06-08'
   vendor: Apache Software Foundation
   product: Apache HTTP Server
-  cvss: null
+  cvss: 7.5
   credit: Quang Luong of Calif.IO in collaboration with OpenAI Codex
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-49975
