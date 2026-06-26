@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 119**
+**CURRENT CVE COUNT: 120**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -24,6 +24,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-7531](https://www.cve.org/CVERecord?id=CVE-2026-7531) | 2026-06-25 | wolfSSL | wolfSSL | 2.3 | Thai Duong (Calif.io / Anthropic) |
 | [CVE-2026-7511](https://www.cve.org/CVERecord?id=CVE-2026-7511) | 2026-06-25 | wolfSSL | wolfSSL | 5.9 | Nicholas Carlini from Anthropic |
 | [CVE-2026-6681](https://www.cve.org/CVERecord?id=CVE-2026-6681) | 2026-06-25 | wolfSSL | wolfSSL | 1.0 | Nicholas Carlini from Anthropic |
+| [CVE-2026-6679](https://www.cve.org/CVERecord?id=CVE-2026-6679) | 2026-06-25 | wolfSSL | wolfSSL | 8.8 | Nicholas Carlini from Anthropic |
 | [CVE-2026-6331](https://www.cve.org/CVERecord?id=CVE-2026-6331) | 2026-06-25 | wolfSSL | wolfSSL | 2.1 | Nicholas Carlini from Anthropic |
 | [CVE-2026-6330](https://www.cve.org/CVERecord?id=CVE-2026-6330) | 2026-06-25 | wolfSSL | wolfSSL | 6.3 | Nicholas Carlini from Anthropic |
 | [CVE-2026-6329](https://www.cve.org/CVERecord?id=CVE-2026-6329) | 2026-06-25 | wolfSSL | wolfSSL | 6.0 | Nicholas Carlini from Anthropic |
