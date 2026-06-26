@@ -29,11 +29,11 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if [[ -n "$(git status --porcelain README.md cves.yaml assets/cvss-severity.svg)" ]]; then
+          if [[ -n "$(git status --porcelain README.md cves.yaml assets/)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md cves.yaml assets/cvss-severity.svg
-            git commit -m "docs: regenerate README + cves.yaml + severity chart from cves/ [skip ci]"
+            git add README.md cves.yaml assets/
+            git commit -m "docs: regenerate README + cves.yaml + severity charts from cves/ [skip ci]"
             git push
           else
             echo "README, cves.yaml and severity chart already in sync."

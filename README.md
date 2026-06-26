@@ -17,7 +17,10 @@ This project is maintained on a best effort basis.
 
 ## CVSS Severity Distribution
 
-![CVSS severity distribution](assets/cvss-severity.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cvss-severity-dark.svg">
+  <img alt="CVSS severity distribution" src="assets/cvss-severity.svg" width="500">
+</picture>
 
 ## The List
 

@@ -52,7 +52,10 @@ This project is maintained on a best effort basis.
 
 ## CVSS Severity Distribution
 
-![CVSS severity distribution](assets/cvss-severity.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cvss-severity-dark.svg">
+  <img alt="CVSS severity distribution" src="assets/cvss-severity.svg" width="500">
+</picture>
 
 ## The List
 
@@ -104,10 +107,20 @@ def _arc_point(cx: float, cy: float, r: float, angle_deg: float) -> tuple[float,
     return cx + r * math.cos(a), cy + r * math.sin(a)
 
 
-def render_severity_svg(entries: list[dict]) -> str:
+# Text/stroke palettes per color scheme. Slice fills are shared (they read well
+# on both backgrounds); only text and the inter-slice stroke change.
+CHART_THEMES = {
+    "light": {"text": "#24292f", "muted": "#57606a", "stroke": "#ffffff"},
+    "dark":  {"text": "#e6edf3", "muted": "#8b949e", "stroke": "#0d1117"},
+}
+
+
+def render_severity_svg(entries: list[dict], theme: str = "light") -> str:
     """Build a standalone SVG pie of the CVSS severity distribution. Colors are
     pinned per category (red/orange/yellow/green, plus gray for unscored), unlike
-    Mermaid which assigns palette colors by slice size."""
+    Mermaid which assigns palette colors by slice size. `theme` selects the text
+    and slice-separator colors so the chart is readable on light or dark pages."""
+    pal = CHART_THEMES[theme]
     counts = severity_counts(entries)
     unscored = len(entries) - sum(counts.values())  # null or 0.0 CVSS
     # ordered (label, count, color) including the gray Unscored slice
@@ -116,7 +129,9 @@ def render_severity_svg(entries: list[dict]) -> str:
         segments.append((UNSCORED_LABEL, unscored, UNSCORED_COLOR))
     total = sum(n for _, n, _ in segments)
 
-    cx, cy, r = 130.0, 130.0, 110.0
+    # Layout: title band on top, pie centered below it, caption beneath, legend
+    # on the right. Pie top (cy - r) sits well below the title baseline.
+    cx, cy, r = 140.0, 170.0, 105.0
     slices = []
     angle = -90.0  # start at 12 o'clock
     for _, n, color in segments:
@@ -125,18 +140,20 @@ def render_severity_svg(entries: list[dict]) -> str:
         sweep = 360.0 * n / total if total else 0.0
         if n == total:  # single full-circle slice: <path> arc would degenerate
             slices.append(
-                f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}"/>')
+                f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}" '
+                f'stroke="{pal["stroke"]}" stroke-width="2"/>')
         else:
             x1, y1 = _arc_point(cx, cy, r, angle)
             x2, y2 = _arc_point(cx, cy, r, angle + sweep)
             large = 1 if sweep > 180 else 0
             slices.append(
                 f'<path d="M{cx:.2f},{cy:.2f} L{x1:.2f},{y1:.2f} '
-                f'A{r},{r} 0 {large} 1 {x2:.2f},{y2:.2f} Z" fill="{color}"/>')
+                f'A{r},{r} 0 {large} 1 {x2:.2f},{y2:.2f} Z" fill="{color}" '
+                f'stroke="{pal["stroke"]}" stroke-width="2"/>')
         angle += sweep
 
     # legend (one row per category, vertically centered next to the pie)
-    lx = 270.0
+    lx = 300.0
     ly = cy - (len(segments) * 30) / 2 + 8
     legend = []
     for i, (name, n, color) in enumerate(segments):
@@ -144,17 +161,17 @@ def render_severity_svg(entries: list[dict]) -> str:
         y = ly + i * 30
         legend.append(
             f'<rect x="{lx}" y="{y}" width="16" height="16" rx="3" fill="{color}"/>'
-            f'<text x="{lx + 24}" y="{y + 13}" font-size="14" fill="#24292f">'
+            f'<text x="{lx + 24}" y="{y + 13}" font-size="14" fill="{pal["text"]}">'
             f'{name}: {n} ({pct:.0f}%)</text>')
 
     return (
-        '<svg xmlns="http://www.w3.org/2000/svg" width="470" height="270" '
-        'viewBox="0 0 470 270" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
-        f'  <text x="130" y="24" font-size="16" font-weight="600" '
-        f'text-anchor="middle" fill="#24292f">CVSS Severity</text>\n'
+        '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="320" '
+        'viewBox="0 0 500 320" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
+        f'  <text x="{cx}" y="34" font-size="17" font-weight="600" '
+        f'text-anchor="middle" fill="{pal["text"]}">CVSS Severity</text>\n'
         '  ' + '\n  '.join(slices) + '\n'
-        f'  <text x="130" y="256" font-size="12" text-anchor="middle" '
-        f'fill="#57606a">{total} CVEs</text>\n'
+        f'  <text x="{cx}" y="305" font-size="12" text-anchor="middle" '
+        f'fill="{pal["muted"]}">{total} CVEs</text>\n'
         '  ' + '\n  '.join(legend) + '\n'
         '</svg>\n'
     )
@@ -340,11 +357,15 @@ def main() -> int:
     readme_path.write_text(rendered, encoding="utf-8")
     write_aggregate(repo_root, entries)
 
-    chart_path = repo_root / "assets" / "cvss-severity.svg"
-    chart_path.parent.mkdir(exist_ok=True)
-    chart_path.write_text(render_severity_svg(entries), encoding="utf-8")
+    assets_dir = repo_root / "assets"
+    assets_dir.mkdir(exist_ok=True)
+    # Light is the default (cvss-severity.svg); dark is swapped in via <picture>.
+    (assets_dir / "cvss-severity.svg").write_text(
+        render_severity_svg(entries, "light"), encoding="utf-8")
+    (assets_dir / "cvss-severity-dark.svg").write_text(
+        render_severity_svg(entries, "dark"), encoding="utf-8")
 
-    print(f"Rendered {readme_path}, cves.yaml and {chart_path.name} "
+    print(f"Rendered {readme_path}, cves.yaml and severity charts "
           f"from {len(entries)} entries.")
     return 0
 
