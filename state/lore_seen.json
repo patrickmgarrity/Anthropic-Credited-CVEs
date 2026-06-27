@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260626",
+  "last_run_date": "20260627",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -507,6 +507,7 @@
     "https://lore.kernel.org/all/D601FEF7-7223-4B7E-8315-EF020C1B259C@gmx.de",
     "https://lore.kernel.org/all/DJ63DEDEBWNO.CYD3H5RSNOQW@smile.fr",
     "https://lore.kernel.org/all/DJFJLZY26OV8.76VQNOV5VDTV@smile.fr",
+    "https://lore.kernel.org/all/DJJBWNIV5W9K.3QTFPMAU76PDB@smile.fr",
     "https://lore.kernel.org/all/DS0PR12MB75363567B125EDD245CF51CAF5082@DS0PR12MB7536.namprd12.prod.outlook.com",
     "https://lore.kernel.org/all/E1wOwtx-0000000Ethi-1WB2@pty.whiteo.stw.pengutronix.de",
     "https://lore.kernel.org/all/E1wOxfc-0000000EuG7-0XXj@pty.whiteo.stw.pengutronix.de",
