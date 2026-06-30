@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260629",
+  "last_run_date": "20260630",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -451,6 +451,9 @@
     "https://lore.kernel.org/all/20260622202131.182067-7-jkacur@redhat.com",
     "https://lore.kernel.org/all/20260626082852.96329-3-thomas.perale@mind.be",
     "https://lore.kernel.org/all/20260629005028.2907470-1-James.Zhu@amd.com",
+    "https://lore.kernel.org/all/20260630044249.12023-2-hprajapati@mvista.com",
+    "https://lore.kernel.org/all/20260630044343.12138-2-hprajapati@mvista.com",
+    "https://lore.kernel.org/all/20260630071903.155470-3-hprajapati@mvista.com",
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/2abf26e7551a8a306d6aaabc9653f655f66b15a1.1781682189.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
@@ -459,6 +462,7 @@
     "https://lore.kernel.org/all/3fa7080b029562aa687ebac6c60e0a01f3f7e65d.1779805943.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/3zd25ylkgypmxgnhhsih6x7iuclyol772gvgfuh4hs2w3ok4to@nrnbopov37kn",
     "https://lore.kernel.org/all/4a67d330-a2a7-47f4-a43a-a2e444c47f55@pengutronix.de",
+    "https://lore.kernel.org/all/4ea34942-f1ff-4c65-a634-1f8786308fb1@amd.com",
     "https://lore.kernel.org/all/52144dd5-f3a8-4a82-b048-36b53518c9c3@kernel.dk",
     "https://lore.kernel.org/all/545fadfed8c87d1d7d112eb78d59dfa9e815b1d4.1779232800.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/545fadfed8c87d1d7d112eb78d59dfa9e815b1d4.1779264709.git.yoann.congal@smile.fr",
@@ -466,6 +470,7 @@
     "https://lore.kernel.org/all/5f3a6acbc4f5347ddc231d5ed33500128a85c547.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/728c7f06-aec9-41a4-87e2-b4e0fe14a55f@pengutronix.de",
     "https://lore.kernel.org/all/7a2c2f2c-eb64-496b-a058-323ebf27df3b@kernel.dk",
+    "https://lore.kernel.org/all/7f1ec051-74e2-4ac9-8ac8-9725ca82bb80@amd.com",
     "https://lore.kernel.org/all/8710d3bd-fa87-46c3-be2f-a798f096f547@gmail.com",
     "https://lore.kernel.org/all/874iizc9vk.fsf@jax.kurt.home",
     "https://lore.kernel.org/all/88c88a04-9511-4317-9e6a-f38d532a02d5@pengutronix.de",
@@ -529,6 +534,7 @@
     "https://lore.kernel.org/all/dc8da8b6-fca4-4e6a-ba42-15a68cf7d64d@gmail.com",
     "https://lore.kernel.org/all/e39c48a3-6e4e-41ea-9fe1-6b8c4b3ff36e@arm.com",
     "https://lore.kernel.org/all/e6e1f40b-7199-4e9b-b85d-5faa4b716bd0@pengutronix.de",
-    "https://lore.kernel.org/all/efd4f787-c6df-4ab7-96ce-132cabf414f9@kernel.dk"
+    "https://lore.kernel.org/all/efd4f787-c6df-4ab7-96ce-132cabf414f9@kernel.dk",
+    "https://lore.kernel.org/all/f0719bbf-55fb-4d26-b717-b161ebde51fa@amd.com"
   ]
 }
