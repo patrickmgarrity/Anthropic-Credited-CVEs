@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260630",
+  "last_run_date": "20260701",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -454,6 +454,10 @@
     "https://lore.kernel.org/all/20260630044249.12023-2-hprajapati@mvista.com",
     "https://lore.kernel.org/all/20260630044343.12138-2-hprajapati@mvista.com",
     "https://lore.kernel.org/all/20260630071903.155470-3-hprajapati@mvista.com",
+    "https://lore.kernel.org/all/20260630130341.71014-3-roland.kovacs@est.tech",
+    "https://lore.kernel.org/all/20260630130358.71091-3-roland.kovacs@est.tech",
+    "https://lore.kernel.org/all/20260701081105.68569-2-roland.kovacs@est.tech",
+    "https://lore.kernel.org/all/20260701082639.69648-3-roland.kovacs@est.tech",
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/2abf26e7551a8a306d6aaabc9653f655f66b15a1.1781682189.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
@@ -535,6 +539,7 @@
     "https://lore.kernel.org/all/e39c48a3-6e4e-41ea-9fe1-6b8c4b3ff36e@arm.com",
     "https://lore.kernel.org/all/e6e1f40b-7199-4e9b-b85d-5faa4b716bd0@pengutronix.de",
     "https://lore.kernel.org/all/efd4f787-c6df-4ab7-96ce-132cabf414f9@kernel.dk",
-    "https://lore.kernel.org/all/f0719bbf-55fb-4d26-b717-b161ebde51fa@amd.com"
+    "https://lore.kernel.org/all/f0719bbf-55fb-4d26-b717-b161ebde51fa@amd.com",
+    "https://lore.kernel.org/all/f81d25c6-4b14-4e48-a230-2d41a036a065@redhat.com"
   ]
 }
