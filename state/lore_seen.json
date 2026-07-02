@@ -1,11 +1,12 @@
 {
-  "last_run_date": "20260701",
+  "last_run_date": "20260702",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
     "io-wq: check that the predecessor is hashed in io_wq_remove_pending()",
     "iommu/amd: bounds-check devid in __rlookup_amd_iommu()",
     "nfsd: fix heap overflow in nfsv4.0 lock replay cache",
+    "ppp: defer channel free to an rcu grace period to fix",
     "ppp: fix use-after-free reads in the stats ioctls.",
     "sctp: revalidate list cursor after sctp_sendmsg_to_asoc() in sctp_sendall",
     "security/keys: fix missed rcu read section on lookup",
@@ -13,6 +14,7 @@
   ],
   "seen_message_ids": [
     "https://lore.kernel.org/all/11689da4-fd35-4177-be03-8bbd750dbe8f@gmail.com",
+    "https://lore.kernel.org/all/166370f4-0b8c-4af4-9fb7-6967828a99bc@linux.dev",
     "https://lore.kernel.org/all/178164954145.482538.4666042173411800435.b4-reply@b4",
     "https://lore.kernel.org/all/18bd4e6909fbb600-webhooks-bot@alsa-project.org",
     "https://lore.kernel.org/all/19d76abb-baff-4249-9f17-d0460b418d56@arm.com",
@@ -458,10 +460,14 @@
     "https://lore.kernel.org/all/20260630130358.71091-3-roland.kovacs@est.tech",
     "https://lore.kernel.org/all/20260701081105.68569-2-roland.kovacs@est.tech",
     "https://lore.kernel.org/all/20260701082639.69648-3-roland.kovacs@est.tech",
+    "https://lore.kernel.org/all/20260701113947.23180-1-david.lee@trailofbits.com",
+    "https://lore.kernel.org/all/20260701114438.24431-1-david.lee@trailofbits.com",
+    "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/2abf26e7551a8a306d6aaabc9653f655f66b15a1.1781682189.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
     "https://lore.kernel.org/all/39c542a0-bf0f-408c-a9ff-17b4c629bd36@linux.dev",
+    "https://lore.kernel.org/all/3D8CD266-4131-4C6A-B69F-B69B8070BA03@doyensec.com",
     "https://lore.kernel.org/all/3b3cd41d-a71c-434f-9438-8637bbdc0496@pengutronix.de",
     "https://lore.kernel.org/all/3fa7080b029562aa687ebac6c60e0a01f3f7e65d.1779805943.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/3zd25ylkgypmxgnhhsih6x7iuclyol772gvgfuh4hs2w3ok4to@nrnbopov37kn",
@@ -482,6 +488,8 @@
     "https://lore.kernel.org/all/93347e4eac42588a9533b37e09c28b4b53a55413.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/96f75bf8-6aac-4fd1-b272-c29e726aead8@intel.com",
     "https://lore.kernel.org/all/9ec2de4c-9404-4c9b-9d86-c5aad9cde721@arm.com",
+    "https://lore.kernel.org/all/BC7EE0DB-AA40-4E26-A7BB-002961F75B3B@doyensec.com",
+    "https://lore.kernel.org/all/C954A7EA-AA98-4E3C-80B5-42C34B3183A3@doyensec.com",
     "https://lore.kernel.org/all/CA+J-LAz5dYfDAOovThwQZM9u6Yk+0m6m_pAE_UH=U6EMBXw5bw@mail.gmail.com",
     "https://lore.kernel.org/all/CAC_iWj+KNaUsyYRZ8-awtaVZpGjUs21na3MgEhYoroUzeVCKaA@mail.gmail.com",
     "https://lore.kernel.org/all/CAC_iWjKwyj5jg=R-kJGi0i26hDrLAmjc+U7ZDVq7r2jLuBbwdA@mail.gmail.com",
@@ -518,6 +526,7 @@
     "https://lore.kernel.org/all/CF6F0CC7-C448-406B-8E24-2025AD585D18@doyensec.com",
     "https://lore.kernel.org/all/CH3PR12MB8658A352781C51E9A2743E0B8C082@CH3PR12MB8658.namprd12.prod.outlook.com",
     "https://lore.kernel.org/all/D601FEF7-7223-4B7E-8315-EF020C1B259C@gmx.de",
+    "https://lore.kernel.org/all/D9C0245B-608B-4884-8A09-F55BA4A9F948@doyensec.com",
     "https://lore.kernel.org/all/DJ63DEDEBWNO.CYD3H5RSNOQW@smile.fr",
     "https://lore.kernel.org/all/DJFJLZY26OV8.76VQNOV5VDTV@smile.fr",
     "https://lore.kernel.org/all/DJJBWNIV5W9K.3QTFPMAU76PDB@smile.fr",
@@ -540,6 +549,7 @@
     "https://lore.kernel.org/all/e6e1f40b-7199-4e9b-b85d-5faa4b716bd0@pengutronix.de",
     "https://lore.kernel.org/all/efd4f787-c6df-4ab7-96ce-132cabf414f9@kernel.dk",
     "https://lore.kernel.org/all/f0719bbf-55fb-4d26-b717-b161ebde51fa@amd.com",
-    "https://lore.kernel.org/all/f81d25c6-4b14-4e48-a230-2d41a036a065@redhat.com"
+    "https://lore.kernel.org/all/f81d25c6-4b14-4e48-a230-2d41a036a065@redhat.com",
+    "https://lore.kernel.org/all/willemdebruijn.kernel.1cfea9a8313a4@gmail.com"
   ]
 }
