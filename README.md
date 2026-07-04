@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 121**
+**CURRENT CVE COUNT: 122**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -27,6 +27,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-27775](https://www.cve.org/CVERecord?id=CVE-2026-27775) | 2026-07-03 | Gitea | Gitea Open Source Git Server |  | adrian-doyensec |
 | [CVE-2026-43715](https://www.cve.org/CVERecord?id=CVE-2026-43715) | 2026-06-29 | Apple | IOS | 8.8 | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-12340](https://www.cve.org/CVERecord?id=CVE-2026-12340) | 2026-06-25 | wolfSSL | wolfSSL | 6.3 | David Pokora, Trail of Bits (in collaboration with Anthropic) |
 | [CVE-2026-7531](https://www.cve.org/CVERecord?id=CVE-2026-7531) | 2026-06-25 | wolfSSL | wolfSSL | 2.3 | Thai Duong (Calif.io / Anthropic) |
