@@ -11,6 +11,18 @@
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46354
   ghsa_link: null
   notes: null
+- cve: CVE-2026-45796
+  ghsa: null
+  date: '2026-07-07'
+  vendor: coder
+  product: coder
+  cvss: 6.5
+  credit: >-
+    We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently
+    disclosing this issue!
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
+  ghsa_link: null
 - cve: CVE-2026-27775
   ghsa: null
   date: '2026-07-03'
@@ -1557,15 +1569,3 @@
   ghsa_link: https://github.com/advisories/GHSA-w52v-v783-gw97
   notes: null
   auto_discovered: false
-- cve: CVE-2026-45796
-  ghsa: null
-  date: null
-  vendor: coder
-  product: coder
-  cvss: 9.1
-  credit: >-
-    We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently
-    disclosing this issue!
-  status: reserved
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
-  ghsa_link: null

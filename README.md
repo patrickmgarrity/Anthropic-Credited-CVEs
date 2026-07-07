@@ -28,6 +28,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46354) | 2026-07-07 | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
+| [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | 2026-07-07 | coder | coder | 6.5 | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
 | [CVE-2026-27775](https://www.cve.org/CVERecord?id=CVE-2026-27775) | 2026-07-03 | Gitea | Gitea Open Source Git Server | 8.8 | adrian-doyensec |
 | [CVE-2026-43715](https://www.cve.org/CVERecord?id=CVE-2026-43715) | 2026-06-29 | Apple | IOS | 8.8 | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-12340](https://www.cve.org/CVERecord?id=CVE-2026-12340) | 2026-06-25 | wolfSSL | wolfSSL | 6.3 | David Pokora, Trail of Bits (in collaboration with Anthropic) |
@@ -148,5 +149,4 @@ This project is maintained on a best effort basis.
 | [CVE-2026-2764](https://www.cve.org/CVERecord?id=CVE-2026-2764) | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | [CVE-2026-2763](https://www.cve.org/CVERecord?id=CVE-2026-2763) | 2026-02-24 | Mozilla | Firefox | 9.8 | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | [CVE-2026-26980](https://www.cve.org/CVERecord?id=CVE-2026-26980) | 2026-02-19 | Ghost | Ghost | 9.4 | We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly. |
-| [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | Reserved | coder | coder | 9.1 | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
 <!-- END_CVE_TABLE -->
