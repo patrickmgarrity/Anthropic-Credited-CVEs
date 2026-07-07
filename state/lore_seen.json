@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260706",
+  "last_run_date": "20260707",
   "opened_finding_keys": [
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
@@ -476,6 +476,7 @@
     "https://lore.kernel.org/all/3b3cd41d-a71c-434f-9438-8637bbdc0496@pengutronix.de",
     "https://lore.kernel.org/all/3fa7080b029562aa687ebac6c60e0a01f3f7e65d.1779805943.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/3zd25ylkgypmxgnhhsih6x7iuclyol772gvgfuh4hs2w3ok4to@nrnbopov37kn",
+    "https://lore.kernel.org/all/45dd60a1-231d-4837-9280-786c5d0dbc72@linux.dev",
     "https://lore.kernel.org/all/4a67d330-a2a7-47f4-a43a-a2e444c47f55@pengutronix.de",
     "https://lore.kernel.org/all/4ea34942-f1ff-4c65-a634-1f8786308fb1@amd.com",
     "https://lore.kernel.org/all/52144dd5-f3a8-4a82-b048-36b53518c9c3@kernel.dk",
@@ -502,6 +503,7 @@
     "https://lore.kernel.org/all/CAC_iWj+KNaUsyYRZ8-awtaVZpGjUs21na3MgEhYoroUzeVCKaA@mail.gmail.com",
     "https://lore.kernel.org/all/CAC_iWjKwyj5jg=R-kJGi0i26hDrLAmjc+U7ZDVq7r2jLuBbwdA@mail.gmail.com",
     "https://lore.kernel.org/all/CAHk-=wi+JvcuKF2NaD_rGiYrwkR6rxh_2XZmx8BbYm00D1CvTA@mail.gmail.com",
+    "https://lore.kernel.org/all/CANp29Y6YTU+8jVpokYdGXP5FpuayZebsYkWNGNrXqHNRUOu1bQ@mail.gmail.com",
     "https://lore.kernel.org/all/CAP-5=fU0xWWZ2+uCOe-3Pm0F0U-Qu_hbmVZoQ2pyRYo=iwshUg@mail.gmail.com",
     "https://lore.kernel.org/all/CAP-5=fU3UYq6XyhbnkpEcf4EtJ=42OcBDqr2GU2i-Ur4sLF7Sg@mail.gmail.com",
     "https://lore.kernel.org/all/CAP-5=fULowK8tmKe1KnkR4YMFE51CRuq69444=tFnbq+BMKYKw@mail.gmail.com",
@@ -561,6 +563,7 @@
     "https://lore.kernel.org/all/efd4f787-c6df-4ab7-96ce-132cabf414f9@kernel.dk",
     "https://lore.kernel.org/all/f0719bbf-55fb-4d26-b717-b161ebde51fa@amd.com",
     "https://lore.kernel.org/all/f81d25c6-4b14-4e48-a230-2d41a036a065@redhat.com",
-    "https://lore.kernel.org/all/willemdebruijn.kernel.1cfea9a8313a4@gmail.com"
+    "https://lore.kernel.org/all/willemdebruijn.kernel.1cfea9a8313a4@gmail.com",
+    "https://lore.kernel.org/all/willemdebruijn.kernel.31a7e80dcad9d@gmail.com"
   ]
 }
