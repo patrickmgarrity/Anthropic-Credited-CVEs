@@ -10,6 +10,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-15169
+  ghsa: null
+  date: '2026-07-08'
+  vendor: Wireshark Foundation
+  product: Wireshark
+  cvss: 5.5
+  credit: Claude and Ada Logics
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-15169
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-46354
   ghsa: null
   date: '2026-07-07'
