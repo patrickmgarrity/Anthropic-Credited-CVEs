@@ -24,6 +24,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-61503
+  ghsa: null
+  date: '2026-07-13'
+  vendor: rejetto
+  product: hfs
+  cvss: 6.9
+  credit: >-
+    Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-61503
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-15170
   ghsa: null
   date: '2026-07-08'
