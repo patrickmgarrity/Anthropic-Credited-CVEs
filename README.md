@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 126**
+**CURRENT CVE COUNT: 127**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -27,6 +27,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-61505](https://www.cve.org/CVERecord?id=CVE-2026-61505) | 2026-07-13 | rejetto | hfs | 6.9 | Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research |
 | [CVE-2026-15170](https://www.cve.org/CVERecord?id=CVE-2026-15170) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | Claude and Ada Logics |
 | [CVE-2026-15169](https://www.cve.org/CVERecord?id=CVE-2026-15169) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | Claude and Ada Logics |
 | [CVE-2026-15166](https://www.cve.org/CVERecord?id=CVE-2026-15166) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | Claude and Ada Logics |
