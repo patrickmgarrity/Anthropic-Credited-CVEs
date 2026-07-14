@@ -12,6 +12,19 @@
   ghsa_link: https://github.com/advisories/GHSA-mm6w-gr99-p3jj
   notes: null
   auto_discovered: false
+- cve: CVE-2026-46633
+  ghsa: GHSA-7p85-w9px-jpjp
+  date: '2026-07-14'
+  vendor: twigphp
+  product: Twig
+  cvss: 8.7
+  credit: >-
+    Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting
+    and fixing the issue.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
+  ghsa_link: https://github.com/advisories/GHSA-7p85-w9px-jpjp
+  notes: null
 - cve: CVE-2026-45067
   ghsa: null
   date: '2026-07-14'
@@ -722,19 +735,6 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
-- cve: CVE-2026-46633
-  ghsa: GHSA-7p85-w9px-jpjp
-  date: '2026-05-20'
-  vendor: twig
-  product: twig
-  cvss: 9.3
-  credit: >-
-    Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting
-    and fixing the issue.
-  status: reserved
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
-  ghsa_link: https://github.com/advisories/GHSA-7p85-w9px-jpjp
-  notes: null
 - cve: CVE-2026-44212
   ghsa: null
   date: '2026-05-14'

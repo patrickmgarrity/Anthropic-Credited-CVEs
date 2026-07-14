@@ -28,6 +28,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | 2026-07-14 | twigphp | Twig | 7.1 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
+| [CVE-2026-46633](https://www.cve.org/CVERecord?id=CVE-2026-46633) | 2026-07-14 | twigphp | Twig | 8.7 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-45067](https://www.cve.org/CVERecord?id=CVE-2026-45067) | 2026-07-14 | symfony | symfony | 6.3 |  |
 | [CVE-2026-61505](https://www.cve.org/CVERecord?id=CVE-2026-61505) | 2026-07-13 | rejetto | hfs | 6.9 | Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research |
 | [CVE-2026-61504](https://www.cve.org/CVERecord?id=CVE-2026-61504) | 2026-07-13 | rejetto | hfs | 5.1 | Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research |
@@ -85,7 +86,6 @@ This project is maintained on a best effort basis.
 | [CVE-2026-40383](https://www.cve.org/CVERecord?id=CVE-2026-40383) | 2026-05-26 | Joomla! | Joomla! CMS | 7.5 | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-40034](https://www.cve.org/CVERecord?id=CVE-2026-40034) | 2026-05-26 | gitoxide | gitoxide | 7.3 | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
 | [CVE-2026-40033](https://www.cve.org/CVERecord?id=CVE-2026-40033) | 2026-05-26 | FreeRDP | FreeRDP | 8.6 | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
-| [CVE-2026-46633](https://www.cve.org/CVERecord?id=CVE-2026-46633) | Reserved | twig | twig | 9.3 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-44212](https://www.cve.org/CVERecord?id=CVE-2026-44212) | 2026-05-14 | PrestaShop | PrestaShop | 7.8 | Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research. |
 | [CVE-2026-6479](https://www.cve.org/CVERecord?id=CVE-2026-6479) | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
 | [CVE-2026-44471](https://www.cve.org/CVERecord?id=CVE-2026-44471) | 2026-05-13 | gitoxide | gitoxide | 7.8 | This vulnerability was found by AI (specifically, Claude Mythos) as part of Project Glasswing. I have verified this and most of this advisory has been written by my probably-inferior human brain. |
