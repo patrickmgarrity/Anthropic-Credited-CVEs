@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260714",
+  "last_run_date": "20260715",
   "opened_finding_keys": [
     "alsa: seq: close a re-opened queue timer in the destructor",
     "efi_loader: validate pe-coff relocation data",
@@ -492,6 +492,7 @@
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/288616cf-27fa-eed8-2e4c-898d723cc283@blackhole.kfki.hu",
     "https://lore.kernel.org/all/2abf26e7551a8a306d6aaabc9653f655f66b15a1.1781682189.git.yoann.congal@smile.fr",
+    "https://lore.kernel.org/all/31f257bd-bcdf-454f-8561-a03ce42380c2@gmx.com",
     "https://lore.kernel.org/all/33a15b15-bf59-4bf9-894b-eb4b08cde081@pengutronix.de",
     "https://lore.kernel.org/all/39c542a0-bf0f-408c-a9ff-17b4c629bd36@linux.dev",
     "https://lore.kernel.org/all/3D8CD266-4131-4C6A-B69F-B69B8070BA03@doyensec.com",
@@ -517,6 +518,7 @@
     "https://lore.kernel.org/all/7f1ec051-74e2-4ac9-8ac8-9725ca82bb80@amd.com",
     "https://lore.kernel.org/all/8710d3bd-fa87-46c3-be2f-a798f096f547@gmail.com",
     "https://lore.kernel.org/all/874iizc9vk.fsf@jax.kurt.home",
+    "https://lore.kernel.org/all/87jyqyym08.wl-tiwai@suse.de",
     "https://lore.kernel.org/all/88c88a04-9511-4317-9e6a-f38d532a02d5@pengutronix.de",
     "https://lore.kernel.org/all/8d364049-78d5-4788-9cb2-feb58f41306f@pengutronix.de",
     "https://lore.kernel.org/all/93347e4eac42588a9533b37e09c28b4b53a55413.1780498019.git.bcodding@hammerspace.com",
@@ -585,6 +587,7 @@
     "https://lore.kernel.org/all/ajGb81qNmCbhLTCn@sobremesa",
     "https://lore.kernel.org/all/akfdxKa9aaKGBFeJ@debian",
     "https://lore.kernel.org/all/b30d8432-3512-4053-93d6-77f2be96a796@gmail.com",
+    "https://lore.kernel.org/all/bbd8db69-6541-4790-890f-fdbda17e1cde@gmx.com",
     "https://lore.kernel.org/all/bd45e015132b2d8beaeb0e4013d0bc4e5061932b.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/bdc2d660-2e57-4a70-b34a-d28a78b7536d@amd.com",
     "https://lore.kernel.org/all/dc8da8b6-fca4-4e6a-ba42-15a68cf7d64d@gmail.com",
