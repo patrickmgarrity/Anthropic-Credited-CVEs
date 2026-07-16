@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260715",
+  "last_run_date": "20260716",
   "opened_finding_keys": [
     "alsa: seq: close a re-opened queue timer in the destructor",
     "efi_loader: validate pe-coff relocation data",
@@ -488,6 +488,7 @@
     "https://lore.kernel.org/all/20260714070524.1699081-1-david.lee@trailofbits.com",
     "https://lore.kernel.org/all/20260714070611.1700456-1-david.lee@trailofbits.com",
     "https://lore.kernel.org/all/20260714071054.1715464-1-david.lee@trailofbits.com",
+    "https://lore.kernel.org/all/20260715090516.512417-1-david.lee@trailofbits.com",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2397ad4a9949c55f84a93ec3fad82a77a0fc7544.1780498019.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/288616cf-27fa-eed8-2e4c-898d723cc283@blackhole.kfki.hu",
@@ -576,6 +577,7 @@
     "https://lore.kernel.org/all/E1wOxfc-0000000EuG7-0XXj@pty.whiteo.stw.pengutronix.de",
     "https://lore.kernel.org/all/E793FCF2-58DE-4387-A983-C7B4BC3158BD@doyensec.com",
     "https://lore.kernel.org/all/FF830A2B-D69C-4233-B210-9AA7D9626589@doyensec.com",
+    "https://lore.kernel.org/all/GV1P189MB198888979057CD9C64118B1BC6F82@GV1P189MB1988.EURP189.PROD.OUTLOOK.COM",
     "https://lore.kernel.org/all/a0b2ffff-e0a1-4aa6-9f90-8160cf759af1@pengutronix.de",
     "https://lore.kernel.org/all/a93d394f-665c-445f-961f-4fdbd03a4162@pengutronix.de",
     "https://lore.kernel.org/all/aa5405c3a539422e79ae24bc2e41e6f1@dev.tdt.de",
@@ -594,6 +596,7 @@
     "https://lore.kernel.org/all/e39c48a3-6e4e-41ea-9fe1-6b8c4b3ff36e@arm.com",
     "https://lore.kernel.org/all/e6e1f40b-7199-4e9b-b85d-5faa4b716bd0@pengutronix.de",
     "https://lore.kernel.org/all/efd4f787-c6df-4ab7-96ce-132cabf414f9@kernel.dk",
+    "https://lore.kernel.org/all/f02329c8-6e59-404f-944b-9c029ae61258@gmx.com",
     "https://lore.kernel.org/all/f0719bbf-55fb-4d26-b717-b161ebde51fa@amd.com",
     "https://lore.kernel.org/all/f2c03bf44550fccbd00832dfae1bfb60a940ad54.1783590688.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/f81d25c6-4b14-4e48-a230-2d41a036a065@redhat.com",
