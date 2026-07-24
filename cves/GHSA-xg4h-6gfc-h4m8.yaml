@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-xg4h-6gfc-h4m8
+date: '2026-07-24'
+vendor: go.etcd.io
+product: etcd/v3
+cvss: null
+credit: '@lobuhi (reporter) | @AdamKorcz (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-xg4h-6gfc-h4m8
+notes: null
+auto_discovered: true
