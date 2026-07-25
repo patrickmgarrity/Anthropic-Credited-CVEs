@@ -1,7 +1,8 @@
 {
-  "last_run_date": "20260724",
+  "last_run_date": "20260725",
   "opened_finding_keys": [
     "alsa: seq: close a re-opened queue timer in the destructor",
+    "alsa: seq: fix division by zero in initialize_timer()",
     "alsa: timer: don't re-enter an instance callback that is",
     "alsa: timer: drain a slave's callback before its master",
     "efi_loader: validate pe-coff relocation data",
@@ -579,6 +580,7 @@
     "https://lore.kernel.org/all/874iizc9vk.fsf@jax.kurt.home",
     "https://lore.kernel.org/all/87h5luqdjw.wl-tiwai@suse.de",
     "https://lore.kernel.org/all/87jyqyym08.wl-tiwai@suse.de",
+    "https://lore.kernel.org/all/87tspnblvj.wl-tiwai@suse.de",
     "https://lore.kernel.org/all/88c88a04-9511-4317-9e6a-f38d532a02d5@pengutronix.de",
     "https://lore.kernel.org/all/8d364049-78d5-4788-9cb2-feb58f41306f@pengutronix.de",
     "https://lore.kernel.org/all/93347e4eac42588a9533b37e09c28b4b53a55413.1780498019.git.bcodding@hammerspace.com",
@@ -630,6 +632,7 @@
     "https://lore.kernel.org/all/D26598EB-DBF7-4D76-9F71-8E4BD59822D4@doyensec.com",
     "https://lore.kernel.org/all/D601FEF7-7223-4B7E-8315-EF020C1B259C@gmx.de",
     "https://lore.kernel.org/all/D9C0245B-608B-4884-8A09-F55BA4A9F948@doyensec.com",
+    "https://lore.kernel.org/all/DF8A3844-AD5E-4B8A-9CFC-BD83C212BA38@doyensec.com",
     "https://lore.kernel.org/all/DJ63DEDEBWNO.CYD3H5RSNOQW@smile.fr",
     "https://lore.kernel.org/all/DJFJLZY26OV8.76VQNOV5VDTV@smile.fr",
     "https://lore.kernel.org/all/DJJBWNIV5W9K.3QTFPMAU76PDB@smile.fr",
