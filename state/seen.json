@@ -1,6 +1,6 @@
 {
   "last_fetch_timestamp": "2026-07-26T17:42:10.662Z",
-  "last_ghsa_modified": "2026-07-26T15:30:33Z",
+  "last_ghsa_modified": "2026-07-26T18:30:24Z",
   "seen_cve_ids": [
     "CVE-2026-0621",
     "CVE-2026-10548",
