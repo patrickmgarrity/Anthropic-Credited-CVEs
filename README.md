@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 134**
+**CURRENT CVE COUNT: 135**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -28,6 +28,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-61487](https://www.cve.org/CVERecord?id=CVE-2026-61487) | 2026-07-28 | Apache Software Foundation | Apache ActiveMQ Broker |  | Claude and Ada Logics |
+| [CVE-2026-64015](https://www.cve.org/CVERecord?id=CVE-2026-64015) | 2026-07-19 | Linux | Linux |  |  |
 | [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | 2026-07-14 | twigphp | Twig | 7.1 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-46633](https://www.cve.org/CVERecord?id=CVE-2026-46633) | 2026-07-14 | twigphp | Twig | 8.7 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-45067](https://www.cve.org/CVERecord?id=CVE-2026-45067) | 2026-07-14 | symfony | symfony | 6.3 |  |
