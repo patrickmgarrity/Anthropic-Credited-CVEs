@@ -1,3 +1,15 @@
+- cve: CVE-2026-61487
+  ghsa: null
+  date: '2026-07-28'
+  vendor: Apache Software Foundation
+  product: Apache ActiveMQ Broker
+  cvss: null
+  credit: Claude and Ada Logics
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-61487
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-46639
   ghsa: GHSA-mm6w-gr99-p3jj
   date: '2026-07-14'
@@ -553,7 +565,7 @@
   date: '2026-06-05'
   vendor: twig
   product: twig
-  cvss: null
+  cvss: 7.1
   credit: '@fabpot (remediation_developer)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47732

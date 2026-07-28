@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 133**
+**CURRENT CVE COUNT: 134**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -27,6 +27,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-61487](https://www.cve.org/CVERecord?id=CVE-2026-61487) | 2026-07-28 | Apache Software Foundation | Apache ActiveMQ Broker |  | Claude and Ada Logics |
 | [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | 2026-07-14 | twigphp | Twig | 7.1 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-46633](https://www.cve.org/CVERecord?id=CVE-2026-46633) | 2026-07-14 | twigphp | Twig | 8.7 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
 | [CVE-2026-45067](https://www.cve.org/CVERecord?id=CVE-2026-45067) | 2026-07-14 | symfony | symfony | 6.3 |  |
@@ -71,7 +72,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-34181](https://www.cve.org/CVERecord?id=CVE-2026-34181) | 2026-06-09 | OpenSSL | OpenSSL | 7.4 | Pavol Žáčik (Red Hat) \| Alex Gaynor (Anthropic) \| Alicja Kario (Red Hat) |
 | [CVE-2026-49975](https://www.cve.org/CVERecord?id=CVE-2026-49975) | 2026-06-08 | Apache Software Foundation | Apache HTTP Server | 7.5 | Quang Luong of Calif.IO in collaboration with OpenAI Codex |
 | [CVE-2026-47345](https://www.cve.org/CVERecord?id=CVE-2026-47345) | 2026-06-08 | TYPO3 | HTML Sanitizer | 5.1 | Doyensec in collaboration with Claude and Anthropic Research \| Benjamin Franzke |
-| [CVE-2026-47732](https://www.cve.org/CVERecord?id=CVE-2026-47732) | 2026-06-05 | twig | twig |  | @fabpot (remediation_developer) |
+| [CVE-2026-47732](https://www.cve.org/CVERecord?id=CVE-2026-47732) | 2026-06-05 | twig | twig | 7.1 | @fabpot (remediation_developer) |
 | [CVE-2026-47250](https://www.cve.org/CVERecord?id=CVE-2026-47250) | 2026-06-05 | npm | mcp-server-kubernetes | 6.1 | @yotampe-pluto (reporter) |
 | [CVE-2026-8462](https://www.cve.org/CVERecord?id=CVE-2026-8462) | 2026-06-04 | github.com | openmeterio/openmeter |  |  |
 | [CVE-2026-47429](https://www.cve.org/CVERecord?id=CVE-2026-47429) | 2026-06-01 | npm | vitest | 9.8 | @sapphi-red (reporter) \| @qispark (analyst) \| @joevin-slq-docto (analyst) \| @koteswar-k (analyst) \| @SaronGrave (analyst) \| @jason-anthropic (analyst) |
