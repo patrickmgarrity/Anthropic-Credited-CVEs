@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 138**
+**CURRENT CVE COUNT: 139**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -30,6 +30,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-58063](https://www.cve.org/CVERecord?id=CVE-2026-58063) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 5.3 | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-58062](https://www.cve.org/CVERecord?id=CVE-2026-58062) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 9.3 | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-58061](https://www.cve.org/CVERecord?id=CVE-2026-58061) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 | Alex Gaynor in collaboration with Claude and Anthropic Research |
+| [CVE-2026-58060](https://www.cve.org/CVERecord?id=CVE-2026-58060) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-61487](https://www.cve.org/CVERecord?id=CVE-2026-61487) | 2026-07-28 | Apache Software Foundation | Apache ActiveMQ Broker | 6.5 | Claude and Ada Logics |
 | [CVE-2026-64015](https://www.cve.org/CVERecord?id=CVE-2026-64015) | 2026-07-19 | Linux | Linux | 7.8 |  |
 | [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | 2026-07-14 | twigphp | Twig | 7.1 | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
