@@ -58,6 +58,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-8763
+  ghsa: null
+  date: '2026-08-03'
+  vendor: Legion of the Bouncy Castle Inc.
+  product: BC-JAVA
+  cvss: 9.3
+  credit: Alex Gaynor in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8763
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-61487
   ghsa: null
   date: '2026-07-28'
