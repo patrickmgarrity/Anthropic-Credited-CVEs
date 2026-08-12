@@ -1,3 +1,15 @@
+- cve: CVE-2026-68760
+  ghsa: null
+  date: '2026-08-12'
+  vendor: jfrog
+  product: artifactory
+  cvss: 5.3
+  credit: Ben Morris in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-68760
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-18663
   ghsa: null
   date: '2026-08-12'
