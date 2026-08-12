@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 144**
+**CURRENT CVE COUNT: 145**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -27,6 +27,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-18663](https://www.cve.org/CVERecord?id=CVE-2026-18663) | 2026-08-12 | Red Hat | Red Hat Directory Server 11 | 5.9 | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-11836](https://www.cve.org/CVERecord?id=CVE-2026-11836) | 2026-08-04 | Caliptra | Core ROM | 1.8 | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-11835](https://www.cve.org/CVERecord?id=CVE-2026-11835) | 2026-08-04 | Caliptra | Core ROM | 5.6 | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-59652](https://www.cve.org/CVERecord?id=CVE-2026-59652) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.9 | Alex Gaynor in collaboration with Claude and Anthropic Research |
