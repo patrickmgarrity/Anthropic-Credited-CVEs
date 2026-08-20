@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-h58c-xccx-75m3
+date: '2026-08-20'
+vendor: github.com
+product: coder/coder/v2
+cvss: 3.4
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-h58c-xccx-75m3
+notes: null
+auto_discovered: true
