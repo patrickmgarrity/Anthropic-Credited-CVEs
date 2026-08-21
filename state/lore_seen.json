@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260820",
+  "last_run_date": "20260821",
   "opened_finding_keys": [
     "alsa: pcm: wake linked drain waiters on unlink",
     "alsa: seq: close a re-opened queue timer in the destructor",
@@ -730,6 +730,12 @@
     "https://lore.kernel.org/all/20260817132603.134825204@linuxfoundation.org",
     "https://lore.kernel.org/all/20260819173005.814360-2-dkelaiya@cisco.com",
     "https://lore.kernel.org/all/20260819181301.67908-2-mhalstead@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260820-b4-panfrost-fixes-v1-1-1b2c2376f4bc@collabora.com",
+    "https://lore.kernel.org/all/20260820-b4-panfrost-fixes-v1-2-1b2c2376f4bc@collabora.com",
+    "https://lore.kernel.org/all/20260820145216.426568665@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260820145221.566104730@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260820145231.229664293@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260820145237.205903723@linuxfoundation.org",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/23471153.EfDdHjke4D@sven-desktop",
