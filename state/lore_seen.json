@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260822",
+  "last_run_date": "20260823",
   "opened_finding_keys": [
     "alsa: pcm: wake linked drain waiters on unlink",
     "alsa: seq: close a re-opened queue timer in the destructor",
@@ -17,6 +17,7 @@
     "iommu/amd: bounds-check devid in __rlookup_amd_iommu()",
     "iommu/vt-d: gather the unmapped range before",
     "iommu/vt-d: gather the unmapped range before freeing its page tables",
+    "landlock: fix use-after-free of the source's parent directory",
     "net: skbuff: don't skb_tx_error() the source skb",
     "net: skbuff: don't skb_tx_error() the source skb in",
     "net: skbuff: don't touch shared zerocopy state in",
@@ -740,6 +741,7 @@
     "https://lore.kernel.org/all/20260821-bug-029-bad-non-null-inference-v1-1-45ddc0f7c308@gmail.com",
     "https://lore.kernel.org/all/20260821121517.128373-1-hprajapati@mvista.com",
     "https://lore.kernel.org/all/202608212302.i87Txgpq-lkp@intel.com",
+    "https://lore.kernel.org/all/2026082221-CVE-2026-74630-8fae@gregkh",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/23471153.EfDdHjke4D@sven-desktop",
@@ -773,12 +775,14 @@
     "https://lore.kernel.org/all/45dd60a1-231d-4837-9280-786c5d0dbc72@linux.dev",
     "https://lore.kernel.org/all/47257a97161dd37bb8e3204231893fe609cb1040.camel@pbarker.dev",
     "https://lore.kernel.org/all/4864bcf9-1018-4b36-9239-47df247b8418@mtasv.net",
+    "https://lore.kernel.org/all/4B5CCA6E-2C49-4F86-8C4E-E1BE15C16C0A@doyensec.com",
     "https://lore.kernel.org/all/4a67d330-a2a7-47f4-a43a-a2e444c47f55@pengutronix.de",
     "https://lore.kernel.org/all/4ea34942-f1ff-4c65-a634-1f8786308fb1@amd.com",
     "https://lore.kernel.org/all/4f2b4d0a-0838-495f-9d60-50a2628e5448@deltatee.com",
     "https://lore.kernel.org/all/52144dd5-f3a8-4a82-b048-36b53518c9c3@kernel.dk",
     "https://lore.kernel.org/all/545fadfed8c87d1d7d112eb78d59dfa9e815b1d4.1779232800.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/545fadfed8c87d1d7d112eb78d59dfa9e815b1d4.1779264709.git.yoann.congal@smile.fr",
+    "https://lore.kernel.org/all/55A52703-7548-4A55-A9CE-2A37145BDCAD@doyensec.com",
     "https://lore.kernel.org/all/568dea049869b20f5d1717ebebf35011090b9b93.1783289522.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/59e0476c-a2bf-42f3-8244-d8a4828da64a@arm.com",
     "https://lore.kernel.org/all/5C0BEBF6-AF95-4045-8ED4-C6081C51E40B@doyensec.com",
@@ -790,6 +794,7 @@
     "https://lore.kernel.org/all/6568295.lOV4Wx5bFT@sven-desktop",
     "https://lore.kernel.org/all/659e38bc-3cb9-453f-919a-40a134bdace4@vaisala.com",
     "https://lore.kernel.org/all/67924a75174d5bda50656096066a71681ed00ddb.1785190123.git.yoann.congal@smile.fr",
+    "https://lore.kernel.org/all/6E3A780D-FB87-421F-9964-B1D457D7D106@doyensec.com",
     "https://lore.kernel.org/all/6F9B6501-8E65-4265-B02C-7EFB240D1664@doyensec.com",
     "https://lore.kernel.org/all/6a4b8909.b42ede87.8bd1.0022.GAE@google.com",
     "https://lore.kernel.org/all/6d4b2080-d7d9-4a87-a295-9c001d8a0290@mtasv.net",
@@ -890,6 +895,7 @@
     "https://lore.kernel.org/all/CAP-5=fXkczzz2HQwO8mqzn8RRFsXRJD8sGc18_O4m851wdtKSw@mail.gmail.com",
     "https://lore.kernel.org/all/CAPuPA7KZhv39w=nCG71WBLOcPRrrpb=CvDdVcnCRbfu+z9ZELg@mail.gmail.com",
     "https://lore.kernel.org/all/CF6F0CC7-C448-406B-8E24-2025AD585D18@doyensec.com",
+    "https://lore.kernel.org/all/CFAB292A-674B-4C14-BB2C-BB8830AD5659@doyensec.com",
     "https://lore.kernel.org/all/CH3PR12MB8658A352781C51E9A2743E0B8C082@CH3PR12MB8658.namprd12.prod.outlook.com",
     "https://lore.kernel.org/all/D26598EB-DBF7-4D76-9F71-8E4BD59822D4@doyensec.com",
     "https://lore.kernel.org/all/D601FEF7-7223-4B7E-8315-EF020C1B259C@gmx.de",
@@ -905,6 +911,7 @@
     "https://lore.kernel.org/all/E1wOwtx-0000000Ethi-1WB2@pty.whiteo.stw.pengutronix.de",
     "https://lore.kernel.org/all/E1wOxfc-0000000EuG7-0XXj@pty.whiteo.stw.pengutronix.de",
     "https://lore.kernel.org/all/E793FCF2-58DE-4387-A983-C7B4BC3158BD@doyensec.com",
+    "https://lore.kernel.org/all/E9CDD9E6-E960-4DE2-B1AC-5667D52ABB3E@doyensec.com",
     "https://lore.kernel.org/all/F34B6E46-6B01-4106-A1DF-1BB9E29320BB@doyensec.com",
     "https://lore.kernel.org/all/F3B9E5BA-0AC1-4AD1-A7D9-F38033304270@doyensec.com",
     "https://lore.kernel.org/all/FF830A2B-D69C-4233-B210-9AA7D9626589@doyensec.com",
@@ -959,6 +966,7 @@
     "https://lore.kernel.org/all/f9c67a7b-b7c0-445f-b9ed-7ab06c3f2f84@adalogics.com",
     "https://lore.kernel.org/all/ic5yl6efm77r2tajqeizeljokkpkqe2vvh3eww54apuu7e2pof@yomiowfjhwjx",
     "https://lore.kernel.org/all/willemdebruijn.kernel.1cfea9a8313a4@gmail.com",
-    "https://lore.kernel.org/all/willemdebruijn.kernel.31a7e80dcad9d@gmail.com"
+    "https://lore.kernel.org/all/willemdebruijn.kernel.31a7e80dcad9d@gmail.com",
+    "https://lore.kernel.org/all/willemdebruijn.kernel.38ca099dabfe0@gmail.com"
   ]
 }
