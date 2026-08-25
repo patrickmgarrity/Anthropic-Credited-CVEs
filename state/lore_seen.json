@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260824",
+  "last_run_date": "20260825",
   "opened_finding_keys": [
     "alsa: pcm: wake linked drain waiters on unlink",
     "alsa: seq: close a re-opened queue timer in the destructor",
@@ -745,6 +745,8 @@
     "https://lore.kernel.org/all/2026082221-CVE-2026-74630-8fae@gregkh",
     "https://lore.kernel.org/all/20260823201521.2576344-1-fabian@isomorphic-ai.com",
     "https://lore.kernel.org/all/20260824092300-3e9a9d58-b273-421b-a4bf-5609ccb9ab49@linutronix.de",
+    "https://lore.kernel.org/all/20260824153009.2371509-1-raphael.melotte@mind.be",
+    "https://lore.kernel.org/all/20260824234345.84068-2-chalianis1@gmail.com",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/23471153.EfDdHjke4D@sven-desktop",
@@ -863,6 +865,7 @@
     "https://lore.kernel.org/all/CAHwn+vnw=DD=j7umFVdcr8-F6yUz=iM+3yfA+HcHKXJwpNrHRA@mail.gmail.com",
     "https://lore.kernel.org/all/CAJfpegt5g5j-OOQeLXH=z-7wMXn564iKWRiUtuD8z7Fpezg_7A@mail.gmail.com",
     "https://lore.kernel.org/all/CAKFNMon_DCsPC4Nc-98ORnkKpOGBS7zQ=kF4HX2R+_46vgztvg@mail.gmail.com",
+    "https://lore.kernel.org/all/CAKbYdNEK0TUy+W5g_yGuP-JCC9CQwmeO0q95rYhcebZYB9vLUw@mail.gmail.com",
     "https://lore.kernel.org/all/CAM0EoM=UDkGKLivsdDS5JaVMuefR4jLC2rAWJcOR8XD-4N_EgA@mail.gmail.com",
     "https://lore.kernel.org/all/CAM0EoMkMcpE4JZdroYvVuPRzUC8Xwbwv3p4+qkABj=Qk55kWvg@mail.gmail.com",
     "https://lore.kernel.org/all/CAMKF1spJ66aBORv02hW-gGRm4X1q0mBG1q4V6eHMhCWGOXmE_Q@mail.gmail.com",
