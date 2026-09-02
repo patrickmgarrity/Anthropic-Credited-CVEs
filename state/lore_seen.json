@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260901",
+  "last_run_date": "20260902",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -13,6 +13,7 @@
     "alsa: timer: drain a slaves callback before its master detaches it",
     "bap: fix stack buffer overflow in bluez le audio base parser",
     "bass: fix heap buffer overflow allocating subgroup_data array",
+    "bpf: backtrack_insn(): handle ld_{abs,ind} subprog exit edge",
     "bpf: backtracking shouldn't clear outer frame r1-r5 for callbacks",
     "bpf: check_cond_jmp_op(): properly infer if register is null",
     "bpf: don't downgrade half-dead scalar zero spills to stack_zero",
@@ -46,6 +47,7 @@
     "rdma/ucma: lock the handler in ucma_set_ib_path()",
     "sctp: revalidate list cursor after sctp_sendmsg_to_asoc() in sctp_sendall",
     "security/keys: fix missed rcu read section on lookup",
+    "selftests/bpf: precision tracking across bpf_abs subprog exit",
     "vsock: fix buffer size clamping order"
   ],
   "seen_message_ids": [
@@ -798,6 +800,8 @@
     "https://lore.kernel.org/all/20260831185654.16701-1-socketcan@hartkopp.net",
     "https://lore.kernel.org/all/20260831212432.6C2B51F000E9@smtp.kernel.org",
     "https://lore.kernel.org/all/20260831230256.814412-1-smayhew@redhat.com",
+    "https://lore.kernel.org/all/20260901-bug-016-backtrack-ld-abs-v1-1-59368f1be435@gmail.com",
+    "https://lore.kernel.org/all/20260901-bug-016-backtrack-ld-abs-v1-2-59368f1be435@gmail.com",
     "https://lore.kernel.org/all/20260901011909.58400-1-artem@trailofbits.com",
     "https://lore.kernel.org/all/20260901024907.61883-1-artem@trailofbits.com",
     "https://lore.kernel.org/all/20260901075611.GG24140@unreal",
@@ -863,6 +867,7 @@
     "https://lore.kernel.org/all/64F8DA04-30A9-41B5-91DE-7559F1CC65D2@doyensec.com",
     "https://lore.kernel.org/all/6568295.lOV4Wx5bFT@sven-desktop",
     "https://lore.kernel.org/all/659e38bc-3cb9-453f-919a-40a134bdace4@vaisala.com",
+    "https://lore.kernel.org/all/65c4b003cddf3a2489118a04c3caec37c8256df7.1788326578.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/67924a75174d5bda50656096066a71681ed00ddb.1785190123.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/6E3A780D-FB87-421F-9964-B1D457D7D106@doyensec.com",
     "https://lore.kernel.org/all/6F9B6501-8E65-4265-B02C-7EFB240D1664@doyensec.com",
@@ -877,6 +882,7 @@
     "https://lore.kernel.org/all/74ed9dcd715a214ca7fbc368aa763a400c69adcc.1787945536.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/799823a3-e128-4825-8c6b-09f3d26bf6d3@ovn.org",
     "https://lore.kernel.org/all/7a2c2f2c-eb64-496b-a058-323ebf27df3b@kernel.dk",
+    "https://lore.kernel.org/all/7a9e6b91121683b4694d11138f148bfdd3e6f97a.1788326578.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/7beb5eee-9eec-4200-af3a-9934fd76c606@adalogics.com",
     "https://lore.kernel.org/all/7c88d9dc29f948d178ff270c1b55fdfd1a26296c.1785190123.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/7f1ec051-74e2-4ac9-8ac8-9725ca82bb80@amd.com",
@@ -1060,6 +1066,7 @@
     "https://lore.kernel.org/all/f81d25c6-4b14-4e48-a230-2d41a036a065@redhat.com",
     "https://lore.kernel.org/all/f97c129c4c45c70d419096b99558cfb71cac604f.1787154074.git.fabien.thomas@smile.fr",
     "https://lore.kernel.org/all/f9c67a7b-b7c0-445f-b9ed-7ab06c3f2f84@adalogics.com",
+    "https://lore.kernel.org/all/fbffe073ee8694f5c69e2f84aee356d5d02238f5.1788326578.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/ic5yl6efm77r2tajqeizeljokkpkqe2vvh3eww54apuu7e2pof@yomiowfjhwjx",
     "https://lore.kernel.org/all/willemdebruijn.kernel.18d6500676cf5@gmail.com",
     "https://lore.kernel.org/all/willemdebruijn.kernel.1cfea9a8313a4@gmail.com",
