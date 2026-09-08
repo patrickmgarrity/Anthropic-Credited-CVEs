@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 150**
+**CURRENT CVE COUNT: 151**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -28,6 +28,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-18453](https://www.cve.org/CVERecord?id=CVE-2026-18453) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 | Red Hat would like to thank Arthur Chan (Ada Logics) and Team (Anthropic) for reporting this issue. |
+| [CVE-2026-18355](https://www.cve.org/CVERecord?id=CVE-2026-18355) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-16239](https://www.cve.org/CVERecord?id=CVE-2026-16239) | 2026-08-13 | n/a | PostgreSQL | 8.8 | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
 | [CVE-2026-15742](https://www.cve.org/CVERecord?id=CVE-2026-15742) | 2026-08-13 | n/a | PostgreSQL | 8.8 | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
 | [CVE-2026-15741](https://www.cve.org/CVERecord?id=CVE-2026-15741) | 2026-08-13 | n/a | PostgreSQL | 8.8 | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
