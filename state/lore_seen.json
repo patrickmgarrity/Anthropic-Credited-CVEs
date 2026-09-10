@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260909",
+  "last_run_date": "20260910",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -68,6 +68,7 @@
     "net: skbuff: don't skb_tx_error() the source skb in skb_zerocopy()",
     "net: skbuff: don't touch shared zerocopy state in",
     "net: skbuff: don't touch shared zerocopy state in skb_tx_error()",
+    "net: skbuff: dont skb_tx_error() the source skb in skb_zerocopy()",
     "net: skbuff: dont touch shared zerocopy state in skb_tx_error()",
     "nfsd: fix heap overflow in nfsv4.0 lock replay cache",
     "nstree: check listing permission before taking a namespace",
@@ -963,6 +964,12 @@
     "https://lore.kernel.org/all/20260907102107.4007371-3-Abhishek.Bachiphale@windriver.com",
     "https://lore.kernel.org/all/20260907102107.4007371-4-Abhishek.Bachiphale@windriver.com",
     "https://lore.kernel.org/all/20260909-hergab-abkassieren-besten-0d6e314eedd7@brauner",
+    "https://lore.kernel.org/all/20260909134230.441546314@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260909134230.499307362@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260909134237.773280130@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260909134237.836563318@linuxfoundation.org",
+    "https://lore.kernel.org/all/20260909155624.1082893-9-pbonzini@redhat.com",
+    "https://lore.kernel.org/all/20260909180637.41361-1-artem@trailofbits.com",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/23471153.EfDdHjke4D@sven-desktop",
