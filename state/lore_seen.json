@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260913",
+  "last_run_date": "20260914",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1012,6 +1012,8 @@
     "https://lore.kernel.org/all/20260913-rxe-advise-mr-v2-v2-2-b806c789871c@doyensec.com",
     "https://lore.kernel.org/all/20260913115829.2056D1F000FF@smtp.kernel.org",
     "https://lore.kernel.org/all/20260913120327.5ECA61F000FF@smtp.kernel.org",
+    "https://lore.kernel.org/all/20260914031300.3677365-9-ankur.tyagi85@gmail.com",
+    "https://lore.kernel.org/all/20260914055341.86197-1-artem@trailofbits.com",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/23471153.EfDdHjke4D@sven-desktop",
