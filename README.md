@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 154**
+**CURRENT CVE COUNT: 155**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -27,6 +27,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Credit |
 | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-92729](https://www.cve.org/CVERecord?id=CVE-2026-92729) | 2026-09-16 | SigNoz | signoz | 8.8 | 4NK1T \| lighthousekeeper1212 \| 0xVijay \| axel-corsiez \| morimori-dev \| PLpaPLpa \| newugly \| thaidn (Calif.io, in collaboration with Anthropic) \| hackchang \| Wenhao Wu (d3do-23), Southeast University |
 | [CVE-2026-91104](https://www.cve.org/CVERecord?id=CVE-2026-91104) | 2026-09-16 | HP Inc. | HP Linux Imaging and Printing Software (HPLIP) | 9.3 | Calif.io in collaboration with Anthropic |
 | [CVE-2026-82717](https://www.cve.org/CVERecord?id=CVE-2026-82717) | 2026-09-16 | NLnet Labs | Unbound | 8.4 | Ben Morris (Anthropic) |
 | [CVE-2026-79678](https://www.cve.org/CVERecord?id=CVE-2026-79678) | 2026-09-07 | Red Hat | Red Hat Enterprise Linux 10 | 8.1 | Red Hat would like to thank Calif.io (in collaboration with Anthropic) for reporting this issue. |
