@@ -1,3 +1,17 @@
+- cve: CVE-2026-93292
+  ghsa: null
+  date: '2026-09-17'
+  vendor: SigNoz
+  product: signoz
+  cvss: 8.4
+  credit: >-
+    4NK1T | axel-corsiez | morimori-dev | newugly | thaidn (Calif.io, in collaboration with Anthropic)
+    | hackchang | Scott Moore - VulnCheck
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-93292
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-92729
   ghsa: null
   date: '2026-09-16'
