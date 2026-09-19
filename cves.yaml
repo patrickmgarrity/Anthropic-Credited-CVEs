@@ -76,6 +76,109 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-65410
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: AVEVideoEncoder
+  cvss: null
+  credit: Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65410
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-65409
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: Foundation
+  cvss: null
+  credit: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65409
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-65376
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: SMB
+  cvss: null
+  credit: 재영 정, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65376
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-65375
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: WebDAV
+  cvss: null
+  credit: >-
+    YingMuo (@YingMuo) of DEVCORE Research Team, Bruce Dang of Calif.io in collaboration with Claude and
+    Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65375
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-65374
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: WebDAV
+  cvss: null
+  credit: >-
+    HE WEI（ギカク）, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65374
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-43719
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: SMB
+  cvss: null
+  credit: >-
+    Jakob Pammer, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-43719
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-43690
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: SMB
+  cvss: null
+  credit: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-43690
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
+- cve: CVE-2026-43677
+  ghsa: null
+  date: '2026-09-14'
+  vendor: Apple
+  product: WebDAV
+  cvss: null
+  credit: >-
+    bubu, Omar Cerrito, HE WEI（ギカク）, Roman Zabicki, Richard Zana, Chris Bailey - Short Circuit, Aswin
+    Kumar Gokulakannan, Surya Narayan Kushwaha, Bruce Dang of Calif.io in collaboration with Claude and
+    Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-43677
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
 - cve: CVE-2026-45752
   ghsa: null
   date: '2026-09-10'
