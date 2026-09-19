@@ -16,8 +16,9 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write   # commit state/lore_seen.json
-  issues: write     # open candidate issues
+  contents: write        # commit state/lore_seen.json, push promotion branches
+  issues: write          # open candidate issues, label/close on promotion
+  pull-requests: write   # open promotion PRs when an issue gets a CVE
 
 jobs:
   scan:
@@ -56,3 +57,14 @@ jobs:
           else
             echo "No state changes to commit."
           fi
+
+      - name: Promote kernel-lore issues that now have a CVE
+        # For each open kernel-lore issue, check linux-cve-announce for an
+        # assigned CVE (exact subject match). On a hit, open a promotion PR
+        # carrying the issue's attribution trailer as `credit` (the kernel CNA
+        # strips it). PR-gated like the keyword scanners — never commits to main.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python .github/scripts/promote_lore_cves.py
