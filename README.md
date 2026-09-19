@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 191**
+**CURRENT CVE COUNT: 192**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -53,6 +53,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-58061](https://www.cve.org/CVERecord?id=CVE-2026-58061) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-58060](https://www.cve.org/CVERecord?id=CVE-2026-58060) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-58059](https://www.cve.org/CVERecord?id=CVE-2026-58059) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
+| [CVE-2026-15055](https://www.cve.org/CVERecord?id=CVE-2026-15055) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 5.3 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-8763](https://www.cve.org/CVERecord?id=CVE-2026-8763) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 9.3 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-65423](https://www.cve.org/CVERecord?id=CVE-2026-65423) | 2026-07-30 | o6 Automation | open62541 | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) | Abhinav Agarwal reported this vulnerability to CISA. \| Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-63559](https://www.cve.org/CVERecord?id=CVE-2026-63559) | 2026-07-30 | o6 Automation | open62541 | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) | Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
