@@ -137,7 +137,7 @@ KEV_NOT_COLOR = "#9e9e9e"        # gray — not known to be exploited
 
 
 def _pie_svg(title: str, segments: list[tuple[str, int, str]],
-             theme: str = "light") -> str:
+             theme: str = "light", subtitle: str | None = None) -> str:
     """Build a standalone SVG pie from ordered (label, count, color) segments.
     Colors are pinned per category (unlike Mermaid, which assigns palette colors
     by slice size). `theme` selects text/separator colors for light or dark pages.
@@ -172,17 +172,25 @@ def _pie_svg(title: str, segments: list[tuple[str, int, str]],
     legend = []
     for i, (name, n, color) in enumerate(segments):
         pct = (100.0 * n / total) if total else 0.0
+        # Two decimals so a tiny non-zero share (e.g. 1 of 225 = 0.44%) doesn't
+        # round down to "0%" and read as "none".
+        pct_str = f"{pct:.2f}%"
         y = ly + i * 30
         legend.append(
             f'<rect x="{lx}" y="{y}" width="16" height="16" rx="3" fill="{color}"/>'
             f'<text x="{lx + 24}" y="{y + 13}" font-size="14" fill="{pal["text"]}">'
-            f'{name}: {n} ({pct:.0f}%)</text>')
+            f'{name}: {n} ({pct_str})</text>')
 
+    subtitle_line = (
+        f'  <text x="{cx}" y="52" font-size="12" text-anchor="middle" '
+        f'fill="{pal["muted"]}">{subtitle}</text>\n'
+    ) if subtitle else ""
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="320" '
         'viewBox="0 0 500 320" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
         f'  <text x="{cx}" y="34" font-size="17" font-weight="600" '
         f'text-anchor="middle" fill="{pal["text"]}">{title}</text>\n'
+        + subtitle_line +
         '  ' + '\n  '.join(slices) + '\n'
         f'  <text x="{cx}" y="305" font-size="12" text-anchor="middle" '
         f'fill="{pal["muted"]}">{total} CVEs</text>\n'
@@ -210,7 +218,8 @@ def render_kev_svg(entries: list[dict], theme: str = "light") -> str:
         ("Exploited", exploited, KEV_EXPLOITED_COLOR),
         ("Not exploited", len(entries) - exploited, KEV_NOT_COLOR),
     ]
-    return _pie_svg("Exploited in the Wild", segments, theme)
+    return _pie_svg("Exploited in the Wild", segments, theme,
+                    subtitle="Source: VulnCheck KEV")
 
 
 def render_cve_cell(entry: dict) -> str:
