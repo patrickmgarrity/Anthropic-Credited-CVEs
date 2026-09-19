@@ -40,8 +40,12 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: {count}**
 
-## Initial Research
-[Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
+## Anthropic Research
+
+- [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
+- [Observations on Anthropic’s Vulnerability Disclosure Ledger](https://www.vulncheck.com/blog/anthropic-ledger)
+- [Has Anthropic Glasswing Lived Up to the Hype it brought this year?](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026#has-anthropic-glasswing-lived-up-to-the-hype-it-brought-this-year)
+- [The Anthropic Glasswing Receipts Are Starting to Trickle In](https://www.vulncheck.com/blog/anthropic-glasswing-receipts)
 
 ## Add a Vulnerability
 If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
@@ -50,12 +54,24 @@ If you find an Anthropic credited vulnerability, please open a Pull Request or S
 
 This project is maintained on a best effort basis.
 
-## CVSS Severity Distribution
+## Distributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cvss-severity-dark.svg">
-  <img alt="CVSS severity distribution" src="assets/cvss-severity.svg" width="500">
-</picture>
+<table>
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/cvss-severity-dark.svg">
+        <img alt="CVSS severity distribution" src="assets/cvss-severity.svg" width="440">
+      </picture>
+    </td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/kev-exploited-dark.svg">
+        <img alt="Exploited in the wild (VulnCheck KEV)" src="assets/kev-exploited.svg" width="440">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ## The List
 
@@ -115,22 +131,20 @@ CHART_THEMES = {
 }
 
 
-def render_severity_svg(entries: list[dict], theme: str = "light") -> str:
-    """Build a standalone SVG pie of the CVSS severity distribution. Colors are
-    pinned per category (red/orange/yellow/green, plus gray for unscored), unlike
-    Mermaid which assigns palette colors by slice size. `theme` selects the text
-    and slice-separator colors so the chart is readable on light or dark pages."""
+# Exploited-in-the-wild (VulnCheck KEV) pie colors.
+KEV_EXPLOITED_COLOR = "#d32f2f"  # red — known exploited (in vcKEV)
+KEV_NOT_COLOR = "#9e9e9e"        # gray — not known to be exploited
+
+
+def _pie_svg(title: str, segments: list[tuple[str, int, str]],
+             theme: str = "light") -> str:
+    """Build a standalone SVG pie from ordered (label, count, color) segments.
+    Colors are pinned per category (unlike Mermaid, which assigns palette colors
+    by slice size). `theme` selects text/separator colors for light or dark pages.
+    Layout: title band on top, pie centered below, caption beneath, legend right."""
     pal = CHART_THEMES[theme]
-    counts = severity_counts(entries)
-    unscored = len(entries) - sum(counts.values())  # null or 0.0 CVSS
-    # ordered (label, count, color) including the gray Unscored slice
-    segments = [(name, counts[name], color) for name, _, color in SEVERITY_BANDS]
-    if unscored:
-        segments.append((UNSCORED_LABEL, unscored, UNSCORED_COLOR))
     total = sum(n for _, n, _ in segments)
 
-    # Layout: title band on top, pie centered below it, caption beneath, legend
-    # on the right. Pie top (cy - r) sits well below the title baseline.
     cx, cy, r = 140.0, 170.0, 105.0
     slices = []
     angle = -90.0  # start at 12 o'clock
@@ -168,13 +182,35 @@ def render_severity_svg(entries: list[dict], theme: str = "light") -> str:
         '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="320" '
         'viewBox="0 0 500 320" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
         f'  <text x="{cx}" y="34" font-size="17" font-weight="600" '
-        f'text-anchor="middle" fill="{pal["text"]}">CVSS Severity</text>\n'
+        f'text-anchor="middle" fill="{pal["text"]}">{title}</text>\n'
         '  ' + '\n  '.join(slices) + '\n'
         f'  <text x="{cx}" y="305" font-size="12" text-anchor="middle" '
         f'fill="{pal["muted"]}">{total} CVEs</text>\n'
         '  ' + '\n  '.join(legend) + '\n'
         '</svg>\n'
     )
+
+
+def render_severity_svg(entries: list[dict], theme: str = "light") -> str:
+    """SVG pie of the CVSS severity distribution (red/orange/yellow/green, plus
+    gray for unscored)."""
+    counts = severity_counts(entries)
+    unscored = len(entries) - sum(counts.values())  # null or 0.0 CVSS
+    segments = [(name, counts[name], color) for name, _, color in SEVERITY_BANDS]
+    if unscored:
+        segments.append((UNSCORED_LABEL, unscored, UNSCORED_COLOR))
+    return _pie_svg("CVSS Severity", segments, theme)
+
+
+def render_kev_svg(entries: list[dict], theme: str = "light") -> str:
+    """SVG pie of exploited-in-the-wild status: red for CVEs in VulnCheck KEV,
+    gray for the rest."""
+    exploited = sum(1 for e in entries if e.get("vulncheck_kev"))
+    segments = [
+        ("Exploited", exploited, KEV_EXPLOITED_COLOR),
+        ("Not exploited", len(entries) - exploited, KEV_NOT_COLOR),
+    ]
+    return _pie_svg("Exploited in the Wild", segments, theme)
 
 
 def render_cve_cell(entry: dict) -> str:
@@ -214,6 +250,12 @@ def render_ledger_cell(entry: dict) -> str:
     empty when the entry has no ledger_link."""
     link = (entry.get("ledger_link") or "").strip()
     return f"[🔗]({link})" if link else ""
+
+
+def render_kev_cell(entry: dict) -> str:
+    """Mark CVEs known to be exploited (present in VulnCheck KEV). Compact icon
+    to keep the column narrow; empty when the CVE isn't in KEV."""
+    return "✅" if entry.get("vulncheck_kev") else ""
 
 
 def render_credit_cell(entry: dict) -> str:
@@ -269,8 +311,8 @@ def _cell(value: str) -> str:
 
 
 def render_table(entries: list[dict]) -> str:
-    header = "| CVE | Date | Vendor | Product | CVSS | Ledger | Credit |\n"
-    header += "| --- | --- | --- | --- | --- | --- | --- |\n"
+    header = "| CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |\n"
+    header += "| --- | --- | --- | --- | --- | --- | --- | --- |\n"
     rows = []
     for e in sorted(entries, key=sort_key, reverse=True):
         cells = [
@@ -280,6 +322,7 @@ def render_table(entries: list[dict]) -> str:
             (e.get("product") or "").strip(),
             render_cvss_cell(e),
             render_ledger_cell(e),
+            render_kev_cell(e),
             render_credit_cell(e),
         ]
         rows.append("| " + " | ".join(_cell(c) for c in cells) + " |")
@@ -373,6 +416,11 @@ def main() -> int:
         render_severity_svg(entries, "light"), encoding="utf-8")
     (assets_dir / "cvss-severity-dark.svg").write_text(
         render_severity_svg(entries, "dark"), encoding="utf-8")
+    # Exploited-in-the-wild (VulnCheck KEV) pie, light + dark.
+    (assets_dir / "kev-exploited.svg").write_text(
+        render_kev_svg(entries, "light"), encoding="utf-8")
+    (assets_dir / "kev-exploited-dark.svg").write_text(
+        render_kev_svg(entries, "dark"), encoding="utf-8")
 
     print(f"Rendered {readme_path}, cves.yaml and severity charts "
           f"from {len(entries)} entries.")
