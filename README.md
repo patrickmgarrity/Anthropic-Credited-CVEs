@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 195**
+**CURRENT CVE COUNT: 196**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -39,6 +39,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-18453](https://www.cve.org/CVERecord?id=CVE-2026-18453) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 |  | Red Hat would like to thank Arthur Chan (Ada Logics) and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-18355](https://www.cve.org/CVERecord?id=CVE-2026-18355) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 |  | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-14957](https://www.cve.org/CVERecord?id=CVE-2026-14957) | 2026-09-02 | The Libreswan Project | libreswan | 7.5 |  | Claude (Anthropic) \| Guillaume Winter |
+| [CVE-2026-80590](https://www.cve.org/CVERecord?id=CVE-2026-80590) | 2026-08-28 | Linux | Linux | 8.6 |  | Signed-off-by: Xinyang Ge <xinyang@anthropic.com> |
 | [CVE-2026-13002](https://www.cve.org/CVERecord?id=CVE-2026-13002) | 2026-08-14 | Red Hat | Red Hat Enterprise Linux 10 | 4.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP) | Red Hat would like to thank Lennart Espe for reporting this issue. |
 | [CVE-2026-58435](https://www.cve.org/CVERecord?id=CVE-2026-58435) | 2026-08-13 | Gitea | Gitea Open Source Git Server | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0) | adrian-doyensec |
 | [CVE-2026-16239](https://www.cve.org/CVERecord?id=CVE-2026-16239) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |

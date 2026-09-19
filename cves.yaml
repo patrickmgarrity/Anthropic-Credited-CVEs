@@ -154,6 +154,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-80590
+  ghsa: null
+  date: '2026-08-28'
+  vendor: Linux
+  product: Linux
+  cvss: 8.6
+  credit: 'Signed-off-by: Xinyang Ge <xinyang@anthropic.com>'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-80590
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-13002
   ghsa: null
   date: '2026-08-14'
