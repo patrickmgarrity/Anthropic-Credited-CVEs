@@ -267,6 +267,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-66376
+  ghsa: null
+  date: '2026-08-12'
+  vendor: jfrog
+  product: artifactory
+  cvss: 4.2
+  credit: Ben Morris in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-66376
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-18663
   ghsa: null
   date: '2026-08-12'
@@ -530,6 +542,18 @@
   credit: Alex Gaynor in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-15055
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-13506
+  ghsa: null
+  date: '2026-08-03'
+  vendor: Legion of the Bouncy Castle Inc.
+  product: BC-JAVA
+  cvss: 8.7
+  credit: Yt | Alex Gaynor in collaboration with Claude and Anthropic Research
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-13506
   ghsa_link: null
   notes: null
   auto_discovered: true
