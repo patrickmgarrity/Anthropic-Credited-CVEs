@@ -57,7 +57,8 @@ MITRE_SLEEP_SECONDS = 0.3  # be polite to cveawg between record fetches
 # link-patched files consistent with the rest of cves/.
 FIELD_ORDER = (
     "cve", "ghsa", "date", "vendor", "product", "cvss", "credit",
-    "status", "cve_link", "ghsa_link", "ledger_link", "notes",
+    "status", "cve_link", "ghsa_link", "ledger_link",
+    "vulncheck_kev", "kev_date_added", "notes",
     "auto_discovered",
 )
 

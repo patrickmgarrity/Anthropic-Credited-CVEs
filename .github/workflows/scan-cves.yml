@@ -29,7 +29,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install pyyaml
+        run: pip install pyyaml vulncheck-sdk
 
       - name: Configure git
         run: |
@@ -94,6 +94,27 @@ jobs:
             git push
           else
             echo "No ledger changes to sync."
+          fi
+
+      - name: Mark VulnCheck KEV (known-exploited) CVEs
+        # Authoritative enrichment of existing records: pull the VulnCheck KEV
+        # index and mark tracked CVEs that are known-exploited. Commits to main
+        # directly (like the ledger sync / CVSS backfill). No-ops if the secret
+        # is absent, so forks/PRs without the token don't fail.
+        env:
+          VULNCHECK_API_TOKEN: ${{ secrets.VULNCHECK_API_TOKEN }}
+        run: python .github/scripts/scan_kev.py
+
+      - name: Commit KEV markers (if any)
+        # No [skip ci]: touches cves/, so render-readme.yml regenerates README.md
+        # (incl. the KEV column) + the cves.yaml aggregate.
+        run: |
+          if [[ -n "$(git status --porcelain cves/)" ]]; then
+            git add cves/
+            git commit -m "chore: sync VulnCheck KEV markers"
+            git push
+          else
+            echo "No KEV marker changes."
           fi
 
       - name: Backfill missing CVSS from NVD
