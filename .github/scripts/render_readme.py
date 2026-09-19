@@ -40,25 +40,6 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: {count}**
 
-## The List
-
-<!-- BEGIN_CVE_TABLE -->
-<!-- END_CVE_TABLE -->
-
-## Anthropic Research
-
-- [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
-- [Observations on Anthropic’s Vulnerability Disclosure Ledger](https://www.vulncheck.com/blog/anthropic-ledger)
-- [Has Anthropic Glasswing Lived Up to the Hype it brought this year?](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026#has-anthropic-glasswing-lived-up-to-the-hype-it-brought-this-year)
-- [The Anthropic Glasswing Receipts Are Starting to Trickle In](https://www.vulncheck.com/blog/anthropic-glasswing-receipts)
-
-## Add a Vulnerability
-If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
-
-## Considerations
-
-This project is maintained on a best effort basis.
-
 ## Distributions
 
 <table>
@@ -77,6 +58,25 @@ This project is maintained on a best effort basis.
     </td>
   </tr>
 </table>
+
+## Anthropic Research
+
+- [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
+- [Observations on Anthropic’s Vulnerability Disclosure Ledger](https://www.vulncheck.com/blog/anthropic-ledger)
+- [Has Anthropic Glasswing Lived Up to the Hype it brought this year?](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026#has-anthropic-glasswing-lived-up-to-the-hype-it-brought-this-year)
+- [The Anthropic Glasswing Receipts Are Starting to Trickle In](https://www.vulncheck.com/blog/anthropic-glasswing-receipts)
+
+## Add a Vulnerability
+If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
+
+## Considerations
+
+This project is maintained on a best effort basis.
+
+## The List
+
+<!-- BEGIN_CVE_TABLE -->
+<!-- END_CVE_TABLE -->
 """
 
 MARKER_BEGIN = "<!-- BEGIN_CVE_TABLE -->"

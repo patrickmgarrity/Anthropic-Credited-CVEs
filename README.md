@@ -5,6 +5,39 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: 225**
 
+## Distributions
+
+<table>
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/cvss-severity-dark.svg">
+        <img alt="CVSS severity distribution" src="assets/cvss-severity.svg" width="440">
+      </picture>
+    </td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/kev-exploited-dark.svg">
+        <img alt="Exploited in the wild (VulnCheck KEV)" src="assets/kev-exploited.svg" width="440">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+## Anthropic Research
+
+- [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
+- [Observations on Anthropic’s Vulnerability Disclosure Ledger](https://www.vulncheck.com/blog/anthropic-ledger)
+- [Has Anthropic Glasswing Lived Up to the Hype it brought this year?](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026#has-anthropic-glasswing-lived-up-to-the-hype-it-brought-this-year)
+- [The Anthropic Glasswing Receipts Are Starting to Trickle In](https://www.vulncheck.com/blog/anthropic-glasswing-receipts)
+
+## Add a Vulnerability
+If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
+
+## Considerations
+
+This project is maintained on a best effort basis.
+
 ## The List
 
 <!-- BEGIN_CVE_TABLE -->
@@ -236,36 +269,3 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 | [CVE-2026-2763](https://www.cve.org/CVERecord?id=CVE-2026-2763) | 2026-02-24 | Mozilla | Firefox | 9.8 |  |  | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | [CVE-2026-26980](https://www.cve.org/CVERecord?id=CVE-2026-26980) | 2026-02-19 | Ghost | Ghost | 9.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-69D8H6RP) | ✅ | We thank Nicholas Carlini using Claude, Anthropic for disclosing this vulnerability responsibly. |
 <!-- END_CVE_TABLE -->
-
-## Anthropic Research
-
-- [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
-- [Observations on Anthropic’s Vulnerability Disclosure Ledger](https://www.vulncheck.com/blog/anthropic-ledger)
-- [Has Anthropic Glasswing Lived Up to the Hype it brought this year?](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026#has-anthropic-glasswing-lived-up-to-the-hype-it-brought-this-year)
-- [The Anthropic Glasswing Receipts Are Starting to Trickle In](https://www.vulncheck.com/blog/anthropic-glasswing-receipts)
-
-## Add a Vulnerability
-If you find an Anthropic credited vulnerability, please open a Pull Request or Send me a message on linkedin or in the [Extended Vulnerability Community Discord](https://discord.gg/yTRXwepK).
-
-## Considerations
-
-This project is maintained on a best effort basis.
-
-## Distributions
-
-<table>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/cvss-severity-dark.svg">
-        <img alt="CVSS severity distribution" src="assets/cvss-severity.svg" width="440">
-      </picture>
-    </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/kev-exploited-dark.svg">
-        <img alt="Exploited in the wild (VulnCheck KEV)" src="assets/kev-exploited.svg" width="440">
-      </picture>
-    </td>
-  </tr>
-</table>
