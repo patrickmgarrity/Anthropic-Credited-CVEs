@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 206**
+**CURRENT CVE COUNT: 207**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -46,6 +46,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-15742](https://www.cve.org/CVERecord?id=CVE-2026-15742) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
 | [CVE-2026-15741](https://www.cve.org/CVERecord?id=CVE-2026-15741) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
 | [CVE-2026-68760](https://www.cve.org/CVERecord?id=CVE-2026-68760) | 2026-08-12 | jfrog | artifactory | 5.3 |  | Ben Morris in collaboration with Claude and Anthropic Research |
+| [CVE-2026-68756](https://www.cve.org/CVERecord?id=CVE-2026-68756) | 2026-08-12 | jfrog | artifactory | 6.6 |  | Ben Morris in collaboration with Claude and Anthropic Research |
 | [CVE-2026-18663](https://www.cve.org/CVERecord?id=CVE-2026-18663) | 2026-08-12 | Red Hat | Red Hat Directory Server 11 | 5.9 |  | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-11836](https://www.cve.org/CVERecord?id=CVE-2026-11836) | 2026-08-04 | Caliptra | Core ROM | 1.8 |  | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-11835](https://www.cve.org/CVERecord?id=CVE-2026-11835) | 2026-08-04 | Caliptra | Core ROM | 5.6 |  | Alex Matrosov with Claude, Anthropic |
