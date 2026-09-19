@@ -12,6 +12,32 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-44236
+  ghsa: null
+  date: '2026-09-17'
+  vendor: alanxz
+  product: rabbitmq-c
+  cvss: 7.1
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44236
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-D7FC4YDQ
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-44235
+  ghsa: null
+  date: '2026-09-17'
+  vendor: alanxz
+  product: rabbitmq-c
+  cvss: 6.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44235
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GTGXBRXN
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-92729
   ghsa: null
   date: '2026-09-16'
@@ -48,6 +74,32 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-82717
   ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-45752
+  ghsa: null
+  date: '2026-09-10'
+  vendor: OISF
+  product: suricata
+  cvss: 5.9
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45752
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-61Y3NTY3
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-45751
+  ghsa: null
+  date: '2026-09-10'
+  vendor: OISF
+  product: suricata
+  cvss: 5.9
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45751
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-WCSVRYAX
   notes: null
   auto_discovered: true
 - cve: CVE-2026-79678
@@ -88,6 +140,32 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-18355
   ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-13002
+  ghsa: null
+  date: '2026-08-14'
+  vendor: Red Hat
+  product: Red Hat Enterprise Linux 10
+  cvss: 4.4
+  credit: Red Hat would like to thank Lennart Espe for reporting this issue.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-13002
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-58435
+  ghsa: null
+  date: '2026-08-13'
+  vendor: Gitea
+  product: Gitea Open Source Git Server
+  cvss: 5.4
+  credit: adrian-doyensec
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-58435
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0
   notes: null
   auto_discovered: true
 - cve: CVE-2026-16239
@@ -263,6 +341,35 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-65423
+  ghsa: null
+  date: '2026-07-30'
+  vendor: o6 Automation
+  product: open62541
+  cvss: 8.8
+  credit: >-
+    Abhinav Agarwal reported this vulnerability to CISA. | Asher Davila and Malav Vyas of Palo Alto Networks
+    reported this vulnerability to CISA.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65423
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-63559
+  ghsa: null
+  date: '2026-07-30'
+  vendor: o6 Automation
+  product: open62541
+  cvss: 7.5
+  credit: >-
+    Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-63559
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-61487
   ghsa: null
   date: '2026-07-28'
@@ -273,6 +380,45 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-61487
   ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-66032
+  ghsa: null
+  date: '2026-07-24'
+  vendor: libssh2
+  product: libssh2
+  cvss: 8.7
+  credit: VladimirEliTokarev
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-66032
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-Q5A1RHS0
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-55084
+  ghsa: null
+  date: '2026-07-21'
+  vendor: dhis2
+  product: dhis2-core
+  cvss: 8.8
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-55084
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-FW0V6SAJ
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-35590
+  ghsa: null
+  date: '2026-07-20'
+  vendor: libvips
+  product: libvips
+  cvss: 6.8
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-35590
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-JBKARRJ7
   notes: null
   auto_discovered: true
 - cve: CVE-2026-64015
@@ -299,6 +445,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46639
   ghsa_link: https://github.com/advisories/GHSA-mm6w-gr99-p3jj
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-203E7E95
   notes: null
   auto_discovered: false
 - cve: CVE-2026-46633
@@ -313,6 +460,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46633
   ghsa_link: https://github.com/advisories/GHSA-7p85-w9px-jpjp
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-J3EVXWDY
   notes: null
 - cve: CVE-2026-45067
   ghsa: null
@@ -489,6 +637,58 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-41579
+  ghsa: null
+  date: '2026-07-01'
+  vendor: opencontainers
+  product: runc
+  cvss: 3.3
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41579
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-N6TD9MF6
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-20215
+  ghsa: null
+  date: '2026-07-01'
+  vendor: Cisco
+  product: Cisco Secure Endpoint
+  cvss: 7.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-20215
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-8DRZW7VM
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-20214
+  ghsa: null
+  date: '2026-07-01'
+  vendor: Cisco
+  product: Cisco Secure Endpoint
+  cvss: 7.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-20214
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-Z477W54M
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-20213
+  ghsa: null
+  date: '2026-07-01'
+  vendor: Cisco
+  product: Cisco Secure Endpoint
+  cvss: 7.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-20213
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VVPEMVDE
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-43715
   ghsa: null
   date: '2026-06-29'
@@ -501,6 +701,21 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-13595
+  ghsa: null
+  date: '2026-06-29'
+  vendor: Red Hat
+  product: Red Hat Hardened Images
+  cvss: 6.8
+  credit: >-
+    Red Hat would like to thank Thai Duong (Calif.io in collaboration with Claude and Anthropic Research)
+    for reporting this issue.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-13595
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZRDQDR79
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-12340
   ghsa: null
   date: '2026-06-25'
@@ -511,6 +726,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-12340
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-87DJGDRB
   notes: null
   auto_discovered: true
 - cve: CVE-2026-7531
@@ -561,6 +777,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-6678
+  ghsa: null
+  date: '2026-06-25'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 1.0
+  credit: Dikai Zou
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6678
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-JS5D1Z2X
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-6331
   ghsa: null
   date: '2026-06-25'
@@ -608,6 +837,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46349
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-46348
@@ -621,8 +851,48 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46348
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8
   notes: NOT IN CVE TABLE
   auto_discovered: false
+- cve: CVE-2026-56132
+  ghsa: null
+  date: '2026-06-19'
+  vendor: libexpat project
+  product: libexpat
+  cvss: 6.9
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-56132
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-45696
+  ghsa: null
+  date: '2026-06-18'
+  vendor: AcademySoftwareFoundation
+  product: openexr
+  cvss: 8.3
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45696
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QQ2P9M9V
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-48929
+  ghsa: null
+  date: '2026-06-16'
+  vendor: Rocket.Chat
+  product: Rocket.Chat
+  cvss: 7.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-48929
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QXNF2N9K
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-8358
   ghsa: null
   date: '2026-06-15'
@@ -634,6 +904,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8358
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-YN5QG0SH
   notes: null
   auto_discovered: true
 - cve: CVE-2026-8357
@@ -647,6 +918,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8357
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-XV1EVAMH
   notes: null
   auto_discovered: true
 - cve: CVE-2026-8356
@@ -660,6 +932,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8356
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-TNXYTAEH
   notes: null
   auto_discovered: true
 - cve: CVE-2026-6047
@@ -673,6 +946,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6047
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-0HC68EK6
   notes: null
   auto_discovered: true
 - cve: CVE-2026-6045
@@ -686,6 +960,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6045
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-G7GNYY68
   notes: null
   auto_discovered: true
 - cve: CVE-2026-6040
@@ -699,6 +974,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6040
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-6X60WXT0
   notes: null
   auto_discovered: true
 - cve: CVE-2026-6039
@@ -712,6 +988,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6039
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-8FZYKRTH
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45447
@@ -725,6 +1002,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45447
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-AYWQW7P2
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45446
@@ -835,6 +1113,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-47345
   ghsa_link: https://github.com/advisories/GHSA-p5j5-4j3q-8mq8
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-MHJX7J31
   notes: null
   auto_discovered: true
 - cve: CVE-2026-47732
@@ -867,10 +1146,11 @@
   vendor: github.com
   product: openmeterio/openmeter
   cvss: 8.9
-  credit: ''
+  credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-8462
   ghsa_link: https://github.com/advisories/GHSA-wc3v-3457-c8cm
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-KC1Y51NF
   notes: null
   auto_discovered: true
 - cve: CVE-2026-47429
@@ -910,8 +1190,22 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45700
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-HN9XZXJ9
   notes: NOT IN CVE TABLE
   auto_discovered: false
+- cve: CVE-2026-44421
+  ghsa: null
+  date: '2026-05-29'
+  vendor: FreeRDP
+  product: FreeRDP
+  cvss: 8.8
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44421
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-44420
   ghsa: null
   date: '2026-05-29'
@@ -923,6 +1217,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44420
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-40528
@@ -935,6 +1230,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40528
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSDN3H7W
   notes: null
   auto_discovered: true
 - cve: CVE-2026-40510
@@ -972,6 +1268,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41401
   ghsa_link: https://github.com/advisories/GHSA-v7jp-vmx6-5429
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40384
@@ -984,6 +1281,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40384
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSV3GS1G
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40383
@@ -996,6 +1294,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40383
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-HHD77M82
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40034
@@ -1022,6 +1321,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40033
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ
   notes: null
   auto_discovered: false
 - cve: CVE-2026-44212
@@ -1049,6 +1349,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6479
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-CJQWKW82
   notes: null
   auto_discovered: false
 - cve: CVE-2026-44471
@@ -1128,6 +1429,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-7474
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-CN7KX43N
   notes: null
   auto_discovered: false
 - cve: CVE-2026-42600
@@ -1167,6 +1469,32 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-4892
+  ghsa: null
+  date: '2026-05-11'
+  vendor: dnsmasq
+  product: dnsmasq
+  cvss: 8.4
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4892
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-PCBAKVPB
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-4890
+  ghsa: null
+  date: '2026-05-11'
+  vendor: dnsmasq
+  product: dnsmasq
+  cvss: 7.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4890
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-43185
   ghsa: null
   date: '2026-05-06'
@@ -1179,6 +1507,32 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-43074
+  ghsa: null
+  date: '2026-05-06'
+  vendor: Linux
+  product: Linux
+  cvss: 7.8
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-43074
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-CM0TCREP
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-40685
+  ghsa: null
+  date: '2026-04-30'
+  vendor: Exim
+  product: Exim
+  cvss: 6.5
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40685
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-B615AQ9E
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-31554
   ghsa: null
   date: '2026-04-24'
@@ -1189,6 +1543,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-31554
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-1BCAFJCC
   notes: null
   auto_discovered: false
 - cve: CVE-2026-41990
@@ -1201,8 +1556,22 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41990
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSPVGEYA
   notes: null
   auto_discovered: false
+- cve: CVE-2026-29198
+  ghsa: null
+  date: '2026-04-22'
+  vendor: Rocket.Chat
+  product: Rocket.Chat
+  cvss: 9.8
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-29198
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GEM3N3N3
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-6386
   ghsa: null
   date: '2026-04-22'
@@ -1213,6 +1582,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6386
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-5DFBSQR9
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5398
@@ -1225,8 +1595,22 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5398
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-5DFBSQR9
   notes: null
   auto_discovered: false
+- cve: CVE-2026-6772
+  ghsa: null
+  date: '2026-04-21'
+  vendor: Mozilla
+  product: Firefox
+  cvss: 7.5
+  credit: sseehra
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6772
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-1ZNMP148
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-6758
   ghsa: null
   date: '2026-04-21'
@@ -1304,6 +1688,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-33901
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-32316
@@ -1317,8 +1702,22 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-32316
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-EBDTPNVH
   notes: null
   auto_discovered: false
+- cve: CVE-2026-57191
+  ghsa: null
+  date: '2026-04-10'
+  vendor: asterisk
+  product: asterisk
+  cvss: null
+  credit: Anthropic
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-57191
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-HFGGE6HR
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-5501
   ghsa: null
   date: '2026-04-10'
@@ -1329,6 +1728,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5501
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-K8YY7WWS
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5500
@@ -1341,6 +1741,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5500
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-P23DVQM2
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5479
@@ -1353,6 +1754,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5479
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-RSSMAMA7
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5477
@@ -1365,6 +1767,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5477
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZZY4987K
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5466
@@ -1377,6 +1780,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5466
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-KNXJMVYC
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5503
@@ -1389,6 +1793,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5503
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-0JRYQPCF
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5448
@@ -1402,6 +1807,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5448
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-6615Y595
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5447
@@ -1414,6 +1820,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5447
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VV0PRKKV
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5446
@@ -1426,8 +1833,24 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5446
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-SB4PHA43
   notes: null
   auto_discovered: false
+- cve: CVE-2026-5295
+  ghsa: null
+  date: '2026-04-09'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 5.9
+  credit: >-
+    Sunwoo Lee, (Korea Institute of Energy Technology, KENTECH) | Woohyun Choi, (Korea Institute of Energy
+    Technology, KENTECH) | Seunghyun Yoon, (Korea Institute of Energy Technology, KENTECH)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5295
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-JS5D1Z2X
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-5194
   ghsa: null
   date: '2026-04-09'
@@ -1438,6 +1861,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5194
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-7DG11TPA
   notes: null
   auto_discovered: false
 - cve: CVE-2026-34580
@@ -1450,6 +1874,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-34580
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-2FETJP49
   notes: null
   auto_discovered: false
 - cve: CVE-2026-28386
@@ -1476,6 +1901,7 @@
   status: published
   cve_link: https://aws.amazon.com/security/security-bulletins/2026-015-aws/
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-PQ3CNCCK
   notes: null
   auto_discovered: false
 - cve: CVE-2026-35022
@@ -1513,8 +1939,48 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5199
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE
   notes: null
   auto_discovered: false
+- cve: CVE-2026-7275
+  ghsa: null
+  date: '2026-03-30'
+  vendor: moodle
+  product: moodle
+  cvss: null
+  credit: Anthropic
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-7275
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-XBE9HJ4Y
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-68521
+  ghsa: null
+  date: '2026-03-29'
+  vendor: ''
+  product: unicorn
+  cvss: null
+  credit: Anthropic
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-68521
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRHVDRQ1
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-62257
+  ghsa: null
+  date: '2026-03-29'
+  vendor: ''
+  product: htslib
+  cvss: null
+  credit: Anthropic
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-62257
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-33721
   ghsa: null
   date: '2026-03-26'
@@ -1526,6 +1992,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-33721
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4747
@@ -1538,8 +2005,22 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4747
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-MVVACQKN
   notes: null
   auto_discovered: false
+- cve: CVE-2026-54914
+  ghsa: null
+  date: '2026-03-24'
+  vendor: bytecodealliance
+  product: wasm-micro-runtime
+  cvss: null
+  credit: Anthropic
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-54914
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-27654
   ghsa: null
   date: '2026-03-24'
@@ -1550,6 +2031,7 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-27654
   ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VS18SA90
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4724
@@ -1649,6 +2131,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-61627
+  ghsa: null
+  date: '2026-03-20'
+  vendor: libass
+  product: libass
+  cvss: null
+  credit: Anthropic
+  status: reserved
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-61627
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-9WB9SMM6
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-32267
   ghsa: null
   date: '2026-03-16'
@@ -1994,5 +2489,6 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-26980
   ghsa_link: https://github.com/advisories/GHSA-w52v-v783-gw97
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-69D8H6RP
   notes: null
   auto_discovered: false

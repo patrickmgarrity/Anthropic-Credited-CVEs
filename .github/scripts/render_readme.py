@@ -208,6 +208,14 @@ def render_cvss_cell(entry: dict) -> str:
     return f"{v:.1f}"
 
 
+def render_ledger_cell(entry: dict) -> str:
+    """Link to the finding's page on Anthropic's disclosure ledger, when the
+    CVE appears there. Rendered as a compact icon to keep the column narrow;
+    empty when the entry has no ledger_link."""
+    link = (entry.get("ledger_link") or "").strip()
+    return f"[🔗]({link})" if link else ""
+
+
 def render_credit_cell(entry: dict) -> str:
     credit = (entry.get("credit") or "").strip()
     note = (entry.get("notes") or "").strip()
@@ -261,8 +269,8 @@ def _cell(value: str) -> str:
 
 
 def render_table(entries: list[dict]) -> str:
-    header = "| CVE | Date | Vendor | Product | CVSS | Credit |\n"
-    header += "| --- | --- | --- | --- | --- | --- |\n"
+    header = "| CVE | Date | Vendor | Product | CVSS | Ledger | Credit |\n"
+    header += "| --- | --- | --- | --- | --- | --- | --- |\n"
     rows = []
     for e in sorted(entries, key=sort_key, reverse=True):
         cells = [
@@ -271,6 +279,7 @@ def render_table(entries: list[dict]) -> str:
             (e.get("vendor") or "").strip(),
             (e.get("product") or "").strip(),
             render_cvss_cell(e),
+            render_ledger_cell(e),
             render_credit_cell(e),
         ]
         rows.append("| " + " | ".join(_cell(c) for c in cells) + " |")

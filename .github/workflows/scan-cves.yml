@@ -77,6 +77,25 @@ jobs:
             echo "No GHSA state changes to commit."
           fi
 
+      - name: Sync Anthropic disclosure ledger
+        # The ledger (red.anthropic.com/.../ledger.json) is Anthropic's own
+        # authoritative disclosure record — no keyword false positives — so this
+        # writes new records + ledger links straight to cves/ and commits to
+        # main directly, unlike the PR-gated keyword scanners above.
+        run: python .github/scripts/scan_ledger.py
+
+      - name: Commit ledger sync (if any)
+        # No [skip ci]: this touches cves/, so render-readme.yml regenerates
+        # README.md (incl. the Ledger column) + the cves.yaml aggregate.
+        run: |
+          if [[ -n "$(git status --porcelain cves/)" ]]; then
+            git add cves/
+            git commit -m "chore: sync Anthropic disclosure ledger"
+            git push
+          else
+            echo "No ledger changes to sync."
+          fi
+
       - name: Backfill missing CVSS from NVD
         run: python .github/scripts/backfill_cvss.py
 
