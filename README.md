@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 216**
+**CURRENT CVE COUNT: 217**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -61,6 +61,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-59646](https://www.cve.org/CVERecord?id=CVE-2026-59646) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-59645](https://www.cve.org/CVERecord?id=CVE-2026-59645) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-59644](https://www.cve.org/CVERecord?id=CVE-2026-59644) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
+| [CVE-2026-59643](https://www.cve.org/CVERecord?id=CVE-2026-59643) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-59642](https://www.cve.org/CVERecord?id=CVE-2026-59642) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-59641](https://www.cve.org/CVERecord?id=CVE-2026-59641) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-59640](https://www.cve.org/CVERecord?id=CVE-2026-59640) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
