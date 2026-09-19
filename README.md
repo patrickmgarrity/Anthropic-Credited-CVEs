@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 193**
+**CURRENT CVE COUNT: 195**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -38,6 +38,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-79678](https://www.cve.org/CVERecord?id=CVE-2026-79678) | 2026-09-07 | Red Hat | Red Hat Enterprise Linux 10 | 8.1 |  | Red Hat would like to thank Calif.io (in collaboration with Anthropic) for reporting this issue. |
 | [CVE-2026-18453](https://www.cve.org/CVERecord?id=CVE-2026-18453) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 |  | Red Hat would like to thank Arthur Chan (Ada Logics) and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-18355](https://www.cve.org/CVERecord?id=CVE-2026-18355) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 |  | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
+| [CVE-2026-14957](https://www.cve.org/CVERecord?id=CVE-2026-14957) | 2026-09-02 | The Libreswan Project | libreswan | 7.5 |  | Claude (Anthropic) \| Guillaume Winter |
 | [CVE-2026-13002](https://www.cve.org/CVERecord?id=CVE-2026-13002) | 2026-08-14 | Red Hat | Red Hat Enterprise Linux 10 | 4.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP) | Red Hat would like to thank Lennart Espe for reporting this issue. |
 | [CVE-2026-58435](https://www.cve.org/CVERecord?id=CVE-2026-58435) | 2026-08-13 | Gitea | Gitea Open Source Git Server | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0) | adrian-doyensec |
 | [CVE-2026-16239](https://www.cve.org/CVERecord?id=CVE-2026-16239) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
@@ -48,6 +49,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-11836](https://www.cve.org/CVERecord?id=CVE-2026-11836) | 2026-08-04 | Caliptra | Core ROM | 1.8 |  | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-11835](https://www.cve.org/CVERecord?id=CVE-2026-11835) | 2026-08-04 | Caliptra | Core ROM | 5.6 |  | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-59652](https://www.cve.org/CVERecord?id=CVE-2026-59652) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.9 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
+| [CVE-2026-59639](https://www.cve.org/CVERecord?id=CVE-2026-59639) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-59638](https://www.cve.org/CVERecord?id=CVE-2026-59638) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 9.3 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-58063](https://www.cve.org/CVERecord?id=CVE-2026-58063) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 5.3 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-58062](https://www.cve.org/CVERecord?id=CVE-2026-58062) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 9.3 |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
