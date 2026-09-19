@@ -40,6 +40,11 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: {count}**
 
+## The List
+
+<!-- BEGIN_CVE_TABLE -->
+<!-- END_CVE_TABLE -->
+
 ## Anthropic Research
 
 - [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -72,11 +77,6 @@ This project is maintained on a best effort basis.
     </td>
   </tr>
 </table>
-
-## The List
-
-<!-- BEGIN_CVE_TABLE -->
-<!-- END_CVE_TABLE -->
 """
 
 MARKER_BEGIN = "<!-- BEGIN_CVE_TABLE -->"
