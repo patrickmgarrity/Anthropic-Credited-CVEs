@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 190**
+**CURRENT CVE COUNT: 191**
 
 ## Initial Research
 [Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing](https://www.vulncheck.com/blog/anthropic-glasswing-cves)
@@ -83,6 +83,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-20213](https://www.cve.org/CVERecord?id=CVE-2026-20213) | 2026-07-01 | Cisco | Cisco Secure Endpoint | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VVPEMVDE) | Anthropic |
 | [CVE-2026-43715](https://www.cve.org/CVERecord?id=CVE-2026-43715) | 2026-06-29 | Apple | IOS | 8.8 |  | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-13595](https://www.cve.org/CVERecord?id=CVE-2026-13595) | 2026-06-29 | Red Hat | Red Hat Hardened Images | 6.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZRDQDR79) | Red Hat would like to thank Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) for reporting this issue. |
+| [CVE-2026-53283](https://www.cve.org/CVERecord?id=CVE-2026-53283) | 2026-06-26 | Linux | Linux | 5.5 |  | Reported-by: Ziyuan Chen <zc@anthropic.com> \| Tested-by: Ziyuan Chen <zc@anthropic.com> |
 | [CVE-2026-12340](https://www.cve.org/CVERecord?id=CVE-2026-12340) | 2026-06-25 | wolfSSL | wolfSSL | 6.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-87DJGDRB) | David Pokora, Trail of Bits (in collaboration with Anthropic) |
 | [CVE-2026-7531](https://www.cve.org/CVERecord?id=CVE-2026-7531) | 2026-06-25 | wolfSSL | wolfSSL | 2.3 |  | Thai Duong (Calif.io / Anthropic) |
 | [CVE-2026-7511](https://www.cve.org/CVERecord?id=CVE-2026-7511) | 2026-06-25 | wolfSSL | wolfSSL | 5.9 |  | Nicholas Carlini from Anthropic |
