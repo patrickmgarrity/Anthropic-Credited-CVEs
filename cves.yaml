@@ -81,7 +81,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: AVEVideoEncoder
-  cvss: null
+  cvss: 7.5
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65410
@@ -93,7 +93,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: Foundation
-  cvss: null
+  cvss: 5.5
   credit: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65409
@@ -105,7 +105,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: SMB
-  cvss: null
+  cvss: 5.5
   credit: 재영 정, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-65376
@@ -117,7 +117,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: WebDAV
-  cvss: null
+  cvss: 7.5
   credit: >-
     YingMuo (@YingMuo) of DEVCORE Research Team, Bruce Dang of Calif.io in collaboration with Claude and
     Anthropic Research
@@ -131,7 +131,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: WebDAV
-  cvss: null
+  cvss: 8.8
   credit: >-
     HE WEI（ギカク）, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
   status: published
@@ -144,7 +144,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: SMB
-  cvss: null
+  cvss: 6.5
   credit: >-
     Jakob Pammer, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
   status: published
@@ -157,7 +157,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: SMB
-  cvss: null
+  cvss: 4.7
   credit: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-43690
@@ -169,7 +169,7 @@
   date: '2026-09-14'
   vendor: Apple
   product: WebDAV
-  cvss: null
+  cvss: 6.5
   credit: >-
     bubu, Omar Cerrito, HE WEI（ギカク）, Roman Zabicki, Richard Zana, Chris Bailey - Short Circuit, Aswin
     Kumar Gokulakannan, Surya Narayan Kushwaha, Bruce Dang of Calif.io in collaboration with Claude and
