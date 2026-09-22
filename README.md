@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 228**
+**CURRENT CVE COUNT: 230**
 
 ## Distributions
 
@@ -46,6 +46,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-63276](https://www.cve.org/CVERecord?id=CVE-2026-63276) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-63275](https://www.cve.org/CVERecord?id=CVE-2026-63275) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-63274](https://www.cve.org/CVERecord?id=CVE-2026-63274) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63273](https://www.cve.org/CVERecord?id=CVE-2026-63273) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63272](https://www.cve.org/CVERecord?id=CVE-2026-63272) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-93292](https://www.cve.org/CVERecord?id=CVE-2026-93292) | 2026-09-17 | SigNoz | signoz | 8.4 |  |  | 4NK1T \| axel-corsiez \| morimori-dev \| newugly \| thaidn (Calif.io, in collaboration with Anthropic) \| hackchang \| Scott Moore - VulnCheck |
 | [CVE-2026-44236](https://www.cve.org/CVERecord?id=CVE-2026-44236) | 2026-09-17 | alanxz | rabbitmq-c | 7.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-D7FC4YDQ) |  | Anthropic |
 | [CVE-2026-44235](https://www.cve.org/CVERecord?id=CVE-2026-44235) | 2026-09-17 | alanxz | rabbitmq-c | 6.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GTGXBRXN) |  | Anthropic |
