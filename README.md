@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 230**
+**CURRENT CVE COUNT: 231**
 
 ## Distributions
 
@@ -43,6 +43,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-89422](https://www.cve.org/CVERecord?id=CVE-2026-89422) | 2026-09-22 | Erlang | OTP | 9.3 |  |  | Milad Nasr / Anthropic \| Luna Tong / Anthropic \| Ingela Andin |
 | [CVE-2026-63276](https://www.cve.org/CVERecord?id=CVE-2026-63276) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-63275](https://www.cve.org/CVERecord?id=CVE-2026-63275) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-63274](https://www.cve.org/CVERecord?id=CVE-2026-63274) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |

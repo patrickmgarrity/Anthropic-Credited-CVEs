@@ -1,3 +1,15 @@
+- cve: CVE-2026-89422
+  ghsa: null
+  date: '2026-09-22'
+  vendor: Erlang
+  product: OTP
+  cvss: 9.3
+  credit: Milad Nasr / Anthropic | Luna Tong / Anthropic | Ingela Andin
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-89422
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-63276
   ghsa: null
   date: '2026-09-22'
