@@ -1,6 +1,6 @@
 {
   "last_fetch_timestamp": "2026-09-25T13:49:42.355Z",
-  "last_ghsa_modified": "2026-09-25T06:31:36Z",
+  "last_ghsa_modified": "2026-09-25T13:33:58Z",
   "seen_cve_ids": [
     "CVE-2025-37947",
     "CVE-2025-38617",
@@ -269,6 +269,7 @@
     "GHSA-6rrm-p5j2-8pf8",
     "GHSA-75vm-6w67-gwvp",
     "GHSA-7835-87q9-rgvv",
+    "GHSA-7c78-fpcm-vcqr",
     "GHSA-7p85-w9px-jpjp",
     "GHSA-7qw2-f75v-62f7",
     "GHSA-84rm-42xw-mx52",
@@ -311,6 +312,7 @@
     "GHSA-p5j5-4j3q-8mq8",
     "GHSA-p7fg-763f-g4gf",
     "GHSA-pgwh-4jj4-qm8v",
+    "GHSA-pp33-9ggx-8qj6",
     "GHSA-pr2w-4gpj-cpq4",
     "GHSA-qq9q-xgm3-xv9g",
     "GHSA-rgh6-rfwx-v388",
