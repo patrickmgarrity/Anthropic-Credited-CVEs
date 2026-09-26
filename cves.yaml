@@ -22,6 +22,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-98062
+  ghsa: null
+  date: '2026-09-25'
+  vendor: Linux
+  product: Linux
+  cvss: null
+  credit: >-
+    Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98062
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-98061
   ghsa: null
   date: '2026-09-25'
@@ -74,6 +87,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-98040
+  ghsa: null
+  date: '2026-09-25'
+  vendor: Linux
+  product: Linux
+  cvss: null
+  credit: >-
+    Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98040
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-98038
   ghsa: null
   date: '2026-09-25'
@@ -123,6 +149,19 @@
     Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98034
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-98033
+  ghsa: null
+  date: '2026-09-25'
+  vendor: Linux
+  product: Linux
+  cvss: null
+  credit: >-
+    Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98033
   ghsa_link: null
   notes: null
   auto_discovered: true

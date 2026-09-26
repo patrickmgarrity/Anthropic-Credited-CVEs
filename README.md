@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 244**
+**CURRENT CVE COUNT: 247**
 
 ## Distributions
 
@@ -45,14 +45,17 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux |  |  |  |  |
 | [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux |  |  |  |  |
+| [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98060](https://www.cve.org/CVERecord?id=CVE-2026-98060) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98049](https://www.cve.org/CVERecord?id=CVE-2026-98049) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98047](https://www.cve.org/CVERecord?id=CVE-2026-98047) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98040](https://www.cve.org/CVERecord?id=CVE-2026-98040) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98038](https://www.cve.org/CVERecord?id=CVE-2026-98038) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98037](https://www.cve.org/CVERecord?id=CVE-2026-98037) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98036](https://www.cve.org/CVERecord?id=CVE-2026-98036) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98034](https://www.cve.org/CVERecord?id=CVE-2026-98034) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98033](https://www.cve.org/CVERecord?id=CVE-2026-98033) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-97524](https://www.cve.org/CVERecord?id=CVE-2026-97524) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Xinyang Ge <xinyang@anthropic.com> |
 | [CVE-2026-97523](https://www.cve.org/CVERecord?id=CVE-2026-97523) | 2026-09-25 | Linux | Linux | 7.5 |  |  | Reported-by: Xinyang Ge <xinyang@anthropic.com> |
 | [CVE-2026-96812](https://www.cve.org/CVERecord?id=CVE-2026-96812) | 2026-09-25 | Google | gVisor | 8.8 |  |  | Anthropic (using Claude) |
