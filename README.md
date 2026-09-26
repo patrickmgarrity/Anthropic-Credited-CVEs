@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 233**
+**CURRENT CVE COUNT: 234**
 
 ## Distributions
 
@@ -43,6 +43,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux |  |  |  |  |
 | [CVE-2026-97523](https://www.cve.org/CVERecord?id=CVE-2026-97523) | 2026-09-25 | Linux | Linux | 7.5 |  |  | Reported-by: Xinyang Ge <xinyang@anthropic.com> |
 | [CVE-2026-96812](https://www.cve.org/CVERecord?id=CVE-2026-96812) | 2026-09-25 | Google | gVisor | 8.8 |  |  | Anthropic (using Claude) |
 | [CVE-2026-89422](https://www.cve.org/CVERecord?id=CVE-2026-89422) | 2026-09-22 | Erlang | OTP | 9.3 |  |  | Milad Nasr / Anthropic \| Luna Tong / Anthropic \| Ingela Andin |
