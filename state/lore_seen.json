@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20260926",
+  "last_run_date": "20260927",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -66,6 +66,7 @@
     "e829f2: bass: fix heap buffer overflow allocating",
     "efi_loader: validate pe-coff relocation data",
     "eventpoll: defer struct eventpoll free to rcu grace period",
+    "hw/9pfs: mutate fid path from main thread",
     "hw/9pfs: mutate fid path from main thread only",
     "inet: frags: strip gso state from fragments before reassembly",
     "io-wq: check that the predecessor is hashed in io_wq_remove_pending()",
@@ -1215,6 +1216,9 @@
     "https://lore.kernel.org/all/20260925175244.1136329-11-daniel@iogearbox.net",
     "https://lore.kernel.org/all/2026092539-CVE-2026-98085-118a@gregkh",
     "https://lore.kernel.org/all/20260926100359.78731-2-juny24602@gmail.com",
+    "https://lore.kernel.org/all/20260927072622.93656-7-mjt@tls.msk.ru",
+    "https://lore.kernel.org/all/20260927090540.102811-11-mjt@tls.msk.ru",
+    "https://lore.kernel.org/all/20260927104821.196183-13-mjt@tls.msk.ru",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
