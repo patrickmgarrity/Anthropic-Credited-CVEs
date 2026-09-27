@@ -10,6 +10,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-93304
+  ghsa: null
+  date: '2026-09-27'
+  vendor: wolfSSL
+  product: wolfSSL
+  cvss: 6.3
+  credit: Anthropic OSS program
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-93304
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-98134
   ghsa: null
   date: '2026-09-25'
