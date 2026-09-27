@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 252**
+**CURRENT CVE COUNT: 253**
 
 ## Distributions
 
@@ -43,6 +43,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-94419](https://www.cve.org/CVERecord?id=CVE-2026-94419) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94418](https://www.cve.org/CVERecord?id=CVE-2026-94418) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94417](https://www.cve.org/CVERecord?id=CVE-2026-94417) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-93304](https://www.cve.org/CVERecord?id=CVE-2026-93304) | 2026-09-27 | wolfSSL | wolfSSL | 6.3 |  |  | Anthropic OSS program |
