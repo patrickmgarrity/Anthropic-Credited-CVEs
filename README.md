@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 251**
+**CURRENT CVE COUNT: 252**
 
 ## Distributions
 
@@ -46,6 +46,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-94418](https://www.cve.org/CVERecord?id=CVE-2026-94418) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94417](https://www.cve.org/CVERecord?id=CVE-2026-94417) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-93304](https://www.cve.org/CVERecord?id=CVE-2026-93304) | 2026-09-27 | wolfSSL | wolfSSL | 6.3 |  |  | Anthropic OSS program |
+| [CVE-2026-93302](https://www.cve.org/CVERecord?id=CVE-2026-93302) | 2026-09-27 | wolfSSL | wolfSSL | 8.3 |  |  | Anthropic OSS program |
 | [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux |  |  |  |  |
 | [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux |  |  |  |  |
 | [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
