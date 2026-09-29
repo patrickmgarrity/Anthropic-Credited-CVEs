@@ -46,6 +46,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-90915
+  ghsa: null
+  date: '2026-09-29'
+  vendor: Joomla! Project
+  product: Joomla! CMS
+  cvss: 7.0
+  credit: Aria Akhavan | Calif.io in collaboration with Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-90915
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-94419
   ghsa: null
   date: '2026-09-27'

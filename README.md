@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 257**
+**CURRENT CVE COUNT: 258**
 
 ## Distributions
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-96421](https://www.cve.org/CVERecord?id=CVE-2026-96421) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
 | [CVE-2026-96418](https://www.cve.org/CVERecord?id=CVE-2026-96418) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Credit: Claude and Ada Logics |
 | [CVE-2026-96416](https://www.cve.org/CVERecord?id=CVE-2026-96416) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
+| [CVE-2026-90915](https://www.cve.org/CVERecord?id=CVE-2026-90915) | 2026-09-29 | Joomla! Project | Joomla! CMS | 7.0 |  |  | Aria Akhavan \| Calif.io in collaboration with Anthropic |
 | [CVE-2026-94419](https://www.cve.org/CVERecord?id=CVE-2026-94419) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94418](https://www.cve.org/CVERecord?id=CVE-2026-94418) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94417](https://www.cve.org/CVERecord?id=CVE-2026-94417) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
