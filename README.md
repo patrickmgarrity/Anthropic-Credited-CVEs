@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 259**
+**CURRENT CVE COUNT: 260**
 
 ## Distributions
 
@@ -43,6 +43,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-101276](https://www.cve.org/CVERecord?id=CVE-2026-101276) | 2026-09-30 | esnet | iperf3 | 9.2 |  |  | Anthropic \| Ada Logics |
 | [CVE-2026-96423](https://www.cve.org/CVERecord?id=CVE-2026-96423) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
 | [CVE-2026-96421](https://www.cve.org/CVERecord?id=CVE-2026-96421) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
 | [CVE-2026-96418](https://www.cve.org/CVERecord?id=CVE-2026-96418) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Credit: Claude and Ada Logics |
