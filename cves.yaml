@@ -235,6 +235,20 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-17507
+  ghsa: null
+  date: '2026-10-02'
+  vendor: Legion of the Bouncy Castle Inc.
+  product: BC-JAVA
+  cvss: 8.7
+  credit: >-
+    Mirko Swillus on behalf of Alpha-Omega (alpha-omega.dev), using Scrutineer with an Anthropic Claude
+    model provided through Project Glasswing
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-17507
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-16001
   ghsa: null
   date: '2026-10-02'
