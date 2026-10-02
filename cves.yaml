@@ -3,7 +3,7 @@
   date: '2026-10-01'
   vendor: Apache Software Foundation
   product: Apache HTTP Server
-  cvss: null
+  cvss: 8.8
   credit: >-
     Zhen Kong | Calif.io in collaboration with Anthropic | AISLE in partnership with Red Hat
   status: published
@@ -1432,6 +1432,8 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-61500
   ghsa_link: null
+  vulncheck_kev: true
+  kev_date_added: '2026-10-01'
   notes: null
   auto_discovered: true
 - cve: CVE-2026-15170
