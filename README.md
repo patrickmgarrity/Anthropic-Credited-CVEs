@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 280**
+**CURRENT CVE COUNT: 282**
 
 ## Distributions
 
@@ -56,6 +56,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-63570](https://www.cve.org/CVERecord?id=CVE-2026-63570) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 7.1 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63569](https://www.cve.org/CVERecord?id=CVE-2026-63569) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 9.1 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63568](https://www.cve.org/CVERecord?id=CVE-2026-63568) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.7 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
+| [CVE-2026-63567](https://www.cve.org/CVERecord?id=CVE-2026-63567) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
+| [CVE-2026-63566](https://www.cve.org/CVERecord?id=CVE-2026-63566) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.7 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-61373](https://www.cve.org/CVERecord?id=CVE-2026-61373) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Claude (Anthropic Research) \| Arthur Chan, Ada Logics (arthur.chan@adalogics.com) \| n0mi1k |
 | [CVE-2026-17508](https://www.cve.org/CVERecord?id=CVE-2026-17508) | 2026-10-02 | Legion of the Bouncy Castle Inc. | BC-JAVA | 5.3 |  |  | Mirko Swillus on behalf of Alpha-Omega (alpha-omega.dev), using Scrutineer with an Anthropic Claude model provided through Project Glasswing \| Yu Bao from the PayPal Cyber Security Team |
 | [CVE-2026-16001](https://www.cve.org/CVERecord?id=CVE-2026-16001) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
