@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 285**
+**CURRENT CVE COUNT: 286**
 
 ## Distributions
 
@@ -49,6 +49,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-103601](https://www.cve.org/CVERecord?id=CVE-2026-103601) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-66858](https://www.cve.org/CVERecord?id=CVE-2026-66858) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Claude (Anthropic Research) \| Arthur Chan, Ada Logics \| Apache Thrift Developers |
 | [CVE-2026-66837](https://www.cve.org/CVERecord?id=CVE-2026-66837) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Claude (Anthropic Research) \| Arthur Chan, Ada Logics (arthur.chan@adalogics.com) |
+| [CVE-2026-66081](https://www.cve.org/CVERecord?id=CVE-2026-66081) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Akhil Koul \| Claude (Anthropic Research) \| Arthur Chan, Ada Logics (arthur.chan@adalogics.com) |
 | [CVE-2026-63578](https://www.cve.org/CVERecord?id=CVE-2026-63578) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 7.1 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63577](https://www.cve.org/CVERecord?id=CVE-2026-63577) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63576](https://www.cve.org/CVERecord?id=CVE-2026-63576) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
