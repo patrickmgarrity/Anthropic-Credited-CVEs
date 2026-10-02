@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 278**
+**CURRENT CVE COUNT: 279**
 
 ## Distributions
 
@@ -45,6 +45,7 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-103604](https://www.cve.org/CVERecord?id=CVE-2026-103604) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.7 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-103603](https://www.cve.org/CVERecord?id=CVE-2026-103603) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.7 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
+| [CVE-2026-103602](https://www.cve.org/CVERecord?id=CVE-2026-103602) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-103601](https://www.cve.org/CVERecord?id=CVE-2026-103601) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63578](https://www.cve.org/CVERecord?id=CVE-2026-63578) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 7.1 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63577](https://www.cve.org/CVERecord?id=CVE-2026-63577) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
