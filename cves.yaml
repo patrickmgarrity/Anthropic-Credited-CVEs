@@ -152,6 +152,20 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-63569
+  ghsa: null
+  date: '2026-10-02'
+  vendor: Legion of the Bouncy Castle Inc.
+  product: bc-csharp
+  cvss: 9.1
+  credit: >-
+    Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration
+    with Anthropic Research.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-63569
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-63568
   ghsa: null
   date: '2026-10-02'
