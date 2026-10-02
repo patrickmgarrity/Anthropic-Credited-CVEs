@@ -54,6 +54,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-66858
+  ghsa: null
+  date: '2026-10-02'
+  vendor: Apache Software Foundation
+  product: Apache Thrift
+  cvss: 8.7
+  credit: Claude (Anthropic Research) | Arthur Chan, Ada Logics | Apache Thrift Developers
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-66858
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-63578
   ghsa: null
   date: '2026-10-02'
