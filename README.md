@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 286**
+**CURRENT CVE COUNT: 300**
 
 ## Distributions
 
@@ -50,6 +50,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-66858](https://www.cve.org/CVERecord?id=CVE-2026-66858) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Claude (Anthropic Research) \| Arthur Chan, Ada Logics \| Apache Thrift Developers |
 | [CVE-2026-66837](https://www.cve.org/CVERecord?id=CVE-2026-66837) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Claude (Anthropic Research) \| Arthur Chan, Ada Logics (arthur.chan@adalogics.com) |
 | [CVE-2026-66081](https://www.cve.org/CVERecord?id=CVE-2026-66081) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Akhil Koul \| Claude (Anthropic Research) \| Arthur Chan, Ada Logics (arthur.chan@adalogics.com) |
+| [CVE-2026-63772](https://www.cve.org/CVERecord?id=CVE-2026-63772) | 2026-10-02 | Apache Software Foundation | Apache Thrift | 8.7 |  |  | Anthropic (agentic research) + Ada Logics; reported by Adam Korczynski |
 | [CVE-2026-63578](https://www.cve.org/CVERecord?id=CVE-2026-63578) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 7.1 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63577](https://www.cve.org/CVERecord?id=CVE-2026-63577) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-63576](https://www.cve.org/CVERecord?id=CVE-2026-63576) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
@@ -83,7 +84,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-93302](https://www.cve.org/CVERecord?id=CVE-2026-93302) | 2026-09-27 | wolfSSL | wolfSSL | 8.3 |  |  | Anthropic OSS program |
 | [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux |  |  |  |  |
 | [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux |  |  |  |  |
-| [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98060](https://www.cve.org/CVERecord?id=CVE-2026-98060) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98058](https://www.cve.org/CVERecord?id=CVE-2026-98058) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
@@ -99,11 +100,11 @@ This project is maintained on a best effort basis.
 | [CVE-2026-97523](https://www.cve.org/CVERecord?id=CVE-2026-97523) | 2026-09-25 | Linux | Linux | 7.5 |  |  | Reported-by: Xinyang Ge <xinyang@anthropic.com> |
 | [CVE-2026-96812](https://www.cve.org/CVERecord?id=CVE-2026-96812) | 2026-09-25 | Google | gVisor | 8.8 |  |  | Anthropic (using Claude) |
 | [CVE-2026-89422](https://www.cve.org/CVERecord?id=CVE-2026-89422) | 2026-09-22 | Erlang | OTP | 9.3 |  |  | Milad Nasr / Anthropic \| Luna Tong / Anthropic \| Ingela Andin |
-| [CVE-2026-63276](https://www.cve.org/CVERecord?id=CVE-2026-63276) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
-| [CVE-2026-63275](https://www.cve.org/CVERecord?id=CVE-2026-63275) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
-| [CVE-2026-63274](https://www.cve.org/CVERecord?id=CVE-2026-63274) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
-| [CVE-2026-63273](https://www.cve.org/CVERecord?id=CVE-2026-63273) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
-| [CVE-2026-63272](https://www.cve.org/CVERecord?id=CVE-2026-63272) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63276](https://www.cve.org/CVERecord?id=CVE-2026-63276) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YA6ADR86) |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63275](https://www.cve.org/CVERecord?id=CVE-2026-63275) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-RNHRV8B9) |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63274](https://www.cve.org/CVERecord?id=CVE-2026-63274) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QT406EDT) |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63273](https://www.cve.org/CVERecord?id=CVE-2026-63273) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-J00S1S9Y) |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-63272](https://www.cve.org/CVERecord?id=CVE-2026-63272) | 2026-09-22 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-CRFDC4JM) |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-93292](https://www.cve.org/CVERecord?id=CVE-2026-93292) | 2026-09-17 | SigNoz | signoz | 8.4 |  |  | 4NK1T \| axel-corsiez \| morimori-dev \| newugly \| thaidn (Calif.io, in collaboration with Anthropic) \| hackchang \| Scott Moore - VulnCheck |
 | [CVE-2026-44236](https://www.cve.org/CVERecord?id=CVE-2026-44236) | 2026-09-17 | alanxz | rabbitmq-c | 7.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-D7FC4YDQ) |  | Anthropic |
 | [CVE-2026-44235](https://www.cve.org/CVERecord?id=CVE-2026-44235) | 2026-09-17 | alanxz | rabbitmq-c | 6.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GTGXBRXN) |  | Anthropic |
@@ -125,8 +126,14 @@ This project is maintained on a best effort basis.
 | [CVE-2026-18355](https://www.cve.org/CVERecord?id=CVE-2026-18355) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 |  |  | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-14957](https://www.cve.org/CVERecord?id=CVE-2026-14957) | 2026-09-02 | The Libreswan Project | libreswan | 7.5 |  |  | Claude (Anthropic) \| Guillaume Winter |
 | [CVE-2026-80590](https://www.cve.org/CVERecord?id=CVE-2026-80590) | 2026-08-28 | Linux | Linux | 8.6 |  |  | Signed-off-by: Xinyang Ge <xinyang@anthropic.com> |
+| [CVE-2026-76891](https://www.cve.org/CVERecord?id=CVE-2026-76891) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-27KVBTTP) |  | Claude and Ada Logics |
+| [CVE-2026-76890](https://www.cve.org/CVERecord?id=CVE-2026-76890) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GACTPNVK) |  | Claude and Ada Logics |
+| [CVE-2026-76888](https://www.cve.org/CVERecord?id=CVE-2026-76888) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-05VXN1Y6) |  | Claude and Ada Logics |
+| [CVE-2026-63652](https://www.cve.org/CVERecord?id=CVE-2026-63652) | 2026-08-19 | FreeRDP | FreeRDP | 7.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZPF40VKS) |  | Anthropic |
+| [CVE-2026-63633](https://www.cve.org/CVERecord?id=CVE-2026-63633) | 2026-08-19 | FreeRDP | FreeRDP | 7.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EWM7B5QP) |  | Anthropic |
 | [CVE-2026-13002](https://www.cve.org/CVERecord?id=CVE-2026-13002) | 2026-08-14 | Red Hat | Red Hat Enterprise Linux 10 | 4.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP) |  | Red Hat would like to thank Lennart Espe for reporting this issue. |
 | [CVE-2026-58435](https://www.cve.org/CVERecord?id=CVE-2026-58435) | 2026-08-13 | Gitea | Gitea Open Source Git Server | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0) |  | adrian-doyensec |
+| [CVE-2026-19694](https://www.cve.org/CVERecord?id=CVE-2026-19694) | 2026-08-13 | Wireshark Foundation | Wireshark | 4.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EKGJXN5A) |  | Claude and Ada Logics |
 | [CVE-2026-16239](https://www.cve.org/CVERecord?id=CVE-2026-16239) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
 | [CVE-2026-15742](https://www.cve.org/CVERecord?id=CVE-2026-15742) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
 | [CVE-2026-15741](https://www.cve.org/CVERecord?id=CVE-2026-15741) | 2026-08-13 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Ben Morris (Claude and Anthropic Research) for reporting this problem. |
@@ -135,6 +142,9 @@ This project is maintained on a best effort basis.
 | [CVE-2026-68756](https://www.cve.org/CVERecord?id=CVE-2026-68756) | 2026-08-12 | jfrog | artifactory | 6.6 |  |  | Ben Morris in collaboration with Claude and Anthropic Research |
 | [CVE-2026-66376](https://www.cve.org/CVERecord?id=CVE-2026-66376) | 2026-08-12 | jfrog | artifactory | 4.2 |  |  | Ben Morris in collaboration with Claude and Anthropic Research |
 | [CVE-2026-18663](https://www.cve.org/CVERecord?id=CVE-2026-18663) | 2026-08-12 | Red Hat | Red Hat Directory Server 11 | 5.9 |  |  | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
+| [CVE-2026-73242](https://www.cve.org/CVERecord?id=CVE-2026-73242) | 2026-08-11 | FreeRDP | FreeRDP | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-S1E4Y69J) |  | Anthropic |
+| [CVE-2026-73241](https://www.cve.org/CVERecord?id=CVE-2026-73241) | 2026-08-11 | FreeRDP | FreeRDP | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TVG98XT0) |  | Anthropic |
+| [CVE-2026-72746](https://www.cve.org/CVERecord?id=CVE-2026-72746) | Reserved |  |  |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TVG98XT0) |  | Anthropic |
 | [CVE-2026-11836](https://www.cve.org/CVERecord?id=CVE-2026-11836) | 2026-08-04 | Caliptra | Core ROM | 1.8 |  |  | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-11835](https://www.cve.org/CVERecord?id=CVE-2026-11835) | 2026-08-04 | Caliptra | Core ROM | 5.6 |  |  | Alex Matrosov with Claude, Anthropic |
 | [CVE-2026-59652](https://www.cve.org/CVERecord?id=CVE-2026-59652) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 6.9 |  |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
@@ -165,11 +175,15 @@ This project is maintained on a best effort basis.
 | [CVE-2026-12803](https://www.cve.org/CVERecord?id=CVE-2026-12803) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 8.7 |  |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-12185](https://www.cve.org/CVERecord?id=CVE-2026-12185) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 7.1 |  |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
 | [CVE-2026-8763](https://www.cve.org/CVERecord?id=CVE-2026-8763) | 2026-08-03 | Legion of the Bouncy Castle Inc. | BC-JAVA | 9.3 |  |  | Alex Gaynor in collaboration with Claude and Anthropic Research |
+| [CVE-2026-68579](https://www.cve.org/CVERecord?id=CVE-2026-68579) | 2026-08-02 | FreeRDP | FreeRDP | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-D5W3VWPN) |  | DavidKorczynski |
 | [CVE-2026-65423](https://www.cve.org/CVERecord?id=CVE-2026-65423) | 2026-07-30 | o6 Automation | open62541 | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) |  | Abhinav Agarwal reported this vulnerability to CISA. \| Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-63559](https://www.cve.org/CVERecord?id=CVE-2026-63559) | 2026-07-30 | o6 Automation | open62541 | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) |  | Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-61487](https://www.cve.org/CVERecord?id=CVE-2026-61487) | 2026-07-28 | Apache Software Foundation | Apache ActiveMQ Broker | 6.5 |  |  | Claude and Ada Logics |
 | [CVE-2026-66032](https://www.cve.org/CVERecord?id=CVE-2026-66032) | 2026-07-24 | libssh2 | libssh2 | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Q5A1RHS0) |  | VladimirEliTokarev |
 | [CVE-2026-55084](https://www.cve.org/CVERecord?id=CVE-2026-55084) | 2026-07-21 | dhis2 | dhis2-core | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-FW0V6SAJ) |  | Anthropic |
+| [CVE-2026-64624](https://www.cve.org/CVERecord?id=CVE-2026-64624) | 2026-07-20 | FreeRDP | FreeRDP | 8.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TAV704VS) |  | DavidKorczynski |
+| [CVE-2026-64621](https://www.cve.org/CVERecord?id=CVE-2026-64621) | 2026-07-20 | FreeRDP | FreeRDP | 9.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-XQVPKKPB) |  | DavidKorczynski |
+| [CVE-2026-64620](https://www.cve.org/CVERecord?id=CVE-2026-64620) | 2026-07-20 | FreeRDP | FreeRDP | 9.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-K9VH6KBR) |  | DavidKorczynski |
 | [CVE-2026-35590](https://www.cve.org/CVERecord?id=CVE-2026-35590) | 2026-07-20 | libvips | libvips | 6.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-JBKARRJ7) |  | Anthropic |
 | [CVE-2026-64015](https://www.cve.org/CVERecord?id=CVE-2026-64015) | 2026-07-19 | Linux | Linux | 7.8 |  |  |  |
 | [CVE-2026-46639](https://www.cve.org/CVERecord?id=CVE-2026-46639) | 2026-07-14 | twigphp | Twig | 7.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-203E7E95) |  | Twig would like to thank Anvil Secure in collaboration with Claude and Anthropic Research for reporting and fixing the issue. |
@@ -181,10 +195,10 @@ This project is maintained on a best effort basis.
 | [CVE-2026-61502](https://www.cve.org/CVERecord?id=CVE-2026-61502) | 2026-07-13 | rejetto | hfs | 5.1 |  |  | Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research |
 | [CVE-2026-61501](https://www.cve.org/CVERecord?id=CVE-2026-61501) | 2026-07-13 | rejetto | hfs | 5.3 |  |  | Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research |
 | [CVE-2026-61500](https://www.cve.org/CVERecord?id=CVE-2026-61500) | 2026-07-13 | rejetto | hfs | 9.3 |  | ✅ | Zach Hanley (@hacks_zach) of Horizon3.ai, in collaboration with Claude and Anthropic Research |
-| [CVE-2026-15170](https://www.cve.org/CVERecord?id=CVE-2026-15170) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
+| [CVE-2026-15170](https://www.cve.org/CVERecord?id=CVE-2026-15170) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-3FWTCMVC) |  | Claude and Ada Logics |
 | [CVE-2026-15169](https://www.cve.org/CVERecord?id=CVE-2026-15169) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
-| [CVE-2026-15166](https://www.cve.org/CVERecord?id=CVE-2026-15166) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
-| [CVE-2026-15165](https://www.cve.org/CVERecord?id=CVE-2026-15165) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
+| [CVE-2026-15166](https://www.cve.org/CVERecord?id=CVE-2026-15166) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-WT5AMKP5) |  | Claude and Ada Logics |
+| [CVE-2026-15165](https://www.cve.org/CVERecord?id=CVE-2026-15165) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y5M37QY4) |  | Claude and Ada Logics |
 | [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46354) | 2026-07-07 | coder | coder | 9.1 |  |  | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
 | [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | 2026-07-07 | coder | coder | 6.5 |  |  | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
 | [CVE-2026-27775](https://www.cve.org/CVERecord?id=CVE-2026-27775) | 2026-07-03 | Gitea | Gitea Open Source Git Server | 8.8 |  |  | adrian-doyensec |
