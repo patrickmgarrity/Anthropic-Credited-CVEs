@@ -33,6 +33,7 @@ human running it locally for a one-time backfill) commits the resulting changes.
 
 from __future__ import annotations
 
+import json
 import os
 import sys
 import time
@@ -50,6 +51,7 @@ from scan_cves import (  # noqa: E402
 from recheck_reserved import fetch_record  # noqa: E402  (MITRE cveawg lookup)
 
 LEDGER_JSON_URL = "https://red.anthropic.com/2026/cvd/data/ledger.json"
+STATS_PATH = Path("state/ledger_stats.json")
 FINDINGS_URL_TMPL = "https://red.anthropic.com/2026/cvd/findings/{ant_id}"
 MITRE_SLEEP_SECONDS = 0.3  # be polite to cveawg between record fetches
 
@@ -168,6 +170,16 @@ def main() -> int:
 
     cve_map = revealed_cve_map(ledger)
     print(f"  {len(cve_map)} revealed CVE(s) with a finding on the ledger")
+
+    # Stat for the README: Anthropic findings the ledger marks "fixed" that carry
+    # no CVE. (The "fixed" status only appears on revealed rows, so this is a
+    # verifiable count, not an artifact of withheld entries.)
+    fixed_no_cve = sum(1 for r in ledger
+                       if r.get("status") == "fixed" and not r.get("cve_ids"))
+    STATS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    STATS_PATH.write_text(
+        json.dumps({"fixed_findings_without_cve": fixed_no_cve}, indent=2) + "\n")
+    print(f"  {fixed_no_cve} fixed finding(s) without a CVE (wrote {STATS_PATH})")
 
     added = 0
     linked = 0

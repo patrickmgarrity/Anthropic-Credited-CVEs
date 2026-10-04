@@ -5,6 +5,8 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: 300**
 
+**Fixed Anthropic Findings w/o CVE: 128**
+
 ## Distributions
 
 <table>

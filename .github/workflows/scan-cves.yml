@@ -85,11 +85,12 @@ jobs:
         run: python .github/scripts/scan_ledger.py
 
       - name: Commit ledger sync (if any)
-        # No [skip ci]: this touches cves/, so render-readme.yml regenerates
-        # README.md (incl. the Ledger column) + the cves.yaml aggregate.
+        # No [skip ci]: this touches cves/ + state/ledger_stats.json, so
+        # render-readme.yml regenerates README.md (Ledger column + the
+        # "fixed findings w/o CVE" count) and the cves.yaml aggregate.
         run: |
-          if [[ -n "$(git status --porcelain cves/)" ]]; then
-            git add cves/
+          if [[ -n "$(git status --porcelain cves/ state/ledger_stats.json)" ]]; then
+            git add cves/ state/ledger_stats.json
             git commit -m "chore: sync Anthropic disclosure ledger"
             git push
           else

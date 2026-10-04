@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "cves/**"
+      - "state/ledger_stats.json"
       - ".github/templates/README.template.md"
       - ".github/scripts/render_readme.py"
   workflow_dispatch: {}

@@ -21,6 +21,7 @@ current README).
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -39,6 +40,8 @@ DEFAULT_TEMPLATE = """\
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
 **CURRENT CVE COUNT: {count}**
+
+**Fixed Anthropic Findings w/o CVE: {fixed_no_cve}**
 
 ## Distributions
 
@@ -338,11 +341,29 @@ def render_table(entries: list[dict]) -> str:
     return header + "\n".join(rows) + "\n"
 
 
-def render_readme(template: str, entries: list[dict]) -> str:
+def load_fixed_no_cve(repo_root: Path) -> str:
+    """The count of Anthropic 'fixed' findings without a CVE, as computed by
+    scan_ledger.py into state/ledger_stats.json. Returns a display string;
+    'n/a' if the stat file is missing (e.g. before the ledger scan first runs)."""
+    path = repo_root / "state" / "ledger_stats.json"
+    if path.exists():
+        try:
+            val = json.loads(path.read_text(encoding="utf-8")).get(
+                "fixed_findings_without_cve")
+            if val is not None:
+                return str(val)
+        except (ValueError, OSError):
+            pass
+    return "n/a"
+
+
+def render_readme(template: str, entries: list[dict],
+                  fixed_no_cve: str = "n/a") -> str:
     count = len(entries)
     table = render_table(entries)
     body_block = f"{MARKER_BEGIN}\n{table}{MARKER_END}"
     template = template.replace("{count}", str(count))
+    template = template.replace("{fixed_no_cve}", fixed_no_cve)
 
     if MARKER_BEGIN in template and MARKER_END in template:
         pattern = re.compile(
@@ -414,7 +435,7 @@ def main() -> int:
     else:
         template = DEFAULT_TEMPLATE
 
-    rendered = render_readme(template, entries)
+    rendered = render_readme(template, entries, load_fixed_no_cve(repo_root))
     readme_path.write_text(rendered, encoding="utf-8")
     write_aggregate(repo_root, entries)
 
