@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261003",
+  "last_run_date": "20261004",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1324,6 +1324,7 @@
     "https://lore.kernel.org/all/20261002092116.585466-1-m.szyprowski@samsung.com",
     "https://lore.kernel.org/all/20261002092336.585546-1-m.szyprowski@samsung.com",
     "https://lore.kernel.org/all/20261002162659.GY2705364@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261004034937.70523-1-artem@trailofbits.com",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
@@ -1367,6 +1368,7 @@
     "https://lore.kernel.org/all/3fa7080b029562aa687ebac6c60e0a01f3f7e65d.1779805943.git.bcodding@hammerspace.com",
     "https://lore.kernel.org/all/3zd25ylkgypmxgnhhsih6x7iuclyol772gvgfuh4hs2w3ok4to@nrnbopov37kn",
     "https://lore.kernel.org/all/40418ce913972dc14276a2e8954cd63595c5eee6.camel@gmail.com",
+    "https://lore.kernel.org/all/408425eee8d281188a0f8b8e3e535e7c3af99f12.1791061402.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/40f3f1da-ef32-4223-ada7-642f6798eb19@redhat.com",
     "https://lore.kernel.org/all/422FDB81-2A68-47C7-A22D-2D3301E2E86D@doyensec.com",
     "https://lore.kernel.org/all/45B00A1C-A331-4982-8317-592EEA59426A@doyensec.com",
@@ -1482,6 +1484,7 @@
     "https://lore.kernel.org/all/CAABR9nE9zGHbABn2+=+zOsGTvDbLsCYp6RWMkK0RyJF6c74ooQ@mail.gmail.com",
     "https://lore.kernel.org/all/CAADnVQ+SOswCXzZbCbjtjXQDd++Zkrxpg4k3gHMsMPsN9BRQEA@mail.gmail.com",
     "https://lore.kernel.org/all/CAADnVQKvXPqcOcWquPzCrqR0qD8VH6jPo2K+Su34-DRsw=xFAA@mail.gmail.com",
+    "https://lore.kernel.org/all/CAAVpQUBZOa7fEVuby1HftNXZPVvQkmH8wmbPxTQH6LjfTb8gLQ@mail.gmail.com",
     "https://lore.kernel.org/all/CAAVpQUDB8_K0xjGtDzXNd4AjBgD9WOPskJjWMMT4cdYQodEsuA@mail.gmail.com",
     "https://lore.kernel.org/all/CABgObfbWPE+uLuzuTbANbrf00ohaJFj2R_u9oW4c68iiafHhLA@mail.gmail.com",
     "https://lore.kernel.org/all/CABykktEd-rn04SeFQqqpnB0npDaSxVLx5vQ1f9LmJGJpVckv6w@mail.gmail.com",
