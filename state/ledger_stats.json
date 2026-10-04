@@ -1,3 +1,4 @@
 {
-  "fixed_findings_without_cve": 128
+  "fixed_findings_without_cve": 128,
+  "findings_withdrawn": 243
 }

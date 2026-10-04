@@ -7,6 +7,8 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
+**Findings Withdrawn by Anthropic: 243**
+
 ## Distributions
 
 <table>

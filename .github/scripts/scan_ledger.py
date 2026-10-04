@@ -171,15 +171,20 @@ def main() -> int:
     cve_map = revealed_cve_map(ledger)
     print(f"  {len(cve_map)} revealed CVE(s) with a finding on the ledger")
 
-    # Stat for the README: Anthropic findings the ledger marks "fixed" that carry
-    # no CVE. (The "fixed" status only appears on revealed rows, so this is a
-    # verifiable count, not an artifact of withheld entries.)
+    # Stats for the README header:
+    #  - fixed findings the ledger marks "fixed" that carry no CVE ("fixed" only
+    #    appears on revealed rows, so it's a verifiable count), and
+    #  - findings Anthropic has withdrawn (the explicit `withdrawn` flag).
     fixed_no_cve = sum(1 for r in ledger
                        if r.get("status") == "fixed" and not r.get("cve_ids"))
+    withdrawn = sum(1 for r in ledger if r.get("withdrawn") is True)
     STATS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    STATS_PATH.write_text(
-        json.dumps({"fixed_findings_without_cve": fixed_no_cve}, indent=2) + "\n")
-    print(f"  {fixed_no_cve} fixed finding(s) without a CVE (wrote {STATS_PATH})")
+    STATS_PATH.write_text(json.dumps({
+        "fixed_findings_without_cve": fixed_no_cve,
+        "findings_withdrawn": withdrawn,
+    }, indent=2) + "\n")
+    print(f"  {fixed_no_cve} fixed finding(s) without a CVE, "
+          f"{withdrawn} withdrawn (wrote {STATS_PATH})")
 
     added = 0
     linked = 0
