@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-g4qm-m288-5cp9
+date: '2026-10-08'
+vendor: github.com
+product: corazawaf/coraza/v3
+cvss: 4.0
+credit: '@HackingRepo (reporter) | @fzipi (remediation_developer)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-g4qm-m288-5cp9
+notes: null
+auto_discovered: true
