@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261007",
+  "last_run_date": "20261008",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -132,7 +132,8 @@
     "soreuseport: fix use-after-free when a socket is added to",
     "vsock: fix buffer size clamping order",
     "xfs: fix exchange-range-to-eof file size exchange",
-    "xfs: stop exchanging reflink flags during mapping exchanges"
+    "xfs: stop exchanging reflink flags during mapping exchanges",
+    "xfs: stop exchanging reflink flags when exchanging"
   ],
   "seen_message_ids": [
     "https://lore.kernel.org/all/00a1176a-8b1f-47b1-9376-349cd08ad313@ovn.org",
@@ -152,6 +153,7 @@
     "https://lore.kernel.org/all/010101a07f9d4258-15a47387-5b7b-4044-af7c-84fc52586504-000000@us-west-2.amazonses.com",
     "https://lore.kernel.org/all/010101a07f9d4431-e770e31e-1f1c-42e0-b61b-325c178df162-000000@us-west-2.amazonses.com",
     "https://lore.kernel.org/all/02903afc-cda1-4d97-8155-4e03c3cc0e51@data-experts.de",
+    "https://lore.kernel.org/all/04643c93-7d1b-49f6-870e-15c4c7306a05@samsung.com",
     "https://lore.kernel.org/all/0754a50b-e69b-4c72-9ed2-33af8cbb1dd8@deltatee.com",
     "https://lore.kernel.org/all/07B5ACA0-4586-478B-8F4E-E6C626ADC256@infradead.org",
     "https://lore.kernel.org/all/0a43cc46-6c4d-4ef1-b6b6-ad6672188a89@vaisala.com",
@@ -180,6 +182,7 @@
     "https://lore.kernel.org/all/194a81b0-bb39-4e0d-aaf1-b8e5b2283ef5@adalogics.com",
     "https://lore.kernel.org/all/19d76abb-baff-4249-9f17-d0460b418d56@arm.com",
     "https://lore.kernel.org/all/1E196589-DEBE-40AC-AFEA-D420DAAB067F@doyensec.com",
+    "https://lore.kernel.org/all/1E97806E-3236-4BC4-A3F5-8197FE07F077@doyensec.com",
     "https://lore.kernel.org/all/1ab9199d-3e7e-4642-9f66-637488817543@adalogics.com",
     "https://lore.kernel.org/all/1cd5be49-6946-4010-8539-e8d015f23201@linux.dev",
     "https://lore.kernel.org/all/1dc63638136bbdbc7e832dc50dec2072924af349.camel@gmail.com",
@@ -1340,6 +1343,11 @@
     "https://lore.kernel.org/all/20261006224334.GZ2705364@frogsfrogsfrogs",
     "https://lore.kernel.org/all/20261006234044.GS1615495@frogsfrogsfrogs",
     "https://lore.kernel.org/all/20261007021630.3024955-1-ankur.tyagi85@gmail.com",
+    "https://lore.kernel.org/all/20261007165427.GE2705364@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261007170227.GH2705364@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261007170429.GI2705364@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261007170507.GJ2705364@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261008094125.3197971-3-m.szyprowski@samsung.com",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
@@ -1619,6 +1627,7 @@
     "https://lore.kernel.org/all/E620A4AC-8FC3-437D-AE14-31D50C7E2007@doyensec.com",
     "https://lore.kernel.org/all/E793FCF2-58DE-4387-A983-C7B4BC3158BD@doyensec.com",
     "https://lore.kernel.org/all/E9CDD9E6-E960-4DE2-B1AC-5667D52ABB3E@doyensec.com",
+    "https://lore.kernel.org/all/EFFDC5C8-D154-419E-BC3E-050AD53F55F8@doyensec.com",
     "https://lore.kernel.org/all/F34B6E46-6B01-4106-A1DF-1BB9E29320BB@doyensec.com",
     "https://lore.kernel.org/all/F3B9E5BA-0AC1-4AD1-A7D9-F38033304270@doyensec.com",
     "https://lore.kernel.org/all/F6067C60-18DB-4E6C-AA80-B6F68006234E@doyensec.com",
@@ -1665,6 +1674,7 @@
     "https://lore.kernel.org/all/arOKiMszxR-k_7AS@redhat.com",
     "https://lore.kernel.org/all/arWQy89hb-_fkMko@lizhi-Precision-Tower-5810",
     "https://lore.kernel.org/all/asSiXW4XxBl8Kivw@dread",
+    "https://lore.kernel.org/all/asasBb7Dt-6FW9E-@dread",
     "https://lore.kernel.org/all/b00d325c8fb849c0c5da13bb45abd8dd6d0b7cfe.1785190123.git.yoann.congal@smile.fr",
     "https://lore.kernel.org/all/b20650c2-1adb-4902-b2b1-9bca91b95dec@ovn.org",
     "https://lore.kernel.org/all/b30d8432-3512-4053-93d6-77f2be96a796@gmail.com",
