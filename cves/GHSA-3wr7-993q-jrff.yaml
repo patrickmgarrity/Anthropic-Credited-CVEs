@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-3wr7-993q-jrff
+date: '2026-10-08'
+vendor: github.com
+product: corazawaf/coraza/v3
+cvss: 4.0
+credit: '@airween (analyst) | @janmrow (other)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-3wr7-993q-jrff
+notes: null
+auto_discovered: true
