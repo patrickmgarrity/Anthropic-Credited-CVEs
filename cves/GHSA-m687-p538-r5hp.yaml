@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-m687-p538-r5hp
+date: '2026-10-09'
+vendor: code.vikunja.io
+product: api
+cvss: null
+credit: '@arthurscchan (reporter) | @AdamKorcz (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-m687-p538-r5hp
+notes: null
+auto_discovered: true
