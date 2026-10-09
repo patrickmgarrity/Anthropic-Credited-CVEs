@@ -1,3 +1,15 @@
+- cve: CVE-2026-107570
+  ghsa: null
+  date: '2026-10-08'
+  vendor: mutt
+  product: mutt
+  cvss: 2.5
+  credit: Calif.io, in collaboration with Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-107570
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-103604
   ghsa: null
   date: '2026-10-02'
@@ -515,7 +527,7 @@
   date: '2026-09-25'
   vendor: Linux
   product: Linux
-  cvss: null
+  cvss: 5.5
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98134
@@ -591,7 +603,7 @@
   date: '2026-09-25'
   vendor: Linux
   product: Linux
-  cvss: null
+  cvss: 5.5
   credit: >-
     Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
   status: published

@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 300**
+**CURRENT CVE COUNT: 301**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-107570](https://www.cve.org/CVERecord?id=CVE-2026-107570) | 2026-10-08 | mutt | mutt | 2.5 |  |  | Calif.io, in collaboration with Anthropic |
 | [CVE-2026-103604](https://www.cve.org/CVERecord?id=CVE-2026-103604) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.7 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-103603](https://www.cve.org/CVERecord?id=CVE-2026-103603) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.7 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
 | [CVE-2026-103602](https://www.cve.org/CVERecord?id=CVE-2026-103602) | 2026-10-02 | Legion of the Bouncy Castle Inc. | bc-csharp | 8.2 |  |  | Discovered by Claude, Anthropic's AI assistant, and triaged by the Anthropic security team in collaboration with Anthropic Research. |
@@ -86,13 +87,13 @@ This project is maintained on a best effort basis.
 | [CVE-2026-94417](https://www.cve.org/CVERecord?id=CVE-2026-94417) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-93304](https://www.cve.org/CVERecord?id=CVE-2026-93304) | 2026-09-27 | wolfSSL | wolfSSL | 6.3 |  |  | Anthropic OSS program |
 | [CVE-2026-93302](https://www.cve.org/CVERecord?id=CVE-2026-93302) | 2026-09-27 | wolfSSL | wolfSSL | 8.3 |  |  | Anthropic OSS program |
-| [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux |  |  |  |  |
+| [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux | 5.5 |  |  |  |
 | [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux |  |  |  |  |
 | [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98060](https://www.cve.org/CVERecord?id=CVE-2026-98060) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98058](https://www.cve.org/CVERecord?id=CVE-2026-98058) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
-| [CVE-2026-98049](https://www.cve.org/CVERecord?id=CVE-2026-98049) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98049](https://www.cve.org/CVERecord?id=CVE-2026-98049) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98047](https://www.cve.org/CVERecord?id=CVE-2026-98047) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98040](https://www.cve.org/CVERecord?id=CVE-2026-98040) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98038](https://www.cve.org/CVERecord?id=CVE-2026-98038) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
