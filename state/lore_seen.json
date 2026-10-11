@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261010",
+  "last_run_date": "20261011",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1359,6 +1359,7 @@
     "https://lore.kernel.org/all/20261009202759.50520-11-ihor.solodrai@linux.dev",
     "https://lore.kernel.org/all/20261009202759.50520-9-ihor.solodrai@linux.dev",
     "https://lore.kernel.org/all/20261009221130.GT1615495@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261010154147.GV2705364@frogsfrogsfrogs",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
