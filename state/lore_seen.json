@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261011",
+  "last_run_date": "20261012",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -133,7 +133,8 @@
     "vsock: fix buffer size clamping order",
     "xfs: fix exchange-range-to-eof file size exchange",
     "xfs: stop exchanging reflink flags during mapping exchanges",
-    "xfs: stop exchanging reflink flags when exchanging"
+    "xfs: stop exchanging reflink flags when exchanging",
+    "xfs: stop exchanging reflink flags when exchanging mappings"
   ],
   "seen_message_ids": [
     "https://lore.kernel.org/all/00a1176a-8b1f-47b1-9376-349cd08ad313@ovn.org",
@@ -1360,6 +1361,20 @@
     "https://lore.kernel.org/all/20261009202759.50520-9-ihor.solodrai@linux.dev",
     "https://lore.kernel.org/all/20261009221130.GT1615495@frogsfrogsfrogs",
     "https://lore.kernel.org/all/20261010154147.GV2705364@frogsfrogsfrogs",
+    "https://lore.kernel.org/all/20261011222115.769450-1-nickolai@csail.mit.edu",
+    "https://lore.kernel.org/all/20261011222412.769530-1-nickolai@csail.mit.edu",
+    "https://lore.kernel.org/all/20261012122227.3726963-1-sashal@kernel.org",
+    "https://lore.kernel.org/all/20261012122227.3726963-2-sashal@kernel.org",
+    "https://lore.kernel.org/all/20261012123238.4187874-1-sashal@kernel.org",
+    "https://lore.kernel.org/all/20261012143244.7057-1-sashal@kernel.org",
+    "https://lore.kernel.org/all/20261012151823.785277-1-sashal@kernel.org",
+    "https://lore.kernel.org/all/20261012151823.785277-2-sashal@kernel.org",
+    "https://lore.kernel.org/all/2026101216-sadly-relapse-b166@gregkh",
+    "https://lore.kernel.org/all/2026101217-request-humming-58e8@gregkh",
+    "https://lore.kernel.org/all/2026101219-upheld-endowment-592e@gregkh",
+    "https://lore.kernel.org/all/2026101228-doorstop-sitter-66e5@gregkh",
+    "https://lore.kernel.org/all/2026101228-supplier-casket-ceca@gregkh",
+    "https://lore.kernel.org/all/2026101229-kangaroo-happily-1f69@gregkh",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
