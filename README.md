@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 307**
+**CURRENT CVE COUNT: 308**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -49,6 +49,7 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-92392](https://www.cve.org/CVERecord?id=CVE-2026-92392) | 2026-10-14 | curl | curl |  |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-86563](https://www.cve.org/CVERecord?id=CVE-2026-86563) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 7.8 |  |  | Red Hat would like to thank Anthropic Research for reporting this issue. |
+| [CVE-2026-86562](https://www.cve.org/CVERecord?id=CVE-2026-86562) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 7.8 |  |  | Red Hat would like to thank Anthropic Research and Arthur Chan (Ada Logics) for reporting this issue. |
 | [CVE-2026-77207](https://www.cve.org/CVERecord?id=CVE-2026-77207) | 2026-10-13 | The Libreswan Project | libreswan | 7.5 |  |  | Claude (Anthropic) \| David Korczynski (ADA Logics Ltd) |
 | [CVE-2026-77206](https://www.cve.org/CVERecord?id=CVE-2026-77206) | 2026-10-13 | The Libreswan Project | libreswan | 7.5 |  |  | Claude (Anthropic) \| David Korczynski (ADA Logics Ltd) |
 | [CVE-2026-108094](https://www.cve.org/CVERecord?id=CVE-2026-108094) | 2026-10-12 | Red Hat | Red Hat Enterprise Linux 10 | 7.8 |  |  | Red Hat would like to thank Calif.io (security-disclosures@calif.io), in collaboration with Anthropic for reporting this issue. |

@@ -22,6 +22,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-86562
+  ghsa: null
+  date: '2026-10-14'
+  vendor: Red Hat
+  product: Fast Datapath for RHEL 10
+  cvss: 7.8
+  credit: >-
+    Red Hat would like to thank Anthropic Research and Arthur Chan (Ada Logics) for reporting this issue.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-86562
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-77207
   ghsa: null
   date: '2026-10-13'
