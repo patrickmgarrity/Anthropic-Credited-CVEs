@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261013",
+  "last_run_date": "20261014",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1406,6 +1406,9 @@
     "https://lore.kernel.org/all/20261013112933.280327003@linuxfoundation.org",
     "https://lore.kernel.org/all/20261013112934.476952916@linuxfoundation.org",
     "https://lore.kernel.org/all/20261013113628.104020-1-socketcan@hartkopp.net",
+    "https://lore.kernel.org/all/20261014065417.261594-1-mikhail.v.gavrilov@gmail.com",
+    "https://lore.kernel.org/all/20261014092514.454505-2-ankur.tyagi85@gmail.com",
+    "https://lore.kernel.org/all/20261014102218.880640-9-ankur.tyagi85@gmail.com",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
     "https://lore.kernel.org/all/2303076e946496149bc6424a5c7b65eb73292db4.1784740870.git.yoann.congal@smile.fr",
@@ -1768,6 +1771,7 @@
     "https://lore.kernel.org/all/dc8da8b6-fca4-4e6a-ba42-15a68cf7d64d@gmail.com",
     "https://lore.kernel.org/all/dc993a28-cc91-4674-a52f-511e8bb54876@linux.dev",
     "https://lore.kernel.org/all/de0fd2e5-8509-406c-9f92-cb644c42229d@ovn.org",
+    "https://lore.kernel.org/all/e194ae0f-7e11-4959-8f35-4f69c648fd19@hartkopp.net",
     "https://lore.kernel.org/all/e1f1e90cf0c461bd2137cd64edc0e24806045e88.camel@gmail.com",
     "https://lore.kernel.org/all/e39c48a3-6e4e-41ea-9fe1-6b8c4b3ff36e@arm.com",
     "https://lore.kernel.org/all/e6e1f40b-7199-4e9b-b85d-5faa4b716bd0@pengutronix.de",
