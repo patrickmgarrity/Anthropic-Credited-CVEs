@@ -1,3 +1,15 @@
+- cve: CVE-2026-77207
+  ghsa: null
+  date: '2026-10-13'
+  vendor: The Libreswan Project
+  product: libreswan
+  cvss: 7.5
+  credit: Claude (Anthropic) | David Korczynski (ADA Logics Ltd)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-77207
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-108094
   ghsa: null
   date: '2026-10-12'
