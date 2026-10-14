@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 304**
+**CURRENT CVE COUNT: 305**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -48,6 +48,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-77207](https://www.cve.org/CVERecord?id=CVE-2026-77207) | 2026-10-13 | The Libreswan Project | libreswan | 7.5 |  |  | Claude (Anthropic) \| David Korczynski (ADA Logics Ltd) |
+| [CVE-2026-77206](https://www.cve.org/CVERecord?id=CVE-2026-77206) | 2026-10-13 | The Libreswan Project | libreswan | 7.5 |  |  | Claude (Anthropic) \| David Korczynski (ADA Logics Ltd) |
 | [CVE-2026-108094](https://www.cve.org/CVERecord?id=CVE-2026-108094) | 2026-10-12 | Red Hat | Red Hat Enterprise Linux 10 | 7.8 |  |  | Red Hat would like to thank Calif.io (security-disclosures@calif.io), in collaboration with Anthropic for reporting this issue. |
 | [CVE-2026-103658](https://www.cve.org/CVERecord?id=CVE-2026-103658) | 2026-10-12 | GNU | Aspell | 5.9 |  |  | Anthropic, Claude \| Ada Logics |
 | [CVE-2026-107570](https://www.cve.org/CVERecord?id=CVE-2026-107570) | 2026-10-08 | mutt | mutt | 2.5 |  |  | Calif.io, in collaboration with Anthropic |
