@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 312**
+**CURRENT CVE COUNT: 313**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -49,6 +49,7 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-92392](https://www.cve.org/CVERecord?id=CVE-2026-92392) | 2026-10-14 | curl | curl |  |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-86847](https://www.cve.org/CVERecord?id=CVE-2026-86847) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 6.5 |  |  | Red Hat would like to thank Anthropic Research for reporting this issue. |
+| [CVE-2026-86846](https://www.cve.org/CVERecord?id=CVE-2026-86846) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 6.5 |  |  | Red Hat would like to thank Anthropic Research for reporting this issue. |
 | [CVE-2026-86566](https://www.cve.org/CVERecord?id=CVE-2026-86566) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 6.5 |  |  | Red Hat would like to thank Anthropic Research and Arthur Chan (Ada Logics) for reporting this issue. |
 | [CVE-2026-86563](https://www.cve.org/CVERecord?id=CVE-2026-86563) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 7.8 |  |  | Red Hat would like to thank Anthropic Research for reporting this issue. |
 | [CVE-2026-86562](https://www.cve.org/CVERecord?id=CVE-2026-86562) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 7.8 |  |  | Red Hat would like to thank Anthropic Research and Arthur Chan (Ada Logics) for reporting this issue. |
