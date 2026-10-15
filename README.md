@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 309**
+**CURRENT CVE COUNT: 310**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -263,6 +263,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | 2026-05-29 | FreeRDP | FreeRDP | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSDN3H7W) |  | Nicholas Carlini of Anthropic |
 | [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 |  |  | Nicholas Carlini of Anthropic |
+| [CVE-2026-42789](https://www.cve.org/CVERecord?id=CVE-2026-42789) | 2026-05-27 | Erlang | OTP | 7.0 |  |  | John Downey \| Ingela Anderton Andin \| Jakub Witczak \| Ada Logics |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 |  |  | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-41401](https://www.cve.org/CVERecord?id=CVE-2026-41401) | 2026-05-26 | libyang | libyang | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E) |  | https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
 | [CVE-2026-40384](https://www.cve.org/CVERecord?id=CVE-2026-40384) | 2026-05-26 | Joomla! | Joomla! CMS | 5.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSV3GS1G) |  | Doyensec in collaboration with Claude and Anthropic Research |

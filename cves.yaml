@@ -2773,6 +2773,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-42789
+  ghsa: null
+  date: '2026-05-27'
+  vendor: Erlang
+  product: OTP
+  cvss: 7.0
+  credit: John Downey | Ingela Anderton Andin | Jakub Witczak | Ada Logics
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-42789
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-48896
   ghsa: null
   date: '2026-05-26'
