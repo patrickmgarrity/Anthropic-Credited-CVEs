@@ -1,9 +1,21 @@
+- cve: CVE-2026-109587
+  ghsa: null
+  date: '2026-10-16'
+  vendor: FreeRTOS
+  product: FreeRTOS-Kernel
+  cvss: 8.8
+  credit: Ada Logics Ltd | Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-109587
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-92392
   ghsa: null
   date: '2026-10-14'
   vendor: curl
   product: curl
-  cvss: null
+  cvss: 8.1
   credit: Luna with Claude | Anthropic | Stefan Eissing
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-92392
