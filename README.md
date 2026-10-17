@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 316**
+**CURRENT CVE COUNT: 317**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-109588](https://www.cve.org/CVERecord?id=CVE-2026-109588) | 2026-10-16 | FreeRTOS | FreeRTOS-Kernel | 8.8 |  |  | Ada Logics Ltd \| Anthropic |
 | [CVE-2026-109587](https://www.cve.org/CVERecord?id=CVE-2026-109587) | 2026-10-16 | FreeRTOS | FreeRTOS-Kernel | 8.8 |  |  | Ada Logics Ltd \| Anthropic |
 | [CVE-2026-92392](https://www.cve.org/CVERecord?id=CVE-2026-92392) | 2026-10-14 | curl | curl | 8.1 |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-86856](https://www.cve.org/CVERecord?id=CVE-2026-86856) | 2026-10-14 | Red Hat | Fast Datapath for RHEL 10 | 6.5 |  |  | Red Hat would like to thank Anthropic Research for reporting this issue. |
