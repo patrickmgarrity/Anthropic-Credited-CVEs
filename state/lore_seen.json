@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261016",
+  "last_run_date": "20261017",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1421,6 +1421,7 @@
     "https://lore.kernel.org/all/20261015015336.816543-10-mkl@pengutronix.de",
     "https://lore.kernel.org/all/20261015015336.816543-8-mkl@pengutronix.de",
     "https://lore.kernel.org/all/20261015015336.816543-9-mkl@pengutronix.de",
+    "https://lore.kernel.org/all/20261016-funky-piculet-of-awe-98548f-mkl@pengutronix.de",
     "https://lore.kernel.org/all/20261016033239.422310-1-hthakar@cisco.com",
     "https://lore.kernel.org/all/20261016091128.325332-1-socketcan@hartkopp.net",
     "https://lore.kernel.org/all/20261016091128.325332-2-socketcan@hartkopp.net",
