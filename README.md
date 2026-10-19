@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 321**
+**CURRENT CVE COUNT: 323**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -50,6 +50,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-98628](https://www.cve.org/CVERecord?id=CVE-2026-98628) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98627](https://www.cve.org/CVERecord?id=CVE-2026-98627) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98626](https://www.cve.org/CVERecord?id=CVE-2026-98626) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98613](https://www.cve.org/CVERecord?id=CVE-2026-98613) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98589](https://www.cve.org/CVERecord?id=CVE-2026-98589) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <nicholas@carlini.com> \| Suggested-by: Nicholas Carlini <nicholas@carlini.com> |
 | [CVE-2026-109588](https://www.cve.org/CVERecord?id=CVE-2026-109588) | 2026-10-16 | FreeRTOS | FreeRTOS-Kernel | 8.8 |  |  | Ada Logics Ltd \| Anthropic |
 | [CVE-2026-109587](https://www.cve.org/CVERecord?id=CVE-2026-109587) | 2026-10-16 | FreeRTOS | FreeRTOS-Kernel | 8.8 |  |  | Ada Logics Ltd \| Anthropic |
 | [CVE-2026-18799](https://www.cve.org/CVERecord?id=CVE-2026-18799) | 2026-10-16 | Mattermost | Mattermost | 4.3 |  |  | Claude and Ada Logics |
