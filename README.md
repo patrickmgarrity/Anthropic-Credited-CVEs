@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 324**
+**CURRENT CVE COUNT: 325**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-107928](https://www.cve.org/CVERecord?id=CVE-2026-107928) | 2026-10-20 | curl | curl |  |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-98628](https://www.cve.org/CVERecord?id=CVE-2026-98628) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98627](https://www.cve.org/CVERecord?id=CVE-2026-98627) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98626](https://www.cve.org/CVERecord?id=CVE-2026-98626) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
