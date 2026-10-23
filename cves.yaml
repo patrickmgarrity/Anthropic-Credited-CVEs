@@ -1,3 +1,15 @@
+- cve: CVE-2026-97631
+  ghsa: null
+  date: '2026-10-22'
+  vendor: TianoCore
+  product: EDK2
+  cvss: 9.5
+  credit: Alex Matrosov (Anthropic) | Dan Holmes-Mitra (Google)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-97631
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-107928
   ghsa: null
   date: '2026-10-20'
