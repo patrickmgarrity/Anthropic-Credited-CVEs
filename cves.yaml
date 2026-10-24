@@ -10,6 +10,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-115932
+  ghsa: null
+  date: '2026-10-24'
+  vendor: GitroomHQ
+  product: postiz-app
+  cvss: 9.6
+  credit: Anthropic, PBC | Enno Gelhaus | Nevo David
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-115932
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-115931
   ghsa: null
   date: '2026-10-23'
