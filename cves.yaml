@@ -1,3 +1,15 @@
+- cve: CVE-2026-77172
+  ghsa: null
+  date: '2026-10-27'
+  vendor: Nextcloud
+  product: Server
+  cvss: 5.3
+  credit: Nicholas Carlini (npc)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-77172
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-115933
   ghsa: null
   date: '2026-10-24'

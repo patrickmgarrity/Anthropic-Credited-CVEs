@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 329**
+**CURRENT CVE COUNT: 330**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-77172](https://www.cve.org/CVERecord?id=CVE-2026-77172) | 2026-10-27 | Nextcloud | Server | 5.3 |  |  | Nicholas Carlini (npc) |
 | [CVE-2026-115933](https://www.cve.org/CVERecord?id=CVE-2026-115933) | 2026-10-24 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-115932](https://www.cve.org/CVERecord?id=CVE-2026-115932) | 2026-10-24 | GitroomHQ | postiz-app | 9.6 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-115931](https://www.cve.org/CVERecord?id=CVE-2026-115931) | 2026-10-23 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
