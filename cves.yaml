@@ -1,3 +1,18 @@
+- cve: CVE-2026-112375
+  ghsa: null
+  date: '2026-10-28'
+  vendor: Apache Software Foundation
+  product: Apache Kafka
+  cvss: null
+  credit: >-
+    Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research | OpenAI Codex Security
+    - Amy Burnett and Khai Tran | Mickael Maison <mickael.maison@gmail.com> | Manikumar Reddy <manikumar.reddy@gmail.com>
+    | Chia-Ping Tsai <chia7712@gmail.com>
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112375
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-77172
   ghsa: null
   date: '2026-10-27'
