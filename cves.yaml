@@ -198,6 +198,21 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-97629
+  ghsa: null
+  date: '2026-10-14'
+  vendor: F5
+  product: NGINX Plus
+  cvss: 6.5
+  credit: >-
+    F5 acknowledges PhiNode Labs, Gyejin Lee (QED Audit), Liviu-Alexandru Bud & Marc Luchian, Anthropic
+    & Ada Logics, and Vivek Parikh of Zero-Day Research Labs for bringing this issue to our attention
+    and following the highest standards of coordinated disclosure.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-97629
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-92392
   ghsa: null
   date: '2026-10-14'
