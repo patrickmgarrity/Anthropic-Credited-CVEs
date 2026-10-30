@@ -1,3 +1,15 @@
+- cve: CVE-2026-119378
+  ghsa: null
+  date: '2026-10-30'
+  vendor: SQLite
+  product: SQLite
+  cvss: 6.8
+  credit: Claude and Ada Logics | Abraxas Labs | Dan Kennedy
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-119378
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112375
   ghsa: null
   date: '2026-10-28'
