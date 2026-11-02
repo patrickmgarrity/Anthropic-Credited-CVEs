@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 333**
+**CURRENT CVE COUNT: 334**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust |  |  |  | Adam Korczynski of Ada Logics \| Anthropic |
 | [CVE-2026-119378](https://www.cve.org/CVERecord?id=CVE-2026-119378) | 2026-10-30 | SQLite | SQLite | 6.8 |  |  | Claude and Ada Logics \| Abraxas Labs \| Dan Kennedy |
 | [CVE-2026-112375](https://www.cve.org/CVERecord?id=CVE-2026-112375) | 2026-10-28 | Apache Software Foundation | Apache Kafka |  |  |  | Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research \| OpenAI Codex Security - Amy Burnett and Khai Tran \| Mickael Maison <mickael.maison@gmail.com> \| Manikumar Reddy <manikumar.reddy@gmail.com> \| Chia-Ping Tsai <chia7712@gmail.com> |
 | [CVE-2026-77172](https://www.cve.org/CVERecord?id=CVE-2026-77172) | 2026-10-27 | Nextcloud | Server | 5.3 |  |  | Nicholas Carlini (npc) |
@@ -54,7 +55,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-115932](https://www.cve.org/CVERecord?id=CVE-2026-115932) | 2026-10-24 | GitroomHQ | postiz-app | 9.6 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-115931](https://www.cve.org/CVERecord?id=CVE-2026-115931) | 2026-10-23 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-97631](https://www.cve.org/CVERecord?id=CVE-2026-97631) | 2026-10-22 | TianoCore | EDK2 | 9.5 |  |  | Alex Matrosov (Anthropic) \| Dan Holmes-Mitra (Google) |
-| [CVE-2026-107928](https://www.cve.org/CVERecord?id=CVE-2026-107928) | 2026-10-20 | curl | curl |  |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
+| [CVE-2026-107928](https://www.cve.org/CVERecord?id=CVE-2026-107928) | 2026-10-20 | curl | curl | 8.1 |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-98628](https://www.cve.org/CVERecord?id=CVE-2026-98628) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98627](https://www.cve.org/CVERecord?id=CVE-2026-98627) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98626](https://www.cve.org/CVERecord?id=CVE-2026-98626) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |

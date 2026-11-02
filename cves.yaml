@@ -1,3 +1,15 @@
+- cve: CVE-2026-111959
+  ghsa: null
+  date: '2026-11-02'
+  vendor: Apache Software Foundation
+  product: Apache Arrow Rust
+  cvss: null
+  credit: Adam Korczynski of Ada Logics | Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-111959
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-119378
   ghsa: null
   date: '2026-10-30'
@@ -90,7 +102,7 @@
   date: '2026-10-20'
   vendor: curl
   product: curl
-  cvss: null
+  cvss: 8.1
   credit: Luna with Claude | Anthropic | Stefan Eissing
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-107928
