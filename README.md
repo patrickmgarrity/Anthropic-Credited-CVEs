@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 336**
+**CURRENT CVE COUNT: 337**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -50,6 +50,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust |  |  |  | Adam Korczynski of Ada Logics \| Anthropic |
 | [CVE-2026-109142](https://www.cve.org/CVERecord?id=CVE-2026-109142) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-109141](https://www.cve.org/CVERecord?id=CVE-2026-109141) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
+| [CVE-2026-109140](https://www.cve.org/CVERecord?id=CVE-2026-109140) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics, Aymen Benlamari |
 | [CVE-2026-119378](https://www.cve.org/CVERecord?id=CVE-2026-119378) | 2026-10-30 | SQLite | SQLite | 6.8 |  |  | Claude and Ada Logics \| Abraxas Labs \| Dan Kennedy |
 | [CVE-2026-112375](https://www.cve.org/CVERecord?id=CVE-2026-112375) | 2026-10-28 | Apache Software Foundation | Apache Kafka |  |  |  | Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research \| OpenAI Codex Security - Amy Burnett and Khai Tran \| Mickael Maison <mickael.maison@gmail.com> \| Manikumar Reddy <manikumar.reddy@gmail.com> \| Chia-Ping Tsai <chia7712@gmail.com> |
 | [CVE-2026-77172](https://www.cve.org/CVERecord?id=CVE-2026-77172) | 2026-10-27 | Nextcloud | Server | 5.3 |  |  | Nicholas Carlini (npc) |
