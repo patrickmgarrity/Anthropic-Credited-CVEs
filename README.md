@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 342**
+**CURRENT CVE COUNT: 344**
 
 **Fixed Anthropic Findings w/o CVE: 128**
 
@@ -285,6 +285,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-34181](https://www.cve.org/CVERecord?id=CVE-2026-34181) | 2026-06-09 | OpenSSL | OpenSSL | 7.4 |  |  | Pavol Žáčik (Red Hat) \| Alex Gaynor (Anthropic) \| Alicja Kario (Red Hat) |
 | [CVE-2026-49975](https://www.cve.org/CVERecord?id=CVE-2026-49975) | 2026-06-08 | Apache Software Foundation | Apache HTTP Server | 7.5 |  |  | Quang Luong of Calif.IO in collaboration with OpenAI Codex |
 | [CVE-2026-47345](https://www.cve.org/CVERecord?id=CVE-2026-47345) | 2026-06-08 | TYPO3 | HTML Sanitizer | 5.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-MHJX7J31) |  | Doyensec in collaboration with Claude and Anthropic Research \| Benjamin Franzke |
+| [CVE-2026-46274](https://www.cve.org/CVERecord?id=CVE-2026-46274) | 2026-06-08 | Linux | Linux | 7.8 |  |  | Signed-off-by: Nicholas Carlini <nicholas@carlini.com> |
 | [CVE-2026-47732](https://www.cve.org/CVERecord?id=CVE-2026-47732) | 2026-06-05 | twig | twig | 7.1 |  |  | @fabpot (remediation_developer) |
 | [CVE-2026-47250](https://www.cve.org/CVERecord?id=CVE-2026-47250) | 2026-06-05 | npm | mcp-server-kubernetes | 6.1 |  |  | @yotampe-pluto (reporter) |
 | [CVE-2026-8462](https://www.cve.org/CVERecord?id=CVE-2026-8462) | 2026-06-04 | github.com | openmeterio/openmeter | 8.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-KC1Y51NF) |  | Anthropic |
@@ -295,6 +296,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-44420](https://www.cve.org/CVERecord?id=CVE-2026-44420) | 2026-05-29 | FreeRDP | FreeRDP | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H97FY6C8) NOT IN CVE TABLE |
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSDN3H7W) |  | Nicholas Carlini of Anthropic |
 | [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 |  |  | Nicholas Carlini of Anthropic |
+| [CVE-2026-46227](https://www.cve.org/CVERecord?id=CVE-2026-46227) | 2026-05-28 | Linux | Linux | 7.8 |  |  | Signed-off-by: Ben Morris <bmorris@anthropic.com> |
 | [CVE-2026-42789](https://www.cve.org/CVERecord?id=CVE-2026-42789) | 2026-05-27 | Erlang | OTP | 7.0 |  |  | John Downey \| Ingela Anderton Andin \| Jakub Witczak \| Ada Logics |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 |  |  | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-41401](https://www.cve.org/CVERecord?id=CVE-2026-41401) | 2026-05-26 | libyang | libyang | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E) |  | https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |

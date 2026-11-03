@@ -3044,6 +3044,18 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-MHJX7J31
   notes: null
   auto_discovered: true
+- cve: CVE-2026-46274
+  ghsa: null
+  date: '2026-06-08'
+  vendor: Linux
+  product: Linux
+  cvss: 7.8
+  credit: 'Signed-off-by: Nicholas Carlini <nicholas@carlini.com>'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46274
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-47732
   ghsa: GHSA-pr2w-4gpj-cpq4
   date: '2026-06-05'
@@ -3170,6 +3182,18 @@
   credit: Nicholas Carlini of Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40510
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-46227
+  ghsa: null
+  date: '2026-05-28'
+  vendor: Linux
+  product: Linux
+  cvss: 7.8
+  credit: 'Signed-off-by: Ben Morris <bmorris@anthropic.com>'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46227
   ghsa_link: null
   notes: null
   auto_discovered: true
