@@ -160,7 +160,13 @@ def announce_entries(subject: str, retries: int = 3) -> list[tuple[str, str]]:
     # numbers, "PATCH") pollute the full-text query and tank recall on the CVE
     # announcement. Match precision still comes from the exact canonical_key
     # comparison in match_cve().
-    q = re.sub(r"[^A-Za-z0-9]+", " ", strip_subject_tags(subject)).strip()
+    #
+    # Keep underscores: public-inbox indexes C identifiers like `inet_opt` as a
+    # single token and does NOT split on `_`. Replacing `_` with a space turns
+    # `inet_opt` into `inet opt` (two AND'd words), which matches nothing — so
+    # any kernel fix whose subject carries an underscore'd symbol would never
+    # find its CVE and never get promoted. `_` is a word char here, nothing else.
+    q = re.sub(r"[^A-Za-z0-9_]+", " ", strip_subject_tags(subject)).strip()
     if not q:
         return []
     url = f"{ANNOUNCE_BASE}?q={quote(q)}&x=A"

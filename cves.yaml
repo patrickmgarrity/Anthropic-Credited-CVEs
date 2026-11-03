@@ -258,6 +258,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-98432
+  ghsa: null
+  date: '2026-10-15'
+  vendor: Linux
+  product: Linux
+  cvss: 9.8
+  credit: 'Reported-by: Xinyang Ge <xinyang@anthropic.com>'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98432
+  ghsa_link: null
+  notes: null
+  auto_discovered: false
 - cve: CVE-2026-97629
   ghsa: null
   date: '2026-10-14'
