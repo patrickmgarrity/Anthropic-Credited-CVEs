@@ -1,9 +1,23 @@
+- cve: CVE-2026-119776
+  ghsa: null
+  date: '2026-11-04'
+  vendor: frrouting
+  product: frrouting
+  cvss: 6.1
+  credit: >-
+    Bing Shui <bingshui@smail.nju.edu.cn> (not reported as security issue) | Anthropic OSS-scanner (re-report,
+    ANT-2026-N0E1INIV)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-119776
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-102704
   ghsa: null
   date: '2026-11-04'
   vendor: Xen
   product: Xen
-  cvss: null
+  cvss: 4.4
   credit: >-
     This issue was discovered by Anthropic using Claude, then validated by
 
@@ -23,7 +37,7 @@
   date: '2026-11-04'
   vendor: Xen
   product: Xen
-  cvss: null
+  cvss: 4.4
   credit: >-
     This issue was discovered by Anthropic using Claude, then validated by
 
@@ -43,7 +57,7 @@
   date: '2026-11-04'
   vendor: Apache Software Foundation
   product: Apache OpenOffice
-  cvss: null
+  cvss: 7.3
   credit: Anthropic and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-90629
@@ -55,7 +69,7 @@
   date: '2026-11-04'
   vendor: Apache Software Foundation
   product: Apache OpenOffice
-  cvss: null
+  cvss: 7.3
   credit: Anthropic and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-90628
@@ -67,7 +81,7 @@
   date: '2026-11-04'
   vendor: Apache Software Foundation
   product: Apache OpenOffice
-  cvss: null
+  cvss: 7.3
   credit: Anthropic and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-90626
@@ -79,7 +93,7 @@
   date: '2026-11-04'
   vendor: Apache Software Foundation
   product: Apache OpenOffice
-  cvss: null
+  cvss: 7.3
   credit: Anonymous working with TrendAI Zero Day Initiative | Anthropic and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-90624

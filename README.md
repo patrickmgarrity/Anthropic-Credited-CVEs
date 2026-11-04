@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 351**
+**CURRENT CVE COUNT: 352**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -47,12 +47,13 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [CVE-2026-102704](https://www.cve.org/CVERecord?id=CVE-2026-102704) | 2026-11-04 | Xen | Xen |  |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
-| [CVE-2026-102703](https://www.cve.org/CVERecord?id=CVE-2026-102703) | 2026-11-04 | Xen | Xen |  |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
-| [CVE-2026-90629](https://www.cve.org/CVERecord?id=CVE-2026-90629) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
-| [CVE-2026-90628](https://www.cve.org/CVERecord?id=CVE-2026-90628) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
-| [CVE-2026-90626](https://www.cve.org/CVERecord?id=CVE-2026-90626) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
-| [CVE-2026-90624](https://www.cve.org/CVERecord?id=CVE-2026-90624) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anonymous working with TrendAI Zero Day Initiative \| Anthropic and Ada Logics |
+| [CVE-2026-119776](https://www.cve.org/CVERecord?id=CVE-2026-119776) | 2026-11-04 | frrouting | frrouting | 6.1 |  |  | Bing Shui <bingshui@smail.nju.edu.cn> (not reported as security issue) \| Anthropic OSS-scanner (re-report, ANT-2026-N0E1INIV) |
+| [CVE-2026-102704](https://www.cve.org/CVERecord?id=CVE-2026-102704) | 2026-11-04 | Xen | Xen | 4.4 |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
+| [CVE-2026-102703](https://www.cve.org/CVERecord?id=CVE-2026-102703) | 2026-11-04 | Xen | Xen | 4.4 |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
+| [CVE-2026-90629](https://www.cve.org/CVERecord?id=CVE-2026-90629) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 7.3 |  |  | Anthropic and Ada Logics |
+| [CVE-2026-90628](https://www.cve.org/CVERecord?id=CVE-2026-90628) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 7.3 |  |  | Anthropic and Ada Logics |
+| [CVE-2026-90626](https://www.cve.org/CVERecord?id=CVE-2026-90626) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 7.3 |  |  | Anthropic and Ada Logics |
+| [CVE-2026-90624](https://www.cve.org/CVERecord?id=CVE-2026-90624) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 7.3 |  |  | Anonymous working with TrendAI Zero Day Initiative \| Anthropic and Ada Logics |
 | [CVE-2026-59267](https://www.cve.org/CVERecord?id=CVE-2026-59267) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 5.8 |  |  | Trail of Bits, in collaboration with Anthropic |
 | [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust |  |  |  | Adam Korczynski of Ada Logics \| Anthropic |
 | [CVE-2026-109142](https://www.cve.org/CVERecord?id=CVE-2026-109142) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
