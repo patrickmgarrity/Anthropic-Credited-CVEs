@@ -38,6 +38,13 @@ import yaml
 
 
 KEYWORDS_PATH = Path("keywords.yaml")
+# Anthropic's own CNA org id. Since 2026 Anthropic assigns CVEs as a CNA (both as
+# a vendor and under the Frontier AI Researcher CNA pilot), so any record it
+# publishes should be surfaced regardless of whether "anthropic" appears in the
+# content fields. Keyed on the stable orgId, not the short name, so a rename
+# can't silently break detection. See ANTHROPIC_ASSIGNER_LOCATION below.
+ANTHROPIC_ASSIGNER_ORG_ID = "98a01053-8a31-4f6d-9aa9-252be161adc6"
+ANTHROPIC_ASSIGNER_LOCATION = "assigner (Anthropic CNA)"
 DELTA_LOG_URL = "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/deltaLog.json"
 STATE_PATH = Path("state/seen.json")
 CVES_YAML_PATH = Path("cves.yaml")  # generated aggregate (rendered on main)
@@ -143,6 +150,14 @@ def record_matches(record: dict, keywords: list[str]) -> dict[str, list[str]]:
         for kw in keywords:
             if kw in blob:
                 matches.setdefault(loc_name, []).append(kw)
+
+    # Explicit assigner signal: Anthropic published this CVE as the CNA. This is
+    # a distinct signal from being *credited* in the content, so it gets its own
+    # location (and reliably triggers a PR even if "anthropic" never appears in a
+    # content field — e.g. a third-party finding credited only to an external
+    # researcher). Keyed on the stable orgId.
+    if record.get("cveMetadata", {}).get("assignerOrgId") == ANTHROPIC_ASSIGNER_ORG_ID:
+        matches.setdefault(ANTHROPIC_ASSIGNER_LOCATION, []).append("anthropic")
 
     # Catch-all: keyword somewhere we didn't categorize
     if not matches:
