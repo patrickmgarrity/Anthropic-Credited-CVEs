@@ -328,6 +328,18 @@ def run(cmd: list[str], check: bool = True, **kwargs) -> subprocess.CompletedPro
     return subprocess.run(cmd, capture_output=True, text=True, check=check, **kwargs)
 
 
+def ensure_labels(repo: str) -> None:
+    """Idempotently create the PR labels we apply, so the first PR to use a new
+    label doesn't fall back to label-less creation. `--force` makes this a no-op
+    when the label already exists."""
+    for name, color, desc in (
+        ("cve-candidate", "0E8A16", "Auto-proposed CVE addition"),
+        ("anthropic-cna", "5319E7", "CVE published by Anthropic as the CNA"),
+    ):
+        run(["gh", "label", "create", name, "--repo", repo, "--color", color,
+             "--description", desc, "--force"], check=False)
+
+
 def existing_pr_for_cve(cve_id: str, repo: str) -> str | None:
     """Open PRs only — if one exists, we already proposed this CVE and shouldn't duplicate."""
     result = run(
@@ -439,19 +451,20 @@ def create_pr_for_entry(repo: str, entry: dict, summary: dict,
         run(["git", "push", "-u", "origin", branch])
 
         body = render_pr_body(entry, summary, matches, record_url)
-        title = f"[candidate] {cve_id} — keyword match"
-        create_result = run(
-            ["gh", "pr", "create", "--repo", repo, "--base", base_branch,
-             "--head", branch, "--title", title, "--body", body,
-             "--label", "cve-candidate"],
-            check=False,
-        )
+        # Flag CVEs Anthropic published as the CNA distinctly from plain keyword
+        # hits, both in the title and via an `anthropic-cna` label.
+        is_cna = ANTHROPIC_ASSIGNER_LOCATION in matches
+        title = (f"[candidate] {cve_id} — Anthropic CNA" if is_cna
+                 else f"[candidate] {cve_id} — keyword match")
+        labels = ["cve-candidate"] + (["anthropic-cna"] if is_cna else [])
+        base_args = ["gh", "pr", "create", "--repo", repo, "--base", base_branch,
+                     "--head", branch, "--title", title, "--body", body]
+        label_args = [a for lbl in labels for a in ("--label", lbl)]
+        create_result = run(base_args + label_args, check=False)
         if create_result.returncode != 0 and "label" in create_result.stderr.lower():
-            create_result = run(
-                ["gh", "pr", "create", "--repo", repo, "--base", base_branch,
-                 "--head", branch, "--title", title, "--body", body],
-                check=False,
-            )
+            # A label may not exist in the repo yet; retry without labels so the
+            # PR still gets created.
+            create_result = run(base_args, check=False)
         if create_result.returncode != 0:
             print(f"  pr create failed: {create_result.stderr.strip()}", file=sys.stderr)
             return False
@@ -473,6 +486,7 @@ def main() -> int:
 
     keywords = load_keywords()
     print(f"Loaded {len(keywords)} keyword(s) from {KEYWORDS_PATH}")
+    ensure_labels(repo)
 
     print(f"Fetching deltaLog: {DELTA_LOG_URL}")
     delta_log = http_get_json(DELTA_LOG_URL)
