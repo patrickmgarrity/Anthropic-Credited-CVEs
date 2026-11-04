@@ -3,11 +3,11 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 344**
+**CURRENT CVE COUNT: 345**
 
-**Fixed Anthropic Findings w/o CVE: 128**
+**Fixed Anthropic Findings w/o CVE: 127**
 
-**Findings Withdrawn by Anthropic: 243**
+**Findings Withdrawn by Anthropic: 415**
 
 ## Distributions
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-59267](https://www.cve.org/CVERecord?id=CVE-2026-59267) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 5.8 |  |  | Trail of Bits, in collaboration with Anthropic |
 | [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust |  |  |  | Adam Korczynski of Ada Logics \| Anthropic |
 | [CVE-2026-109142](https://www.cve.org/CVERecord?id=CVE-2026-109142) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-109141](https://www.cve.org/CVERecord?id=CVE-2026-109141) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
@@ -131,7 +132,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98060](https://www.cve.org/CVERecord?id=CVE-2026-98060) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98059](https://www.cve.org/CVERecord?id=CVE-2026-98059) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
-| [CVE-2026-98058](https://www.cve.org/CVERecord?id=CVE-2026-98058) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98058](https://www.cve.org/CVERecord?id=CVE-2026-98058) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98049](https://www.cve.org/CVERecord?id=CVE-2026-98049) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98047](https://www.cve.org/CVERecord?id=CVE-2026-98047) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98040](https://www.cve.org/CVERecord?id=CVE-2026-98040) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
