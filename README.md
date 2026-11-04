@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 347**
+**CURRENT CVE COUNT: 348**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -49,6 +49,7 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-90629](https://www.cve.org/CVERecord?id=CVE-2026-90629) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
 | [CVE-2026-90628](https://www.cve.org/CVERecord?id=CVE-2026-90628) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
+| [CVE-2026-90626](https://www.cve.org/CVERecord?id=CVE-2026-90626) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
 | [CVE-2026-59267](https://www.cve.org/CVERecord?id=CVE-2026-59267) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 5.8 |  |  | Trail of Bits, in collaboration with Anthropic |
 | [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust |  |  |  | Adam Korczynski of Ada Logics \| Anthropic |
 | [CVE-2026-109142](https://www.cve.org/CVERecord?id=CVE-2026-109142) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
