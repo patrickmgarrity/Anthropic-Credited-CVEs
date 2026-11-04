@@ -18,6 +18,26 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-102703
+  ghsa: null
+  date: '2026-11-04'
+  vendor: Xen
+  product: Xen
+  cvss: null
+  credit: >-
+    This issue was discovered by Anthropic using Claude, then validated by
+
+    Stephan Lipp of Ada Logics.
+
+
+    It was then independently reported by the CodeAnt AI Security Research
+
+    Team.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-102703
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-90629
   ghsa: null
   date: '2026-11-04'

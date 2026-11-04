@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 350**
+**CURRENT CVE COUNT: 351**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -48,6 +48,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-102704](https://www.cve.org/CVERecord?id=CVE-2026-102704) | 2026-11-04 | Xen | Xen |  |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
+| [CVE-2026-102703](https://www.cve.org/CVERecord?id=CVE-2026-102703) | 2026-11-04 | Xen | Xen |  |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
 | [CVE-2026-90629](https://www.cve.org/CVERecord?id=CVE-2026-90629) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
 | [CVE-2026-90628](https://www.cve.org/CVERecord?id=CVE-2026-90628) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
 | [CVE-2026-90626](https://www.cve.org/CVERecord?id=CVE-2026-90626) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice |  |  |  | Anthropic and Ada Logics |
