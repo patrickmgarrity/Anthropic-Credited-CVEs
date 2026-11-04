@@ -10,6 +10,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-90628
+  ghsa: null
+  date: '2026-11-04'
+  vendor: Apache Software Foundation
+  product: Apache OpenOffice
+  cvss: null
+  credit: Anthropic and Ada Logics
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-90628
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-59267
   ghsa: null
   date: '2026-11-04'
