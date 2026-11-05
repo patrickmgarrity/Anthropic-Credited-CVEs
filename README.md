@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-54914](https://www.cve.org/CVERecord?id=CVE-2026-54914) | 2026-11-05 | bytecodealliance | wasm-micro-runtime | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6) |  | Anthropic |
 | [CVE-2026-121751](https://www.cve.org/CVERecord?id=CVE-2026-121751) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerabilities ANT-2026-0GXXE91V and ANT-2026-31ZIEY85 \| Adel Assakaf (https://github.com/assakafpix) \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-121750](https://www.cve.org/CVERecord?id=CVE-2026-121750) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-7NCT51FE \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-121749](https://www.cve.org/CVERecord?id=CVE-2026-121749) | 2026-11-04 | nvm-sh | nvm | 4.6 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-EN9DM7WC \| Jordan Harband (https://github.com/ljharb) |
@@ -371,7 +372,6 @@ This project is maintained on a best effort basis.
 | [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | Reserved |  | htslib |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
 | [CVE-2026-33721](https://www.cve.org/CVERecord?id=CVE-2026-33721) | 2026-03-26 | MapServer | MapServer | 5.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41) |
 | [CVE-2026-4747](https://www.cve.org/CVERecord?id=CVE-2026-4747) | 2026-03-26 | FreeBSD | FreeBSD | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-MVVACQKN) |  | Nicholas Carlini using Claude, Anthropic |
-| [CVE-2026-54914](https://www.cve.org/CVERecord?id=CVE-2026-54914) | Reserved | bytecodealliance | wasm-micro-runtime |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6) |  | Anthropic |
 | [CVE-2026-27654](https://www.cve.org/CVERecord?id=CVE-2026-27654) | 2026-03-24 | F5 | NGINX Plus | 8.2 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VS18SA90) |  | Calif.io in collaboration with Claude and Anthropic Research |
 | [CVE-2026-4724](https://www.cve.org/CVERecord?id=CVE-2026-4724) | 2026-03-24 | Mozilla | Firefox | 9.1 |  |  | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
 | [CVE-2026-4723](https://www.cve.org/CVERecord?id=CVE-2026-4723) | 2026-03-24 | Mozilla | Firefox | 9.8 |  |  | Evyatar Ben Asher, Keane Lucas, Nicholas Carlini, Newton Cheng, Daniel Freeman, Alex Gaynor, and Joel Weinberger using Claude from Anthropic |
