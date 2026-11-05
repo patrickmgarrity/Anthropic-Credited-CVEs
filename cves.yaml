@@ -38,6 +38,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-121748
+  ghsa: null
+  date: '2026-11-04'
+  vendor: nvm-sh
+  product: nvm
+  cvss: 1.8
+  credit: >-
+    Anthropic's OSS Scanner, as vulnerability ANT-2026-WYRTKBQ5 | Jordan Harband (https://github.com/ljharb)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-121748
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-121747
   ghsa: null
   date: '2026-11-04'
@@ -63,6 +76,19 @@
     | Jordan Harband (https://github.com/ljharb)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-121746
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-121745
+  ghsa: null
+  date: '2026-11-04'
+  vendor: nvm-sh
+  product: nvm
+  cvss: 2.0
+  credit: >-
+    Anthropic's OSS Scanner, as vulnerability ANT-2026-540RL2U6 | Jordan Harband (https://github.com/ljharb)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-121745
   ghsa_link: null
   notes: null
   auto_discovered: true
