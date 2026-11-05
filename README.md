@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 352**
+**CURRENT CVE COUNT: 355**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -47,6 +47,9 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-121749](https://www.cve.org/CVERecord?id=CVE-2026-121749) | 2026-11-04 | nvm-sh | nvm | 4.6 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-EN9DM7WC \| Jordan Harband (https://github.com/ljharb) |
+| [CVE-2026-121747](https://www.cve.org/CVERecord?id=CVE-2026-121747) | 2026-11-04 | nvm-sh | nvm | 6.7 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-G9REVGKT \| d3doxp (https://github.com/d3doxp) \| Jordan Harband (https://github.com/ljharb) |
+| [CVE-2026-121746](https://www.cve.org/CVERecord?id=CVE-2026-121746) | 2026-11-04 | nvm-sh | nvm | 6.7 |  |  | Adel Assakaf (https://github.com/assakafpix) \| Anthropic's OSS Scanner, as part of vulnerability ANT-2026-G9REVGKT \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-119776](https://www.cve.org/CVERecord?id=CVE-2026-119776) | 2026-11-04 | frrouting | frrouting | 6.1 |  |  | Bing Shui <bingshui@smail.nju.edu.cn> (not reported as security issue) \| Anthropic OSS-scanner (re-report, ANT-2026-N0E1INIV) |
 | [CVE-2026-102704](https://www.cve.org/CVERecord?id=CVE-2026-102704) | 2026-11-04 | Xen | Xen | 4.4 |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
 | [CVE-2026-102703](https://www.cve.org/CVERecord?id=CVE-2026-102703) | 2026-11-04 | Xen | Xen | 4.4 |  |  | This issue was discovered by Anthropic using Claude, then validated by Stephan Lipp of Ada Logics.  It was then independently reported by the CodeAnt AI Security Research Team. |
