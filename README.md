@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 356**
+**CURRENT CVE COUNT: 357**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -48,6 +48,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-121751](https://www.cve.org/CVERecord?id=CVE-2026-121751) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerabilities ANT-2026-0GXXE91V and ANT-2026-31ZIEY85 \| Adel Assakaf (https://github.com/assakafpix) \| Jordan Harband (https://github.com/ljharb) |
+| [CVE-2026-121750](https://www.cve.org/CVERecord?id=CVE-2026-121750) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-7NCT51FE \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-121749](https://www.cve.org/CVERecord?id=CVE-2026-121749) | 2026-11-04 | nvm-sh | nvm | 4.6 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-EN9DM7WC \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-121747](https://www.cve.org/CVERecord?id=CVE-2026-121747) | 2026-11-04 | nvm-sh | nvm | 6.7 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-G9REVGKT \| d3doxp (https://github.com/d3doxp) \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-121746](https://www.cve.org/CVERecord?id=CVE-2026-121746) | 2026-11-04 | nvm-sh | nvm | 6.7 |  |  | Adel Assakaf (https://github.com/assakafpix) \| Anthropic's OSS Scanner, as part of vulnerability ANT-2026-G9REVGKT \| Jordan Harband (https://github.com/ljharb) |
