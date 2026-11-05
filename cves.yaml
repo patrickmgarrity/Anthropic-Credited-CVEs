@@ -1,3 +1,17 @@
+- cve: CVE-2026-121751
+  ghsa: null
+  date: '2026-11-04'
+  vendor: nvm-sh
+  product: nvm
+  cvss: 2.1
+  credit: >-
+    Anthropic's OSS Scanner, as vulnerabilities ANT-2026-0GXXE91V and ANT-2026-31ZIEY85 | Adel Assakaf
+    (https://github.com/assakafpix) | Jordan Harband (https://github.com/ljharb)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-121751
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-121749
   ghsa: null
   date: '2026-11-04'
