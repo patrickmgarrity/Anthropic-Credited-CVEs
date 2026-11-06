@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-4gph-2hhr-5mwg
+date: '2026-05-19'
+vendor: github.com
+product: envoyproxy/ai-gateway
+cvss: null
+credit: '@anaximand3r (reporter) | @nacx (remediation_developer)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-4gph-2hhr-5mwg
+notes: null
+auto_discovered: true
