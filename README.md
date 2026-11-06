@@ -26,6 +26,14 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
       </picture>
     </td>
   </tr>
+  <tr>
+    <td colspan="2">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/monthly-additions-dark.svg">
+        <img alt="CVEs added per month" src="assets/monthly-additions.svg" width="880">
+      </picture>
+    </td>
+  </tr>
 </table>
 
 ## Anthropic Research

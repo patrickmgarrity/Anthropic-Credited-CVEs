@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <text x="450.0" y="34" font-size="17" font-weight="600" text-anchor="middle" fill="#e6edf3">Monthly Additions</text>
+  <line x1="48" y1="262.0" x2="884" y2="262.0" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="266.0" font-size="11" text-anchor="end" fill="#8b949e">0</text>
+  <line x1="48" y1="212.5" x2="884" y2="212.5" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="216.5" font-size="11" text-anchor="end" fill="#8b949e">25</text>
+  <line x1="48" y1="163.0" x2="884" y2="163.0" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="167.0" font-size="11" text-anchor="end" fill="#8b949e">50</text>
+  <line x1="48" y1="113.5" x2="884" y2="113.5" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="117.5" font-size="11" text-anchor="end" fill="#8b949e">75</text>
+  <line x1="48" y1="64.0" x2="884" y2="64.0" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="68.0" font-size="11" text-anchor="end" fill="#8b949e">100</text>
+  <rect x="61.8" y="214.5" width="56.0" height="47.5" rx="3" fill="#4493f8"/>
+  <text x="89.8" y="208.5" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">24</text>
+  <text x="89.8" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Feb</text>
+  <text x="89.8" y="296" font-size="11" text-anchor="middle" fill="#8b949e">2026</text>
+  <rect x="145.4" y="232.3" width="56.0" height="29.7" rx="3" fill="#4493f8"/>
+  <text x="173.4" y="226.3" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">15</text>
+  <text x="173.4" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Mar</text>
+  <rect x="229.0" y="198.6" width="56.0" height="63.4" rx="3" fill="#4493f8"/>
+  <text x="257.0" y="192.6" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">32</text>
+  <text x="257.0" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Apr</text>
+  <rect x="312.6" y="188.7" width="56.0" height="73.3" rx="3" fill="#4493f8"/>
+  <text x="340.6" y="182.7" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">37</text>
+  <text x="340.6" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">May</text>
+  <rect x="396.2" y="170.9" width="56.0" height="91.1" rx="3" fill="#4493f8"/>
+  <text x="424.2" y="164.9" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">46</text>
+  <text x="424.2" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Jun</text>
+  <rect x="479.8" y="167.0" width="56.0" height="95.0" rx="3" fill="#4493f8"/>
+  <text x="507.8" y="161.0" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">48</text>
+  <text x="507.8" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Jul</text>
+  <rect x="563.4" y="155.1" width="56.0" height="106.9" rx="3" fill="#4493f8"/>
+  <text x="591.4" y="149.1" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">54</text>
+  <text x="591.4" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Aug</text>
+  <rect x="647.0" y="145.2" width="56.0" height="116.8" rx="3" fill="#4493f8"/>
+  <text x="675.0" y="139.2" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">59</text>
+  <text x="675.0" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Sep</text>
+  <rect x="730.6" y="68.0" width="56.0" height="194.0" rx="3" fill="#4493f8"/>
+  <text x="758.6" y="62.0" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">98</text>
+  <text x="758.6" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Oct</text>
+  <rect x="814.2" y="220.4" width="56.0" height="41.6" rx="3" fill="#4493f8" fill-opacity="0.5"/>
+  <text x="842.2" y="214.4" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">21*</text>
+  <text x="842.2" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Nov</text>
+  <text x="450.0" y="310" font-size="12" text-anchor="middle" fill="#8b949e">434 CVEs by month of publication · * current month to date</text>
+</svg>
