@@ -4,7 +4,12 @@ on:
   schedule:
     # Every 2 hours
     - cron: "17 */2 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      ghsa_backfill:
+        description: "One-off full GHSA backfill: scan ALL reviewed advisories, ignoring the seen list"
+        type: boolean
+        default: false
 
 concurrency:
   group: scan-cves
@@ -65,6 +70,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GHSA_BACKFILL: ${{ inputs.ghsa_backfill && '1' || '' }}
         run: python .github/scripts/scan_ghsas.py
 
       - name: Commit GHSA state changes (if any)
