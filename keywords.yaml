@@ -21,6 +21,10 @@ keywords:
   - anthropic.com
   - doyensec.com
 
+  # Anthropic finding/reference IDs, e.g. "ANT-2026-22436" (Security Team) or
+  # "ANT-2026-RKC48J5B" (OSS Scanner). Advisories often cite these.
+  - ANT-2026-
+
   # Researchers
   - Zach Hanley
   - Nicholas Carlini
