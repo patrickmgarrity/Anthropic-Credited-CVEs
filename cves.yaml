@@ -855,6 +855,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: false
+- cve: CVE-2026-94603
+  ghsa: GHSA-2cvf-wqm6-wr9g
+  date: '2026-10-15'
+  vendor: go.podman.io
+  product: podman/v6
+  cvss: 10.0
+  credit: '@nazeeh111 (analyst) | @zuhairhalawa (analyst)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-94603
+  ghsa_link: https://github.com/advisories/GHSA-2cvf-wqm6-wr9g
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-97629
   ghsa: null
   date: '2026-10-14'
