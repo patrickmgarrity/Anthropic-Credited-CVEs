@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 435**
+**CVEs: 436**
 
 **GHSAs w/o CVE: 3**
 
@@ -394,6 +394,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-45074](https://www.cve.org/CVERecord?id=CVE-2026-45074) | 2026-05-27 | symfony | security-http | 7.6 |  |  | @nicolas-grekas (remediation_developer) |
 | [CVE-2026-45071](https://www.cve.org/CVERecord?id=CVE-2026-45071) | 2026-05-27 | symfony | dom-crawler | 8.7 |  |  |  |
 | [CVE-2026-45066](https://www.cve.org/CVERecord?id=CVE-2026-45066) | 2026-05-27 | symfony | html-sanitizer | 2.3 |  |  |  |
+| [CVE-2026-45065](https://www.cve.org/CVERecord?id=CVE-2026-45065) | 2026-05-27 | symfony | routing |  |  |  |  |
 | [CVE-2026-45063](https://www.cve.org/CVERecord?id=CVE-2026-45063) | 2026-05-27 | symfony | security-http | 9.1 |  |  |  |
 | [CVE-2026-42789](https://www.cve.org/CVERecord?id=CVE-2026-42789) | 2026-05-27 | Erlang | OTP | 7.0 |  |  | John Downey \| Ingela Anderton Andin \| Jakub Witczak \| Ada Logics |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 |  |  | Doyensec in collaboration with Claude and Anthropic Research |

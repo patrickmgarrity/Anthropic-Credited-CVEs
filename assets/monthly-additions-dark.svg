@@ -20,8 +20,8 @@
   <rect x="229.0" y="198.6" width="56.0" height="63.4" rx="3" fill="#4493f8"/>
   <text x="257.0" y="192.6" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">32</text>
   <text x="257.0" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Apr</text>
-  <rect x="312.6" y="182.8" width="56.0" height="79.2" rx="3" fill="#4493f8"/>
-  <text x="340.6" y="176.8" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">40</text>
+  <rect x="312.6" y="180.8" width="56.0" height="81.2" rx="3" fill="#4493f8"/>
+  <text x="340.6" y="174.8" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">41</text>
   <text x="340.6" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">May</text>
   <rect x="396.2" y="170.9" width="56.0" height="91.1" rx="3" fill="#4493f8"/>
   <text x="424.2" y="164.9" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">46</text>
@@ -41,5 +41,5 @@
   <rect x="814.2" y="218.4" width="56.0" height="43.6" rx="3" fill="#4493f8" fill-opacity="0.5"/>
   <text x="842.2" y="212.4" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">22*</text>
   <text x="842.2" y="280" font-size="12" text-anchor="middle" fill="#e6edf3">Nov</text>
-  <text x="450.0" y="310" font-size="12" text-anchor="middle" fill="#8b949e">438 vulnerabilities by month of publication · * current month to date</text>
+  <text x="450.0" y="310" font-size="12" text-anchor="middle" fill="#8b949e">439 vulnerabilities by month of publication · * current month to date</text>
 </svg>
