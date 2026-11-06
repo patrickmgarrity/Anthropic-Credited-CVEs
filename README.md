@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 430**
+**CURRENT CVE COUNT: 431**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -102,6 +102,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-113721](https://www.cve.org/CVERecord?id=CVE-2026-113721) | 2026-10-22 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-97631](https://www.cve.org/CVERecord?id=CVE-2026-97631) | 2026-10-22 | TianoCore | EDK2 | 9.5 |  |  | Alex Matrosov (Anthropic) \| Dan Holmes-Mitra (Google) |
 | [CVE-2026-96778](https://www.cve.org/CVERecord?id=CVE-2026-96778) | 2026-10-22 | pip | Pillow |  |  |  | @carlini (reporter) |
+| [CVE-2026-113725](https://www.cve.org/CVERecord?id=CVE-2026-113725) | 2026-10-21 | pip | virtualenv | 7.8 |  |  | @gaborbernat (remediation_developer) |
 | [CVE-2026-113724](https://www.cve.org/CVERecord?id=CVE-2026-113724) | 2026-10-21 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-113722](https://www.cve.org/CVERecord?id=CVE-2026-113722) | 2026-10-21 | pip | virtualenv | 7.8 |  |  |  |
 | [CVE-2026-113716](https://www.cve.org/CVERecord?id=CVE-2026-113716) | 2026-10-21 | pip | virtualenv | 4.5 |  |  |  |
