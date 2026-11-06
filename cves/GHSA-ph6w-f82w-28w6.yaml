@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-ph6w-f82w-28w6
+date: '2025-09-03'
+vendor: '@anthropic-ai'
+product: claude-code
+cvss: null
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-ph6w-f82w-28w6
+notes: null
+auto_discovered: true
