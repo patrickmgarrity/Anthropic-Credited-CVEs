@@ -535,8 +535,12 @@ def main() -> int:
                 if cve and cve not in stubs_by_cve:
                     batch_stubs.append((cve, s))
 
-        if len(stubs_by_cve) + len(batch_stubs) > MAX_RECORDS_PER_RUN:
+        if (stubs_by_cve
+                and len(stubs_by_cve) + len(batch_stubs) > MAX_RECORDS_PER_RUN):
             # Stop here. The PREVIOUS batch was the last fully processed.
+            # Only when something was already taken: a single batch larger
+            # than the cap is processed whole, otherwise the cursor could never
+            # move past it and every later run would stall on the same batch.
             print(f"  WARNING: hit MAX_RECORDS_PER_RUN={MAX_RECORDS_PER_RUN} at "
                   f"batch fetchTime={batch.get('fetchTime')}; "
                   f"will resume from there next run")
