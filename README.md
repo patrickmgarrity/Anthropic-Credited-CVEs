@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 408**
+**CURRENT CVE COUNT: 409**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -77,6 +77,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-112915](https://www.cve.org/CVERecord?id=CVE-2026-112915) | 2026-10-28 | pip | filelock | 5.5 |  |  |  |
 | [CVE-2026-112912](https://www.cve.org/CVERecord?id=CVE-2026-112912) | 2026-10-28 | pip | filelock | 2.5 |  |  |  |
 | [CVE-2026-112911](https://www.cve.org/CVERecord?id=CVE-2026-112911) | 2026-10-28 | pip | filelock | 6.3 |  |  |  |
+| [CVE-2026-112910](https://www.cve.org/CVERecord?id=CVE-2026-112910) | 2026-10-28 | pip | filelock | 5.3 |  |  |  |
 | [CVE-2026-112909](https://www.cve.org/CVERecord?id=CVE-2026-112909) | 2026-10-28 | pip | filelock | 6.1 |  |  |  |
 | [CVE-2026-112908](https://www.cve.org/CVERecord?id=CVE-2026-112908) | 2026-10-28 | pip | filelock | 5.3 |  |  |  |
 | [CVE-2026-112375](https://www.cve.org/CVERecord?id=CVE-2026-112375) | 2026-10-28 | Apache Software Foundation | Apache Kafka | 6.5 |  |  | Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research \| OpenAI Codex Security - Amy Burnett and Khai Tran \| Mickael Maison <mickael.maison@gmail.com> \| Manikumar Reddy <manikumar.reddy@gmail.com> \| Chia-Ping Tsai <chia7712@gmail.com> |
