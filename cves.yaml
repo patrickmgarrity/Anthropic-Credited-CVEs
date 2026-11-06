@@ -3031,6 +3031,20 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3
   notes: null
   auto_discovered: true
+- cve: CVE-2026-53489
+  ghsa: GHSA-rgh6-rfwx-v388
+  date: '2026-06-19'
+  vendor: github.com
+  product: containerd/containerd/v2
+  cvss: null
+  credit: >-
+    @gouldnicholas (reporter) | @davidrxchester (reporter) | @sangwon090 (reporter) | @robertprast (reporter)
+    | @Plucky923 (reporter)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-53489
+  ghsa_link: https://github.com/advisories/GHSA-rgh6-rfwx-v388
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-49215
   ghsa: GHSA-4m4j-hmqq-3gxm
   date: '2026-06-19'

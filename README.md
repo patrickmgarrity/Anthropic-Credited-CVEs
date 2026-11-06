@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 369**
+**CURRENT CVE COUNT: 370**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -283,6 +283,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-46349](https://www.cve.org/CVERecord?id=CVE-2026-46349) | 2026-06-24 | mastodon | mastodon | 5.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
 | [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | 2026-06-24 | mastodon | mastodon | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-56132](https://www.cve.org/CVERecord?id=CVE-2026-56132) | 2026-06-19 | libexpat project | libexpat | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3) |  | Anthropic |
+| [CVE-2026-53489](https://www.cve.org/CVERecord?id=CVE-2026-53489) | 2026-06-19 | github.com | containerd/containerd/v2 |  |  |  | @gouldnicholas (reporter) \| @davidrxchester (reporter) \| @sangwon090 (reporter) \| @robertprast (reporter) \| @Plucky923 (reporter) |
 | [CVE-2026-49215](https://www.cve.org/CVERecord?id=CVE-2026-49215) | 2026-06-19 | symfony | ux-live-component |  |  |  | @Kocal (remediation_developer) |
 | [CVE-2026-45696](https://www.cve.org/CVERecord?id=CVE-2026-45696) | 2026-06-18 | AcademySoftwareFoundation | openexr | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QQ2P9M9V) |  | Anthropic |
 | [CVE-2026-53721](https://www.cve.org/CVERecord?id=CVE-2026-53721) | 2026-06-16 | npm | nuxt |  |  |  |  |
