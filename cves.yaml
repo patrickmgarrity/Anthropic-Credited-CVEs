@@ -789,6 +789,18 @@
   ghsa_link: https://github.com/advisories/GHSA-c6hw-5grf-ff96
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112403
+  ghsa: GHSA-8g5g-8vmr-9782
+  date: '2026-10-20'
+  vendor: pip
+  product: Pillow
+  cvss: null
+  credit: '@DavidKorczynski (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112403
+  ghsa_link: https://github.com/advisories/GHSA-8g5g-8vmr-9782
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112395
   ghsa: GHSA-462x-pgg6-55fp
   date: '2026-10-20'
