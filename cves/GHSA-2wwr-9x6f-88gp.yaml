@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-2wwr-9x6f-88gp
+date: '2026-07-01'
+vendor: easycorp
+product: easyadmin-bundle
+cvss: 5.3
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-2wwr-9x6f-88gp
+notes: null
+auto_discovered: true
