@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 440**
+**CVEs: 441**
 
 **GHSAs w/o CVE: 4**
 
@@ -398,6 +398,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-45072](https://www.cve.org/CVERecord?id=CVE-2026-45072) | 2026-05-27 | symfony | symfony |  |  |  |  |
 | [CVE-2026-45071](https://www.cve.org/CVERecord?id=CVE-2026-45071) | 2026-05-27 | symfony | dom-crawler | 8.7 |  |  |  |
 | [CVE-2026-45069](https://www.cve.org/CVERecord?id=CVE-2026-45069) | 2026-05-27 | symfony | security-http |  |  |  |  |
+| [CVE-2026-45068](https://www.cve.org/CVERecord?id=CVE-2026-45068) | 2026-05-27 | symfony | mailer |  |  |  |  |
 | [CVE-2026-45066](https://www.cve.org/CVERecord?id=CVE-2026-45066) | 2026-05-27 | symfony | html-sanitizer | 2.3 |  |  |  |
 | [CVE-2026-45065](https://www.cve.org/CVERecord?id=CVE-2026-45065) | 2026-05-27 | symfony | routing |  |  |  |  |
 | [CVE-2026-45063](https://www.cve.org/CVERecord?id=CVE-2026-45063) | 2026-05-27 | symfony | security-http | 9.1 |  |  |  |

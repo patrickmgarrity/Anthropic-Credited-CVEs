@@ -4325,6 +4325,18 @@
   ghsa_link: https://github.com/advisories/GHSA-29fc-p6c4-24cg
   notes: null
   auto_discovered: true
+- cve: CVE-2026-45068
+  ghsa: GHSA-xx3c-qf5g-hc39
+  date: '2026-05-27'
+  vendor: symfony
+  product: mailer
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45068
+  ghsa_link: https://github.com/advisories/GHSA-xx3c-qf5g-hc39
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-45066
   ghsa: GHSA-qc95-4862-92fh
   date: '2026-05-27'
