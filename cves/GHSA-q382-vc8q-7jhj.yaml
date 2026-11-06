@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-q382-vc8q-7jhj
+date: '2026-03-19'
+vendor: github.com
+product: modelcontextprotocol/go-sdk
+cvss: null
+credit: '@anaximand3r (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-q382-vc8q-7jhj
+notes: null
+auto_discovered: true
