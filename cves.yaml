@@ -2609,7 +2609,7 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-J3EVXWDY
   notes: null
 - cve: CVE-2026-45067
-  ghsa: null
+  ghsa: GHSA-qpmx-3rfj-7rhv
   date: '2026-07-14'
   vendor: symfony
   product: symfony
@@ -2617,7 +2617,7 @@
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45067
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-qpmx-3rfj-7rhv
   notes: null
   auto_discovered: true
 - cve: CVE-2026-61505
