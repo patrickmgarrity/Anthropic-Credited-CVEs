@@ -318,6 +318,18 @@
   ghsa_link: https://github.com/advisories/GHSA-m462-7rxw-wvpg
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112934
+  ghsa: GHSA-fj95-fr6c-h845
+  date: '2026-10-28'
+  vendor: pip
+  product: filelock
+  cvss: 6.1
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112934
+  ghsa_link: https://github.com/advisories/GHSA-fj95-fr6c-h845
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112915
   ghsa: GHSA-cwqr-hh33-gh44
   date: '2026-10-28'
