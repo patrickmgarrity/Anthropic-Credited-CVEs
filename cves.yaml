@@ -294,6 +294,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112941
+  ghsa: GHSA-wfhq-q4j2-c37m
+  date: '2026-10-28'
+  vendor: pip
+  product: filelock
+  cvss: 3.3
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112941
+  ghsa_link: https://github.com/advisories/GHSA-wfhq-q4j2-c37m
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112939
   ghsa: GHSA-rfpc-qcw5-3pc4
   date: '2026-10-28'
@@ -366,6 +378,18 @@
   ghsa_link: https://github.com/advisories/GHSA-9j6q-wvj5-jgjg
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112911
+  ghsa: GHSA-9c4x-gm8v-wgc4
+  date: '2026-10-28'
+  vendor: pip
+  product: filelock
+  cvss: 6.3
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112911
+  ghsa_link: https://github.com/advisories/GHSA-9c4x-gm8v-wgc4
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112909
   ghsa: GHSA-69hj-f68j-2879
   date: '2026-10-28'
@@ -376,6 +400,18 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112909
   ghsa_link: https://github.com/advisories/GHSA-69hj-f68j-2879
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-112908
+  ghsa: GHSA-6627-m3xw-93mp
+  date: '2026-10-28'
+  vendor: pip
+  product: filelock
+  cvss: 5.3
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112908
+  ghsa_link: https://github.com/advisories/GHSA-6627-m3xw-93mp
   notes: null
   auto_discovered: true
 - cve: CVE-2026-112375
