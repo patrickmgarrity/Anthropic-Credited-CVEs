@@ -3784,7 +3784,7 @@
   date: '2026-06-19'
   vendor: github.com
   product: containerd/containerd
-  cvss: null
+  cvss: 9.4
   credit: '@robertprast (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-53488
@@ -3820,7 +3820,7 @@
   date: '2026-06-19'
   vendor: symfony
   product: ux-live-component
-  cvss: null
+  cvss: 6.9
   credit: '@Kocal (remediation_developer)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-49212
@@ -4282,7 +4282,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: http-kernel
-  cvss: null
+  cvss: 8.3
   credit: '@alexandre-daubois (remediation_developer) | @connorshea (analyst)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45075
@@ -4306,7 +4306,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: symfony
-  cvss: null
+  cvss: 2.0
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45072
@@ -4330,7 +4330,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: security-http
-  cvss: null
+  cvss: 8.8
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45069
@@ -4342,7 +4342,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: mailer
-  cvss: null
+  cvss: 8.7
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45068
@@ -4366,7 +4366,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: routing
-  cvss: null
+  cvss: 2.3
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45065
@@ -4493,7 +4493,7 @@
   date: '2026-05-21'
   vendor: twig
   product: twig
-  cvss: null
+  cvss: 6.0
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46638
@@ -4517,7 +4517,7 @@
   date: '2026-05-21'
   vendor: twig
   product: twig
-  cvss: null
+  cvss: 5.3
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46635
@@ -4529,7 +4529,7 @@
   date: '2026-05-21'
   vendor: twig
   product: twig
-  cvss: null
+  cvss: 7.7
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46634
