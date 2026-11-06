@@ -41,6 +41,8 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CURRENT CVE COUNT: {count}**
 
+**GHSA-only Advisories (no CVE): {ghsa_only}**
+
 **Fixed Anthropic Findings w/o CVE: {fixed_no_cve}**
 
 **Findings Withdrawn by Anthropic: {withdrawn}**
@@ -206,7 +208,7 @@ def _pie_svg(title: str, segments: list[tuple[str, int, str]],
         + subtitle_line +
         '  ' + '\n  '.join(slices) + '\n'
         f'  <text x="{cx}" y="305" font-size="12" text-anchor="middle" '
-        f'fill="{pal["muted"]}">{total} CVEs</text>\n'
+        f'fill="{pal["muted"]}">{total} vulnerabilities</text>\n'
         '  ' + '\n  '.join(legend) + '\n'
         '</svg>\n'
     )
@@ -330,7 +332,7 @@ def render_monthly_svg(entries: list[dict], theme: str = "light") -> str:
                              f'text-anchor="middle" fill="{pal["muted"]}">{yr}</text>')
 
     total = sum(c for _, _, c in months)
-    caption = f"{total} CVEs by month of publication"
+    caption = f"{total} vulnerabilities by month of publication"
     if partial_note:
         caption += " · * current month to date"
     return (
@@ -357,7 +359,10 @@ def render_cve_cell(entry: dict) -> str:
         return f"[{cve}]({link})" if link else cve
     ghsa = entry.get("ghsa")
     if ghsa:
-        link = entry.get("ghsa_link") or f"https://github.com/advisories/{ghsa}"
+        # Private repository advisories have no public GitHub page; link the
+        # ledger finding instead of a dead github.com/advisories URL.
+        link = (entry.get("ghsa_link") or entry.get("ledger_link")
+                or f"https://github.com/advisories/{ghsa}")
         return f"[{ghsa}]({link})"
     return "—"
 
@@ -482,10 +487,12 @@ def _stat(stats: dict, key: str) -> str:
 def render_readme(template: str, entries: list[dict],
                   stats: dict | None = None) -> str:
     stats = stats or {}
-    count = len(entries)
+    count = sum(1 for e in entries if e.get("cve"))
+    ghsa_only = sum(1 for e in entries if not e.get("cve") and e.get("ghsa"))
     table = render_table(entries)
     body_block = f"{MARKER_BEGIN}\n{table}{MARKER_END}"
     template = template.replace("{count}", str(count))
+    template = template.replace("{ghsa_only}", str(ghsa_only))
     template = template.replace(
         "{fixed_no_cve}", _stat(stats, "fixed_findings_without_cve"))
     template = template.replace(
