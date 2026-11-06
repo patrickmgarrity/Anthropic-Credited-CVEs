@@ -237,31 +237,35 @@ def render_kev_svg(entries: list[dict], theme: str = "light") -> str:
                     subtitle="Source: VulnCheck KEV")
 
 
-MONTHLY_BAR_COLOR = {"light": "#0969da", "dark": "#4493f8"}
 MONTHLY_GRID_COLOR = {"light": "#d0d7de", "dark": "#30363d"}
 _MONTH_ABBR = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 
-def monthly_counts(entries: list[dict]) -> list[tuple[int, int, int]]:
-    """[(year, month, count)] from each entry's `date`, oldest first, with
-    empty months between the first and last filled in as zero."""
-    counts: dict[tuple[int, int], int] = {}
+def monthly_counts(entries: list[dict]) -> list[tuple[int, int, dict[str, int]]]:
+    """[(year, month, {band: count})] from each entry's `date`, oldest first,
+    with empty months between the first and last filled in. Bands are the
+    SEVERITY_BANDS names plus UNSCORED_LABEL."""
+    bands = [name for name, _, _ in SEVERITY_BANDS] + [UNSCORED_LABEL]
+    counts: dict[tuple[int, int], dict[str, int]] = {}
     for e in entries:
         d = str(e.get("date") or "")
-        if len(d) >= 7 and d[4] == "-":
-            try:
-                key = (int(d[:4]), int(d[5:7]))
-            except ValueError:
-                continue
-            if 1 <= key[1] <= 12:
-                counts[key] = counts.get(key, 0) + 1
+        if len(d) < 7 or d[4] != "-":
+            continue
+        try:
+            key = (int(d[:4]), int(d[5:7]))
+        except ValueError:
+            continue
+        if not 1 <= key[1] <= 12:
+            continue
+        band = severity_of(e.get("cvss")) or UNSCORED_LABEL
+        counts.setdefault(key, {b: 0 for b in bands})[band] += 1
     if not counts:
         return []
     (y, m), last = min(counts), max(counts)
     out = []
     while (y, m) <= last:
-        out.append((y, m, counts.get((y, m), 0)))
+        out.append((y, m, counts.get((y, m)) or {b: 0 for b in bands}))
         y, m = (y + 1, 1) if m == 12 else (y, m + 1)
     return out
 
@@ -275,22 +279,26 @@ def _nice_step(max_val: int, target_lines: int = 4) -> int:
 
 
 def render_monthly_svg(entries: list[dict], theme: str = "light") -> str:
-    """SVG bar chart of entries per month (by the entry's `date`). The current
-    month is drawn lighter and starred because it is still in progress."""
+    """Stacked SVG bar chart of entries per month (by the entry's `date`),
+    segmented by CVSS severity in the same colors as the severity pie:
+    Critical at the base, then High, Medium, Low, and Unscored on top. The
+    current month is drawn lighter and starred because it is still in progress."""
     import datetime as _dt
     import math
 
     pal = CHART_THEMES[theme]
-    bar_color = MONTHLY_BAR_COLOR[theme]
     grid_color = MONTHLY_GRID_COLOR[theme]
+    stack = [(name, color) for name, _, color in SEVERITY_BANDS]
+    stack.append((UNSCORED_LABEL, UNSCORED_COLOR))
     months = monthly_counts(entries)
     today = _dt.date.today()
 
-    W, H = 900, 320
-    left, right, top, bottom = 48, 16, 64, 262  # plot area
+    W, H = 900, 340
+    left, right, top, bottom = 48, 16, 84, 282  # plot area
     plot_w, plot_h = W - left - right, bottom - top
     n = max(1, len(months))
-    peak = max((c for _, _, c in months), default=0)
+    totals = [sum(c.values()) for _, _, c in months]
+    peak = max(totals, default=0)
     step = _nice_step(peak)
     y_max = max(step, math.ceil(peak / step) * step)
 
@@ -298,6 +306,18 @@ def render_monthly_svg(entries: list[dict], theme: str = "light") -> str:
         return bottom - plot_h * v / y_max
 
     parts: list[str] = []
+    # legend, centered under the title
+    def _text_w(t: str) -> float:  # rough 12px sans-serif advance widths
+        return sum(3.2 if ch in "ilIjt.,'" else 9.5 if ch in "mwMW" else
+                   8.0 if ch.isupper() else 6.6 for ch in t)
+    item_w = [17 + _text_w(name) + 16 for name, _ in stack]
+    lx = W / 2 - sum(item_w) / 2
+    for (name, color), w in zip(stack, item_w):
+        parts.append(f'<rect x="{lx:.1f}" y="48" width="12" height="12" rx="2" fill="{color}"/>'
+                     f'<text x="{lx + 17:.1f}" y="58" font-size="12" '
+                     f'fill="{pal["text"]}">{name}</text>')
+        lx += w
+
     # horizontal gridlines + y tick labels
     v = 0
     while v <= y_max:
@@ -312,18 +332,25 @@ def render_monthly_svg(entries: list[dict], theme: str = "light") -> str:
     bar_w = min(56.0, slot * 0.7)
     label_every = max(1, math.ceil(n / 18))  # keep month labels legible
     partial_note = False
-    for i, (yr, mo, c) in enumerate(months):
+    for i, ((yr, mo, by_band), total) in enumerate(zip(months, totals)):
         cx = left + slot * (i + 0.5)
         partial = (yr, mo) == (today.year, today.month)
         partial_note |= partial
         opacity = ' fill-opacity="0.5"' if partial else ""
-        if c:
-            y = y_of(c)
-            parts.append(f'<rect x="{cx - bar_w / 2:.1f}" y="{y:.1f}" width="{bar_w:.1f}" '
-                         f'height="{bottom - y:.1f}" rx="3" fill="{bar_color}"{opacity}/>')
-        parts.append(f'<text x="{cx:.1f}" y="{y_of(c) - 6:.1f}" font-size="12" '
+        base = 0
+        for name, color in stack:
+            c = by_band.get(name, 0)
+            if not c:
+                continue
+            y_top, y_bot = y_of(base + c), y_of(base)
+            # thin separator in the page background color between segments
+            parts.append(f'<rect x="{cx - bar_w / 2:.1f}" y="{y_top:.1f}" width="{bar_w:.1f}" '
+                         f'height="{y_bot - y_top:.1f}" fill="{color}"{opacity} '
+                         f'stroke="{pal["stroke"]}" stroke-width="1"/>')
+            base += c
+        parts.append(f'<text x="{cx:.1f}" y="{y_of(total) - 6:.1f}" font-size="12" '
                      f'font-weight="600" text-anchor="middle" fill="{pal["text"]}">'
-                     f'{c}{"*" if partial else ""}</text>')
+                     f'{total}{"*" if partial else ""}</text>')
         if i % label_every == 0 or partial:
             parts.append(f'<text x="{cx:.1f}" y="{bottom + 18}" font-size="12" '
                          f'text-anchor="middle" fill="{pal["text"]}">{_MONTH_ABBR[mo - 1]}</text>')
@@ -331,14 +358,13 @@ def render_monthly_svg(entries: list[dict], theme: str = "light") -> str:
                 parts.append(f'<text x="{cx:.1f}" y="{bottom + 34}" font-size="11" '
                              f'text-anchor="middle" fill="{pal["muted"]}">{yr}</text>')
 
-    total = sum(c for _, _, c in months)
-    caption = f"{total} vulnerabilities by month of publication"
+    caption = f"{sum(totals)} vulnerabilities by month of publication, by CVSS severity"
     if partial_note:
         caption += " · * current month to date"
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
-        f'  <text x="{W / 2}" y="34" font-size="17" font-weight="600" '
+        f'  <text x="{W / 2}" y="30" font-size="17" font-weight="600" '
         f'text-anchor="middle" fill="{pal["text"]}">Monthly Additions</text>\n'
         '  ' + '\n  '.join(parts) + '\n'
         f'  <text x="{W / 2}" y="{H - 10}" font-size="12" text-anchor="middle" '
