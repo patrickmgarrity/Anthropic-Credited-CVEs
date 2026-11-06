@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 441**
+**CVEs: 442**
 
 **GHSAs w/o CVE: 4**
 
@@ -355,6 +355,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | 2026-06-24 | mastodon | mastodon | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-56132](https://www.cve.org/CVERecord?id=CVE-2026-56132) | 2026-06-19 | libexpat project | libexpat | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3) |  | Anthropic |
 | [CVE-2026-53489](https://www.cve.org/CVERecord?id=CVE-2026-53489) | 2026-06-19 | github.com | containerd/containerd/v2 | 8.2 |  |  | @gouldnicholas (reporter) \| @davidrxchester (reporter) \| @sangwon090 (reporter) \| @robertprast (reporter) \| @Plucky923 (reporter) |
+| [CVE-2026-53488](https://www.cve.org/CVERecord?id=CVE-2026-53488) | 2026-06-19 | github.com | containerd/containerd |  |  |  | @robertprast (reporter) |
 | [CVE-2026-50195](https://www.cve.org/CVERecord?id=CVE-2026-50195) | 2026-06-19 | github.com | containerd/containerd/v2 | 9.9 |  |  | @hbeberman (reporter) \| @robertprast (reporter) |
 | [CVE-2026-49215](https://www.cve.org/CVERecord?id=CVE-2026-49215) | 2026-06-19 | symfony | ux-live-component | 2.1 |  |  | @Kocal (remediation_developer) |
 | [CVE-2026-49212](https://www.cve.org/CVERecord?id=CVE-2026-49212) | 2026-06-19 | symfony | ux-live-component |  |  |  | @Kocal (remediation_developer) |
