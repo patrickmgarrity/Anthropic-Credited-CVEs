@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 366**
+**CURRENT CVE COUNT: 367**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -325,6 +325,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-40383](https://www.cve.org/CVERecord?id=CVE-2026-40383) | 2026-05-26 | Joomla! | Joomla! CMS | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-HHD77M82) |  | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-40034](https://www.cve.org/CVERecord?id=CVE-2026-40034) | 2026-05-26 | gitoxide | gitoxide | 7.3 |  |  | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
 | [CVE-2026-40033](https://www.cve.org/CVERecord?id=CVE-2026-40033) | 2026-05-26 | FreeRDP | FreeRDP | 8.6 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ) |  | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
+| [CVE-2026-46640](https://www.cve.org/CVERecord?id=CVE-2026-46640) | 2026-05-21 | twig | twig |  |  |  | @vladko312 (analyst) |
 | [CVE-2026-46637](https://www.cve.org/CVERecord?id=CVE-2026-46637) | 2026-05-21 | twig | markdown-extra |  |  |  |  |
 | [CVE-2026-46629](https://www.cve.org/CVERecord?id=CVE-2026-46629) | 2026-05-21 | twig | intl-extra |  |  |  |  |
 | [CVE-2026-44212](https://www.cve.org/CVERecord?id=CVE-2026-44212) | 2026-05-14 | PrestaShop | PrestaShop | 7.8 |  |  | Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research. |

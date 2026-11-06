@@ -3572,6 +3572,18 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ
   notes: null
   auto_discovered: false
+- cve: CVE-2026-46640
+  ghsa: GHSA-45vw-wh46-2vx8
+  date: '2026-05-21'
+  vendor: twig
+  product: twig
+  cvss: null
+  credit: '@vladko312 (analyst)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46640
+  ghsa_link: https://github.com/advisories/GHSA-45vw-wh46-2vx8
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-46637
   ghsa: GHSA-jv8m-2544-3pg3
   date: '2026-05-21'
