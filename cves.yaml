@@ -294,6 +294,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112939
+  ghsa: GHSA-rfpc-qcw5-3pc4
+  date: '2026-10-28'
+  vendor: pip
+  product: filelock
+  cvss: 4.7
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112939
+  ghsa_link: https://github.com/advisories/GHSA-rfpc-qcw5-3pc4
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112938
   ghsa: GHSA-m462-7rxw-wvpg
   date: '2026-10-28'
