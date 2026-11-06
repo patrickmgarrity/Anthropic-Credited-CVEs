@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261105",
+  "last_run_date": "20261106",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1662,6 +1662,12 @@
     "https://lore.kernel.org/all/20261105070819.2086816-6-yurade@cisco.com",
     "https://lore.kernel.org/all/20261105070819.2086816-7-yurade@cisco.com",
     "https://lore.kernel.org/all/20261105122443.53245-5-jaipaul.cheernam@est.tech",
+    "https://lore.kernel.org/all/20261105144316-mutt-send-email-mst@kernel.org",
+    "https://lore.kernel.org/all/20261105182640.2999521-1-me@chasehil.tz",
+    "https://lore.kernel.org/all/20261105193426.2999631-1-stjepan.poljak@gmail.com",
+    "https://lore.kernel.org/all/20261105200552.81303-2-ankur.tyagi85@gmail.com",
+    "https://lore.kernel.org/all/20261105212250.490188-2-ankur.tyagi85@gmail.com",
+    "https://lore.kernel.org/all/20261106085405.3517095-7-arpitpa@cisco.com",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/2054463495.18023214.1793866940338.JavaMail.zimbra@desy.de",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
@@ -2100,6 +2106,7 @@
     "https://lore.kernel.org/all/ic5yl6efm77r2tajqeizeljokkpkqe2vvh3eww54apuu7e2pof@yomiowfjhwjx",
     "https://lore.kernel.org/all/pull.2226.git.1789826665188.gitgitgadget@gmail.com",
     "https://lore.kernel.org/all/sashiko-outbox-181335@kernel.org",
+    "https://lore.kernel.org/all/sashiko-outbox-199968@kernel.org",
     "https://lore.kernel.org/all/willemdebruijn.kernel.18d6500676cf5@gmail.com",
     "https://lore.kernel.org/all/willemdebruijn.kernel.1cfea9a8313a4@gmail.com",
     "https://lore.kernel.org/all/willemdebruijn.kernel.31a7e80dcad9d@gmail.com",
