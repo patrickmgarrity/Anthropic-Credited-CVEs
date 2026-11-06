@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-8fxq-53rx-ph5f
+date: '2026-08-20'
+vendor: github.com
+product: coder/coder/v2
+cvss: 3.7
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-8fxq-53rx-ph5f
+notes: null
+auto_discovered: true
