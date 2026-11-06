@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 385**
+**CURRENT CVE COUNT: 386**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -266,6 +266,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-15165](https://www.cve.org/CVERecord?id=CVE-2026-15165) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y5M37QY4) |  | Claude and Ada Logics |
 | [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46354) | 2026-07-07 | coder | coder | 9.1 |  |  | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
 | [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | 2026-07-07 | coder | coder | 6.5 |  |  | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
+| [CVE-2026-55438](https://www.cve.org/CVERecord?id=CVE-2026-55438) | 2026-07-06 | github.com | coder/coder/v2 | 5.8 |  |  |  |
 | [CVE-2026-55437](https://www.cve.org/CVERecord?id=CVE-2026-55437) | 2026-07-06 | github.com | coder/coder/v2 | 5.4 |  |  |  |
 | [CVE-2026-55435](https://www.cve.org/CVERecord?id=CVE-2026-55435) | 2026-07-06 | github.com | coder/coder/v2 | 5.4 |  |  |  |
 | [CVE-2026-55434](https://www.cve.org/CVERecord?id=CVE-2026-55434) | 2026-07-06 | github.com | coder/coder/v2 | 6.5 |  |  |  |
