@@ -506,7 +506,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 7.1
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113723
@@ -518,7 +518,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 4.4
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113720
@@ -542,7 +542,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 7.1
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113718
@@ -554,7 +554,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 2.3
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113717
@@ -566,7 +566,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 2.0
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113715
@@ -578,7 +578,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 2.3
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113714
@@ -590,7 +590,7 @@
   date: '2026-10-23'
   vendor: pip
   product: virtualenv
-  cvss: null
+  cvss: 4.4
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113713
@@ -686,7 +686,7 @@
   date: '2026-10-22'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 7.7
   credit: '@carlini (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-96778
@@ -746,7 +746,7 @@
   date: '2026-10-21'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 8.3
   credit: '@carlini (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112902
@@ -758,7 +758,7 @@
   date: '2026-10-21'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 9.2
   credit: '@carlini (reporter) | @Tomer-PL (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112393
@@ -770,7 +770,7 @@
   date: '2026-10-20'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 8.7
   credit: '@carlini (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112897
@@ -782,7 +782,7 @@
   date: '2026-10-20'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 8.8
   credit: '@carlini (reporter) | @Kadd01 (reporter) | @bryans3c (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112404
@@ -794,7 +794,7 @@
   date: '2026-10-20'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 9.2
   credit: '@DavidKorczynski (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112403
@@ -2982,6 +2982,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-73499
+  ghsa: GHSA-xg4h-6gfc-h4m8
+  date: '2026-07-24'
+  vendor: go.etcd.io
+  product: etcd/v3
+  cvss: null
+  credit: '@lobuhi (reporter) | @AdamKorcz (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-73499
+  ghsa_link: https://github.com/advisories/GHSA-xg4h-6gfc-h4m8
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-66032
   ghsa: null
   date: '2026-07-24'
@@ -3733,7 +3745,7 @@
   date: '2026-06-19'
   vendor: github.com
   product: containerd/containerd/v2
-  cvss: null
+  cvss: 8.2
   credit: >-
     @gouldnicholas (reporter) | @davidrxchester (reporter) | @sangwon090 (reporter) | @robertprast (reporter)
     | @Plucky923 (reporter)
@@ -3759,7 +3771,7 @@
   date: '2026-06-19'
   vendor: symfony
   product: ux-live-component
-  cvss: null
+  cvss: 2.1
   credit: '@Kocal (remediation_developer)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-49215
@@ -3796,7 +3808,7 @@
   date: '2026-06-16'
   vendor: npm
   product: nuxt
-  cvss: null
+  cvss: 2.3
   credit: '@alcls01111 (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-56317
@@ -3820,7 +3832,7 @@
   date: '2026-06-16'
   vendor: npm
   product: nuxt
-  cvss: null
+  cvss: 8.8
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-53721
@@ -4221,7 +4233,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: security-http
-  cvss: null
+  cvss: 7.6
   credit: '@nicolas-grekas (remediation_developer)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45074
@@ -4233,7 +4245,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: dom-crawler
-  cvss: null
+  cvss: 8.7
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45071
@@ -4245,7 +4257,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: html-sanitizer
-  cvss: null
+  cvss: 2.3
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45066
@@ -4257,7 +4269,7 @@
   date: '2026-05-27'
   vendor: symfony
   product: security-http
-  cvss: null
+  cvss: 9.1
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45063
@@ -4360,7 +4372,7 @@
   date: '2026-05-21'
   vendor: twig
   product: twig
-  cvss: null
+  cvss: 8.7
   credit: '@vladko312 (analyst)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46640
@@ -4372,7 +4384,7 @@
   date: '2026-05-21'
   vendor: twig
   product: markdown-extra
-  cvss: null
+  cvss: 5.1
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46637
@@ -4384,7 +4396,7 @@
   date: '2026-05-21'
   vendor: twig
   product: intl-extra
-  cvss: null
+  cvss: 5.3
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46629

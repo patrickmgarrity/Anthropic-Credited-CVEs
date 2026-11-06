@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 433**
+**CURRENT CVE COUNT: 434**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -86,14 +86,14 @@ This project is maintained on a best effort basis.
 | [CVE-2026-115933](https://www.cve.org/CVERecord?id=CVE-2026-115933) | 2026-10-24 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-115932](https://www.cve.org/CVERecord?id=CVE-2026-115932) | 2026-10-24 | GitroomHQ | postiz-app | 9.6 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-115931](https://www.cve.org/CVERecord?id=CVE-2026-115931) | 2026-10-23 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
-| [CVE-2026-113723](https://www.cve.org/CVERecord?id=CVE-2026-113723) | 2026-10-23 | pip | virtualenv |  |  |  |  |
-| [CVE-2026-113720](https://www.cve.org/CVERecord?id=CVE-2026-113720) | 2026-10-23 | pip | virtualenv |  |  |  |  |
+| [CVE-2026-113723](https://www.cve.org/CVERecord?id=CVE-2026-113723) | 2026-10-23 | pip | virtualenv | 7.1 |  |  |  |
+| [CVE-2026-113720](https://www.cve.org/CVERecord?id=CVE-2026-113720) | 2026-10-23 | pip | virtualenv | 4.4 |  |  |  |
 | [CVE-2026-113719](https://www.cve.org/CVERecord?id=CVE-2026-113719) | 2026-10-23 | pip | virtualenv | 4.5 |  |  |  |
-| [CVE-2026-113718](https://www.cve.org/CVERecord?id=CVE-2026-113718) | 2026-10-23 | pip | virtualenv |  |  |  |  |
-| [CVE-2026-113717](https://www.cve.org/CVERecord?id=CVE-2026-113717) | 2026-10-23 | pip | virtualenv |  |  |  |  |
-| [CVE-2026-113715](https://www.cve.org/CVERecord?id=CVE-2026-113715) | 2026-10-23 | pip | virtualenv |  |  |  |  |
-| [CVE-2026-113714](https://www.cve.org/CVERecord?id=CVE-2026-113714) | 2026-10-23 | pip | virtualenv |  |  |  |  |
-| [CVE-2026-113713](https://www.cve.org/CVERecord?id=CVE-2026-113713) | 2026-10-23 | pip | virtualenv |  |  |  |  |
+| [CVE-2026-113718](https://www.cve.org/CVERecord?id=CVE-2026-113718) | 2026-10-23 | pip | virtualenv | 7.1 |  |  |  |
+| [CVE-2026-113717](https://www.cve.org/CVERecord?id=CVE-2026-113717) | 2026-10-23 | pip | virtualenv | 2.3 |  |  |  |
+| [CVE-2026-113715](https://www.cve.org/CVERecord?id=CVE-2026-113715) | 2026-10-23 | pip | virtualenv | 2.0 |  |  |  |
+| [CVE-2026-113714](https://www.cve.org/CVERecord?id=CVE-2026-113714) | 2026-10-23 | pip | virtualenv | 2.3 |  |  |  |
+| [CVE-2026-113713](https://www.cve.org/CVERecord?id=CVE-2026-113713) | 2026-10-23 | pip | virtualenv | 4.4 |  |  |  |
 | [CVE-2026-112940](https://www.cve.org/CVERecord?id=CVE-2026-112940) | 2026-10-23 | pip | filelock | 7.1 |  |  |  |
 | [CVE-2026-112937](https://www.cve.org/CVERecord?id=CVE-2026-112937) | 2026-10-23 | pip | filelock | 6.1 |  |  |  |
 | [CVE-2026-112914](https://www.cve.org/CVERecord?id=CVE-2026-112914) | 2026-10-23 | pip | filelock | 5.3 |  |  |  |
@@ -101,16 +101,16 @@ This project is maintained on a best effort basis.
 | [CVE-2026-112906](https://www.cve.org/CVERecord?id=CVE-2026-112906) | 2026-10-23 | pip | filelock | 4.7 |  |  |  |
 | [CVE-2026-113721](https://www.cve.org/CVERecord?id=CVE-2026-113721) | 2026-10-22 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-97631](https://www.cve.org/CVERecord?id=CVE-2026-97631) | 2026-10-22 | TianoCore | EDK2 | 9.5 |  |  | Alex Matrosov (Anthropic) \| Dan Holmes-Mitra (Google) |
-| [CVE-2026-96778](https://www.cve.org/CVERecord?id=CVE-2026-96778) | 2026-10-22 | pip | Pillow |  |  |  | @carlini (reporter) |
+| [CVE-2026-96778](https://www.cve.org/CVERecord?id=CVE-2026-96778) | 2026-10-22 | pip | Pillow | 7.7 |  |  | @carlini (reporter) |
 | [CVE-2026-113725](https://www.cve.org/CVERecord?id=CVE-2026-113725) | 2026-10-21 | pip | virtualenv | 7.8 |  |  | @gaborbernat (remediation_developer) |
 | [CVE-2026-113724](https://www.cve.org/CVERecord?id=CVE-2026-113724) | 2026-10-21 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-113722](https://www.cve.org/CVERecord?id=CVE-2026-113722) | 2026-10-21 | pip | virtualenv | 7.8 |  |  |  |
 | [CVE-2026-113716](https://www.cve.org/CVERecord?id=CVE-2026-113716) | 2026-10-21 | pip | virtualenv | 4.5 |  |  |  |
-| [CVE-2026-112902](https://www.cve.org/CVERecord?id=CVE-2026-112902) | 2026-10-21 | pip | Pillow |  |  |  | @carlini (reporter) |
-| [CVE-2026-112393](https://www.cve.org/CVERecord?id=CVE-2026-112393) | 2026-10-21 | pip | Pillow |  |  |  | @carlini (reporter) \| @Tomer-PL (reporter) |
-| [CVE-2026-112897](https://www.cve.org/CVERecord?id=CVE-2026-112897) | 2026-10-20 | pip | Pillow |  |  |  | @carlini (reporter) |
-| [CVE-2026-112404](https://www.cve.org/CVERecord?id=CVE-2026-112404) | 2026-10-20 | pip | Pillow |  |  |  | @carlini (reporter) \| @Kadd01 (reporter) \| @bryans3c (reporter) |
-| [CVE-2026-112403](https://www.cve.org/CVERecord?id=CVE-2026-112403) | 2026-10-20 | pip | Pillow |  |  |  | @DavidKorczynski (reporter) |
+| [CVE-2026-112902](https://www.cve.org/CVERecord?id=CVE-2026-112902) | 2026-10-21 | pip | Pillow | 8.3 |  |  | @carlini (reporter) |
+| [CVE-2026-112393](https://www.cve.org/CVERecord?id=CVE-2026-112393) | 2026-10-21 | pip | Pillow | 9.2 |  |  | @carlini (reporter) \| @Tomer-PL (reporter) |
+| [CVE-2026-112897](https://www.cve.org/CVERecord?id=CVE-2026-112897) | 2026-10-20 | pip | Pillow | 8.7 |  |  | @carlini (reporter) |
+| [CVE-2026-112404](https://www.cve.org/CVERecord?id=CVE-2026-112404) | 2026-10-20 | pip | Pillow | 8.8 |  |  | @carlini (reporter) \| @Kadd01 (reporter) \| @bryans3c (reporter) |
+| [CVE-2026-112403](https://www.cve.org/CVERecord?id=CVE-2026-112403) | 2026-10-20 | pip | Pillow | 9.2 |  |  | @DavidKorczynski (reporter) |
 | [CVE-2026-112395](https://www.cve.org/CVERecord?id=CVE-2026-112395) | 2026-10-20 | pip | pillow | 6.5 |  |  | @DavidKorczynski (reporter) \| @radarhere (remediation_developer) \| @hugovk (remediation_reviewer) |
 | [CVE-2026-107928](https://www.cve.org/CVERecord?id=CVE-2026-107928) | 2026-10-20 | curl | curl | 8.1 |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-98628](https://www.cve.org/CVERecord?id=CVE-2026-98628) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
@@ -282,6 +282,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-65423](https://www.cve.org/CVERecord?id=CVE-2026-65423) | 2026-07-30 | o6 Automation | open62541 | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) |  | Abhinav Agarwal reported this vulnerability to CISA. \| Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-63559](https://www.cve.org/CVERecord?id=CVE-2026-63559) | 2026-07-30 | o6 Automation | open62541 | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) |  | Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-61487](https://www.cve.org/CVERecord?id=CVE-2026-61487) | 2026-07-28 | Apache Software Foundation | Apache ActiveMQ Broker | 6.5 |  |  | Claude and Ada Logics |
+| [CVE-2026-73499](https://www.cve.org/CVERecord?id=CVE-2026-73499) | 2026-07-24 | go.etcd.io | etcd/v3 |  |  |  | @lobuhi (reporter) \| @AdamKorcz (reporter) |
 | [CVE-2026-66032](https://www.cve.org/CVERecord?id=CVE-2026-66032) | 2026-07-24 | libssh2 | libssh2 | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Q5A1RHS0) |  | VladimirEliTokarev |
 | [CVE-2026-55084](https://www.cve.org/CVERecord?id=CVE-2026-55084) | 2026-07-21 | dhis2 | dhis2-core | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-FW0V6SAJ) |  | Anthropic |
 | [CVE-2026-64624](https://www.cve.org/CVERecord?id=CVE-2026-64624) | 2026-07-20 | FreeRDP | FreeRDP | 8.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TAV704VS) |  | DavidKorczynski |
@@ -341,14 +342,14 @@ This project is maintained on a best effort basis.
 | [CVE-2026-46349](https://www.cve.org/CVERecord?id=CVE-2026-46349) | 2026-06-24 | mastodon | mastodon | 5.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P2DWB2SK) NOT IN CVE TABLE |
 | [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | 2026-06-24 | mastodon | mastodon | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-56132](https://www.cve.org/CVERecord?id=CVE-2026-56132) | 2026-06-19 | libexpat project | libexpat | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3) |  | Anthropic |
-| [CVE-2026-53489](https://www.cve.org/CVERecord?id=CVE-2026-53489) | 2026-06-19 | github.com | containerd/containerd/v2 |  |  |  | @gouldnicholas (reporter) \| @davidrxchester (reporter) \| @sangwon090 (reporter) \| @robertprast (reporter) \| @Plucky923 (reporter) |
+| [CVE-2026-53489](https://www.cve.org/CVERecord?id=CVE-2026-53489) | 2026-06-19 | github.com | containerd/containerd/v2 | 8.2 |  |  | @gouldnicholas (reporter) \| @davidrxchester (reporter) \| @sangwon090 (reporter) \| @robertprast (reporter) \| @Plucky923 (reporter) |
 | [CVE-2026-50195](https://www.cve.org/CVERecord?id=CVE-2026-50195) | 2026-06-19 | github.com | containerd/containerd/v2 | 9.9 |  |  | @hbeberman (reporter) \| @robertprast (reporter) |
-| [CVE-2026-49215](https://www.cve.org/CVERecord?id=CVE-2026-49215) | 2026-06-19 | symfony | ux-live-component |  |  |  | @Kocal (remediation_developer) |
+| [CVE-2026-49215](https://www.cve.org/CVERecord?id=CVE-2026-49215) | 2026-06-19 | symfony | ux-live-component | 2.1 |  |  | @Kocal (remediation_developer) |
 | [CVE-2026-45696](https://www.cve.org/CVERecord?id=CVE-2026-45696) | 2026-06-18 | AcademySoftwareFoundation | openexr | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QQ2P9M9V) |  | Anthropic |
 | [CVE-2026-56326](https://www.cve.org/CVERecord?id=CVE-2026-56326) | 2026-06-16 | npm | nuxt | 6.1 |  |  | @alcls01111 (reporter) \| @cookesan (analyst) \| @sealonohana (analyst) |
-| [CVE-2026-56317](https://www.cve.org/CVERecord?id=CVE-2026-56317) | 2026-06-16 | npm | nuxt |  |  |  | @alcls01111 (reporter) |
+| [CVE-2026-56317](https://www.cve.org/CVERecord?id=CVE-2026-56317) | 2026-06-16 | npm | nuxt | 2.3 |  |  | @alcls01111 (reporter) |
 | [CVE-2026-56301](https://www.cve.org/CVERecord?id=CVE-2026-56301) | 2026-06-16 | npm | nuxt | 5.5 |  |  | @alcls01111 (reporter) |
-| [CVE-2026-53721](https://www.cve.org/CVERecord?id=CVE-2026-53721) | 2026-06-16 | npm | nuxt |  |  |  |  |
+| [CVE-2026-53721](https://www.cve.org/CVERecord?id=CVE-2026-53721) | 2026-06-16 | npm | nuxt | 8.8 |  |  |  |
 | [CVE-2026-48929](https://www.cve.org/CVERecord?id=CVE-2026-48929) | 2026-06-16 | Rocket.Chat | Rocket.Chat | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QXNF2N9K) |  | Anthropic |
 | [CVE-2026-8358](https://www.cve.org/CVERecord?id=CVE-2026-8358) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YN5QG0SH) |  | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
 | [CVE-2026-8357](https://www.cve.org/CVERecord?id=CVE-2026-8357) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-XV1EVAMH) |  | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
@@ -379,10 +380,10 @@ This project is maintained on a best effort basis.
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSDN3H7W) |  | Nicholas Carlini of Anthropic |
 | [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 |  |  | Nicholas Carlini of Anthropic |
 | [CVE-2026-46227](https://www.cve.org/CVERecord?id=CVE-2026-46227) | 2026-05-28 | Linux | Linux | 7.8 |  |  | Signed-off-by: Ben Morris <bmorris@anthropic.com> |
-| [CVE-2026-45074](https://www.cve.org/CVERecord?id=CVE-2026-45074) | 2026-05-27 | symfony | security-http |  |  |  | @nicolas-grekas (remediation_developer) |
-| [CVE-2026-45071](https://www.cve.org/CVERecord?id=CVE-2026-45071) | 2026-05-27 | symfony | dom-crawler |  |  |  |  |
-| [CVE-2026-45066](https://www.cve.org/CVERecord?id=CVE-2026-45066) | 2026-05-27 | symfony | html-sanitizer |  |  |  |  |
-| [CVE-2026-45063](https://www.cve.org/CVERecord?id=CVE-2026-45063) | 2026-05-27 | symfony | security-http |  |  |  |  |
+| [CVE-2026-45074](https://www.cve.org/CVERecord?id=CVE-2026-45074) | 2026-05-27 | symfony | security-http | 7.6 |  |  | @nicolas-grekas (remediation_developer) |
+| [CVE-2026-45071](https://www.cve.org/CVERecord?id=CVE-2026-45071) | 2026-05-27 | symfony | dom-crawler | 8.7 |  |  |  |
+| [CVE-2026-45066](https://www.cve.org/CVERecord?id=CVE-2026-45066) | 2026-05-27 | symfony | html-sanitizer | 2.3 |  |  |  |
+| [CVE-2026-45063](https://www.cve.org/CVERecord?id=CVE-2026-45063) | 2026-05-27 | symfony | security-http | 9.1 |  |  |  |
 | [CVE-2026-42789](https://www.cve.org/CVERecord?id=CVE-2026-42789) | 2026-05-27 | Erlang | OTP | 7.0 |  |  | John Downey \| Ingela Anderton Andin \| Jakub Witczak \| Ada Logics |
 | [CVE-2026-48896](https://www.cve.org/CVERecord?id=CVE-2026-48896) | 2026-05-26 | Joomla! | Joomla! CMS | 8.2 |  |  | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-41401](https://www.cve.org/CVERecord?id=CVE-2026-41401) | 2026-05-26 | libyang | libyang | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TZQ1KH7E) |  | https://www.vulncheck.com/advisories/libyang-heap-use-after-free-write-in-xml-metadata-parsing |
@@ -390,9 +391,9 @@ This project is maintained on a best effort basis.
 | [CVE-2026-40383](https://www.cve.org/CVERecord?id=CVE-2026-40383) | 2026-05-26 | Joomla! | Joomla! CMS | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-HHD77M82) |  | Doyensec in collaboration with Claude and Anthropic Research |
 | [CVE-2026-40034](https://www.cve.org/CVERecord?id=CVE-2026-40034) | 2026-05-26 | gitoxide | gitoxide | 7.3 |  |  | https://www.vulncheck.com/advisories/gitoxide-command-injection-via-partial-gitmodules-override-in-gix-submodule |
 | [CVE-2026-40033](https://www.cve.org/CVERecord?id=CVE-2026-40033) | 2026-05-26 | FreeRDP | FreeRDP | 8.6 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ) |  | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
-| [CVE-2026-46640](https://www.cve.org/CVERecord?id=CVE-2026-46640) | 2026-05-21 | twig | twig |  |  |  | @vladko312 (analyst) |
-| [CVE-2026-46637](https://www.cve.org/CVERecord?id=CVE-2026-46637) | 2026-05-21 | twig | markdown-extra |  |  |  |  |
-| [CVE-2026-46629](https://www.cve.org/CVERecord?id=CVE-2026-46629) | 2026-05-21 | twig | intl-extra |  |  |  |  |
+| [CVE-2026-46640](https://www.cve.org/CVERecord?id=CVE-2026-46640) | 2026-05-21 | twig | twig | 8.7 |  |  | @vladko312 (analyst) |
+| [CVE-2026-46637](https://www.cve.org/CVERecord?id=CVE-2026-46637) | 2026-05-21 | twig | markdown-extra | 5.1 |  |  |  |
+| [CVE-2026-46629](https://www.cve.org/CVERecord?id=CVE-2026-46629) | 2026-05-21 | twig | intl-extra | 5.3 |  |  |  |
 | [CVE-2026-44212](https://www.cve.org/CVERecord?id=CVE-2026-44212) | 2026-05-14 | PrestaShop | PrestaShop | 7.8 |  |  | Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research. |
 | [CVE-2026-6479](https://www.cve.org/CVERecord?id=CVE-2026-6479) | 2026-05-14 | PostgreSQL | PostgreSQL | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-CJQWKW82) |  | The PostgreSQL project thanks Calif.io in collaboration with Claude and Anthropic Research for reporting this problem. |
 | [CVE-2026-44471](https://www.cve.org/CVERecord?id=CVE-2026-44471) | 2026-05-13 | gitoxide | gitoxide | 7.8 |  |  | This vulnerability was found by AI (specifically, Claude Mythos) as part of Project Glasswing. I have verified this and most of this advisory has been written by my probably-inferior human brain. |
