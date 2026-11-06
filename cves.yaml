@@ -3129,6 +3129,18 @@
   ghsa_link: https://github.com/advisories/GHSA-rgh6-rfwx-v388
   notes: null
   auto_discovered: true
+- cve: CVE-2026-50195
+  ghsa: GHSA-cvxm-645q-p574
+  date: '2026-06-19'
+  vendor: github.com
+  product: containerd/containerd/v2
+  cvss: 9.9
+  credit: '@hbeberman (reporter) | @robertprast (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-50195
+  ghsa_link: https://github.com/advisories/GHSA-cvxm-645q-p574
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-49215
   ghsa: GHSA-4m4j-hmqq-3gxm
   date: '2026-06-19'
