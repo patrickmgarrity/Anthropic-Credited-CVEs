@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 383**
+**CURRENT CVE COUNT: 384**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -188,6 +188,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-18355](https://www.cve.org/CVERecord?id=CVE-2026-18355) | 2026-09-07 | Red Hat | Red Hat Directory Server 11 | 7.5 |  |  | Red Hat would like to thank Adam Korczynski (Ada Logics), Arthur Chan (Ada Logics), David Korczynski (Ada Logics), and Team (Anthropic) for reporting this issue. |
 | [CVE-2026-14957](https://www.cve.org/CVERecord?id=CVE-2026-14957) | 2026-09-02 | The Libreswan Project | libreswan | 7.5 |  |  | Claude (Anthropic) \| Guillaume Winter |
 | [CVE-2026-80590](https://www.cve.org/CVERecord?id=CVE-2026-80590) | 2026-08-28 | Linux | Linux | 8.6 |  |  | Signed-off-by: Xinyang Ge <xinyang@anthropic.com> |
+| [GHSA-8fxq-53rx-ph5f](https://github.com/advisories/GHSA-8fxq-53rx-ph5f) | 2026-08-20 | github.com | coder/coder/v2 | 3.7 |  |  |  |
 | [GHSA-h58c-xccx-75m3](https://github.com/advisories/GHSA-h58c-xccx-75m3) | 2026-08-20 | github.com | coder/coder/v2 | 3.4 |  |  |  |
 | [CVE-2026-76891](https://www.cve.org/CVERecord?id=CVE-2026-76891) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-27KVBTTP) |  | Claude and Ada Logics |
 | [CVE-2026-76890](https://www.cve.org/CVERecord?id=CVE-2026-76890) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GACTPNVK) |  | Claude and Ada Logics |
