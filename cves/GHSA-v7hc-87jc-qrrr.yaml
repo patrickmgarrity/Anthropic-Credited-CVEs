@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-v7hc-87jc-qrrr
+date: '2023-12-06'
+vendor: knative.dev
+product: eventing-github
+cvss: null
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-v7hc-87jc-qrrr
+notes: null
+auto_discovered: true
