@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 395**
+**CURRENT CVE COUNT: 396**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -77,6 +77,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-113720](https://www.cve.org/CVERecord?id=CVE-2026-113720) | 2026-10-23 | pip | virtualenv |  |  |  |  |
 | [CVE-2026-113718](https://www.cve.org/CVERecord?id=CVE-2026-113718) | 2026-10-23 | pip | virtualenv |  |  |  |  |
 | [CVE-2026-113715](https://www.cve.org/CVERecord?id=CVE-2026-113715) | 2026-10-23 | pip | virtualenv |  |  |  |  |
+| [CVE-2026-113714](https://www.cve.org/CVERecord?id=CVE-2026-113714) | 2026-10-23 | pip | virtualenv |  |  |  |  |
 | [CVE-2026-112906](https://www.cve.org/CVERecord?id=CVE-2026-112906) | 2026-10-23 | pip | filelock | 4.7 |  |  |  |
 | [CVE-2026-113721](https://www.cve.org/CVERecord?id=CVE-2026-113721) | 2026-10-22 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-97631](https://www.cve.org/CVERecord?id=CVE-2026-97631) | 2026-10-22 | TianoCore | EDK2 | 9.5 |  |  | Alex Matrosov (Anthropic) \| Dan Holmes-Mitra (Google) |
