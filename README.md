@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 433**
+**CVEs: 434**
 
 **GHSAs w/o CVE: 3**
 
@@ -404,6 +404,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-40033](https://www.cve.org/CVERecord?id=CVE-2026-40033) | 2026-05-26 | FreeRDP | FreeRDP | 8.6 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ) |  | https://www.vulncheck.com/advisories/freerdp-heap-buffer-overflow-in-gdi-cachetosurface-via-rectangle-validation-bypass |
 | [CVE-2026-46640](https://www.cve.org/CVERecord?id=CVE-2026-46640) | 2026-05-21 | twig | twig | 8.7 |  |  | @vladko312 (analyst) |
 | [CVE-2026-46637](https://www.cve.org/CVERecord?id=CVE-2026-46637) | 2026-05-21 | twig | markdown-extra | 5.1 |  |  |  |
+| [CVE-2026-46635](https://www.cve.org/CVERecord?id=CVE-2026-46635) | 2026-05-21 | twig | twig |  |  |  |  |
 | [CVE-2026-46634](https://www.cve.org/CVERecord?id=CVE-2026-46634) | 2026-05-21 | twig | twig |  |  |  |  |
 | [CVE-2026-46629](https://www.cve.org/CVERecord?id=CVE-2026-46629) | 2026-05-21 | twig | intl-extra | 5.3 |  |  |  |
 | [CVE-2026-44212](https://www.cve.org/CVERecord?id=CVE-2026-44212) | 2026-05-14 | PrestaShop | PrestaShop | 7.8 |  |  | Reported by Savio at Doyensec (anthropic@doyensec.com) in collaboration with Anthropic Research. |
