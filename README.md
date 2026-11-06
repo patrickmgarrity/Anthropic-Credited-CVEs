@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 419**
+**CURRENT CVE COUNT: 420**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -304,6 +304,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-55431](https://www.cve.org/CVERecord?id=CVE-2026-55431) | 2026-07-06 | github.com | coder/coder/v2 | 7.7 |  |  |  |
 | [CVE-2026-55430](https://www.cve.org/CVERecord?id=CVE-2026-55430) | 2026-07-06 | github.com | coder/coder/v2 | 5.8 |  |  |  |
 | [CVE-2026-55429](https://www.cve.org/CVERecord?id=CVE-2026-55429) | 2026-07-06 | github.com | coder/coder/v2 | 8.7 |  |  |  |
+| [CVE-2026-55428](https://www.cve.org/CVERecord?id=CVE-2026-55428) | 2026-07-06 | github.com | coder/coder/v2 | 8.2 |  |  |  |
 | [CVE-2026-55427](https://www.cve.org/CVERecord?id=CVE-2026-55427) | 2026-07-06 | github.com | coder/coder/v2 | 8.3 |  |  |  |
 | [CVE-2026-55078](https://www.cve.org/CVERecord?id=CVE-2026-55078) | 2026-07-06 | github.com | coder/coder/v2 | 6.5 |  |  |  |
 | [CVE-2026-55077](https://www.cve.org/CVERecord?id=CVE-2026-55077) | 2026-07-06 | github.com | coder/coder/v2 | 7.2 |  |  |  |
