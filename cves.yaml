@@ -3433,6 +3433,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-45063
+  ghsa: GHSA-ph86-p8f6-f9r2
+  date: '2026-05-27'
+  vendor: symfony
+  product: security-http
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45063
+  ghsa_link: https://github.com/advisories/GHSA-ph86-p8f6-f9r2
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-42789
   ghsa: null
   date: '2026-05-27'
