@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 367**
+**CURRENT CVE COUNT: 368**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -284,6 +284,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-46348](https://www.cve.org/CVERecord?id=CVE-2026-46348) | 2026-06-24 | mastodon | mastodon | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6DSMTXZ8) NOT IN CVE TABLE |
 | [CVE-2026-56132](https://www.cve.org/CVERecord?id=CVE-2026-56132) | 2026-06-19 | libexpat project | libexpat | 6.9 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3) |  | Anthropic |
 | [CVE-2026-45696](https://www.cve.org/CVERecord?id=CVE-2026-45696) | 2026-06-18 | AcademySoftwareFoundation | openexr | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QQ2P9M9V) |  | Anthropic |
+| [CVE-2026-53721](https://www.cve.org/CVERecord?id=CVE-2026-53721) | 2026-06-16 | npm | nuxt |  |  |  |  |
 | [CVE-2026-48929](https://www.cve.org/CVERecord?id=CVE-2026-48929) | 2026-06-16 | Rocket.Chat | Rocket.Chat | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QXNF2N9K) |  | Anthropic |
 | [CVE-2026-8358](https://www.cve.org/CVERecord?id=CVE-2026-8358) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YN5QG0SH) |  | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
 | [CVE-2026-8357](https://www.cve.org/CVERecord?id=CVE-2026-8357) | 2026-06-15 | The Document Foundation | LibreOffice | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-XV1EVAMH) |  | Anthropic (automated discovery using Claude) \| Arthur Chan of Ada Logics (validation and reporting) |
