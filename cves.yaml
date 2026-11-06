@@ -753,6 +753,30 @@
   ghsa_link: https://github.com/advisories/GHSA-332p-7hrc-92wf
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112897
+  ghsa: GHSA-q45j-58j2-45rg
+  date: '2026-10-20'
+  vendor: pip
+  product: Pillow
+  cvss: null
+  credit: '@carlini (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112897
+  ghsa_link: https://github.com/advisories/GHSA-q45j-58j2-45rg
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-112404
+  ghsa: GHSA-c6hw-5grf-ff96
+  date: '2026-10-20'
+  vendor: pip
+  product: Pillow
+  cvss: null
+  credit: '@carlini (reporter) | @Kadd01 (reporter) | @bryans3c (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112404
+  ghsa_link: https://github.com/advisories/GHSA-c6hw-5grf-ff96
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-107928
   ghsa: null
   date: '2026-10-20'
@@ -5150,7 +5174,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-32267
-  ghsa: null
+  ghsa: GHSA-cc7p-2j3x-x7xf
   date: '2026-03-16'
   vendor: craftcms
   product: cms
@@ -5159,7 +5183,7 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZQ8AY22X)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-32267
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-cc7p-2j3x-x7xf
   notes: null
   auto_discovered: false
 - cve: CVE-2026-28208
