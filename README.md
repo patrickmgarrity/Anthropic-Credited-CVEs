@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 381**
+**CURRENT CVE COUNT: 382**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -295,6 +295,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-50195](https://www.cve.org/CVERecord?id=CVE-2026-50195) | 2026-06-19 | github.com | containerd/containerd/v2 | 9.9 |  |  | @hbeberman (reporter) \| @robertprast (reporter) |
 | [CVE-2026-49215](https://www.cve.org/CVERecord?id=CVE-2026-49215) | 2026-06-19 | symfony | ux-live-component |  |  |  | @Kocal (remediation_developer) |
 | [CVE-2026-45696](https://www.cve.org/CVERecord?id=CVE-2026-45696) | 2026-06-18 | AcademySoftwareFoundation | openexr | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QQ2P9M9V) |  | Anthropic |
+| [CVE-2026-56326](https://www.cve.org/CVERecord?id=CVE-2026-56326) | 2026-06-16 | npm | nuxt | 6.1 |  |  | @alcls01111 (reporter) \| @cookesan (analyst) \| @sealonohana (analyst) |
 | [CVE-2026-56317](https://www.cve.org/CVERecord?id=CVE-2026-56317) | 2026-06-16 | npm | nuxt |  |  |  | @alcls01111 (reporter) |
 | [CVE-2026-56301](https://www.cve.org/CVERecord?id=CVE-2026-56301) | 2026-06-16 | npm | nuxt | 5.5 |  |  | @alcls01111 (reporter) |
 | [CVE-2026-53721](https://www.cve.org/CVERecord?id=CVE-2026-53721) | 2026-06-16 | npm | nuxt |  |  |  |  |
