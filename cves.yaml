@@ -3433,6 +3433,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-45071
+  ghsa: GHSA-x6g4-fwcc-jj8w
+  date: '2026-05-27'
+  vendor: symfony
+  product: dom-crawler
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45071
+  ghsa_link: https://github.com/advisories/GHSA-x6g4-fwcc-jj8w
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-45066
   ghsa: GHSA-qc95-4862-92fh
   date: '2026-05-27'
