@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-mpwr-8vm7-h73f
+date: '2026-08-17'
+vendor: software.sslmate.com
+product: src/go-pkcs12
+cvss: null
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-mpwr-8vm7-h73f
+notes: null
+auto_discovered: true
