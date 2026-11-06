@@ -5,7 +5,7 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CVEs: 437**
 
-**GHSAs w/o CVE: 3**
+**GHSAs w/o CVE: 4**
 
 **Advisories w/o GHSA/CVE: 120**
 
@@ -338,6 +338,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-20215](https://www.cve.org/CVERecord?id=CVE-2026-20215) | 2026-07-01 | Cisco | Cisco Secure Endpoint | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-8DRZW7VM) |  | Anthropic |
 | [CVE-2026-20214](https://www.cve.org/CVERecord?id=CVE-2026-20214) | 2026-07-01 | Cisco | Cisco Secure Endpoint | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Z477W54M) |  | Anthropic |
 | [CVE-2026-20213](https://www.cve.org/CVERecord?id=CVE-2026-20213) | 2026-07-01 | Cisco | Cisco Secure Endpoint | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VVPEMVDE) |  | Anthropic |
+| [GHSA-2wwr-9x6f-88gp](https://github.com/advisories/GHSA-2wwr-9x6f-88gp) | 2026-07-01 | easycorp | easyadmin-bundle | 5.3 |  |  |  |
 | [CVE-2026-43715](https://www.cve.org/CVERecord?id=CVE-2026-43715) | 2026-06-29 | Apple | IOS | 8.8 |  |  | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-13595](https://www.cve.org/CVERecord?id=CVE-2026-13595) | 2026-06-29 | Red Hat | Red Hat Hardened Images | 6.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZRDQDR79) |  | Red Hat would like to thank Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) for reporting this issue. |
 | [CVE-2026-53283](https://www.cve.org/CVERecord?id=CVE-2026-53283) | 2026-06-26 | Linux | Linux | 5.5 |  |  | Reported-by: Ziyuan Chen <zc@anthropic.com> \| Tested-by: Ziyuan Chen <zc@anthropic.com> |
