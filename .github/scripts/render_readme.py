@@ -39,11 +39,11 @@ DEFAULT_TEMPLATE = """\
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: {count}**
+**CVEs: {count}**
 
-**GHSA-only Advisories (no CVE): {ghsa_only}**
+**GHSAs w/o CVE: {ghsa_only}**
 
-**Fixed Anthropic Findings w/o CVE: {fixed_no_cve}**
+**Advisories w/o GHSA/CVE: {no_id}**
 
 **Findings Withdrawn by Anthropic: {withdrawn}**
 
@@ -497,6 +497,8 @@ def render_readme(template: str, entries: list[dict],
         "{fixed_no_cve}", _stat(stats, "fixed_findings_without_cve"))
     template = template.replace(
         "{withdrawn}", _stat(stats, "findings_withdrawn"))
+    template = template.replace(
+        "{no_id}", _stat(stats, "findings_without_cve_or_ghsa"))
 
     if MARKER_BEGIN in template and MARKER_END in template:
         pattern = re.compile(

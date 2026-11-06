@@ -366,12 +366,21 @@ def main() -> int:
     fixed_no_cve = sum(1 for r in ledger
                        if r.get("status") == "fixed" and not r.get("cve_ids"))
     withdrawn = sum(1 for r in ledger if r.get("withdrawn") is True)
+    # Revealed findings with neither a CVE nor a GHSA (README "Advisories w/o
+    # GHSA/CVE"); withdrawn and merged findings are excluded.
+    no_id = sum(1 for r in ledger
+                if r.get("reveal_tier") == "revealed" and r.get("ant_id")
+                and r.get("status") not in SKIP_GHSA_STATUSES
+                and not r.get("withdrawn")
+                and not r.get("cve_ids") and not r.get("ghsa_ids"))
     STATS_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATS_PATH.write_text(json.dumps({
         "fixed_findings_without_cve": fixed_no_cve,
         "findings_withdrawn": withdrawn,
+        "findings_without_cve_or_ghsa": no_id,
     }, indent=2) + "\n")
-    print(f"  {fixed_no_cve} fixed finding(s) without a CVE, "
+    print(f"  {no_id} revealed finding(s) without a CVE or GHSA, "
+          f"{fixed_no_cve} fixed finding(s) without a CVE, "
           f"{withdrawn} withdrawn (wrote {STATS_PATH})")
 
     added = 0
