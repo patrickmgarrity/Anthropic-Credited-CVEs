@@ -1,4 +1,5 @@
 {
   "fixed_findings_without_cve": 127,
-  "findings_withdrawn": 415
+  "findings_withdrawn": 415,
+  "findings_without_cve_or_ghsa": 120
 }

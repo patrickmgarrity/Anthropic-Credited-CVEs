@@ -88,6 +88,8 @@ jobs:
         # authoritative disclosure record — no keyword false positives — so this
         # writes new records + ledger links straight to cves/ and commits to
         # main directly, unlike the PR-gated keyword scanners above.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GHSA lookups (1000/hr vs 60/hr anonymous)
         run: python .github/scripts/scan_ledger.py
 
       - name: Commit ledger sync (if any)
