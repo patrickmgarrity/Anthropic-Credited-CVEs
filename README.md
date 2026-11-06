@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 359**
+**CURRENT CVE COUNT: 360**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -47,6 +47,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-76181](https://www.cve.org/CVERecord?id=CVE-2026-76181) | 2026-11-05 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Anonymous working with TrendAI Zero Day Initiative \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-54914](https://www.cve.org/CVERecord?id=CVE-2026-54914) | 2026-11-05 | bytecodealliance | wasm-micro-runtime | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6) |  | Anthropic |
 | [CVE-2026-121751](https://www.cve.org/CVERecord?id=CVE-2026-121751) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerabilities ANT-2026-0GXXE91V and ANT-2026-31ZIEY85 \| Adel Assakaf (https://github.com/assakafpix) \| Jordan Harband (https://github.com/ljharb) |
 | [CVE-2026-121750](https://www.cve.org/CVERecord?id=CVE-2026-121750) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-7NCT51FE \| Jordan Harband (https://github.com/ljharb) |
@@ -68,7 +69,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-109141](https://www.cve.org/CVERecord?id=CVE-2026-109141) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-109140](https://www.cve.org/CVERecord?id=CVE-2026-109140) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics, Aymen Benlamari |
 | [CVE-2026-119378](https://www.cve.org/CVERecord?id=CVE-2026-119378) | 2026-10-30 | SQLite | SQLite | 6.8 |  |  | Claude and Ada Logics \| Abraxas Labs \| Dan Kennedy |
-| [CVE-2026-112375](https://www.cve.org/CVERecord?id=CVE-2026-112375) | 2026-10-28 | Apache Software Foundation | Apache Kafka |  |  |  | Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research \| OpenAI Codex Security - Amy Burnett and Khai Tran \| Mickael Maison <mickael.maison@gmail.com> \| Manikumar Reddy <manikumar.reddy@gmail.com> \| Chia-Ping Tsai <chia7712@gmail.com> |
+| [CVE-2026-112375](https://www.cve.org/CVERecord?id=CVE-2026-112375) | 2026-10-28 | Apache Software Foundation | Apache Kafka | 6.5 |  |  | Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research \| OpenAI Codex Security - Amy Burnett and Khai Tran \| Mickael Maison <mickael.maison@gmail.com> \| Manikumar Reddy <manikumar.reddy@gmail.com> \| Chia-Ping Tsai <chia7712@gmail.com> |
 | [CVE-2026-77172](https://www.cve.org/CVERecord?id=CVE-2026-77172) | 2026-10-27 | Nextcloud | Server | 5.3 |  |  | Nicholas Carlini (npc) |
 | [CVE-2026-115933](https://www.cve.org/CVERecord?id=CVE-2026-115933) | 2026-10-24 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-115932](https://www.cve.org/CVERecord?id=CVE-2026-115932) | 2026-10-24 | GitroomHQ | postiz-app | 9.6 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |

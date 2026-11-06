@@ -1,3 +1,18 @@
+- cve: CVE-2026-76181
+  ghsa: null
+  date: '2026-11-05'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Claude, found by Anthropic using agents to study the security of open-source projects | Ada Logics,
+    validating and reporting | Anonymous working with TrendAI Zero Day Initiative | Caolán McNamara of
+    Collabora Productivity
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-76181
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-54914
   ghsa: null
   date: '2026-11-05'
@@ -284,7 +299,7 @@
   date: '2026-10-28'
   vendor: Apache Software Foundation
   product: Apache Kafka
-  cvss: null
+  cvss: 6.5
   credit: >-
     Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research | OpenAI Codex Security
     - Amy Burnett and Khai Tran | Mickael Maison <mickael.maison@gmail.com> | Manikumar Reddy <manikumar.reddy@gmail.com>
