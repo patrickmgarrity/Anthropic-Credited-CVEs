@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 378**
+**CURRENT CVE COUNT: 379**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -193,6 +193,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-76888](https://www.cve.org/CVERecord?id=CVE-2026-76888) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-05VXN1Y6) |  | Claude and Ada Logics |
 | [CVE-2026-63652](https://www.cve.org/CVERecord?id=CVE-2026-63652) | 2026-08-19 | FreeRDP | FreeRDP | 7.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZPF40VKS) |  | Anthropic |
 | [CVE-2026-63633](https://www.cve.org/CVERecord?id=CVE-2026-63633) | 2026-08-19 | FreeRDP | FreeRDP | 7.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EWM7B5QP) |  | Anthropic |
+| [GHSA-mpwr-8vm7-h73f](https://github.com/advisories/GHSA-mpwr-8vm7-h73f) | 2026-08-17 | software.sslmate.com | src/go-pkcs12 |  |  |  |  |
 | [CVE-2026-13002](https://www.cve.org/CVERecord?id=CVE-2026-13002) | 2026-08-14 | Red Hat | Red Hat Enterprise Linux 10 | 4.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP) |  | Red Hat would like to thank Lennart Espe for reporting this issue. |
 | [CVE-2026-58435](https://www.cve.org/CVERecord?id=CVE-2026-58435) | 2026-08-13 | Gitea | Gitea Open Source Git Server | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0) |  | adrian-doyensec |
 | [CVE-2026-19694](https://www.cve.org/CVERecord?id=CVE-2026-19694) | 2026-08-13 | Wireshark Foundation | Wireshark | 4.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EKGJXN5A) |  | Claude and Ada Logics |
