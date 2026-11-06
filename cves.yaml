@@ -513,6 +513,18 @@
   ghsa_link: https://github.com/advisories/GHSA-394h-qwmc-48pf
   notes: null
   auto_discovered: true
+- cve: CVE-2026-113717
+  ghsa: GHSA-cx28-75q4-x26q
+  date: '2026-10-23'
+  vendor: pip
+  product: virtualenv
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113717
+  ghsa_link: https://github.com/advisories/GHSA-cx28-75q4-x26q
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-113715
   ghsa: GHSA-qmx5-4p3x-wvqf
   date: '2026-10-23'
