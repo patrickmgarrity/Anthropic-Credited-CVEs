@@ -3124,7 +3124,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-46354
-  ghsa: null
+  ghsa: GHSA-6x44-w3xg-hqqf
   date: '2026-07-07'
   vendor: coder
   product: coder
@@ -3134,7 +3134,7 @@
     disclosing this issue!
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46354
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-6x44-w3xg-hqqf
   notes: null
 - cve: CVE-2026-45796
   ghsa: GHSA-686c-7vgv-v3fx
