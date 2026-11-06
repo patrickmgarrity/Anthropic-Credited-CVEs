@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 416**
+**CURRENT CVE COUNT: 419**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -100,6 +100,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-112906](https://www.cve.org/CVERecord?id=CVE-2026-112906) | 2026-10-23 | pip | filelock | 4.7 |  |  |  |
 | [CVE-2026-113721](https://www.cve.org/CVERecord?id=CVE-2026-113721) | 2026-10-22 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-97631](https://www.cve.org/CVERecord?id=CVE-2026-97631) | 2026-10-22 | TianoCore | EDK2 | 9.5 |  |  | Alex Matrosov (Anthropic) \| Dan Holmes-Mitra (Google) |
+| [CVE-2026-113724](https://www.cve.org/CVERecord?id=CVE-2026-113724) | 2026-10-21 | pip | virtualenv | 4.5 |  |  |  |
+| [CVE-2026-113722](https://www.cve.org/CVERecord?id=CVE-2026-113722) | 2026-10-21 | pip | virtualenv | 7.8 |  |  |  |
 | [CVE-2026-113716](https://www.cve.org/CVERecord?id=CVE-2026-113716) | 2026-10-21 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-107928](https://www.cve.org/CVERecord?id=CVE-2026-107928) | 2026-10-20 | curl | curl | 8.1 |  |  | Luna with Claude \| Anthropic \| Stefan Eissing |
 | [CVE-2026-98628](https://www.cve.org/CVERecord?id=CVE-2026-98628) | 2026-10-18 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
@@ -300,6 +302,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-55433](https://www.cve.org/CVERecord?id=CVE-2026-55433) | 2026-07-06 | github.com | coder/coder/v2 | 5.4 |  |  |  |
 | [CVE-2026-55432](https://www.cve.org/CVERecord?id=CVE-2026-55432) | 2026-07-06 | github.com | coder/coder/v2 | 5.4 |  |  |  |
 | [CVE-2026-55431](https://www.cve.org/CVERecord?id=CVE-2026-55431) | 2026-07-06 | github.com | coder/coder/v2 | 7.7 |  |  |  |
+| [CVE-2026-55430](https://www.cve.org/CVERecord?id=CVE-2026-55430) | 2026-07-06 | github.com | coder/coder/v2 | 5.8 |  |  |  |
 | [CVE-2026-55429](https://www.cve.org/CVERecord?id=CVE-2026-55429) | 2026-07-06 | github.com | coder/coder/v2 | 8.7 |  |  |  |
 | [CVE-2026-55427](https://www.cve.org/CVERecord?id=CVE-2026-55427) | 2026-07-06 | github.com | coder/coder/v2 | 8.3 |  |  |  |
 | [CVE-2026-55078](https://www.cve.org/CVERecord?id=CVE-2026-55078) | 2026-07-06 | github.com | coder/coder/v2 | 6.5 |  |  |  |
