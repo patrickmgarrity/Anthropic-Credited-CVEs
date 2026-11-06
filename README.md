@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 365**
+**CURRENT CVE COUNT: 366**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -314,6 +314,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-40528](https://www.cve.org/CVERecord?id=CVE-2026-40528) | 2026-05-29 | OpenSC | OpenSC | 1.0 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSDN3H7W) |  | Nicholas Carlini of Anthropic |
 | [CVE-2026-40510](https://www.cve.org/CVERecord?id=CVE-2026-40510) | 2026-05-29 | OpenSC | OpenSC | 1.0 |  |  | Nicholas Carlini of Anthropic |
 | [CVE-2026-46227](https://www.cve.org/CVERecord?id=CVE-2026-46227) | 2026-05-28 | Linux | Linux | 7.8 |  |  | Signed-off-by: Ben Morris <bmorris@anthropic.com> |
+| [CVE-2026-45074](https://www.cve.org/CVERecord?id=CVE-2026-45074) | 2026-05-27 | symfony | security-http |  |  |  | @nicolas-grekas (remediation_developer) |
 | [CVE-2026-45071](https://www.cve.org/CVERecord?id=CVE-2026-45071) | 2026-05-27 | symfony | dom-crawler |  |  |  |  |
 | [CVE-2026-45066](https://www.cve.org/CVERecord?id=CVE-2026-45066) | 2026-05-27 | symfony | html-sanitizer |  |  |  |  |
 | [CVE-2026-45063](https://www.cve.org/CVERecord?id=CVE-2026-45063) | 2026-05-27 | symfony | security-http |  |  |  |  |
