@@ -2776,6 +2776,18 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45796
   ghsa_link: https://github.com/advisories/GHSA-686c-7vgv-v3fx
+- cve: CVE-2026-55437
+  ghsa: GHSA-7qw2-f75v-62f7
+  date: '2026-07-06'
+  vendor: github.com
+  product: coder/coder/v2
+  cvss: 5.4
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-55437
+  ghsa_link: https://github.com/advisories/GHSA-7qw2-f75v-62f7
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-55431
   ghsa: GHSA-v54h-cp2w-9x4g
   date: '2026-07-06'
