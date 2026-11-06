@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-6g25-pc82-vfwp
+date: '2026-03-03'
+vendor: npm
+product: openclaw
+cvss: null
+credit: '@zdi-disclosures (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-6g25-pc82-vfwp
+notes: null
+auto_discovered: true
