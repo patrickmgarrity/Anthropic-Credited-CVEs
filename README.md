@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 424**
+**CURRENT CVE COUNT: 425**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -69,6 +69,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-109141](https://www.cve.org/CVERecord?id=CVE-2026-109141) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-109140](https://www.cve.org/CVERecord?id=CVE-2026-109140) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics, Aymen Benlamari |
 | [CVE-2026-119378](https://www.cve.org/CVERecord?id=CVE-2026-119378) | 2026-10-30 | SQLite | SQLite | 6.8 |  |  | Claude and Ada Logics \| Abraxas Labs \| Dan Kennedy |
+| [CVE-2026-118782](https://www.cve.org/CVERecord?id=CVE-2026-118782) | 2026-10-30 | npm | node-forge | 7.5 |  |  |  |
 | [CVE-2026-112941](https://www.cve.org/CVERecord?id=CVE-2026-112941) | 2026-10-28 | pip | filelock | 3.3 |  |  |  |
 | [CVE-2026-112939](https://www.cve.org/CVERecord?id=CVE-2026-112939) | 2026-10-28 | pip | filelock | 4.7 |  |  |  |
 | [CVE-2026-112938](https://www.cve.org/CVERecord?id=CVE-2026-112938) | 2026-10-28 | pip | filelock | 5.8 |  |  |  |
