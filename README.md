@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 431**
+**CVEs: 432**
 
 **GHSAs w/o CVE: 3**
 
@@ -57,6 +57,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-107124](https://www.cve.org/CVERecord?id=CVE-2026-107124) | 2026-11-06 | Red Hat | Red Hat Build of Keycloak | 6.4 |  |  | Red Hat would like to thank Adam Korczynski (Ada Logics Ltd) and Anthropic for reporting this issue. |
 | [CVE-2026-76181](https://www.cve.org/CVERecord?id=CVE-2026-76181) | 2026-11-05 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Anonymous working with TrendAI Zero Day Initiative \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-54914](https://www.cve.org/CVERecord?id=CVE-2026-54914) | 2026-11-05 | bytecodealliance | wasm-micro-runtime | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6) |  | Anthropic |
 | [CVE-2026-121751](https://www.cve.org/CVERecord?id=CVE-2026-121751) | 2026-11-04 | nvm-sh | nvm | 2.1 |  |  | Anthropic's OSS Scanner, as vulnerabilities ANT-2026-0GXXE91V and ANT-2026-31ZIEY85 \| Adel Assakaf (https://github.com/assakafpix) \| Jordan Harband (https://github.com/ljharb) |
@@ -292,7 +293,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-65423](https://www.cve.org/CVERecord?id=CVE-2026-65423) | 2026-07-30 | o6 Automation | open62541 | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) |  | Abhinav Agarwal reported this vulnerability to CISA. \| Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-63559](https://www.cve.org/CVERecord?id=CVE-2026-63559) | 2026-07-30 | o6 Automation | open62541 | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PJV7Z0AR) |  | Asher Davila and Malav Vyas of Palo Alto Networks reported this vulnerability to CISA. |
 | [CVE-2026-61487](https://www.cve.org/CVERecord?id=CVE-2026-61487) | 2026-07-28 | Apache Software Foundation | Apache ActiveMQ Broker | 6.5 |  |  | Claude and Ada Logics |
-| [CVE-2026-73499](https://www.cve.org/CVERecord?id=CVE-2026-73499) | 2026-07-24 | go.etcd.io | etcd/v3 |  |  |  | @lobuhi (reporter) \| @AdamKorcz (reporter) |
+| [CVE-2026-73499](https://www.cve.org/CVERecord?id=CVE-2026-73499) | 2026-07-24 | go.etcd.io | etcd/v3 | 7.1 |  |  | @lobuhi (reporter) \| @AdamKorcz (reporter) |
 | [CVE-2026-66032](https://www.cve.org/CVERecord?id=CVE-2026-66032) | 2026-07-24 | libssh2 | libssh2 | 8.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Q5A1RHS0) |  | VladimirEliTokarev |
 | [CVE-2026-55084](https://www.cve.org/CVERecord?id=CVE-2026-55084) | 2026-07-21 | dhis2 | dhis2-core | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-FW0V6SAJ) |  | Anthropic |
 | [CVE-2026-64624](https://www.cve.org/CVERecord?id=CVE-2026-64624) | 2026-07-20 | FreeRDP | FreeRDP | 8.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-TAV704VS) |  | DavidKorczynski |

@@ -1,3 +1,16 @@
+- cve: CVE-2026-107124
+  ghsa: null
+  date: '2026-11-06'
+  vendor: Red Hat
+  product: Red Hat Build of Keycloak
+  cvss: 6.4
+  credit: >-
+    Red Hat would like to thank Adam Korczynski (Ada Logics Ltd) and Anthropic for reporting this issue.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-107124
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-76181
   ghsa: null
   date: '2026-11-05'
@@ -2403,7 +2416,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-58435
-  ghsa: null
+  ghsa: GHSA-rh79-75qm-gwjr
   date: '2026-08-13'
   vendor: Gitea
   product: Gitea Open Source Git Server
@@ -2411,7 +2424,7 @@
   credit: adrian-doyensec
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-58435
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-rh79-75qm-gwjr
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0
   notes: null
   auto_discovered: true
@@ -2987,7 +3000,7 @@
   date: '2026-07-24'
   vendor: go.etcd.io
   product: etcd/v3
-  cvss: null
+  cvss: 7.1
   credit: '@lobuhi (reporter) | @AdamKorcz (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-73499
@@ -3206,7 +3219,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-15170
-  ghsa: null
+  ghsa: GHSA-hfrj-29vh-pcf2
   date: '2026-07-08'
   vendor: Wireshark Foundation
   product: Wireshark
@@ -3214,7 +3227,7 @@
   credit: Claude and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-15170
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-hfrj-29vh-pcf2
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-3FWTCMVC
   notes: null
   auto_discovered: true
@@ -3231,7 +3244,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-15166
-  ghsa: null
+  ghsa: GHSA-h9wc-3j4p-q5g3
   date: '2026-07-08'
   vendor: Wireshark Foundation
   product: Wireshark
@@ -3239,12 +3252,12 @@
   credit: Claude and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-15166
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-h9wc-3j4p-q5g3
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-WT5AMKP5
   notes: null
   auto_discovered: true
 - cve: CVE-2026-15165
-  ghsa: null
+  ghsa: GHSA-3q2h-7599-7r76
   date: '2026-07-08'
   vendor: Wireshark Foundation
   product: Wireshark
@@ -3252,7 +3265,7 @@
   credit: Claude and Ada Logics
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-15165
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-3q2h-7599-7r76
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y5M37QY4
   notes: null
   auto_discovered: true
@@ -3498,7 +3511,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-41579
-  ghsa: null
+  ghsa: GHSA-xjvp-4fhw-gc47
   date: '2026-07-01'
   vendor: opencontainers
   product: runc
@@ -3506,12 +3519,12 @@
   credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41579
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-xjvp-4fhw-gc47
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-N6TD9MF6
   notes: null
   auto_discovered: true
 - cve: CVE-2026-20215
-  ghsa: null
+  ghsa: GHSA-6gff-7f37-2v35
   date: '2026-07-01'
   vendor: Cisco
   product: Cisco Secure Endpoint
@@ -3519,12 +3532,12 @@
   credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-20215
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-6gff-7f37-2v35
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-8DRZW7VM
   notes: null
   auto_discovered: true
 - cve: CVE-2026-20214
-  ghsa: null
+  ghsa: GHSA-86w7-h9x4-hpxv
   date: '2026-07-01'
   vendor: Cisco
   product: Cisco Secure Endpoint
@@ -3532,12 +3545,12 @@
   credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-20214
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-86w7-h9x4-hpxv
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-Z477W54M
   notes: null
   auto_discovered: true
 - cve: CVE-2026-20213
-  ghsa: null
+  ghsa: GHSA-rjvx-x4g3-vr6w
   date: '2026-07-01'
   vendor: Cisco
   product: Cisco Secure Endpoint
@@ -3545,7 +3558,7 @@
   credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-20213
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-rjvx-x4g3-vr6w
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VVPEMVDE
   notes: null
   auto_discovered: true
@@ -3562,7 +3575,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-13595
-  ghsa: null
+  ghsa: GHSA-qpmf-9p9c-455w
   date: '2026-06-29'
   vendor: Red Hat
   product: Red Hat Hardened Images
@@ -3572,7 +3585,7 @@
     for reporting this issue.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-13595
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-qpmf-9p9c-455w
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZRDQDR79
   notes: null
   auto_discovered: true
@@ -3590,7 +3603,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-12340
-  ghsa: null
+  ghsa: GHSA-q349-x427-xg3w
   date: '2026-06-25'
   vendor: wolfSSL
   product: wolfSSL
@@ -3598,7 +3611,7 @@
   credit: David Pokora, Trail of Bits (in collaboration with Anthropic)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-12340
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-q349-x427-xg3w
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-87DJGDRB
   notes: null
   auto_discovered: true
@@ -3728,7 +3741,7 @@
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-56132
-  ghsa: null
+  ghsa: GHSA-425r-vwq2-26qv
   date: '2026-06-19'
   vendor: libexpat project
   product: libexpat
@@ -3736,7 +3749,7 @@
   credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-56132
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-425r-vwq2-26qv
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-X3EB6DN3
   notes: null
   auto_discovered: true
@@ -3951,7 +3964,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45447
-  ghsa: null
+  ghsa: GHSA-f684-cpcq-j565
   date: '2026-06-09'
   vendor: OpenSSL
   product: OpenSSL
@@ -3960,7 +3973,7 @@
     Thai Duong (Calif.io in collaboration with Claude and Anthropic Research) | Igor Ustinov
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-45447
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-f684-cpcq-j565
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-AYWQW7P2
   notes: null
   auto_discovered: true
@@ -4315,7 +4328,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40384
-  ghsa: null
+  ghsa: GHSA-hr66-rv65-f5r4
   date: '2026-05-26'
   vendor: Joomla!
   product: Joomla! CMS
@@ -4323,12 +4336,12 @@
   credit: Doyensec in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40384
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-hr66-rv65-f5r4
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSV3GS1G
   notes: null
   auto_discovered: false
 - cve: CVE-2026-40383
-  ghsa: null
+  ghsa: GHSA-v8h9-9g8j-w7h4
   date: '2026-05-26'
   vendor: Joomla!
   product: Joomla! CMS
@@ -4336,7 +4349,7 @@
   credit: Doyensec in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-40383
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-v8h9-9g8j-w7h4
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-HHD77M82
   notes: null
   auto_discovered: false
@@ -4417,7 +4430,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6479
-  ghsa: null
+  ghsa: GHSA-hwfh-mh4f-m67f
   date: '2026-05-14'
   vendor: PostgreSQL
   product: PostgreSQL
@@ -4427,7 +4440,7 @@
     this problem.
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6479
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-hwfh-mh4f-m67f
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-CJQWKW82
   notes: null
   auto_discovered: false
@@ -4549,7 +4562,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-4892
-  ghsa: null
+  ghsa: GHSA-m62j-63mf-xr95
   date: '2026-05-11'
   vendor: dnsmasq
   product: dnsmasq
@@ -4557,7 +4570,7 @@
   credit: Anthropic
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-4892
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-m62j-63mf-xr95
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-PCBAKVPB
   notes: null
   auto_discovered: true
@@ -4638,7 +4651,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-41990
-  ghsa: null
+  ghsa: GHSA-78pv-qq8x-94px
   date: '2026-04-23'
   vendor: gnupg
   product: Libgcrypt
@@ -4646,7 +4659,7 @@
   credit: Reported by Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-41990
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-78pv-qq8x-94px
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-GSPVGEYA
   notes: null
   auto_discovered: false
@@ -4690,7 +4703,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-6772
-  ghsa: null
+  ghsa: GHSA-c2q7-642g-3vwr
   date: '2026-04-21'
   vendor: Mozilla
   product: Firefox
@@ -4698,7 +4711,7 @@
   credit: sseehra
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6772
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-c2q7-642g-3vwr
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-1ZNMP148
   notes: null
   auto_discovered: true
@@ -4769,7 +4782,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-33901
-  ghsa: null
+  ghsa: GHSA-x9h5-r9v2-vcww
   date: '2026-04-13'
   vendor: ImageMagick
   product: ImageMagick
@@ -4778,7 +4791,7 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-33901
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-x9h5-r9v2-vcww
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-T44WA684
   notes: NOT IN CVE TABLE
   auto_discovered: false
@@ -4810,7 +4823,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-5501
-  ghsa: null
+  ghsa: GHSA-hg75-4cmp-f367
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -4818,12 +4831,12 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5501
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-hg75-4cmp-f367
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-K8YY7WWS
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5500
-  ghsa: null
+  ghsa: GHSA-m77r-vqw2-hffx
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -4831,7 +4844,7 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5500
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-m77r-vqw2-hffx
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-P23DVQM2
   notes: null
   auto_discovered: false
@@ -4849,7 +4862,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5477
-  ghsa: null
+  ghsa: GHSA-grqc-3vmg-p68x
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -4857,12 +4870,12 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5477
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-grqc-3vmg-p68x
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZZY4987K
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5466
-  ghsa: null
+  ghsa: GHSA-47qf-hp3h-rwmm
   date: '2026-04-10'
   vendor: wolfSSL
   product: wolfSSL
@@ -4870,12 +4883,12 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5466
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-47qf-hp3h-rwmm
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-KNXJMVYC
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5503
-  ghsa: null
+  ghsa: GHSA-65xm-pfx9-g5p3
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -4883,12 +4896,12 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5503
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-65xm-pfx9-g5p3
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-0JRYQPCF
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5448
-  ghsa: null
+  ghsa: GHSA-5jqq-xpcr-q3r7
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -4897,12 +4910,12 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6615Y595)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5448
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-5jqq-xpcr-q3r7
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-6615Y595
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5447
-  ghsa: null
+  ghsa: GHSA-mx4j-fjqx-f8qj
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -4910,12 +4923,12 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5447
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-mx4j-fjqx-f8qj
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-VV0PRKKV
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5446
-  ghsa: null
+  ghsa: GHSA-vgv9-mv66-mpc7
   date: '2026-04-09'
   vendor: wolfSSL
   product: wolfSSL
@@ -4923,7 +4936,7 @@
   credit: Calif.io in collaboration with Claude and Anthropic Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-5446
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-vgv9-mv66-mpc7
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-SB4PHA43
   notes: null
   auto_discovered: false
@@ -5236,7 +5249,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-28208
-  ghsa: null
+  ghsa: GHSA-j273-m5qq-6825
   date: '2026-02-26'
   vendor: junrar
   product: junrar
@@ -5245,7 +5258,7 @@
     [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6SNS6KMP)
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-28208
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-j273-m5qq-6825
   notes: null
   auto_discovered: false
 - cve: CVE-2026-2805
