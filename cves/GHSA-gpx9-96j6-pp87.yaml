@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-gpx9-96j6-pp87
+date: '2026-01-28'
+vendor: pip
+product: agentos-taskweaver
+cvss: 6.5
+credit: '@nnfrog (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-gpx9-96j6-pp87
+notes: null
+auto_discovered: true
