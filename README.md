@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 420**
+**CURRENT CVE COUNT: 422**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -306,9 +306,11 @@ This project is maintained on a best effort basis.
 | [CVE-2026-55429](https://www.cve.org/CVERecord?id=CVE-2026-55429) | 2026-07-06 | github.com | coder/coder/v2 | 8.7 |  |  |  |
 | [CVE-2026-55428](https://www.cve.org/CVERecord?id=CVE-2026-55428) | 2026-07-06 | github.com | coder/coder/v2 | 8.2 |  |  |  |
 | [CVE-2026-55427](https://www.cve.org/CVERecord?id=CVE-2026-55427) | 2026-07-06 | github.com | coder/coder/v2 | 8.3 |  |  |  |
+| [CVE-2026-55079](https://www.cve.org/CVERecord?id=CVE-2026-55079) | 2026-07-06 | github.com | coder/coder/v2 | 4.9 |  |  |  |
 | [CVE-2026-55078](https://www.cve.org/CVERecord?id=CVE-2026-55078) | 2026-07-06 | github.com | coder/coder/v2 | 6.5 |  |  |  |
 | [CVE-2026-55077](https://www.cve.org/CVERecord?id=CVE-2026-55077) | 2026-07-06 | github.com | coder/coder/v2 | 7.2 |  |  |  |
 | [CVE-2026-55076](https://www.cve.org/CVERecord?id=CVE-2026-55076) | 2026-07-06 | github.com | coder/coder/v2 | 7.4 |  |  |  |
+| [CVE-2026-55075](https://www.cve.org/CVERecord?id=CVE-2026-55075) | 2026-07-06 | github.com | coder/coder/v2 | 7.4 |  |  |  |
 | [CVE-2026-27775](https://www.cve.org/CVERecord?id=CVE-2026-27775) | 2026-07-03 | Gitea | Gitea Open Source Git Server | 8.8 |  |  | adrian-doyensec |
 | [CVE-2026-41579](https://www.cve.org/CVERecord?id=CVE-2026-41579) | 2026-07-01 | opencontainers | runc | 3.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-N6TD9MF6) |  | Anthropic |
 | [CVE-2026-20215](https://www.cve.org/CVERecord?id=CVE-2026-20215) | 2026-07-01 | Cisco | Cisco Secure Endpoint | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-8DRZW7VM) |  | Anthropic |
