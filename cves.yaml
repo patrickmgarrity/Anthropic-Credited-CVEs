@@ -669,6 +669,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-113716
+  ghsa: GHSA-cw65-gx24-rc82
+  date: '2026-10-21'
+  vendor: pip
+  product: virtualenv
+  cvss: 4.5
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-113716
+  ghsa_link: https://github.com/advisories/GHSA-cw65-gx24-rc82
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-107928
   ghsa: null
   date: '2026-10-20'
