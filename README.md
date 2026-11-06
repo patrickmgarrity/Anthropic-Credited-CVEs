@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 402**
+**CURRENT CVE COUNT: 403**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -73,6 +73,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-112938](https://www.cve.org/CVERecord?id=CVE-2026-112938) | 2026-10-28 | pip | filelock | 5.8 |  |  |  |
 | [CVE-2026-112915](https://www.cve.org/CVERecord?id=CVE-2026-112915) | 2026-10-28 | pip | filelock | 5.5 |  |  |  |
 | [CVE-2026-112912](https://www.cve.org/CVERecord?id=CVE-2026-112912) | 2026-10-28 | pip | filelock | 2.5 |  |  |  |
+| [CVE-2026-112909](https://www.cve.org/CVERecord?id=CVE-2026-112909) | 2026-10-28 | pip | filelock | 6.1 |  |  |  |
 | [CVE-2026-112375](https://www.cve.org/CVERecord?id=CVE-2026-112375) | 2026-10-28 | Apache Software Foundation | Apache Kafka | 6.5 |  |  | Arthur Chan <arthur.chan@adalogics.com>, Ada Logics and Anthropic Research \| OpenAI Codex Security - Amy Burnett and Khai Tran \| Mickael Maison <mickael.maison@gmail.com> \| Manikumar Reddy <manikumar.reddy@gmail.com> \| Chia-Ping Tsai <chia7712@gmail.com> |
 | [CVE-2026-77172](https://www.cve.org/CVERecord?id=CVE-2026-77172) | 2026-10-27 | Nextcloud | Server | 5.3 |  |  | Nicholas Carlini (npc) |
 | [CVE-2026-115933](https://www.cve.org/CVERecord?id=CVE-2026-115933) | 2026-10-24 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |

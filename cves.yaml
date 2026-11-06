@@ -342,6 +342,18 @@
   ghsa_link: https://github.com/advisories/GHSA-9j6q-wvj5-jgjg
   notes: null
   auto_discovered: true
+- cve: CVE-2026-112909
+  ghsa: GHSA-69hj-f68j-2879
+  date: '2026-10-28'
+  vendor: pip
+  product: filelock
+  cvss: 6.1
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-112909
+  ghsa_link: https://github.com/advisories/GHSA-69hj-f68j-2879
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-112375
   ghsa: null
   date: '2026-10-28'
