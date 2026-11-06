@@ -41,5 +41,5 @@
   <rect x="814.2" y="220.4" width="56.0" height="41.6" rx="3" fill="#0969da" fill-opacity="0.5"/>
   <text x="842.2" y="214.4" font-size="12" font-weight="600" text-anchor="middle" fill="#24292f">21*</text>
   <text x="842.2" y="280" font-size="12" text-anchor="middle" fill="#24292f">Nov</text>
-  <text x="450.0" y="310" font-size="12" text-anchor="middle" fill="#57606a">434 CVEs by month of publication · * current month to date</text>
+  <text x="450.0" y="310" font-size="12" text-anchor="middle" fill="#57606a">434 vulnerabilities by month of publication · * current month to date</text>
 </svg>

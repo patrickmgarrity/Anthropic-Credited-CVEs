@@ -5,7 +5,7 @@
   <path d="M140.00,170.00 L115.89,272.20 A105.0,105.0 0 0 1 56.97,105.73 Z" fill="#f9c80e" stroke="#0d1117" stroke-width="2"/>
   <path d="M140.00,170.00 L56.97,105.73 A105.0,105.0 0 0 1 97.20,74.12 Z" fill="#2e7d32" stroke="#0d1117" stroke-width="2"/>
   <path d="M140.00,170.00 L97.20,74.12 A105.0,105.0 0 0 1 140.00,65.00 Z" fill="#9e9e9e" stroke="#0d1117" stroke-width="2"/>
-  <text x="140.0" y="305" font-size="12" text-anchor="middle" fill="#8b949e">434 CVEs</text>
+  <text x="140.0" y="305" font-size="12" text-anchor="middle" fill="#8b949e">434 vulnerabilities</text>
   <rect x="300.0" y="103.0" width="16" height="16" rx="3" fill="#d32f2f"/><text x="324.0" y="116.0" font-size="14" fill="#e6edf3">Critical: 49 (11.29%)</text>
   <rect x="300.0" y="133.0" width="16" height="16" rx="3" fill="#f57c00"/><text x="324.0" y="146.0" font-size="14" fill="#e6edf3">High: 184 (42.40%)</text>
   <rect x="300.0" y="163.0" width="16" height="16" rx="3" fill="#f9c80e"/><text x="324.0" y="176.0" font-size="14" fill="#e6edf3">Medium: 138 (31.80%)</text>

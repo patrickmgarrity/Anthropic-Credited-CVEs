@@ -3,9 +3,11 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 434**
+**CVEs: 431**
 
-**Fixed Anthropic Findings w/o CVE: 127**
+**GHSAs w/o CVE: 3**
+
+**Advisories w/o GHSA/CVE: 120**
 
 **Findings Withdrawn by Anthropic: 415**
 
