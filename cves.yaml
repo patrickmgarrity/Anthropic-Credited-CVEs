@@ -3524,6 +3524,18 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-RXYVE4DZ
   notes: null
   auto_discovered: false
+- cve: CVE-2026-46629
+  ghsa: GHSA-35wc-cvqg-78fp
+  date: '2026-05-21'
+  vendor: twig
+  product: intl-extra
+  cvss: null
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-46629
+  ghsa_link: https://github.com/advisories/GHSA-35wc-cvqg-78fp
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-44212
   ghsa: GHSA-w9f3-qc75-qgx9
   date: '2026-05-14'
