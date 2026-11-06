@@ -62,6 +62,14 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
       </picture>
     </td>
   </tr>
+  <tr>
+    <td colspan="2">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/monthly-additions-dark.svg">
+        <img alt="CVEs added per month" src="assets/monthly-additions.svg" width="880">
+      </picture>
+    </td>
+  </tr>
 </table>
 
 ## Anthropic Research
@@ -225,6 +233,116 @@ def render_kev_svg(entries: list[dict], theme: str = "light") -> str:
     ]
     return _pie_svg("Exploited in the Wild", segments, theme,
                     subtitle="Source: VulnCheck KEV")
+
+
+MONTHLY_BAR_COLOR = {"light": "#0969da", "dark": "#4493f8"}
+MONTHLY_GRID_COLOR = {"light": "#d0d7de", "dark": "#30363d"}
+_MONTH_ABBR = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+               "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def monthly_counts(entries: list[dict]) -> list[tuple[int, int, int]]:
+    """[(year, month, count)] from each entry's `date`, oldest first, with
+    empty months between the first and last filled in as zero."""
+    counts: dict[tuple[int, int], int] = {}
+    for e in entries:
+        d = str(e.get("date") or "")
+        if len(d) >= 7 and d[4] == "-":
+            try:
+                key = (int(d[:4]), int(d[5:7]))
+            except ValueError:
+                continue
+            if 1 <= key[1] <= 12:
+                counts[key] = counts.get(key, 0) + 1
+    if not counts:
+        return []
+    (y, m), last = min(counts), max(counts)
+    out = []
+    while (y, m) <= last:
+        out.append((y, m, counts.get((y, m), 0)))
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+    return out
+
+
+def _nice_step(max_val: int, target_lines: int = 4) -> int:
+    raw = max(1, max_val / target_lines)
+    for mult in (1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000):
+        if mult >= raw:
+            return mult
+    return int(raw)
+
+
+def render_monthly_svg(entries: list[dict], theme: str = "light") -> str:
+    """SVG bar chart of entries per month (by the entry's `date`). The current
+    month is drawn lighter and starred because it is still in progress."""
+    import datetime as _dt
+    import math
+
+    pal = CHART_THEMES[theme]
+    bar_color = MONTHLY_BAR_COLOR[theme]
+    grid_color = MONTHLY_GRID_COLOR[theme]
+    months = monthly_counts(entries)
+    today = _dt.date.today()
+
+    W, H = 900, 320
+    left, right, top, bottom = 48, 16, 64, 262  # plot area
+    plot_w, plot_h = W - left - right, bottom - top
+    n = max(1, len(months))
+    peak = max((c for _, _, c in months), default=0)
+    step = _nice_step(peak)
+    y_max = max(step, math.ceil(peak / step) * step)
+
+    def y_of(v: float) -> float:
+        return bottom - plot_h * v / y_max
+
+    parts: list[str] = []
+    # horizontal gridlines + y tick labels
+    v = 0
+    while v <= y_max:
+        y = y_of(v)
+        parts.append(f'<line x1="{left}" y1="{y:.1f}" x2="{W - right}" y2="{y:.1f}" '
+                     f'stroke="{grid_color}" stroke-width="1"/>')
+        parts.append(f'<text x="{left - 8}" y="{y + 4:.1f}" font-size="11" '
+                     f'text-anchor="end" fill="{pal["muted"]}">{v}</text>')
+        v += step
+
+    slot = plot_w / n
+    bar_w = min(56.0, slot * 0.7)
+    label_every = max(1, math.ceil(n / 18))  # keep month labels legible
+    partial_note = False
+    for i, (yr, mo, c) in enumerate(months):
+        cx = left + slot * (i + 0.5)
+        partial = (yr, mo) == (today.year, today.month)
+        partial_note |= partial
+        opacity = ' fill-opacity="0.5"' if partial else ""
+        if c:
+            y = y_of(c)
+            parts.append(f'<rect x="{cx - bar_w / 2:.1f}" y="{y:.1f}" width="{bar_w:.1f}" '
+                         f'height="{bottom - y:.1f}" rx="3" fill="{bar_color}"{opacity}/>')
+        parts.append(f'<text x="{cx:.1f}" y="{y_of(c) - 6:.1f}" font-size="12" '
+                     f'font-weight="600" text-anchor="middle" fill="{pal["text"]}">'
+                     f'{c}{"*" if partial else ""}</text>')
+        if i % label_every == 0 or partial:
+            parts.append(f'<text x="{cx:.1f}" y="{bottom + 18}" font-size="12" '
+                         f'text-anchor="middle" fill="{pal["text"]}">{_MONTH_ABBR[mo - 1]}</text>')
+            if i == 0 or mo == 1:
+                parts.append(f'<text x="{cx:.1f}" y="{bottom + 34}" font-size="11" '
+                             f'text-anchor="middle" fill="{pal["muted"]}">{yr}</text>')
+
+    total = sum(c for _, _, c in months)
+    caption = f"{total} CVEs by month of publication"
+    if partial_note:
+        caption += " · * current month to date"
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
+        f'viewBox="0 0 {W} {H}" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n'
+        f'  <text x="{W / 2}" y="34" font-size="17" font-weight="600" '
+        f'text-anchor="middle" fill="{pal["text"]}">Monthly Additions</text>\n'
+        '  ' + '\n  '.join(parts) + '\n'
+        f'  <text x="{W / 2}" y="{H - 10}" font-size="12" text-anchor="middle" '
+        f'fill="{pal["muted"]}">{caption}</text>\n'
+        '</svg>\n'
+    )
 
 
 def render_cve_cell(entry: dict) -> str:
@@ -459,6 +577,11 @@ def main() -> int:
         render_kev_svg(entries, "light"), encoding="utf-8")
     (assets_dir / "kev-exploited-dark.svg").write_text(
         render_kev_svg(entries, "dark"), encoding="utf-8")
+    # Monthly additions bar chart (by entry `date`), light + dark.
+    (assets_dir / "monthly-additions.svg").write_text(
+        render_monthly_svg(entries, "light"), encoding="utf-8")
+    (assets_dir / "monthly-additions-dark.svg").write_text(
+        render_monthly_svg(entries, "dark"), encoding="utf-8")
 
     print(f"Rendered {readme_path}, cves.yaml and severity charts "
           f"from {len(entries)} entries.")
