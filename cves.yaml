@@ -3499,7 +3499,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-27775
-  ghsa: null
+  ghsa: GHSA-649p-mmhf-85c7
   date: '2026-07-03'
   vendor: Gitea
   product: Gitea Open Source Git Server
@@ -3507,7 +3507,7 @@
   credit: adrian-doyensec
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-27775
-  ghsa_link: null
+  ghsa_link: https://github.com/advisories/GHSA-649p-mmhf-85c7
   notes: null
   auto_discovered: true
 - cve: CVE-2026-41579
