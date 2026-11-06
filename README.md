@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 372**
+**CURRENT CVE COUNT: 373**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -263,6 +263,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-15165](https://www.cve.org/CVERecord?id=CVE-2026-15165) | 2026-07-08 | Wireshark Foundation | Wireshark | 5.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y5M37QY4) |  | Claude and Ada Logics |
 | [CVE-2026-46354](https://www.cve.org/CVERecord?id=CVE-2026-46354) | 2026-07-07 | coder | coder | 9.1 |  |  | We'd like to thank Ben Tran of calif.io and Anthropic’s Security Team (ANT-2026-22445) for independently disclosing this issue! |
 | [CVE-2026-45796](https://www.cve.org/CVERecord?id=CVE-2026-45796) | 2026-07-07 | coder | coder | 6.5 |  |  | We'd like to thank Ben Tran of calif.io and Anthropic's Security Team (ANT-2026-22447) for independently disclosing this issue! |
+| [CVE-2026-55427](https://www.cve.org/CVERecord?id=CVE-2026-55427) | 2026-07-06 | github.com | coder/coder/v2 | 8.3 |  |  |  |
 | [CVE-2026-55077](https://www.cve.org/CVERecord?id=CVE-2026-55077) | 2026-07-06 | github.com | coder/coder/v2 | 7.2 |  |  |  |
 | [CVE-2026-55076](https://www.cve.org/CVERecord?id=CVE-2026-55076) | 2026-07-06 | github.com | coder/coder/v2 | 7.4 |  |  |  |
 | [CVE-2026-27775](https://www.cve.org/CVERecord?id=CVE-2026-27775) | 2026-07-03 | Gitea | Gitea Open Source Git Server | 8.8 |  |  | adrian-doyensec |
