@@ -4441,6 +4441,18 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP
   notes: null
   auto_discovered: true
+- cve: CVE-2026-44248
+  ghsa: GHSA-jfg9-48mv-9qgx
+  date: '2026-05-07'
+  vendor: maven
+  product: io.netty:netty-codec-mqtt
+  cvss: 5.3
+  credit: '@chrisvest (reporter)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-44248
+  ghsa_link: https://github.com/advisories/GHSA-jfg9-48mv-9qgx
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-43185
   ghsa: null
   date: '2026-05-06'

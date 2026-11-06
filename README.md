@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 422**
+**CURRENT CVE COUNT: 423**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -396,6 +396,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-28942](https://www.cve.org/CVERecord?id=CVE-2026-28942) | 2026-05-11 | Apple | Webkit | 6.5 |  |  | Milad Nasr and Nicholas Carlini with Claude, Anthropic |
 | [CVE-2026-4892](https://www.cve.org/CVERecord?id=CVE-2026-4892) | 2026-05-11 | dnsmasq | dnsmasq | 8.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-PCBAKVPB) |  | Anthropic |
 | [CVE-2026-4890](https://www.cve.org/CVERecord?id=CVE-2026-4890) | 2026-05-11 | dnsmasq | dnsmasq | 7.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP) |  | Anthropic |
+| [CVE-2026-44248](https://www.cve.org/CVERecord?id=CVE-2026-44248) | 2026-05-07 | maven | io.netty:netty-codec-mqtt | 5.3 |  |  | @chrisvest (reporter) |
 | [CVE-2026-43185](https://www.cve.org/CVERecord?id=CVE-2026-43185) | 2026-05-06 | Linux | Linux | 9.8 |  |  | Signed-off-by: Nicholas Carlini <nicholas@carlini.com> |
 | [CVE-2026-43074](https://www.cve.org/CVERecord?id=CVE-2026-43074) | 2026-05-06 | Linux | Linux | 7.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-CM0TCREP) |  | Anthropic |
 | [CVE-2026-40685](https://www.cve.org/CVERecord?id=CVE-2026-40685) | 2026-04-30 | Exim | Exim | 6.5 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-B615AQ9E) |  | Anthropic |
