@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CURRENT CVE COUNT: 412**
+**CURRENT CVE COUNT: 413**
 
 **Fixed Anthropic Findings w/o CVE: 127**
 
@@ -87,6 +87,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-115931](https://www.cve.org/CVERecord?id=CVE-2026-115931) | 2026-10-23 | GitroomHQ | postiz-app | 9.9 |  |  | Anthropic, PBC \| Enno Gelhaus \| Nevo David |
 | [CVE-2026-113723](https://www.cve.org/CVERecord?id=CVE-2026-113723) | 2026-10-23 | pip | virtualenv |  |  |  |  |
 | [CVE-2026-113720](https://www.cve.org/CVERecord?id=CVE-2026-113720) | 2026-10-23 | pip | virtualenv |  |  |  |  |
+| [CVE-2026-113719](https://www.cve.org/CVERecord?id=CVE-2026-113719) | 2026-10-23 | pip | virtualenv | 4.5 |  |  |  |
 | [CVE-2026-113718](https://www.cve.org/CVERecord?id=CVE-2026-113718) | 2026-10-23 | pip | virtualenv |  |  |  |  |
 | [CVE-2026-113717](https://www.cve.org/CVERecord?id=CVE-2026-113717) | 2026-10-23 | pip | virtualenv |  |  |  |  |
 | [CVE-2026-113715](https://www.cve.org/CVERecord?id=CVE-2026-113715) | 2026-10-23 | pip | virtualenv |  |  |  |  |
