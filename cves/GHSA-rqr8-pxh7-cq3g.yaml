@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-rqr8-pxh7-cq3g
+date: '2023-11-24'
+vendor: pip
+product: eth-abi
+cvss: 4.3
+credit: '@maxammann (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-rqr8-pxh7-cq3g
+notes: null
+auto_discovered: true
