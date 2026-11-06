@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-cjcg-cxmh-9wcr
+date: '2026-10-02'
+vendor: rust
+product: praxis-proxy
+cvss: 7.5
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-cjcg-cxmh-9wcr
+notes: null
+auto_discovered: true
