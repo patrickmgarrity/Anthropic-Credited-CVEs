@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261107",
+  "last_run_date": "20261108",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -1694,6 +1694,9 @@
     "https://lore.kernel.org/all/20261107114455.304896-7-christian.koever-draxl@student.uibk.ac.at",
     "https://lore.kernel.org/all/20261107114455.304896-8-christian.koever-draxl@student.uibk.ac.at",
     "https://lore.kernel.org/all/20261107114455.304896-9-christian.koever-draxl@student.uibk.ac.at",
+    "https://lore.kernel.org/all/20261107134952.761410213@linuxfoundation.org",
+    "https://lore.kernel.org/all/20261107154308.1110237-2-alex.kiernan@gmail.com",
+    "https://lore.kernel.org/all/20261107165221.122340-20-leon.anavi@konsulko.com",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/2054463495.18023214.1793866940338.JavaMail.zimbra@desy.de",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
