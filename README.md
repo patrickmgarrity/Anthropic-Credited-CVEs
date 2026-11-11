@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 442**
+**CVEs: 443**
 
 **GHSAs w/o CVE: 4**
 
@@ -57,6 +57,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-126074](https://www.cve.org/CVERecord?id=CVE-2026-126074) | 2026-11-10 | rubygems | activestorage | 4.3 |  |  |  |
 | [CVE-2026-107124](https://www.cve.org/CVERecord?id=CVE-2026-107124) | 2026-11-06 | Red Hat | Red Hat Build of Keycloak | 6.4 |  |  | Red Hat would like to thank Adam Korczynski (Ada Logics Ltd) and Anthropic for reporting this issue. |
 | [CVE-2026-76181](https://www.cve.org/CVERecord?id=CVE-2026-76181) | 2026-11-05 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Anonymous working with TrendAI Zero Day Initiative \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-54914](https://www.cve.org/CVERecord?id=CVE-2026-54914) | 2026-11-05 | bytecodealliance | wasm-micro-runtime | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6) |  | Anthropic |
@@ -75,7 +76,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-90626](https://www.cve.org/CVERecord?id=CVE-2026-90626) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 7.3 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-90624](https://www.cve.org/CVERecord?id=CVE-2026-90624) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 7.3 |  |  | Anonymous working with TrendAI Zero Day Initiative \| Anthropic and Ada Logics |
 | [CVE-2026-59267](https://www.cve.org/CVERecord?id=CVE-2026-59267) | 2026-11-04 | Apache Software Foundation | Apache OpenOffice | 5.8 |  |  | Trail of Bits, in collaboration with Anthropic |
-| [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust |  |  |  | Adam Korczynski of Ada Logics \| Anthropic |
+| [CVE-2026-111959](https://www.cve.org/CVERecord?id=CVE-2026-111959) | 2026-11-02 | Apache Software Foundation | Apache Arrow Rust | 9.1 |  |  | Adam Korczynski of Ada Logics \| Anthropic |
 | [CVE-2026-109142](https://www.cve.org/CVERecord?id=CVE-2026-109142) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-109141](https://www.cve.org/CVERecord?id=CVE-2026-109141) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics |
 | [CVE-2026-109140](https://www.cve.org/CVERecord?id=CVE-2026-109140) | 2026-11-02 | NLnet Labs | Krill | 8.4 |  |  | Anthropic and Ada Logics, Aymen Benlamari |
