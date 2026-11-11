@@ -22,6 +22,18 @@
   ghsa_link: https://github.com/advisories/GHSA-r9jg-fmfx-2gv6
   notes: null
   auto_discovered: true
+- cve: CVE-2026-126071
+  ghsa: GHSA-4v2w-w6g6-f8f8
+  date: '2026-11-10'
+  vendor: rubygems
+  product: activestorage
+  cvss: 5.3
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-126071
+  ghsa_link: https://github.com/advisories/GHSA-4v2w-w6g6-f8f8
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-107124
   ghsa: null
   date: '2026-11-06'

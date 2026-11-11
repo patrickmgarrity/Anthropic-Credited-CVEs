@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 444**
+**CVEs: 445**
 
 **GHSAs w/o CVE: 4**
 
@@ -59,6 +59,7 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-126074](https://www.cve.org/CVERecord?id=CVE-2026-126074) | 2026-11-10 | rubygems | activestorage | 4.3 |  |  |  |
 | [CVE-2026-126073](https://www.cve.org/CVERecord?id=CVE-2026-126073) | 2026-11-10 | rubygems | actionpack | 4.8 |  |  |  |
+| [CVE-2026-126071](https://www.cve.org/CVERecord?id=CVE-2026-126071) | 2026-11-10 | rubygems | activestorage | 5.3 |  |  |  |
 | [CVE-2026-107124](https://www.cve.org/CVERecord?id=CVE-2026-107124) | 2026-11-06 | Red Hat | Red Hat Build of Keycloak | 6.4 |  |  | Red Hat would like to thank Adam Korczynski (Ada Logics Ltd) and Anthropic for reporting this issue. |
 | [CVE-2026-76181](https://www.cve.org/CVERecord?id=CVE-2026-76181) | 2026-11-05 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Anonymous working with TrendAI Zero Day Initiative \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-54914](https://www.cve.org/CVERecord?id=CVE-2026-54914) | 2026-11-05 | bytecodealliance | wasm-micro-runtime | 8.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-P7DSVPH6) |  | Anthropic |
