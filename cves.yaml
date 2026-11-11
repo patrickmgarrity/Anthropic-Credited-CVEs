@@ -10,6 +10,18 @@
   ghsa_link: https://github.com/advisories/GHSA-p2pm-g2h6-7j5j
   notes: null
   auto_discovered: true
+- cve: CVE-2026-126073
+  ghsa: GHSA-r9jg-fmfx-2gv6
+  date: '2026-11-10'
+  vendor: rubygems
+  product: actionpack
+  cvss: 4.8
+  credit: ''
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-126073
+  ghsa_link: https://github.com/advisories/GHSA-r9jg-fmfx-2gv6
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-107124
   ghsa: null
   date: '2026-11-06'
