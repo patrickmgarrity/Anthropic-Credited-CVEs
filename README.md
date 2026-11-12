@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 449**
+**CVEs: 450**
 
 **GHSAs w/o CVE: 4**
 
@@ -59,6 +59,7 @@ This project is maintained on a best effort basis.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-120154](https://www.cve.org/CVERecord?id=CVE-2026-120154) | 2026-11-12 | n/a | PostgreSQL | 4.3 |  |  | The PostgreSQL project thanks Peter Geoghegan, Zsolt Parragi, Only see myself, Nicholas Carlini, Joao Detomini, Josef Šimánek, and Qing Xu for reporting this problem. |
 | [CVE-2026-120153](https://www.cve.org/CVERecord?id=CVE-2026-120153) | 2026-11-12 | n/a | PostgreSQL | 7.2 |  |  | The PostgreSQL project thanks Anthropic OSS program, Sven Klemm, and Aaron chen for reporting this problem. |
+| [CVE-2026-120151](https://www.cve.org/CVERecord?id=CVE-2026-120151) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Claude and Ada Logics for reporting this problem. |
 | [CVE-2026-6460](https://www.cve.org/CVERecord?id=CVE-2026-6460) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Andrew Gierth, Alexander Lakhin, Francesco Verardi, Hcamael, Tomer Fichman, OpenAI Security Research Team, Mehmet Ince @mdisec, Bryan Green, Sumedh Pathak, Nicholas Carlini, Sergey Shinderuk, Yuxiao Guo, Nikhil Sontakke, Stephan Lipp, and Daniel Bakker for reporting this problem. |
 | [CVE-2026-126074](https://www.cve.org/CVERecord?id=CVE-2026-126074) | 2026-11-10 | rubygems | activestorage | 4.3 |  |  |  |
 | [CVE-2026-126073](https://www.cve.org/CVERecord?id=CVE-2026-126073) | 2026-11-10 | rubygems | actionpack | 4.8 |  |  |  |
