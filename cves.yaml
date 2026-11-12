@@ -1,3 +1,19 @@
+- cve: CVE-2026-6460
+  ghsa: null
+  date: '2026-11-12'
+  vendor: n/a
+  product: PostgreSQL
+  cvss: 8.8
+  credit: >-
+    The PostgreSQL project thanks Andrew Gierth, Alexander Lakhin, Francesco Verardi, Hcamael, Tomer Fichman,
+    OpenAI Security Research Team, Mehmet Ince @mdisec, Bryan Green, Sumedh Pathak, Nicholas Carlini,
+    Sergey Shinderuk, Yuxiao Guo, Nikhil Sontakke, Stephan Lipp, and Daniel Bakker for reporting this
+    problem.
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-6460
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-126074
   ghsa: GHSA-p2pm-g2h6-7j5j
   date: '2026-11-10'

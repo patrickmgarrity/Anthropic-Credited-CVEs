@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 446**
+**CVEs: 447**
 
 **GHSAs w/o CVE: 4**
 
@@ -57,6 +57,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-6460](https://www.cve.org/CVERecord?id=CVE-2026-6460) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Andrew Gierth, Alexander Lakhin, Francesco Verardi, Hcamael, Tomer Fichman, OpenAI Security Research Team, Mehmet Ince @mdisec, Bryan Green, Sumedh Pathak, Nicholas Carlini, Sergey Shinderuk, Yuxiao Guo, Nikhil Sontakke, Stephan Lipp, and Daniel Bakker for reporting this problem. |
 | [CVE-2026-126074](https://www.cve.org/CVERecord?id=CVE-2026-126074) | 2026-11-10 | rubygems | activestorage | 4.3 |  |  |  |
 | [CVE-2026-126073](https://www.cve.org/CVERecord?id=CVE-2026-126073) | 2026-11-10 | rubygems | actionpack | 4.8 |  |  |  |
 | [CVE-2026-126071](https://www.cve.org/CVERecord?id=CVE-2026-126071) | 2026-11-10 | rubygems | activestorage | 5.3 |  |  |  |
