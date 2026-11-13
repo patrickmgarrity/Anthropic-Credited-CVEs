@@ -1,7 +1,7 @@
 {
   "ghsa_retry_ids": [],
   "last_fetch_timestamp": "2026-11-13T23:23:17.866Z",
-  "last_ghsa_modified": "2026-11-13T16:43:19Z",
+  "last_ghsa_modified": "2026-11-13T23:20:57Z",
   "seen_cve_ids": [
     "CVE-2019-12384",
     "CVE-2025-37947",
