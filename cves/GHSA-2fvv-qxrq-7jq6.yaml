@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-2fvv-qxrq-7jq6
+date: '2022-08-18'
+vendor: npm
+product: apollo-server-core
+cvss: null
+credit: '@adenkiewicz (analyst)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-2fvv-qxrq-7jq6
+notes: null
+auto_discovered: true
