@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-w253-m66g-rx24
+date: '2026-10-08'
+vendor: github.com
+product: corazawaf/coraza/v3
+cvss: 5.8
+credit: '@MushroomWasp (reporter)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-w253-m66g-rx24
+notes: null
+auto_discovered: true
