@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-gcjh-h69q-9w9g
+date: '2026-07-24'
+vendor: github.com
+product: google/cel-go
+cvss: null
+credit: '@anaximand3r (reporter) | @doyensec-mohamed (analyst)'
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-gcjh-h69q-9w9g
+notes: null
+auto_discovered: true
