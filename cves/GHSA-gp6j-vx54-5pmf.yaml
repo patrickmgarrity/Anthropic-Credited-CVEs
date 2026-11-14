@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-gp6j-vx54-5pmf
+date: '2022-01-06'
+vendor: github.com
+product: keep-network/keep-ecdsa
+cvss: null
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-gp6j-vx54-5pmf
+notes: null
+auto_discovered: true
