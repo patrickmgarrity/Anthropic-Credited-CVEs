@@ -323,6 +323,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-123874
+  ghsa: null
+  date: '2026-11-11'
+  vendor: nodejs
+  product: node
+  cvss: 7.5
+  credit: >-
+    Chris Rohlf in collaboration with Claude and Anthropic Research | mcollina | UlisesGascon | aduh95
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-123874
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-123864
   ghsa: null
   date: '2026-11-11'
@@ -376,6 +389,18 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-119618
   ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-126080
+  ghsa: GHSA-8474-xrp6-wh69
+  date: '2026-11-10'
+  vendor: rubygems
+  product: activesupport
+  cvss: 7.5
+  credit: '@Igneous (finder)'
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-126080
+  ghsa_link: https://github.com/advisories/GHSA-8474-xrp6-wh69
   notes: null
   auto_discovered: true
 - cve: CVE-2026-126074

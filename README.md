@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 475**
+**CVEs: 477**
 
 **GHSAs w/o CVE: 4**
 
@@ -81,10 +81,12 @@ This project is maintained on a best effort basis.
 | [CVE-2026-120150](https://www.cve.org/CVERecord?id=CVE-2026-120150) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Claude and Ada Logics for reporting this problem. |
 | [CVE-2026-120033](https://www.cve.org/CVERecord?id=CVE-2026-120033) | 2026-11-12 | frrouting | frrouting | 6.0 |  |  | Srinivasan Koona Lokabiraman <srinivasan@nexthop.ai> (not reported as security issue) \| Anthropic OSS-scanner (re-report, ANT-2026-GSLEN9XB) |
 | [CVE-2026-6460](https://www.cve.org/CVERecord?id=CVE-2026-6460) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Andrew Gierth, Alexander Lakhin, Francesco Verardi, Hcamael, Tomer Fichman, OpenAI Security Research Team, Mehmet Ince @mdisec, Bryan Green, Sumedh Pathak, Nicholas Carlini, Sergey Shinderuk, Yuxiao Guo, Nikhil Sontakke, Stephan Lipp, and Daniel Bakker for reporting this problem. |
+| [CVE-2026-123874](https://www.cve.org/CVERecord?id=CVE-2026-123874) | 2026-11-11 | nodejs | node | 7.5 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| UlisesGascon \| aduh95 |
 | [CVE-2026-123864](https://www.cve.org/CVERecord?id=CVE-2026-123864) | 2026-11-11 | nodejs | node | 8.1 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| ShogunPanda \| pimterry \| aduh95 |
 | [CVE-2026-123863](https://www.cve.org/CVERecord?id=CVE-2026-123863) | 2026-11-11 | nodejs | node | 8.2 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| UlisesGascon \| pimterry \| ronag \| aduh95 |
 | [CVE-2026-123862](https://www.cve.org/CVERecord?id=CVE-2026-123862) | 2026-11-11 | nodejs | node | 2.9 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| UlisesGascon \| aduh95 |
 | [CVE-2026-119618](https://www.cve.org/CVERecord?id=CVE-2026-119618) | 2026-11-11 | Apache Software Foundation | Apache HTTP Server |  |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-MAPKT6MZ \| Anthony Weems and Simon Scannell of the Google Cloud Vulnerability Research |
+| [CVE-2026-126080](https://www.cve.org/CVERecord?id=CVE-2026-126080) | 2026-11-10 | rubygems | activesupport | 7.5 |  |  | @Igneous (finder) |
 | [CVE-2026-126074](https://www.cve.org/CVERecord?id=CVE-2026-126074) | 2026-11-10 | rubygems | activestorage | 4.3 |  |  |  |
 | [CVE-2026-126073](https://www.cve.org/CVERecord?id=CVE-2026-126073) | 2026-11-10 | rubygems | actionpack | 4.8 |  |  |  |
 | [CVE-2026-126071](https://www.cve.org/CVERecord?id=CVE-2026-126071) | 2026-11-10 | rubygems | activestorage | 5.3 |  |  |  |
