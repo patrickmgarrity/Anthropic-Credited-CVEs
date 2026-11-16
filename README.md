@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 465**
+**CVEs: 467**
 
 **GHSAs w/o CVE: 4**
 
@@ -70,6 +70,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-97892](https://www.cve.org/CVERecord?id=CVE-2026-97892) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-84443](https://www.cve.org/CVERecord?id=CVE-2026-84443) | 2026-11-16 | The Document Foundation | LibreOffice | 8.5 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Thomas Rinsma and Edoardo Geraci from Codean Labs \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-120221](https://www.cve.org/CVERecord?id=CVE-2026-120221) | 2026-11-13 | frrouting | frrouting | 8.2 |  |  | Nageswara Soma <nsoma@cisco.com> (not reported as security issue) \| Anthropic OSS-scanner (re-report, ANT-2026-X4QI9LP4) |
+| [CVE-2026-126079](https://www.cve.org/CVERecord?id=CVE-2026-126079) | 2026-11-12 | rubygems | actionview | 6.1 |  |  |  |
+| [CVE-2026-126078](https://www.cve.org/CVERecord?id=CVE-2026-126078) | 2026-11-12 | rubygems | actionview | 6.1 |  |  |  |
 | [CVE-2026-126072](https://www.cve.org/CVERecord?id=CVE-2026-126072) | 2026-11-12 | rubygems | actionpack | 5.9 |  |  |  |
 | [CVE-2026-120154](https://www.cve.org/CVERecord?id=CVE-2026-120154) | 2026-11-12 | n/a | PostgreSQL | 4.3 |  |  | The PostgreSQL project thanks Peter Geoghegan, Zsolt Parragi, Only see myself, Nicholas Carlini, Joao Detomini, Josef Šimánek, and Qing Xu for reporting this problem. |
 | [CVE-2026-120153](https://www.cve.org/CVERecord?id=CVE-2026-120153) | 2026-11-12 | n/a | PostgreSQL | 7.2 |  |  | The PostgreSQL project thanks Anthropic OSS program, Sven Klemm, and Aaron chen for reporting this problem. |
