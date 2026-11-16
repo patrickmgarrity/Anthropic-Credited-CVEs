@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 487**
+**CVEs: 488**
 
 **GHSAs w/o CVE: 4**
 
@@ -84,6 +84,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-116325](https://www.cve.org/CVERecord?id=CVE-2026-116325) | 2026-11-12 | n/a | PostgreSQL | 8.0 |  |  | The PostgreSQL project thanks Anthropic OSS program for reporting this problem. |
 | [CVE-2026-116323](https://www.cve.org/CVERecord?id=CVE-2026-116323) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Anthropic OSS program for reporting this problem. |
 | [CVE-2026-116322](https://www.cve.org/CVERecord?id=CVE-2026-116322) | 2026-11-12 | n/a | PostgreSQL | 5.3 |  |  | The PostgreSQL project thanks Anthropic OSS program for reporting this problem. |
+| [CVE-2026-116321](https://www.cve.org/CVERecord?id=CVE-2026-116321) | 2026-11-12 | n/a | PostgreSQL | 4.3 |  |  | The PostgreSQL project thanks Anthropic OSS program for reporting this problem. |
 | [CVE-2026-116316](https://www.cve.org/CVERecord?id=CVE-2026-116316) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Anthropic OSS program for reporting this problem. |
 | [CVE-2026-116313](https://www.cve.org/CVERecord?id=CVE-2026-116313) | 2026-11-12 | n/a | PostgreSQL | 7.2 |  |  | The PostgreSQL project thanks Anthropic OSS program for reporting this problem. |
 | [CVE-2026-116311](https://www.cve.org/CVERecord?id=CVE-2026-116311) | 2026-11-12 | n/a | PostgreSQL | 5.4 |  |  | The PostgreSQL project thanks Zsolt Parragi and Anthropic OSS program for reporting this problem. |
