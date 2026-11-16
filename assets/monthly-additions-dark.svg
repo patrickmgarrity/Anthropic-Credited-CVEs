@@ -74,10 +74,10 @@
   <text x="758.6" y="82.0" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">98</text>
   <text x="758.6" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Oct</text>
   <rect x="814.2" y="280.0" width="56.0" height="2.0" fill="#d32f2f" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="250.3" width="56.0" height="29.7" fill="#f57c00" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="212.7" width="56.0" height="37.6" fill="#f9c80e" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="202.8" width="56.0" height="9.9" fill="#2e7d32" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <text x="842.2" y="196.8" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">40*</text>
+  <rect x="814.2" y="246.4" width="56.0" height="33.7" fill="#f57c00" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <rect x="814.2" y="206.8" width="56.0" height="39.6" fill="#f9c80e" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <rect x="814.2" y="196.9" width="56.0" height="9.9" fill="#2e7d32" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <text x="842.2" y="190.9" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">43*</text>
   <text x="842.2" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Nov</text>
-  <text x="450.0" y="330" font-size="12" text-anchor="middle" fill="#8b949e">464 vulnerabilities by month of publication, by CVSS severity · * current month to date</text>
+  <text x="450.0" y="330" font-size="12" text-anchor="middle" fill="#8b949e">467 vulnerabilities by month of publication, by CVSS severity · * current month to date</text>
 </svg>

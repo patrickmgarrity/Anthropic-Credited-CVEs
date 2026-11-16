@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 460**
+**CVEs: 463**
 
 **GHSAs w/o CVE: 4**
 
@@ -61,6 +61,9 @@ This project is maintained on a best effort basis.
 | [CVE-2026-106535](https://www.cve.org/CVERecord?id=CVE-2026-106535) | 2026-11-16 | The Document Foundation | libvisio | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-101933](https://www.cve.org/CVERecord?id=CVE-2026-101933) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-101930](https://www.cve.org/CVERecord?id=CVE-2026-101930) | 2026-11-16 | The Document Foundation | LibreOffice | 8.5 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-101929](https://www.cve.org/CVERecord?id=CVE-2026-101929) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-101352](https://www.cve.org/CVERecord?id=CVE-2026-101352) | 2026-11-16 | The Document Foundation | LibreOffice | 8.5 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| truff working with TrendAI Zero Day Initiative \| Caolán McNamara of Collabora Productivity |
+| [CVE-2026-100101](https://www.cve.org/CVERecord?id=CVE-2026-100101) | 2026-11-16 | The Document Foundation | LibreOffice | 8.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-98100](https://www.cve.org/CVERecord?id=CVE-2026-98100) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Anonymous working with TrendAI Zero Day Initiative \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-97999](https://www.cve.org/CVERecord?id=CVE-2026-97999) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-97894](https://www.cve.org/CVERecord?id=CVE-2026-97894) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |

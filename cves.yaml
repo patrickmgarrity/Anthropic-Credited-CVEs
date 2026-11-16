@@ -52,6 +52,49 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-101929
+  ghsa: null
+  date: '2026-11-16'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 5.4
+  credit: >-
+    Claude, found by Anthropic using agents to study the security of open-source projects | Ada Logics,
+    validating and reporting | Caolán McNamara of Collabora Productivity
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-101929
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-101352
+  ghsa: null
+  date: '2026-11-16'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 8.5
+  credit: >-
+    Claude, found by Anthropic using agents to study the security of open-source projects | Ada Logics,
+    validating and reporting | truff working with TrendAI Zero Day Initiative | Caolán McNamara of Collabora
+    Productivity
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-101352
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-100101
+  ghsa: null
+  date: '2026-11-16'
+  vendor: The Document Foundation
+  product: LibreOffice
+  cvss: 8.4
+  credit: >-
+    Claude, found by Anthropic using agents to study the security of open-source projects | Ada Logics,
+    validating and reporting | Caolán McNamara of Collabora Productivity
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-100101
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-98100
   ghsa: null
   date: '2026-11-16'
