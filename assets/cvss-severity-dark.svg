@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="320" viewBox="0 0 500 320" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
   <text x="140.0" y="34" font-size="17" font-weight="600" text-anchor="middle" fill="#e6edf3">CVSS Severity</text>
-  <path d="M140.00,170.00 L140.00,65.00 A105.0,105.0 0 0 1 206.53,88.76 Z" fill="#d32f2f" stroke="#0d1117" stroke-width="2"/>
-  <path d="M140.00,170.00 L206.53,88.76 A105.0,105.0 0 0 1 118.26,272.73 Z" fill="#f57c00" stroke="#0d1117" stroke-width="2"/>
-  <path d="M140.00,170.00 L118.26,272.73 A105.0,105.0 0 0 1 60.35,101.58 Z" fill="#f9c80e" stroke="#0d1117" stroke-width="2"/>
-  <path d="M140.00,170.00 L60.35,101.58 A105.0,105.0 0 0 1 102.69,71.85 Z" fill="#2e7d32" stroke="#0d1117" stroke-width="2"/>
-  <path d="M140.00,170.00 L102.69,71.85 A105.0,105.0 0 0 1 140.00,65.00 Z" fill="#9e9e9e" stroke="#0d1117" stroke-width="2"/>
-  <text x="140.0" y="305" font-size="12" text-anchor="middle" fill="#8b949e">467 vulnerabilities</text>
-  <rect x="300.0" y="103.0" width="16" height="16" rx="3" fill="#d32f2f"/><text x="324.0" y="116.0" font-size="14" fill="#e6edf3">Critical: 51 (10.92%)</text>
-  <rect x="300.0" y="133.0" width="16" height="16" rx="3" fill="#f57c00"/><text x="324.0" y="146.0" font-size="14" fill="#e6edf3">High: 198 (42.40%)</text>
-  <rect x="300.0" y="163.0" width="16" height="16" rx="3" fill="#f9c80e"/><text x="324.0" y="176.0" font-size="14" fill="#e6edf3">Medium: 154 (32.98%)</text>
-  <rect x="300.0" y="193.0" width="16" height="16" rx="3" fill="#2e7d32"/><text x="324.0" y="206.0" font-size="14" fill="#e6edf3">Low: 37 (7.92%)</text>
-  <rect x="300.0" y="223.0" width="16" height="16" rx="3" fill="#9e9e9e"/><text x="324.0" y="236.0" font-size="14" fill="#e6edf3">Unscored: 27 (5.78%)</text>
+  <path d="M140.00,170.00 L140.00,65.00 A105.0,105.0 0 0 1 206.41,88.67 Z" fill="#d32f2f" stroke="#0d1117" stroke-width="2"/>
+  <path d="M140.00,170.00 L206.41,88.67 A105.0,105.0 0 0 1 117.62,272.59 Z" fill="#f57c00" stroke="#0d1117" stroke-width="2"/>
+  <path d="M140.00,170.00 L117.62,272.59 A105.0,105.0 0 0 1 60.48,101.43 Z" fill="#f9c80e" stroke="#0d1117" stroke-width="2"/>
+  <path d="M140.00,170.00 L60.48,101.43 A105.0,105.0 0 0 1 102.77,71.82 Z" fill="#2e7d32" stroke="#0d1117" stroke-width="2"/>
+  <path d="M140.00,170.00 L102.77,71.82 A105.0,105.0 0 0 1 140.00,65.00 Z" fill="#9e9e9e" stroke="#0d1117" stroke-width="2"/>
+  <text x="140.0" y="305" font-size="12" text-anchor="middle" fill="#8b949e">468 vulnerabilities</text>
+  <rect x="300.0" y="103.0" width="16" height="16" rx="3" fill="#d32f2f"/><text x="324.0" y="116.0" font-size="14" fill="#e6edf3">Critical: 51 (10.90%)</text>
+  <rect x="300.0" y="133.0" width="16" height="16" rx="3" fill="#f57c00"/><text x="324.0" y="146.0" font-size="14" fill="#e6edf3">High: 199 (42.52%)</text>
+  <rect x="300.0" y="163.0" width="16" height="16" rx="3" fill="#f9c80e"/><text x="324.0" y="176.0" font-size="14" fill="#e6edf3">Medium: 154 (32.91%)</text>
+  <rect x="300.0" y="193.0" width="16" height="16" rx="3" fill="#2e7d32"/><text x="324.0" y="206.0" font-size="14" fill="#e6edf3">Low: 37 (7.91%)</text>
+  <rect x="300.0" y="223.0" width="16" height="16" rx="3" fill="#9e9e9e"/><text x="324.0" y="236.0" font-size="14" fill="#e6edf3">Unscored: 27 (5.77%)</text>
 </svg>
