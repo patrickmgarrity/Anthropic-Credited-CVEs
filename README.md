@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 451**
+**CVEs: 452**
 
 **GHSAs w/o CVE: 4**
 
@@ -57,6 +57,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-128072](https://www.cve.org/CVERecord?id=CVE-2026-128072) | 2026-11-16 | @nuxt | webpack-builder | 3.1 |  |  |  |
 | [CVE-2026-120154](https://www.cve.org/CVERecord?id=CVE-2026-120154) | 2026-11-12 | n/a | PostgreSQL | 4.3 |  |  | The PostgreSQL project thanks Peter Geoghegan, Zsolt Parragi, Only see myself, Nicholas Carlini, Joao Detomini, Josef Šimánek, and Qing Xu for reporting this problem. |
 | [CVE-2026-120153](https://www.cve.org/CVERecord?id=CVE-2026-120153) | 2026-11-12 | n/a | PostgreSQL | 7.2 |  |  | The PostgreSQL project thanks Anthropic OSS program, Sven Klemm, and Aaron chen for reporting this problem. |
 | [CVE-2026-120151](https://www.cve.org/CVERecord?id=CVE-2026-120151) | 2026-11-12 | n/a | PostgreSQL | 8.8 |  |  | The PostgreSQL project thanks Claude and Ada Logics for reporting this problem. |
