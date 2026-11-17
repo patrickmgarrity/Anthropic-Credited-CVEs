@@ -1,0 +1,12 @@
+cve: null
+ghsa: GHSA-99jv-8292-2hpm
+date: '2023-12-08'
+vendor: knative.dev
+product: eventing-gitlab
+cvss: null
+credit: ''
+status: published
+cve_link: null
+ghsa_link: https://github.com/advisories/GHSA-99jv-8292-2hpm
+notes: null
+auto_discovered: true
