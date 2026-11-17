@@ -1,5 +1,5 @@
 {
-  "last_run_date": "20261116",
+  "last_run_date": "20261117",
   "opened_finding_keys": [
     "73ccf6: all: fix typo in avrcp_attribute_ilegal",
     "alsa: pcm: wake linked drain waiters on unlink",
@@ -13,6 +13,7 @@
     "alsa: timer: drain a slaves callback before its master detaches it",
     "bap: fix stack buffer overflow in bluez le audio base parser",
     "bass: fix heap buffer overflow allocating subgroup_data array",
+    "block/vhdx: prevent out-of-bounds bat accesses",
     "block/vhdx: prevent out-of-bounds bat accesses with",
     "block/vhdx: prevent out-of-bounds bat accesses with malicious",
     "bpf: assign lock identity to callback map values",
@@ -1781,6 +1782,11 @@
     "https://lore.kernel.org/all/20261115125133.GA42525@unreal",
     "https://lore.kernel.org/all/20261116121441.6513-1-giulio.benetti@benettiengineering.com",
     "https://lore.kernel.org/all/20261116121441.6513-2-giulio.benetti@benettiengineering.com",
+    "https://lore.kernel.org/all/20261116201922.534306-52-mjt@tls.msk.ru",
+    "https://lore.kernel.org/all/20261116202554.535325-56-mjt@tls.msk.ru",
+    "https://lore.kernel.org/all/20261117070625.3040397-1-ragaprasanth@gmail.com",
+    "https://lore.kernel.org/all/20261117111942.1382413-1-giulio.benetti@benettiengineering.com",
+    "https://lore.kernel.org/all/20261117115014.14348-1-jaipaul.cheernam@est.tech",
     "https://lore.kernel.org/all/2051859.PYKUYFuaPT@weasel",
     "https://lore.kernel.org/all/2054463495.18023214.1793866940338.JavaMail.zimbra@desy.de",
     "https://lore.kernel.org/all/221834b1e2f98e35fa0e8675734d4dfac8ca9bb1.camel@kernel.org",
