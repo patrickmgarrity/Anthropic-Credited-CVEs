@@ -318,6 +318,29 @@ Closes #{issue_no}
 """
 
 
+def rejected_pr_for_cve(cve_id: str, repo: str) -> str | None:
+    """URL of a closed, unmerged PR proposing `cve_id` (i.e. the operator
+    rejected it), or None."""
+    result = run(
+        ["gh", "pr", "list", "--repo", repo, "--state", "closed",
+         "--search", f"\"{cve_id}\" in:title",
+         "--json", "url,title,mergedAt", "--limit", "10"],
+        check=False,
+    )
+    if result.returncode != 0:
+        print(f"  warn: gh pr list (closed) failed: {result.stderr.strip()}",
+              file=sys.stderr)
+        return None
+    try:
+        prs = json.loads(result.stdout or "[]")
+    except json.JSONDecodeError:
+        return None
+    for pr in prs:
+        if cve_id in pr.get("title", "") and not pr.get("mergedAt"):
+            return pr.get("url")
+    return None
+
+
 def open_promotion_pr(repo: str, cve_id: str, issue_no: int,
                       parsed: dict, entry: dict) -> bool:
     branch = f"auto-lore/{cve_id.lower()}"
@@ -333,7 +356,14 @@ def open_promotion_pr(repo: str, cve_id: str, issue_no: int,
         run(["git", "add", str(path)])
         run(["git", "commit", "-m",
              f"auto: promote {cve_id} from kernel-lore #{issue_no}"])
-        run(["git", "push", "-u", "origin", branch])
+        # --force: auto-lore/* branches are bot-owned; one can be left on origin
+        # by an earlier run (e.g. from a duplicate issue) with no open PR, and
+        # a plain push is then rejected. Rejected CVEs are filtered out above.
+        push = run(["git", "push", "--force", "-u", "origin", branch], check=False)
+        if push.returncode != 0:
+            # Never let one bad push abort the run for every remaining issue.
+            print(f"  push failed for {branch}: {push.stderr.strip()}", file=sys.stderr)
+            return False
 
         body = render_pr_body(cve_id, issue_no, parsed, entry)
         title = f"[promote] {cve_id} — from kernel-lore #{issue_no}"
@@ -405,6 +435,19 @@ def main() -> int:
             label_and_comment(repo, no,
                               f"Assigned **{cve_id}** — a PR is already open.")
             print(f"    {cve_id}: PR already open; labelled #{no}")
+            continue
+
+        # Several lore issues can map to the same fix (versions, backports).
+        # If this CVE was already proposed and the PR was closed unmerged, the
+        # operator rejected it — don't re-propose from a duplicate issue.
+        rejected = rejected_pr_for_cve(cve_id, repo)
+        if rejected:
+            label_and_comment(
+                repo, no,
+                f"Assigned **{cve_id}** — previously proposed and closed "
+                f"without merging ({rejected}); not re-proposing. "
+                f"Marked `{HAS_CVE_LABEL}`.")
+            print(f"    {cve_id}: previously rejected ({rejected}); labelled #{no}")
             continue
 
         if promoted >= max_promotions:
