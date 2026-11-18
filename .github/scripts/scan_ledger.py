@@ -175,6 +175,20 @@ def build_new_entry(cve_id: str, ant_id: str, row: dict) -> dict:
     return normalize(entry)
 
 
+def _is_rate_limited(err: HTTPError) -> bool:
+    """True when a 403 is GitHub rate limiting (primary or secondary) rather
+    than an access denial."""
+    if (err.headers or {}).get("x-ratelimit-remaining") == "0":
+        return True
+    if err.headers and err.headers.get("retry-after"):
+        return True
+    try:
+        body = err.read().decode("utf-8", "replace").lower()
+    except Exception:
+        body = ""
+    return "rate limit" in body
+
+
 def fetch_global_advisory(ghsa_id: str, retries: int = 3) -> dict | None:
     """GitHub global advisory for `ghsa_id`, or None if it isn't in the global
     database (private/unpublished repository advisories return 404)."""
@@ -191,6 +205,12 @@ def fetch_global_advisory(ghsa_id: str, retries: int = 3) -> dict | None:
                 return json.loads(resp.read().decode("utf-8"))
         except HTTPError as e:
             if e.code == 404:
+                return None
+            if e.code == 403 and not _is_rate_limited(e):
+                # With an Actions GITHUB_TOKEN, GitHub answers 403 (not 404)
+                # for GHSAs that exist only as private repository advisories.
+                # Anonymous requests get 404 for the same ids. Either way the
+                # advisory isn't public, so it isn't a transient failure.
                 return None
             last_err = e
         except (URLError, TimeoutError, json.JSONDecodeError) as e:
