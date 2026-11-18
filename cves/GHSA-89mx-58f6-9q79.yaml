@@ -1,0 +1,13 @@
+cve: null
+ghsa: GHSA-89mx-58f6-9q79
+date: '2026-08-17'
+vendor: php
+product: php-src
+cvss: null
+credit: Anthropic
+status: published
+cve_link: null
+ghsa_link: null
+ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-8RX9XHEB
+notes: null
+auto_discovered: true

@@ -1,0 +1,13 @@
+cve: null
+ghsa: GHSA-fwmw-7h2j-8687
+date: '2026-08-17'
+vendor: ''
+product: jsoncons
+cvss: null
+credit: Anthropic
+status: published
+cve_link: null
+ghsa_link: null
+ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-MAPZGQDY
+notes: null
+auto_discovered: true

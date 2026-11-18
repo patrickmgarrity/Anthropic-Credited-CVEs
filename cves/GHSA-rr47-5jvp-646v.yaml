@@ -1,0 +1,13 @@
+cve: null
+ghsa: GHSA-rr47-5jvp-646v
+date: '2026-08-17'
+vendor: facebook
+product: hermes
+cvss: null
+credit: Anthropic
+status: published
+cve_link: null
+ghsa_link: null
+ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW
+notes: null
+auto_discovered: true

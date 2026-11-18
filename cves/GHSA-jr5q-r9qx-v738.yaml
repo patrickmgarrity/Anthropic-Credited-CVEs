@@ -1,0 +1,13 @@
+cve: null
+ghsa: GHSA-jr5q-r9qx-v738
+date: '2026-08-17'
+vendor: ''
+product: liboqs
+cvss: null
+credit: Anthropic
+status: published
+cve_link: null
+ghsa_link: null
+ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-C6E98TYX
+notes: null
+auto_discovered: true

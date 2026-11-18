@@ -1,0 +1,13 @@
+cve: null
+ghsa: GHSA-44h9-v855-6rj3
+date: '2026-09-28'
+vendor: cesnet
+product: libyang
+cvss: null
+credit: Anthropic
+status: published
+cve_link: null
+ghsa_link: null
+ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-573F8CSS
+notes: null
+auto_discovered: true
