@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 493**
+**CVEs: 494**
 
 **GHSAs w/o CVE: 4**
 
@@ -58,6 +58,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-128072](https://www.cve.org/CVERecord?id=CVE-2026-128072) | 2026-11-16 | @nuxt | webpack-builder | 3.1 |  |  |  |
 | [CVE-2026-106535](https://www.cve.org/CVERecord?id=CVE-2026-106535) | 2026-11-16 | The Document Foundation | libvisio | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-101933](https://www.cve.org/CVERecord?id=CVE-2026-101933) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
@@ -71,8 +72,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-97892](https://www.cve.org/CVERecord?id=CVE-2026-97892) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-84443](https://www.cve.org/CVERecord?id=CVE-2026-84443) | 2026-11-16 | The Document Foundation | LibreOffice | 8.5 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Thomas Rinsma and Edoardo Geraci from Codean Labs \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-120221](https://www.cve.org/CVERecord?id=CVE-2026-120221) | 2026-11-13 | frrouting | frrouting | 8.2 |  |  | Nageswara Soma <nsoma@cisco.com> (not reported as security issue) \| Anthropic OSS-scanner (re-report, ANT-2026-X4QI9LP4) |
-| [CVE-2026-128067](https://www.cve.org/CVERecord?id=CVE-2026-128067) | 2026-11-12 | pip | Pillow |  |  |  | @carlini (reporter) |
-| [CVE-2026-128066](https://www.cve.org/CVERecord?id=CVE-2026-128066) | 2026-11-12 | pip | Pillow |  |  |  | @LittlehamsterXu (reporter) \| @toporone (reporter) |
+| [CVE-2026-128067](https://www.cve.org/CVERecord?id=CVE-2026-128067) | 2026-11-12 | pip | Pillow | 8.4 |  |  | @carlini (reporter) |
+| [CVE-2026-128066](https://www.cve.org/CVERecord?id=CVE-2026-128066) | 2026-11-12 | pip | Pillow | 8.7 |  |  | @LittlehamsterXu (reporter) \| @toporone (reporter) |
 | [CVE-2026-126079](https://www.cve.org/CVERecord?id=CVE-2026-126079) | 2026-11-12 | rubygems | actionview | 6.1 |  |  |  |
 | [CVE-2026-126078](https://www.cve.org/CVERecord?id=CVE-2026-126078) | 2026-11-12 | rubygems | actionview | 6.1 |  |  |  |
 | [CVE-2026-126072](https://www.cve.org/CVERecord?id=CVE-2026-126072) | 2026-11-12 | rubygems | actionpack | 5.9 |  |  |  |
@@ -102,7 +103,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-123864](https://www.cve.org/CVERecord?id=CVE-2026-123864) | 2026-11-11 | nodejs | node | 8.1 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| ShogunPanda \| pimterry \| aduh95 |
 | [CVE-2026-123863](https://www.cve.org/CVERecord?id=CVE-2026-123863) | 2026-11-11 | nodejs | node | 8.2 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| UlisesGascon \| pimterry \| ronag \| aduh95 |
 | [CVE-2026-123862](https://www.cve.org/CVERecord?id=CVE-2026-123862) | 2026-11-11 | nodejs | node | 2.9 |  |  | Chris Rohlf in collaboration with Claude and Anthropic Research \| mcollina \| UlisesGascon \| aduh95 |
-| [CVE-2026-119618](https://www.cve.org/CVERecord?id=CVE-2026-119618) | 2026-11-11 | Apache Software Foundation | Apache HTTP Server |  |  |  | Anthropic's OSS Scanner, as vulnerability ANT-2026-MAPKT6MZ \| Anthony Weems and Simon Scannell of the Google Cloud Vulnerability Research |
+| [CVE-2026-119618](https://www.cve.org/CVERecord?id=CVE-2026-119618) | 2026-11-11 | Apache Software Foundation | Apache HTTP Server | 8.1 |  | ✅ | Anthropic's OSS Scanner, as vulnerability ANT-2026-MAPKT6MZ \| Anthony Weems and Simon Scannell of the Google Cloud Vulnerability Research |
 | [CVE-2026-126080](https://www.cve.org/CVERecord?id=CVE-2026-126080) | 2026-11-10 | rubygems | activesupport | 7.5 |  |  | @Igneous (finder) |
 | [CVE-2026-126074](https://www.cve.org/CVERecord?id=CVE-2026-126074) | 2026-11-10 | rubygems | activestorage | 4.3 |  |  |  |
 | [CVE-2026-126073](https://www.cve.org/CVERecord?id=CVE-2026-126073) | 2026-11-10 | rubygems | actionpack | 4.8 |  |  |  |
@@ -243,7 +244,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-93304](https://www.cve.org/CVERecord?id=CVE-2026-93304) | 2026-09-27 | wolfSSL | wolfSSL | 6.3 |  |  | Anthropic OSS program |
 | [CVE-2026-93302](https://www.cve.org/CVERecord?id=CVE-2026-93302) | 2026-09-27 | wolfSSL | wolfSSL | 8.3 |  |  | Anthropic OSS program |
 | [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux | 5.5 |  |  |  |
-| [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux |  |  |  |  |
+| [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux | 5.5 |  |  |  |
 | [CVE-2026-98075](https://www.cve.org/CVERecord?id=CVE-2026-98075) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |

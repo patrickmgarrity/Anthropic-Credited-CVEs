@@ -1,3 +1,15 @@
+- cve: CVE-2026-129512
+  ghsa: null
+  date: '2026-11-17'
+  vendor: Apache Software Foundation
+  product: Apache log4net
+  cvss: 5.3
+  credit: The Apache Software Foundation | Anthropic OSS Scanner | Jan Friedrich
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-129512
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-128072
   ghsa: GHSA-x2wv-5868-p7v2
   date: '2026-11-16'
@@ -186,7 +198,7 @@
   date: '2026-11-12'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 8.4
   credit: '@carlini (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-128067
@@ -198,7 +210,7 @@
   date: '2026-11-12'
   vendor: pip
   product: Pillow
-  cvss: null
+  cvss: 8.7
   credit: '@LittlehamsterXu (reporter) | @toporone (reporter)'
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-128066
@@ -581,13 +593,15 @@
   date: '2026-11-11'
   vendor: Apache Software Foundation
   product: Apache HTTP Server
-  cvss: null
+  cvss: 8.1
   credit: >-
     Anthropic's OSS Scanner, as vulnerability ANT-2026-MAPKT6MZ | Anthony Weems and Simon Scannell of
     the Google Cloud Vulnerability Research
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-119618
   ghsa_link: null
+  vulncheck_kev: true
+  kev_date_added: '2026-11-15'
   notes: null
   auto_discovered: true
 - cve: CVE-2026-126080
@@ -2370,7 +2384,7 @@
   date: '2026-09-25'
   vendor: Linux
   product: Linux
-  cvss: null
+  cvss: 5.5
   credit: ''
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-98085
