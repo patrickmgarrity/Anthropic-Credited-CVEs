@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 494**
+**CVEs: 495**
 
 **GHSAs w/o CVE: 4**
 
@@ -59,6 +59,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
+| [CVE-2026-129511](https://www.cve.org/CVERecord?id=CVE-2026-129511) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-128072](https://www.cve.org/CVERecord?id=CVE-2026-128072) | 2026-11-16 | @nuxt | webpack-builder | 3.1 |  |  |  |
 | [CVE-2026-106535](https://www.cve.org/CVERecord?id=CVE-2026-106535) | 2026-11-16 | The Document Foundation | libvisio | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
 | [CVE-2026-101933](https://www.cve.org/CVERecord?id=CVE-2026-101933) | 2026-11-16 | The Document Foundation | LibreOffice | 5.4 |  |  | Claude, found by Anthropic using agents to study the security of open-source projects \| Ada Logics, validating and reporting \| Caolán McNamara of Collabora Productivity |
