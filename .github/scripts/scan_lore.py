@@ -192,18 +192,40 @@ def feed_entries(term: str, since: str, retries: int = 3) -> list[dict]:
 
 # ---------- raw message parsing ----------
 
+def header_fields(raw: str) -> tuple[str, str, str]:
+    """(subject, date, from) from a raw RFC 5322 message.
+
+    Uses the email parser so long headers folded onto continuation lines are
+    unfolded and RFC 2047 encoded words (=?UTF-8?q?...?=) are decoded. Reading
+    only the first `Subject:` line truncated every wrapped subject (e.g.
+    "openvswitch: only skb_tx_error() a packet we are" without "about to
+    drop"), and a truncated subject can never exactly match its CVE
+    announcement in promote_lore_cves.py.
+    """
+    from email import message_from_string
+    from email.header import decode_header, make_header
+
+    msg = message_from_string(raw)
+
+    def get(name: str) -> str:
+        val = msg.get(name)
+        if val is None:
+            return ""
+        try:
+            val = str(make_header(decode_header(str(val))))
+        except Exception:
+            val = str(val)
+        return " ".join(val.split())  # collapse folding whitespace
+
+    return get("Subject"), get("Date"), get("From")
+
+
 def parse_raw(raw: str, terms: list[str]) -> dict | None:
     """If a term appears in an attribution trailer, return finding metadata."""
-    subject = date = frm = ""
+    subject, date, frm = header_fields(raw)
     matched: list[str] = []
     for line in raw.splitlines():
         ls = line.strip()
-        if not subject and line.lower().startswith("subject:"):
-            subject = line[8:].strip()
-        elif not date and line.lower().startswith("date:"):
-            date = line[5:].strip()
-        elif not frm and line.lower().startswith("from:"):
-            frm = line[5:].strip()
         if TRAILER_RE.match(ls):
             low = ls.lower()
             # Skip Claude/AI-assist credits (Co-authored-by/Reviewed-by Claude

@@ -63,6 +63,7 @@ from scan_lore import (  # noqa: E402
     TRAILER_RE,
     canonical_key,
     curl,
+    header_fields,
     load_match_terms,
     strip_subject_tags,
 )
@@ -197,16 +198,42 @@ def announce_entries(subject: str, retries: int = 3) -> list[tuple[str, str]]:
     return out
 
 
-def match_cve(issue_subject: str) -> str | None:
+def full_subject_from_lore(lore_link: str) -> str:
+    """Re-read the patch's full Subject from its raw lore message ("" on
+    failure). Issues filed before scan_lore unfolded headers store only the
+    first line of a wrapped Subject."""
+    if not lore_link.startswith("https://lore.kernel.org/"):
+        return ""
+    raw = curl(lore_link.rstrip("/") + "/raw")
+    if not raw or raw.lstrip().startswith("<"):
+        return ""  # empty, or an HTML/Anubis page instead of the message
+    return header_fields(raw)[0]
+
+
+def match_cve(issue_subject: str, lore_link: str = "") -> str | None:
     """Return the CVE whose announced fix-subject exactly matches this issue's
     (normalized) subject, or None. Exact-only: recall from the search query,
-    precision from this equality check."""
+    precision from this equality check.
+
+    If nothing matches exactly but an announced subject *starts with* the
+    issue's subject, the stored subject was probably truncated (a wrapped
+    Subject header); re-read the full subject from the lore message and retry
+    the exact match. Precision stays exact either way."""
     want = canonical_key(issue_subject)
     if not want:
         return None
-    for cve_id, fix_subject in announce_entries(issue_subject):
+    candidates = announce_entries(issue_subject)
+    for cve_id, fix_subject in candidates:
         if canonical_key(fix_subject) == want:
             return cve_id
+    if lore_link and any(canonical_key(fs).startswith(want) for _, fs in candidates):
+        full = full_subject_from_lore(lore_link)
+        full_key = canonical_key(full) if full else ""
+        if full_key and full_key != want:
+            for cve_id, fix_subject in candidates:
+                if canonical_key(fix_subject) == full_key:
+                    print(f"    (matched on full subject from lore: {full[:80]!r})")
+                    return cve_id
     return None
 
 
@@ -351,7 +378,7 @@ def main() -> int:
     for issue in issues:
         no = issue["number"]
         parsed = parse_issue(issue, terms)
-        cve_id = match_cve(parsed["subject"])
+        cve_id = match_cve(parsed["subject"], parsed["lore_link"])
         if not cve_id:
             print(f"  #{no}: no assigned CVE yet — {parsed['subject'][:70]!r}")
             time.sleep(0.3)
