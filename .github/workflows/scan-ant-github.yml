@@ -1,0 +1,63 @@
+name: Surface ANT-2026 findings on GitHub that have a CVE
+
+# Searches public GitHub issues/PRs for Anthropic finding ids (ANT-2026-...),
+# links each id to any CVE/GHSA quoted alongside it, and opens one issue in this
+# repo per finding that has a CVE (any state) the tracker doesn't have yet.
+# CVEs published before 2026 are ignored as references ("variant of CVE-2022-x").
+# Issues are de-duplicated by CVE + ANT id, so overlapping windows are safe.
+
+on:
+  schedule:
+    - cron: "7 7 * * *"   # daily, 07:07 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Search from this date (YYYY-MM-DD). Empty = 2 days ago."
+        required: false
+        default: ""
+      dry_run:
+        description: "Only print the issues that would be opened"
+        type: boolean
+        default: false
+
+concurrency:
+  group: scan-ant-github
+  cancel-in-progress: false
+
+permissions:
+  contents: read   # checkout + read cves/
+  issues: write    # open [ant-github] issues
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Search GitHub and open issues for findings with a CVE
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SINCE_INPUT: ${{ inputs.since }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: |
+          since="${SINCE_INPUT:-$(date -u -d '2 days ago' +%F)}"
+          create="--create"
+          [[ -n "$DRY_RUN" ]] && create=""
+          python .github/scripts/report_ant_github.py \
+            --since "$since" --issues $create --out "$RUNNER_TEMP/ant_report"
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ant-github-report
+          path: ${{ runner.temp }}/ant_report/
+          if-no-files-found: ignore
+          retention-days: 14
