@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 496**
+**CVEs: 497**
 
 **GHSAs w/o CVE: 17**
 
@@ -58,6 +58,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-133245](https://www.cve.org/CVERecord?id=CVE-2026-133245) | 2026-11-19 | inikulin | parse5 | 8.7 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | 2026-11-19 | samtools | htslib | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
 | [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-129511](https://www.cve.org/CVERecord?id=CVE-2026-129511) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
