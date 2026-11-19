@@ -1,3 +1,16 @@
+- cve: CVE-2026-62257
+  ghsa: GHSA-6q7c-m967-9v37
+  date: '2026-11-19'
+  vendor: samtools
+  product: htslib
+  cvss: 8.8
+  credit: Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-62257
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-129512
   ghsa: null
   date: '2026-11-17'
@@ -730,7 +743,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-54914
-  ghsa: null
+  ghsa: GHSA-wj3p-xhqm-pffc
   date: '2026-11-05'
   vendor: bytecodealliance
   product: wasm-micro-runtime
@@ -2331,6 +2344,32 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: null
+  ghsa: GHSA-44h9-v855-6rj3
+  date: '2026-09-28'
+  vendor: cesnet
+  product: libyang
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-573F8CSS
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-85fq-fc5f-7j7g
+  date: '2026-09-28'
+  vendor: jetty
+  product: jetty.project
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y9CTVKPP
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-94419
   ghsa: null
   date: '2026-09-27'
@@ -2420,7 +2459,7 @@
   date: '2026-09-25'
   vendor: Linux
   product: Linux
-  cvss: null
+  cvss: 5.5
   credit: >-
     Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
   status: published
@@ -2446,7 +2485,7 @@
   date: '2026-09-25'
   vendor: Linux
   product: Linux
-  cvss: null
+  cvss: 5.5
   credit: >-
     Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
   status: published
@@ -2459,7 +2498,7 @@
   date: '2026-09-25'
   vendor: Linux
   product: Linux
-  cvss: null
+  cvss: 7.8
   credit: >-
     Reported-by: Nicholas Carlini <npc@anthropic.com> | Suggested-by: Nicholas Carlini <npc@anthropic.com>
   status: published
@@ -2748,7 +2787,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-44236
-  ghsa: null
+  ghsa: GHSA-jh48-qjf5-fx5v
   date: '2026-09-17'
   vendor: alanxz
   product: rabbitmq-c
@@ -2761,7 +2800,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-44235
-  ghsa: null
+  ghsa: GHSA-9mmv-r8g3-qp46
   date: '2026-09-17'
   vendor: alanxz
   product: rabbitmq-c
@@ -2915,7 +2954,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-45752
-  ghsa: null
+  ghsa: GHSA-qmc9-vqq2-8mv3
   date: '2026-09-10'
   vendor: OISF
   product: suricata
@@ -2928,7 +2967,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45751
-  ghsa: null
+  ghsa: GHSA-59q6-j4w8-8pjx
   date: '2026-09-10'
   vendor: OISF
   product: suricata
@@ -3068,7 +3107,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-63652
-  ghsa: null
+  ghsa: GHSA-9g22-w2gr-vcmp
   date: '2026-08-19'
   vendor: FreeRDP
   product: FreeRDP
@@ -3081,7 +3120,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-63633
-  ghsa: null
+  ghsa: GHSA-72j9-356v-88xq
   date: '2026-08-19'
   vendor: FreeRDP
   product: FreeRDP
@@ -3094,6 +3133,97 @@
   notes: null
   auto_discovered: true
 - cve: null
+  ghsa: GHSA-89mx-58f6-9q79
+  date: '2026-08-17'
+  vendor: php
+  product: php-src
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-8RX9XHEB
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-9qm2-7vmf-h64f
+  date: '2026-08-17'
+  vendor: facebook
+  product: hermes
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-fwmw-7h2j-8687
+  date: '2026-08-17'
+  vendor: ''
+  product: jsoncons
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-MAPZGQDY
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-h4jf-rhmw-rjfw
+  date: '2026-08-17'
+  vendor: langchain-ai
+  product: deepagentsjs
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-6JWE6ZK7
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-j45v-gh42-cjph
+  date: '2026-08-17'
+  vendor: bytecodealliance
+  product: wasm-micro-runtime
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-669BEQ2W
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-jr5q-r9qx-v738
+  date: '2026-08-17'
+  vendor: ''
+  product: liboqs
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-C6E98TYX
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-mh9x-w77w-65xw
+  date: '2026-08-17'
+  vendor: php
+  product: php-src
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-KP4YD2Z6
+  notes: null
+  auto_discovered: true
+- cve: null
   ghsa: GHSA-mpwr-8vm7-h73f
   date: '2026-08-17'
   vendor: software.sslmate.com
@@ -3103,6 +3233,58 @@
   status: published
   cve_link: null
   ghsa_link: https://github.com/advisories/GHSA-mpwr-8vm7-h73f
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-mrvp-58gg-8x22
+  date: '2026-08-17'
+  vendor: ''
+  product: openbabel
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-YQ12XT7Y
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-rr47-5jvp-646v
+  date: '2026-08-17'
+  vendor: facebook
+  product: hermes
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-vc62-m939-7mqr
+  date: '2026-08-17'
+  vendor: ''
+  product: duckdb
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-8HYRCFKW
+  notes: null
+  auto_discovered: true
+- cve: null
+  ghsa: GHSA-wfx7-g85r-q6vw
+  date: '2026-08-17'
+  vendor: libgit2
+  product: libgit2
+  cvss: null
+  credit: Anthropic
+  status: published
+  cve_link: null
+  ghsa_link: null
+  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-RVPC18B1
   notes: null
   auto_discovered: true
 - cve: CVE-2026-13002
@@ -3246,7 +3428,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-73242
-  ghsa: null
+  ghsa: GHSA-vv64-95pc-vj9v
   date: '2026-08-11'
   vendor: FreeRDP
   product: FreeRDP
@@ -3645,7 +3827,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-68579
-  ghsa: null
+  ghsa: GHSA-m37j-jcr2-8gcc
   date: '2026-08-02'
   vendor: FreeRDP
   product: FreeRDP
@@ -3711,7 +3893,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-66032
-  ghsa: null
+  ghsa: GHSA-px3w-7g75-hg7w
   date: '2026-07-24'
   vendor: libssh2
   product: libssh2
@@ -3724,7 +3906,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-55084
-  ghsa: null
+  ghsa: GHSA-pwmg-mvjw-4m23
   date: '2026-07-21'
   vendor: dhis2
   product: dhis2-core
@@ -3737,7 +3919,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-64624
-  ghsa: null
+  ghsa: GHSA-rq8f-9xjh-pr3m
   date: '2026-07-20'
   vendor: FreeRDP
   product: FreeRDP
@@ -3750,7 +3932,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-64621
-  ghsa: null
+  ghsa: GHSA-f27x-frr8-j9hc
   date: '2026-07-20'
   vendor: FreeRDP
   product: FreeRDP
@@ -3763,7 +3945,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-64620
-  ghsa: null
+  ghsa: GHSA-pjqx-v446-x7fc
   date: '2026-07-20'
   vendor: FreeRDP
   product: FreeRDP
@@ -3776,7 +3958,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-35590
-  ghsa: null
+  ghsa: GHSA-jmwm-wc68-mhwm
   date: '2026-07-20'
   vendor: libvips
   product: libvips
@@ -4428,7 +4610,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-46349
-  ghsa: null
+  ghsa: GHSA-chgx-jx3p-rf73
   date: '2026-06-24'
   vendor: mastodon
   product: mastodon
@@ -4442,7 +4624,7 @@
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-46348
-  ghsa: null
+  ghsa: GHSA-crr4-7rm4-8gpw
   date: '2026-06-24'
   vendor: mastodon
   product: mastodon
@@ -4531,7 +4713,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45696
-  ghsa: null
+  ghsa: GHSA-gjpj-qv64-vwhf
   date: '2026-06-18'
   vendor: AcademySoftwareFoundation
   product: openexr
@@ -4903,7 +5085,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-45700
-  ghsa: null
+  ghsa: GHSA-mvpx-xj7r-3p3r
   date: '2026-05-29'
   vendor: FreeRDP
   product: FreeRDP
@@ -4930,7 +5112,7 @@
   notes: null
   auto_discovered: true
 - cve: CVE-2026-44420
-  ghsa: null
+  ghsa: GHSA-mpxh-8fq3-x8mh
   date: '2026-05-29'
   vendor: FreeRDP
   product: FreeRDP
@@ -5631,7 +5813,7 @@
   notes: NOT IN CVE TABLE
   auto_discovered: false
 - cve: CVE-2026-32316
-  ghsa: null
+  ghsa: GHSA-fhc2-96rr-cg32
   date: '2026-04-13'
   vendor: jqlang
   product: JQ
@@ -5645,7 +5827,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-57191
-  ghsa: null
+  ghsa: GHSA-4cjj-wvwf-rfjq
   date: '2026-04-10'
   vendor: asterisk
   product: asterisk
@@ -5804,7 +5986,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-34580
-  ghsa: null
+  ghsa: GHSA-v782-6fq4-q827
   date: '2026-04-07'
   vendor: Botan
   product: Botan
@@ -5830,7 +6012,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-5747
-  ghsa: null
+  ghsa: GHSA-776c-mpj7-jm3r
   date: '2026-04-07'
   vendor: AWS
   product: FireCracker
@@ -5907,21 +6089,8 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRHVDRQ1
   notes: null
   auto_discovered: true
-- cve: CVE-2026-62257
-  ghsa: null
-  date: '2026-03-29'
-  vendor: ''
-  product: htslib
-  cvss: null
-  credit: Anthropic
-  status: reserved
-  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-62257
-  ghsa_link: null
-  ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD
-  notes: null
-  auto_discovered: true
 - cve: CVE-2026-33721
-  ghsa: null
+  ghsa: GHSA-cv4m-mr84-fgjp
   date: '2026-03-26'
   vendor: MapServer
   product: MapServer
@@ -6058,7 +6227,7 @@
   notes: null
   auto_discovered: false
 - cve: CVE-2026-61627
-  ghsa: null
+  ghsa: GHSA-pjjp-65r7-ppgm
   date: '2026-03-20'
   vendor: libass
   product: libass

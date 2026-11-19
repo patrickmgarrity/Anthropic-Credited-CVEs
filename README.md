@@ -5,7 +5,7 @@ Tracking vulnerabilities that credit the Anthropic research team and are possibl
 
 **CVEs: 496**
 
-**GHSAs w/o CVE: 4**
+**GHSAs w/o CVE: 17**
 
 **Advisories w/o GHSA/CVE: 120**
 
@@ -58,6 +58,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | 2026-11-19 | samtools | htslib | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
 | [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-129511](https://www.cve.org/CVERecord?id=CVE-2026-129511) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-129510](https://www.cve.org/CVERecord?id=CVE-2026-129510) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
@@ -240,6 +241,8 @@ This project is maintained on a best effort basis.
 | [CVE-2026-96416](https://www.cve.org/CVERecord?id=CVE-2026-96416) | 2026-09-29 | Wireshark Foundation | Wireshark | 5.5 |  |  | Claude and Ada Logics |
 | [CVE-2026-92222](https://www.cve.org/CVERecord?id=CVE-2026-92222) | 2026-09-29 | Joomla! Project | Joomla! CMS | 8.9 |  |  | Aria Akhavan \| Calif.io in collaboration with Anthropic |
 | [CVE-2026-90915](https://www.cve.org/CVERecord?id=CVE-2026-90915) | 2026-09-29 | Joomla! Project | Joomla! CMS | 7.0 |  |  | Aria Akhavan \| Calif.io in collaboration with Anthropic |
+| [GHSA-44h9-v855-6rj3](https://red.anthropic.com/2026/cvd/findings/ANT-2026-573F8CSS) | 2026-09-28 | cesnet | libyang |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-573F8CSS) |  | Anthropic |
+| [GHSA-85fq-fc5f-7j7g](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y9CTVKPP) | 2026-09-28 | jetty | jetty.project |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-Y9CTVKPP) |  | Anthropic |
 | [CVE-2026-94419](https://www.cve.org/CVERecord?id=CVE-2026-94419) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94418](https://www.cve.org/CVERecord?id=CVE-2026-94418) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
 | [CVE-2026-94417](https://www.cve.org/CVERecord?id=CVE-2026-94417) | 2026-09-27 | wolfSSL | wolfSSL | 2.3 |  |  | Anthropic OSS program |
@@ -247,10 +250,10 @@ This project is maintained on a best effort basis.
 | [CVE-2026-93302](https://www.cve.org/CVERecord?id=CVE-2026-93302) | 2026-09-27 | wolfSSL | wolfSSL | 8.3 |  |  | Anthropic OSS program |
 | [CVE-2026-98134](https://www.cve.org/CVERecord?id=CVE-2026-98134) | 2026-09-25 | Linux | Linux | 5.5 |  |  |  |
 | [CVE-2026-98085](https://www.cve.org/CVERecord?id=CVE-2026-98085) | 2026-09-25 | Linux | Linux | 5.5 |  |  |  |
-| [CVE-2026-98075](https://www.cve.org/CVERecord?id=CVE-2026-98075) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98075](https://www.cve.org/CVERecord?id=CVE-2026-98075) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98062](https://www.cve.org/CVERecord?id=CVE-2026-98062) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
-| [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
-| [CVE-2026-98060](https://www.cve.org/CVERecord?id=CVE-2026-98060) | 2026-09-25 | Linux | Linux |  |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98061](https://www.cve.org/CVERecord?id=CVE-2026-98061) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
+| [CVE-2026-98060](https://www.cve.org/CVERecord?id=CVE-2026-98060) | 2026-09-25 | Linux | Linux | 7.8 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98059](https://www.cve.org/CVERecord?id=CVE-2026-98059) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98058](https://www.cve.org/CVERecord?id=CVE-2026-98058) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
 | [CVE-2026-98049](https://www.cve.org/CVERecord?id=CVE-2026-98049) | 2026-09-25 | Linux | Linux | 5.5 |  |  | Reported-by: Nicholas Carlini <npc@anthropic.com> \| Suggested-by: Nicholas Carlini <npc@anthropic.com> |
@@ -299,7 +302,18 @@ This project is maintained on a best effort basis.
 | [CVE-2026-76888](https://www.cve.org/CVERecord?id=CVE-2026-76888) | 2026-08-19 | Wireshark Foundation | Wireshark | 3.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-05VXN1Y6) |  | Claude and Ada Logics |
 | [CVE-2026-63652](https://www.cve.org/CVERecord?id=CVE-2026-63652) | 2026-08-19 | FreeRDP | FreeRDP | 7.1 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-ZPF40VKS) |  | Anthropic |
 | [CVE-2026-63633](https://www.cve.org/CVERecord?id=CVE-2026-63633) | 2026-08-19 | FreeRDP | FreeRDP | 7.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EWM7B5QP) |  | Anthropic |
+| [GHSA-89mx-58f6-9q79](https://red.anthropic.com/2026/cvd/findings/ANT-2026-8RX9XHEB) | 2026-08-17 | php | php-src |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-8RX9XHEB) |  | Anthropic |
+| [GHSA-9qm2-7vmf-h64f](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW) | 2026-08-17 | facebook | hermes |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW) |  | Anthropic |
+| [GHSA-fwmw-7h2j-8687](https://red.anthropic.com/2026/cvd/findings/ANT-2026-MAPZGQDY) | 2026-08-17 |  | jsoncons |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-MAPZGQDY) |  | Anthropic |
+| [GHSA-h4jf-rhmw-rjfw](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6JWE6ZK7) | 2026-08-17 | langchain-ai | deepagentsjs |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-6JWE6ZK7) |  | Anthropic |
+| [GHSA-j45v-gh42-cjph](https://red.anthropic.com/2026/cvd/findings/ANT-2026-669BEQ2W) | 2026-08-17 | bytecodealliance | wasm-micro-runtime |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-669BEQ2W) |  | Anthropic |
+| [GHSA-jr5q-r9qx-v738](https://red.anthropic.com/2026/cvd/findings/ANT-2026-C6E98TYX) | 2026-08-17 |  | liboqs |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-C6E98TYX) |  | Anthropic |
+| [GHSA-mh9x-w77w-65xw](https://red.anthropic.com/2026/cvd/findings/ANT-2026-KP4YD2Z6) | 2026-08-17 | php | php-src |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-KP4YD2Z6) |  | Anthropic |
 | [GHSA-mpwr-8vm7-h73f](https://github.com/advisories/GHSA-mpwr-8vm7-h73f) | 2026-08-17 | software.sslmate.com | src/go-pkcs12 |  |  |  |  |
+| [GHSA-mrvp-58gg-8x22](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YQ12XT7Y) | 2026-08-17 |  | openbabel |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YQ12XT7Y) |  | Anthropic |
+| [GHSA-rr47-5jvp-646v](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW) | 2026-08-17 | facebook | hermes |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-YZAKBHEW) |  | Anthropic |
+| [GHSA-vc62-m939-7mqr](https://red.anthropic.com/2026/cvd/findings/ANT-2026-8HYRCFKW) | 2026-08-17 |  | duckdb |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-8HYRCFKW) |  | Anthropic |
+| [GHSA-wfx7-g85r-q6vw](https://red.anthropic.com/2026/cvd/findings/ANT-2026-RVPC18B1) | 2026-08-17 | libgit2 | libgit2 |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-RVPC18B1) |  | Anthropic |
 | [CVE-2026-13002](https://www.cve.org/CVERecord?id=CVE-2026-13002) | 2026-08-14 | Red Hat | Red Hat Enterprise Linux 10 | 4.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRYCJNAP) |  | Red Hat would like to thank Lennart Espe for reporting this issue. |
 | [CVE-2026-58435](https://www.cve.org/CVERecord?id=CVE-2026-58435) | 2026-08-13 | Gitea | Gitea Open Source Git Server | 5.4 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VN61PHA0) |  | adrian-doyensec |
 | [CVE-2026-19694](https://www.cve.org/CVERecord?id=CVE-2026-19694) | 2026-08-13 | Wireshark Foundation | Wireshark | 4.7 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-EKGJXN5A) |  | Claude and Ada Logics |
@@ -521,7 +535,6 @@ This project is maintained on a best effort basis.
 | [CVE-2026-5199](https://www.cve.org/CVERecord?id=CVE-2026-5199) | 2026-04-01 | temporalio | temporal | 2.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-DJBBBBPE) |
 | [CVE-2026-7275](https://www.cve.org/CVERecord?id=CVE-2026-7275) | Reserved | moodle | moodle |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-XBE9HJ4Y) |  | Anthropic |
 | [CVE-2026-68521](https://www.cve.org/CVERecord?id=CVE-2026-68521) | Reserved |  | unicorn |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-QRHVDRQ1) |  | Anthropic |
-| [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | Reserved |  | htslib |  | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
 | [CVE-2026-33721](https://www.cve.org/CVERecord?id=CVE-2026-33721) | 2026-03-26 | MapServer | MapServer | 5.3 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41) |  | [Anthropic Advisory](https://red.anthropic.com/2026/cvd/findings/ANT-2026-9SZMPW41) |
 | [CVE-2026-4747](https://www.cve.org/CVERecord?id=CVE-2026-4747) | 2026-03-26 | FreeBSD | FreeBSD | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-MVVACQKN) |  | Nicholas Carlini using Claude, Anthropic |
 | [CVE-2026-27654](https://www.cve.org/CVERecord?id=CVE-2026-27654) | 2026-03-24 | F5 | NGINX Plus | 8.2 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-VS18SA90) |  | Calif.io in collaboration with Claude and Anthropic Research |

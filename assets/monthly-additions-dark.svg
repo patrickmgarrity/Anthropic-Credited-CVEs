@@ -24,8 +24,8 @@
   <rect x="145.4" y="272.1" width="56.0" height="9.9" fill="#d32f2f" stroke="#0d1117" stroke-width="1"/>
   <rect x="145.4" y="262.2" width="56.0" height="9.9" fill="#f57c00" stroke="#0d1117" stroke-width="1"/>
   <rect x="145.4" y="260.2" width="56.0" height="2.0" fill="#f9c80e" stroke="#0d1117" stroke-width="1"/>
-  <rect x="145.4" y="252.3" width="56.0" height="7.9" fill="#9e9e9e" stroke="#0d1117" stroke-width="1"/>
-  <text x="173.4" y="246.3" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">15</text>
+  <rect x="145.4" y="254.3" width="56.0" height="5.9" fill="#9e9e9e" stroke="#0d1117" stroke-width="1"/>
+  <text x="173.4" y="248.3" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">14</text>
   <text x="173.4" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Mar</text>
   <rect x="229.0" y="272.1" width="56.0" height="9.9" fill="#d32f2f" stroke="#0d1117" stroke-width="1"/>
   <rect x="229.0" y="242.4" width="56.0" height="29.7" fill="#f57c00" stroke="#0d1117" stroke-width="1"/>
@@ -56,15 +56,15 @@
   <rect x="563.4" y="216.7" width="56.0" height="57.4" fill="#f57c00" stroke="#0d1117" stroke-width="1"/>
   <rect x="563.4" y="190.9" width="56.0" height="25.7" fill="#f9c80e" stroke="#0d1117" stroke-width="1"/>
   <rect x="563.4" y="179.0" width="56.0" height="11.9" fill="#2e7d32" stroke="#0d1117" stroke-width="1"/>
-  <rect x="563.4" y="175.1" width="56.0" height="4.0" fill="#9e9e9e" stroke="#0d1117" stroke-width="1"/>
-  <text x="591.4" y="169.1" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">54</text>
+  <rect x="563.4" y="153.3" width="56.0" height="25.7" fill="#9e9e9e" stroke="#0d1117" stroke-width="1"/>
+  <text x="591.4" y="147.3" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">65</text>
   <text x="591.4" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Aug</text>
   <rect x="647.0" y="274.1" width="56.0" height="7.9" fill="#d32f2f" stroke="#0d1117" stroke-width="1"/>
-  <rect x="647.0" y="240.4" width="56.0" height="33.7" fill="#f57c00" stroke="#0d1117" stroke-width="1"/>
-  <rect x="647.0" y="192.9" width="56.0" height="47.5" fill="#f9c80e" stroke="#0d1117" stroke-width="1"/>
-  <rect x="647.0" y="187.0" width="56.0" height="5.9" fill="#2e7d32" stroke="#0d1117" stroke-width="1"/>
-  <rect x="647.0" y="165.2" width="56.0" height="21.8" fill="#9e9e9e" stroke="#0d1117" stroke-width="1"/>
-  <text x="675.0" y="159.2" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">59</text>
+  <rect x="647.0" y="238.4" width="56.0" height="35.6" fill="#f57c00" stroke="#0d1117" stroke-width="1"/>
+  <rect x="647.0" y="187.0" width="56.0" height="51.5" fill="#f9c80e" stroke="#0d1117" stroke-width="1"/>
+  <rect x="647.0" y="181.0" width="56.0" height="5.9" fill="#2e7d32" stroke="#0d1117" stroke-width="1"/>
+  <rect x="647.0" y="161.2" width="56.0" height="19.8" fill="#9e9e9e" stroke="#0d1117" stroke-width="1"/>
+  <text x="675.0" y="155.2" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">61</text>
   <text x="675.0" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Sep</text>
   <rect x="730.6" y="264.2" width="56.0" height="17.8" fill="#d32f2f" stroke="#0d1117" stroke-width="1"/>
   <rect x="730.6" y="179.0" width="56.0" height="85.1" fill="#f57c00" stroke="#0d1117" stroke-width="1"/>
@@ -74,10 +74,10 @@
   <text x="758.6" y="82.0" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">98</text>
   <text x="758.6" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Oct</text>
   <rect x="814.2" y="280.0" width="56.0" height="2.0" fill="#d32f2f" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="208.7" width="56.0" height="71.3" fill="#f57c00" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="145.4" width="56.0" height="63.4" fill="#f9c80e" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="131.5" width="56.0" height="13.9" fill="#2e7d32" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <text x="842.2" y="125.5" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">76*</text>
+  <rect x="814.2" y="206.8" width="56.0" height="73.3" fill="#f57c00" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <rect x="814.2" y="143.4" width="56.0" height="63.4" fill="#f9c80e" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <rect x="814.2" y="129.5" width="56.0" height="13.9" fill="#2e7d32" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <text x="842.2" y="123.5" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">77*</text>
   <text x="842.2" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Nov</text>
-  <text x="450.0" y="330" font-size="12" text-anchor="middle" fill="#8b949e">500 vulnerabilities by month of publication, by CVSS severity · * current month to date</text>
+  <text x="450.0" y="330" font-size="12" text-anchor="middle" fill="#8b949e">513 vulnerabilities by month of publication, by CVSS severity · * current month to date</text>
 </svg>
