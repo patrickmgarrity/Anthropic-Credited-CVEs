@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 499**
+**CVEs: 500**
 
 **GHSAs w/o CVE: 17**
 
@@ -61,6 +61,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-133245](https://www.cve.org/CVERecord?id=CVE-2026-133245) | 2026-11-19 | inikulin | parse5 | 8.7 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-133244](https://www.cve.org/CVERecord?id=CVE-2026-133244) | 2026-11-19 | inikulin | parse5 | 5.3 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-129474](https://www.cve.org/CVERecord?id=CVE-2026-129474) | 2026-11-19 | PHP Group | PHP | 9.2 |  |  | Adam Korcz (Ada Logics / Anthropic) \| Arnaud Le Blanc \| Jakub Zelenka |
+| [CVE-2026-129289](https://www.cve.org/CVERecord?id=CVE-2026-129289) | 2026-11-19 | PHP Group | PHP | 9.2 |  |  | Stephan Lipp (Ada Logics / Anthropic) \| David Korczynski (Ada Logics / Anthropic) \| Aviral Srivastava \| Jakub Zelenka \| Ondřej Surý \| Arnaud Le Blanc |
 | [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | 2026-11-19 | samtools | htslib | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
 | [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-129511](https://www.cve.org/CVERecord?id=CVE-2026-129511) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
