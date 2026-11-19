@@ -22,6 +22,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-129474
+  ghsa: null
+  date: '2026-11-19'
+  vendor: PHP Group
+  product: PHP
+  cvss: 9.2
+  credit: Adam Korcz (Ada Logics / Anthropic) | Arnaud Le Blanc | Jakub Zelenka
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-129474
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-62257
   ghsa: GHSA-6q7c-m967-9v37
   date: '2026-11-19'
