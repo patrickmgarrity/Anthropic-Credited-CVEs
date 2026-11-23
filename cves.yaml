@@ -62,6 +62,34 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-134842
+  ghsa: null
+  date: '2026-11-23'
+  vendor: pgjdbc
+  product: pgjdbc
+  cvss: 8.1
+  credit: >-
+    Anthropic OSS Scanner (ANT-2026-CPJGFCH9) | Anthropic OSS Scanner (ANT-2026-H4KGSOTO) | Anthropic
+    OSS Scanner (ANT-2026-JZYBNC5Y)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-134842
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
+- cve: CVE-2026-134841
+  ghsa: null
+  date: '2026-11-23'
+  vendor: pgjdbc
+  product: pgjdbc
+  cvss: 8.1
+  credit: >-
+    Anthropic OSS Scanner (ANT-2026-F8ORRHGA) | Anthropic OSS Scanner (ANT-2026-CSULRTN9) | Anthropic
+    OSS Scanner (ANT-2026-V49PY3LL) | Anthropic OSS Scanner (ANT-2026-8HOO55D6)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-134841
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-134311
   ghsa: null
   date: '2026-11-21'
