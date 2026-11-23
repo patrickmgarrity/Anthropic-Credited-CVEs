@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 509**
+**CVEs: 510**
 
 **GHSAs w/o CVE: 17**
 
@@ -65,6 +65,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-134843](https://www.cve.org/CVERecord?id=CVE-2026-134843) | 2026-11-23 | pgjdbc | pgjdbc | 7.5 |  |  | Anthropic OSS Scanner (ANT-2026-8DWVKNQB) |
 | [CVE-2026-134842](https://www.cve.org/CVERecord?id=CVE-2026-134842) | 2026-11-23 | pgjdbc | pgjdbc | 8.1 |  |  | Anthropic OSS Scanner (ANT-2026-CPJGFCH9) \| Anthropic OSS Scanner (ANT-2026-H4KGSOTO) \| Anthropic OSS Scanner (ANT-2026-JZYBNC5Y) |
 | [CVE-2026-134841](https://www.cve.org/CVERecord?id=CVE-2026-134841) | 2026-11-23 | pgjdbc | pgjdbc | 8.1 |  |  | Anthropic OSS Scanner (ANT-2026-F8ORRHGA) \| Anthropic OSS Scanner (ANT-2026-CSULRTN9) \| Anthropic OSS Scanner (ANT-2026-V49PY3LL) \| Anthropic OSS Scanner (ANT-2026-8HOO55D6) |
+| [CVE-2026-119068](https://www.cve.org/CVERecord?id=CVE-2026-119068) | 2026-11-23 | NLnet Labs | Routinator | 7.5 |  |  | Anthropic and Ada Logics, Aymen Benlamari |
 | [CVE-2026-134311](https://www.cve.org/CVERecord?id=CVE-2026-134311) | 2026-11-21 | better-auth | better-auth | 7.6 |  |  | Anthropic OSS Scanner |
 | [CVE-2026-133245](https://www.cve.org/CVERecord?id=CVE-2026-133245) | 2026-11-19 | inikulin | parse5 | 8.7 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-133244](https://www.cve.org/CVERecord?id=CVE-2026-133244) | 2026-11-19 | inikulin | parse5 | 5.3 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
