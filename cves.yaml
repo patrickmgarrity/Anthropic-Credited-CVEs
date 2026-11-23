@@ -1,3 +1,15 @@
+- cve: CVE-2026-134311
+  ghsa: null
+  date: '2026-11-21'
+  vendor: better-auth
+  product: better-auth
+  cvss: 7.6
+  credit: Anthropic OSS Scanner
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-134311
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-133245
   ghsa: null
   date: '2026-11-19'
@@ -46,6 +58,8 @@
   status: published
   cve_link: https://www.cve.org/CVERecord?id=CVE-2026-129289
   ghsa_link: null
+  vulncheck_kev: true
+  kev_date_added: '2026-11-21'
   notes: null
   auto_discovered: true
 - cve: CVE-2026-127960

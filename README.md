@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 501**
+**CVEs: 502**
 
 **GHSAs w/o CVE: 17**
 
@@ -58,10 +58,11 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-134311](https://www.cve.org/CVERecord?id=CVE-2026-134311) | 2026-11-21 | better-auth | better-auth | 7.6 |  |  | Anthropic OSS Scanner |
 | [CVE-2026-133245](https://www.cve.org/CVERecord?id=CVE-2026-133245) | 2026-11-19 | inikulin | parse5 | 8.7 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-133244](https://www.cve.org/CVERecord?id=CVE-2026-133244) | 2026-11-19 | inikulin | parse5 | 5.3 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-129474](https://www.cve.org/CVERecord?id=CVE-2026-129474) | 2026-11-19 | PHP Group | PHP | 9.2 |  |  | Adam Korcz (Ada Logics / Anthropic) \| Arnaud Le Blanc \| Jakub Zelenka |
-| [CVE-2026-129289](https://www.cve.org/CVERecord?id=CVE-2026-129289) | 2026-11-19 | PHP Group | PHP | 9.2 |  |  | Stephan Lipp (Ada Logics / Anthropic) \| David Korczynski (Ada Logics / Anthropic) \| Aviral Srivastava \| Jakub Zelenka \| Ondřej Surý \| Arnaud Le Blanc |
+| [CVE-2026-129289](https://www.cve.org/CVERecord?id=CVE-2026-129289) | 2026-11-19 | PHP Group | PHP | 9.2 |  | ✅ | Stephan Lipp (Ada Logics / Anthropic) \| David Korczynski (Ada Logics / Anthropic) \| Aviral Srivastava \| Jakub Zelenka \| Ondřej Surý \| Arnaud Le Blanc |
 | [CVE-2026-127960](https://www.cve.org/CVERecord?id=CVE-2026-127960) | 2026-11-19 | PHP Group | PHP | 8.7 |  |  | benzdeus \| Stephan Lipp (Ada Logics / Anthropic) \| Jakub Zelenka \| Arnaud Le Blanc |
 | [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | 2026-11-19 | samtools | htslib | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
 | [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
