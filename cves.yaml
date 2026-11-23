@@ -102,6 +102,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-86312
+  ghsa: null
+  date: '2026-11-23'
+  vendor: Apache Software Foundation
+  product: Apache Solr
+  cvss: 8.8
+  credit: >-
+    Andrew Rukin (Arenadata) | Zhang Yilin | Calif.io, in collaboration with Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-86312
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-134311
   ghsa: null
   date: '2026-11-21'
