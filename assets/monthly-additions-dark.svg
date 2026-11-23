@@ -75,9 +75,9 @@
   <text x="758.6" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Oct</text>
   <rect x="814.2" y="276.1" width="56.0" height="5.9" fill="#d32f2f" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
   <rect x="814.2" y="196.9" width="56.0" height="79.2" fill="#f57c00" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="129.5" width="56.0" height="67.3" fill="#f9c80e" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <rect x="814.2" y="115.7" width="56.0" height="13.9" fill="#2e7d32" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
-  <text x="842.2" y="109.7" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">84*</text>
+  <rect x="814.2" y="127.6" width="56.0" height="69.3" fill="#f9c80e" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <rect x="814.2" y="113.7" width="56.0" height="13.9" fill="#2e7d32" fill-opacity="0.5" stroke="#0d1117" stroke-width="1"/>
+  <text x="842.2" y="107.7" font-size="12" font-weight="600" text-anchor="middle" fill="#e6edf3">85*</text>
   <text x="842.2" y="300" font-size="12" text-anchor="middle" fill="#e6edf3">Nov</text>
-  <text x="450.0" y="330" font-size="12" text-anchor="middle" fill="#8b949e">520 vulnerabilities by month of publication, by CVSS severity · * current month to date</text>
+  <text x="450.0" y="330" font-size="12" text-anchor="middle" fill="#8b949e">521 vulnerabilities by month of publication, by CVSS severity · * current month to date</text>
 </svg>

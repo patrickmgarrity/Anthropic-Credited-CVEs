@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 503**
+**CVEs: 504**
 
 **GHSAs w/o CVE: 17**
 
@@ -59,6 +59,7 @@ This project is maintained on a best effort basis.
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2026-134847](https://www.cve.org/CVERecord?id=CVE-2026-134847) | 2026-11-23 | pgjdbc | pgjdbc | 6.5 |  |  | Anthropic OSS Scanner (ANT-2026-6FX8KOK1) |
+| [CVE-2026-134846](https://www.cve.org/CVERecord?id=CVE-2026-134846) | 2026-11-23 | pgjdbc | pgjdbc | 6.5 |  |  | Anthropic OSS Scanner (ANT-2026-XN4FNDUA) \| Anthropic OSS Scanner (ANT-2026-VWAJRJ3T) |
 | [CVE-2026-134311](https://www.cve.org/CVERecord?id=CVE-2026-134311) | 2026-11-21 | better-auth | better-auth | 7.6 |  |  | Anthropic OSS Scanner |
 | [CVE-2026-133245](https://www.cve.org/CVERecord?id=CVE-2026-133245) | 2026-11-19 | inikulin | parse5 | 8.7 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
 | [CVE-2026-133244](https://www.cve.org/CVERecord?id=CVE-2026-133244) | 2026-11-19 | inikulin | parse5 | 5.3 |  |  | Joshua Rogers \| Anthropic \| Felix Boehm |
