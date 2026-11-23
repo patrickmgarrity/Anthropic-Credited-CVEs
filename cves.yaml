@@ -37,6 +37,19 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-134844
+  ghsa: null
+  date: '2026-11-23'
+  vendor: pgjdbc
+  product: pgjdbc
+  cvss: 7.5
+  credit: >-
+    Anthropic OSS Scanner (ANT-2026-96Q8LC5K) | Anthropic OSS Scanner (ANT-2026-XWDO8ONS)
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-134844
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-134311
   ghsa: null
   date: '2026-11-21'
