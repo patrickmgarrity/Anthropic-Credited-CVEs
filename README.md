@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 513**
+**CVEs: 514**
 
 **GHSAs w/o CVE: 17**
 
@@ -58,6 +58,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-129380](https://www.cve.org/CVERecord?id=CVE-2026-129380) | 2026-11-24 | Joomla! Project | Joomla! CMS | 8.2 |  |  | Aria Akhavan \| thb2601 \| Ada Logics in collaboration with Anthropic \| VulnCheck for Alex Williams (Pellera Technologies) |
 | [CVE-2026-59726](https://www.cve.org/CVERecord?id=CVE-2026-59726) | 2026-11-24 | npm | ruflo | 10.0 |  |  | @ruvnet (coordinator) |
 | [CVE-2026-134847](https://www.cve.org/CVERecord?id=CVE-2026-134847) | 2026-11-23 | pgjdbc | pgjdbc | 6.5 |  |  | Anthropic OSS Scanner (ANT-2026-6FX8KOK1) |
 | [CVE-2026-134846](https://www.cve.org/CVERecord?id=CVE-2026-134846) | 2026-11-23 | pgjdbc | pgjdbc | 6.5 |  |  | Anthropic OSS Scanner (ANT-2026-XN4FNDUA) \| Anthropic OSS Scanner (ANT-2026-VWAJRJ3T) |
