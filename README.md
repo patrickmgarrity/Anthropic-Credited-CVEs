@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 512**
+**CVEs: 513**
 
 **GHSAs w/o CVE: 17**
 
@@ -75,6 +75,7 @@ This project is maintained on a best effort basis.
 | [CVE-2026-129289](https://www.cve.org/CVERecord?id=CVE-2026-129289) | 2026-11-19 | PHP Group | PHP | 9.2 |  | ✅ | Stephan Lipp (Ada Logics / Anthropic) \| David Korczynski (Ada Logics / Anthropic) \| Aviral Srivastava \| Jakub Zelenka \| Ondřej Surý \| Arnaud Le Blanc |
 | [CVE-2026-127960](https://www.cve.org/CVERecord?id=CVE-2026-127960) | 2026-11-19 | PHP Group | PHP | 8.7 |  |  | benzdeus \| Stephan Lipp (Ada Logics / Anthropic) \| Jakub Zelenka \| Arnaud Le Blanc |
 | [CVE-2026-62257](https://www.cve.org/CVERecord?id=CVE-2026-62257) | 2026-11-19 | samtools | htslib | 8.8 | [🔗](https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD) |  | Anthropic |
+| [CVE-2026-121482](https://www.cve.org/CVERecord?id=CVE-2026-121482) | 2026-11-18 | OpenSSL | OpenSSL | 7.5 |  |  | Alex Gaynor (Anthropic) \| Neil Horman |
 | [CVE-2026-129512](https://www.cve.org/CVERecord?id=CVE-2026-129512) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-129511](https://www.cve.org/CVERecord?id=CVE-2026-129511) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |
 | [CVE-2026-129510](https://www.cve.org/CVERecord?id=CVE-2026-129510) | 2026-11-17 | Apache Software Foundation | Apache log4net | 5.3 |  |  | The Apache Software Foundation \| Anthropic OSS Scanner \| Jan Friedrich |

@@ -217,6 +217,18 @@
   ledger_link: https://red.anthropic.com/2026/cvd/findings/ANT-2026-H4RM2RMD
   notes: null
   auto_discovered: true
+- cve: CVE-2026-121482
+  ghsa: null
+  date: '2026-11-18'
+  vendor: OpenSSL
+  product: OpenSSL
+  cvss: 7.5
+  credit: Alex Gaynor (Anthropic) | Neil Horman
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-121482
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-129512
   ghsa: null
   date: '2026-11-17'
