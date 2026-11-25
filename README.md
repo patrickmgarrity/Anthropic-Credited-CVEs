@@ -3,7 +3,7 @@
 ## Overview
 Tracking vulnerabilities that credit the Anthropic research team and are possibly discovered by [Project Glasswing](https://www.anthropic.com/glasswing).
 
-**CVEs: 517**
+**CVEs: 518**
 
 **GHSAs w/o CVE: 17**
 
@@ -58,6 +58,7 @@ This project is maintained on a best effort basis.
 <!-- BEGIN_CVE_TABLE -->
 | CVE | Date | Vendor | Product | CVSS | Ledger | vcKEV | Credit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [CVE-2026-129394](https://www.cve.org/CVERecord?id=CVE-2026-129394) | 2026-11-24 | Joomla! Project | Joomla! CMS | 7.0 |  |  | Aria Akhavan \| Ada Logics in collaboration with Anthropic |
 | [CVE-2026-129381](https://www.cve.org/CVERecord?id=CVE-2026-129381) | 2026-11-24 | Joomla! Project | Joomla! CMS | 7.4 |  |  | Ada Logics in collaboration with Anthropic |
 | [CVE-2026-129380](https://www.cve.org/CVERecord?id=CVE-2026-129380) | 2026-11-24 | Joomla! Project | Joomla! CMS | 8.2 |  |  | Aria Akhavan \| thb2601 \| Ada Logics in collaboration with Anthropic \| VulnCheck for Alex Williams (Pellera Technologies) |
 | [CVE-2026-129378](https://www.cve.org/CVERecord?id=CVE-2026-129378) | 2026-11-24 | Joomla! Project | Joomla! CMS | 7.6 |  |  | Ada Logics in collaboration with Anthropic |
