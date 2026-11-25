@@ -1,3 +1,15 @@
+- cve: CVE-2026-129381
+  ghsa: null
+  date: '2026-11-24'
+  vendor: Joomla! Project
+  product: Joomla! CMS
+  cvss: 7.4
+  credit: Ada Logics in collaboration with Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-129381
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-129380
   ghsa: null
   date: '2026-11-24'
