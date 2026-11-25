@@ -60,6 +60,18 @@
   ghsa_link: null
   notes: null
   auto_discovered: true
+- cve: CVE-2026-127300
+  ghsa: null
+  date: '2026-11-24'
+  vendor: Joomla! Project
+  product: Joomla! CMS
+  cvss: 8.4
+  credit: Aria Akhavan | Ada Logics in collaboration with Anthropic
+  status: published
+  cve_link: https://www.cve.org/CVERecord?id=CVE-2026-127300
+  ghsa_link: null
+  notes: null
+  auto_discovered: true
 - cve: CVE-2026-59726
   ghsa: GHSA-c4hm-4h84-2cf3
   date: '2026-11-24'
