@@ -1,6 +1,6 @@
 {
   "ghsa_retry_ids": [],
-  "last_fetch_timestamp": "2026-11-24T22:31:19.492Z",
+  "last_fetch_timestamp": "2026-11-26T00:01:29.814Z",
   "last_ghsa_modified": "2026-11-25T12:32:54Z",
   "seen_cve_ids": [
     "CVE-2019-12384",
@@ -374,6 +374,7 @@
     "CVE-2026-63577",
     "CVE-2026-63578",
     "CVE-2026-63772",
+    "CVE-2026-6385",
     "CVE-2026-64015",
     "CVE-2026-6460",
     "CVE-2026-6473",
